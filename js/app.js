@@ -517,6 +517,9 @@ class KannadaEnglishApp {
     }
 
     showLessonFromJSON(level, lesson, lessonData) {
+        // Get total lessons in current level
+        const totalLessons = this.currentLevelData ? this.currentLevelData.lessons.length : this.getLessonsCount(level);
+        
         let speakingPracticeHTML = '';
         if (lessonData.speakingPractice && lessonData.speakingPractice.length > 0) {
             speakingPracticeHTML = lessonData.speakingPractice.map(item => `
@@ -572,6 +575,21 @@ class KannadaEnglishApp {
 
         const lessonContent = `
             <div class="lesson-detail">
+                <div class="lesson-navigation">
+                    <button class="btn-back-lesson" onclick="app.showLessonList(${level})">
+                        <i class="fas fa-arrow-left"></i> Back to Lessons
+                    </button>
+                    <div class="lesson-nav-buttons">
+                        <button class="btn-nav-lesson" onclick="app.showPreviousLesson(${level}, ${lesson})" ${lesson === 1 ? 'disabled' : ''}>
+                            <i class="fas fa-chevron-left"></i> Previous
+                        </button>
+                        <span class="lesson-indicator">Lesson ${lesson} of ${totalLessons}</span>
+                        <button class="btn-nav-lesson" onclick="app.showNextLesson(${level}, ${lesson})" ${lesson === totalLessons ? 'disabled' : ''}>
+                            Next <i class="fas fa-chevron-right"></i>
+                        </button>
+                    </div>
+                </div>
+                
                 <h3>${lessonData.title}</h3>
                 <p class="kannada-title">${lessonData.kannadaTitle || ''}</p>
                 
@@ -630,8 +648,24 @@ class KannadaEnglishApp {
     }
 
     showLesson(level, lesson) {
+        const totalLessons = this.getLessonsCount(level);
         const lessonContent = `
             <div class="lesson-detail">
+                <div class="lesson-navigation">
+                    <button class="btn-back-lesson" onclick="app.showLessonList(${level})">
+                        <i class="fas fa-arrow-left"></i> Back to Lessons
+                    </button>
+                    <div class="lesson-nav-buttons">
+                        <button class="btn-nav-lesson" onclick="app.showPreviousLesson(${level}, ${lesson})" ${lesson === 1 ? 'disabled' : ''}>
+                            <i class="fas fa-chevron-left"></i> Previous
+                        </button>
+                        <span class="lesson-indicator">Lesson ${lesson} of ${totalLessons}</span>
+                        <button class="btn-nav-lesson" onclick="app.showNextLesson(${level}, ${lesson})" ${lesson === totalLessons ? 'disabled' : ''}>
+                            Next <i class="fas fa-chevron-right"></i>
+                        </button>
+                    </div>
+                </div>
+                
                 <h3>Lesson ${lesson}</h3>
                 
                 <div class="lesson-section">
@@ -742,6 +776,46 @@ class KannadaEnglishApp {
             this.showLesson(level, currentLesson + 1);
         } else {
             this.showNotification('You have completed all lessons in this level!', 'success');
+        }
+    }
+
+    showLessonList(level) {
+        // Show the lesson placeholder to go back to the lesson list
+        const lessonContent = `
+            <div class="lesson-placeholder">
+                <i class="fas fa-book-open"></i>
+                <h3>Select a lesson to begin</h3>
+                <p>Choose a lesson from the sidebar to start learning</p>
+            </div>
+        `;
+        document.getElementById('lessonContent').innerHTML = lessonContent;
+        
+        // Remove active class from all lessons
+        document.querySelectorAll('.lesson-item').forEach(item => {
+            item.classList.remove('active');
+        });
+    }
+
+    showPreviousLesson(level, currentLesson) {
+        if (currentLesson > 1) {
+            if (this.currentLevelData && this.currentLevelData.lessons && this.currentLevelData.lessons[currentLesson - 2]) {
+                this.showLessonFromJSON(level, currentLesson - 1, this.currentLevelData.lessons[currentLesson - 2]);
+            } else {
+                this.showLesson(level, currentLesson - 1);
+            }
+        }
+    }
+
+    showNextLesson(level, currentLesson) {
+        const totalLessons = this.currentLevelData ? this.currentLevelData.lessons.length : this.getLessonsCount(level);
+        if (currentLesson < totalLessons) {
+            if (this.currentLevelData && this.currentLevelData.lessons && this.currentLevelData.lessons[currentLesson]) {
+                this.showLessonFromJSON(level, currentLesson + 1, this.currentLevelData.lessons[currentLesson]);
+            } else {
+                this.showLesson(level, currentLesson + 1);
+            }
+        } else {
+            this.showNotification('This is the last lesson!', 'info');
         }
     }
 
