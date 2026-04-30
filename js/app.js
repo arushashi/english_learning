@@ -857,7 +857,9 @@ class KannadaEnglishApp {
     }
 
     nextLesson(level, currentLesson) {
+        console.log('nextLesson called with level:', level, 'currentLesson:', currentLesson);
         const totalLessons = this.getLessonsCount(level);
+        console.log('totalLessons:', totalLessons);
         if (currentLesson < totalLessons) {
             this.showLesson(level, currentLesson + 1);
         } else {
