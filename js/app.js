@@ -879,6 +879,19 @@ class KannadaEnglishApp {
 
     showNextLesson(level, currentLesson) {
         console.log('showNextLesson called with level:', level, 'currentLesson:', currentLesson);
+        
+        // Check if level content is loaded
+        const levelMain = document.querySelector('.level-main');
+        if (!levelMain) {
+            console.log('Level content not loaded, reloading level content');
+            this.showLevelContent(level);
+            // After reloading, try to show the lesson
+            setTimeout(() => {
+                this.showNextLesson(level, currentLesson);
+            }, 100);
+            return;
+        }
+        
         const totalLessons = this.currentLevelData ? this.currentLevelData.lessons.length : this.getLessonsCount(level);
         console.log('totalLessons:', totalLessons);
         if (currentLesson < totalLessons) {
