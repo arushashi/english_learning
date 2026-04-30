@@ -529,6 +529,7 @@ class KannadaEnglishApp {
     }
 
     showLessonFromJSON(level, lesson, lessonData) {
+        console.log('showLessonFromJSON called with level:', level, 'lesson:', lesson);
         // Get total lessons in current level
         const totalLessons = this.currentLevelData ? this.currentLevelData.lessons.length : this.getLessonsCount(level);
         
@@ -651,19 +652,30 @@ class KannadaEnglishApp {
         let lessonContentElement = document.getElementById('lessonContent');
         if (!lessonContentElement) {
             console.error('lessonContent element not found, attempting to create it');
+            // Try multiple approaches to find or create the element
             const levelMain = document.querySelector('.level-main');
             if (levelMain) {
                 lessonContentElement = document.createElement('div');
                 lessonContentElement.className = 'lesson-content';
                 lessonContentElement.id = 'lessonContent';
                 levelMain.appendChild(lessonContentElement);
-                console.log('Created lessonContent element');
+                console.log('Created lessonContent element in levelMain');
             } else {
-                console.error('levelMain element not found');
-                return;
+                // Try to find the levels page and recreate the structure
+                const levelsPage = document.getElementById('levels');
+                if (levelsPage) {
+                    console.log('Recreating level structure in levels page');
+                    // We need to reload the level content first
+                    this.showLevelContent(level);
+                    return;
+                } else {
+                    console.error('Neither levelMain nor levels page found');
+                    return;
+                }
             }
         }
         
+        console.log('Setting lesson content HTML');
         lessonContentElement.innerHTML = lessonContent;
         
         // Mark lesson as active
@@ -676,6 +688,7 @@ class KannadaEnglishApp {
     }
 
     showLesson(level, lesson) {
+        console.log('showLesson called with level:', level, 'lesson:', lesson);
         const totalLessons = this.getLessonsCount(level);
         const lessonContent = `
             <div class="lesson-detail">
@@ -747,19 +760,30 @@ class KannadaEnglishApp {
         let lessonContentElement = document.getElementById('lessonContent');
         if (!lessonContentElement) {
             console.error('lessonContent element not found, attempting to create it');
+            // Try multiple approaches to find or create the element
             const levelMain = document.querySelector('.level-main');
             if (levelMain) {
                 lessonContentElement = document.createElement('div');
                 lessonContentElement.className = 'lesson-content';
                 lessonContentElement.id = 'lessonContent';
                 levelMain.appendChild(lessonContentElement);
-                console.log('Created lessonContent element');
+                console.log('Created lessonContent element in levelMain');
             } else {
-                console.error('levelMain element not found');
-                return;
+                // Try to find the levels page and recreate the structure
+                const levelsPage = document.getElementById('levels');
+                if (levelsPage) {
+                    console.log('Recreating level structure in levels page');
+                    // We need to reload the level content first
+                    this.showLevelContent(level);
+                    return;
+                } else {
+                    console.error('Neither levelMain nor levels page found');
+                    return;
+                }
             }
         }
         
+        console.log('Setting lesson content HTML');
         lessonContentElement.innerHTML = lessonContent;
         
         // Mark lesson as active
