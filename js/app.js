@@ -14,6 +14,8 @@ class KannadaEnglishApp {
         this.setupAudioSystem();
         this.updateProgressPage();
         this.updateLevelCards();
+        // Show levels page by default
+        this.navigateTo('levels');
     }
 
     // Navigation System
