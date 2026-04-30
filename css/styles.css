@@ -1417,8 +1417,10 @@ body {
 
 .lesson-content {
     width: 100%;
-    display: block;
+    display: block !important;
     min-height: 400px;
+    visibility: visible !important;
+    opacity: 1 !important;
 }
 
 .lesson-placeholder {
