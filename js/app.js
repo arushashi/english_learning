@@ -880,6 +880,20 @@ class KannadaEnglishApp {
     }
 
     showPreviousLesson(level, currentLesson) {
+        console.log('showPreviousLesson called with level:', level, 'currentLesson:', currentLesson);
+        
+        // Check if level content is loaded
+        const levelMain = document.querySelector('.level-main');
+        if (!levelMain) {
+            console.log('Level content not loaded, reloading level content');
+            this.showLevelContent(level);
+            // After reloading, try to show the lesson
+            setTimeout(() => {
+                this.showPreviousLesson(level, currentLesson);
+            }, 100);
+            return;
+        }
+        
         if (currentLesson > 1) {
             if (this.currentLevelData && this.currentLevelData.lessons && this.currentLevelData.lessons[currentLesson - 2]) {
                 this.showLessonFromJSON(level, currentLesson - 1, this.currentLevelData.lessons[currentLesson - 2]);
@@ -920,6 +934,20 @@ class KannadaEnglishApp {
     }
 
     showPreviousLesson(level, currentLesson) {
+        console.log('showPreviousLesson called with level:', level, 'currentLesson:', currentLesson);
+        
+        // Check if level content is loaded
+        const levelMain = document.querySelector('.level-main');
+        if (!levelMain) {
+            console.log('Level content not loaded, reloading level content');
+            this.showLevelContent(level);
+            // After reloading, try to show the lesson
+            setTimeout(() => {
+                this.showPreviousLesson(level, currentLesson);
+            }, 100);
+            return;
+        }
+        
         if (currentLesson > 1) {
             if (this.currentLevelData && this.currentLevelData.lessons && this.currentLevelData.lessons[currentLesson - 2]) {
                 this.showLessonFromJSON(level, currentLesson - 1, this.currentLevelData.lessons[currentLesson - 2]);
