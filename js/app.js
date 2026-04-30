@@ -394,7 +394,7 @@ class KannadaEnglishApp {
 
         const levelContent = `
             <div class="container">
-                <button class="btn-back" onclick="app.navigateTo('levels')">
+                <button class="btn-back" onclick="window.app.navigateTo('levels')">
                     <i class="fas fa-arrow-left"></i> Back to Levels
                 </button>
                 <h2>Level ${level}: ${levelNames[level]}</h2>
@@ -428,10 +428,10 @@ class KannadaEnglishApp {
                 </div>
                 
                 <div class="level-actions">
-                    <button class="btn-primary" onclick="app.openQuiz(${level})">
+                    <button class="btn-primary" onclick="window.app.openQuiz(${level})">
                         <i class="fas fa-question-circle"></i> Take Level Quiz
                     </button>
-                    <button class="btn-secondary" onclick="app.navigateTo('practice')">
+                    <button class="btn-secondary" onclick="window.app.navigateTo('practice')">
                         <i class="fas fa-microphone"></i> Practice Speaking
                     </button>
                 </div>
@@ -461,7 +461,7 @@ class KannadaEnglishApp {
 
         return `
             <div class="container">
-                <button class="btn-back" onclick="app.navigateTo('levels')">
+                <button class="btn-back" onclick="window.app.navigateTo('levels')">
                     <i class="fas fa-arrow-left"></i> Back to Levels
                 </button>
                 <h2>Level ${level}: ${levelData.title}</h2>
@@ -499,10 +499,10 @@ class KannadaEnglishApp {
                 </div>
                 
                 <div class="level-actions">
-                    <button class="btn-primary" onclick="app.openQuiz(${level})">
+                    <button class="btn-primary" onclick="window.app.openQuiz(${level})">
                         <i class="fas fa-question-circle"></i> Take Level Quiz
                     </button>
-                    <button class="btn-secondary" onclick="app.navigateTo('practice')">
+                    <button class="btn-secondary" onclick="window.app.navigateTo('practice')">
                         <i class="fas fa-microphone"></i> Practice Speaking
                     </button>
                 </div>
@@ -538,7 +538,7 @@ class KannadaEnglishApp {
                 <div class="sentence-item">
                     <span class="sentence">${item.english}</span>
                     <span class="kannada">${item.kannada}</span>
-                    <button class="btn-audio-mini" onclick="app.speakText('${item.english.replace(/'/g, "\\'")}')">
+                    <button class="btn-audio-mini" onclick="window.app.speakText('${item.english.replace(/'/g, "\\'")}')">
                         <i class="fas fa-volume-up"></i>
                     </button>
                 </div>
@@ -588,15 +588,15 @@ class KannadaEnglishApp {
         const lessonContent = `
             <div class="lesson-detail">
                 <div class="lesson-navigation">
-                    <button class="btn-back-lesson" onclick="app.showLessonList(${level})">
+                    <button class="btn-back-lesson" onclick="window.app.showLessonList(${level})">
                         <i class="fas fa-arrow-left"></i> Back to Lessons
                     </button>
                     <div class="lesson-nav-buttons">
-                        <button class="btn-nav-lesson" onclick="app.showPreviousLesson(${level}, ${lesson})" ${lesson === 1 ? 'disabled' : ''}>
+                        <button class="btn-nav-lesson" onclick="window.app.showPreviousLesson(${level}, ${lesson})" ${lesson === 1 ? 'disabled' : ''}>
                             <i class="fas fa-chevron-left"></i> Previous
                         </button>
                         <span class="lesson-indicator">Lesson ${lesson} of ${totalLessons}</span>
-                        <button class="btn-nav-lesson" onclick="app.showNextLesson(${level}, ${lesson})" ${lesson === totalLessons ? 'disabled' : ''}>
+                        <button class="btn-nav-lesson" onclick="window.app.showNextLesson(${level}, ${lesson})" ${lesson === totalLessons ? 'disabled' : ''}>
                             Next <i class="fas fa-chevron-right"></i>
                         </button>
                     </div>
@@ -629,7 +629,7 @@ class KannadaEnglishApp {
                         <div class="sentence-item">
                             <span class="sentence">Hello, how are you?</span>
                             <span class="kannada">ನಮಸ್ಕಾರ, ನೀವು ಹೇಗಿದ್ದೀರಿ?</span>
-                            <button class="btn-audio-mini" onclick="app.speakText('Hello, how are you?')">
+                            <button class="btn-audio-mini" onclick="window.app.speakText('Hello, how are you?')">
                                 <i class="fas fa-volume-up"></i>
                             </button>
                         </div>
@@ -638,10 +638,10 @@ class KannadaEnglishApp {
                 </div>
                 
                 <div class="lesson-actions">
-                    <button class="btn-complete-lesson" onclick="app.completeLesson(${level}, ${lesson})">
+                    <button class="btn-complete-lesson" onclick="window.app.completeLesson(${level}, ${lesson})">
                         <i class="fas fa-check"></i> Mark as Complete
                     </button>
-                    <button class="btn-next-lesson" onclick="app.nextLesson(${level}, ${lesson})">
+                    <button class="btn-next-lesson" onclick="window.app.nextLesson(${level}, ${lesson})">
                         Next Lesson <i class="fas fa-arrow-right"></i>
                     </button>
                 </div>
@@ -664,15 +664,15 @@ class KannadaEnglishApp {
         const lessonContent = `
             <div class="lesson-detail">
                 <div class="lesson-navigation">
-                    <button class="btn-back-lesson" onclick="app.showLessonList(${level})">
+                    <button class="btn-back-lesson" onclick="window.app.showLessonList(${level})">
                         <i class="fas fa-arrow-left"></i> Back to Lessons
                     </button>
                     <div class="lesson-nav-buttons">
-                        <button class="btn-nav-lesson" onclick="app.showPreviousLesson(${level}, ${lesson})" ${lesson === 1 ? 'disabled' : ''}>
+                        <button class="btn-nav-lesson" onclick="window.app.showPreviousLesson(${level}, ${lesson})" ${lesson === 1 ? 'disabled' : ''}>
                             <i class="fas fa-chevron-left"></i> Previous
                         </button>
                         <span class="lesson-indicator">Lesson ${lesson} of ${totalLessons}</span>
-                        <button class="btn-nav-lesson" onclick="app.showNextLesson(${level}, ${lesson})" ${lesson === totalLessons ? 'disabled' : ''}>
+                        <button class="btn-nav-lesson" onclick="window.app.showNextLesson(${level}, ${lesson})" ${lesson === totalLessons ? 'disabled' : ''}>
                             Next <i class="fas fa-chevron-right"></i>
                         </button>
                     </div>
@@ -703,14 +703,14 @@ class KannadaEnglishApp {
                         <div class="sentence-item">
                             <span class="sentence">Hello, how are you?</span>
                             <span class="kannada">ನಮಸ್ಕಾರ, ನೀವು ಹೇಗಿದ್ದೀರಿ?</span>
-                            <button class="btn-audio-mini" onclick="app.speakText('Hello, how are you?')">
+                            <button class="btn-audio-mini" onclick="window.app.speakText('Hello, how are you?')">
                                 <i class="fas fa-volume-up"></i>
                             </button>
                         </div>
                         <div class="sentence-item">
                             <span class="sentence">My name is...</span>
                             <span class="kannada">ನನ್ನ ಹೆಸರು...</span>
-                            <button class="btn-audio-mini" onclick="app.speakText('My name is')">
+                            <button class="btn-audio-mini" onclick="window.app.speakText('My name is')">
                                 <i class="fas fa-volume-up"></i>
                             </button>
                         </div>
@@ -718,10 +718,10 @@ class KannadaEnglishApp {
                 </div>
                 
                 <div class="lesson-actions">
-                    <button class="btn-complete-lesson" onclick="app.completeLesson(${level}, ${lesson})">
+                    <button class="btn-complete-lesson" onclick="window.app.completeLesson(${level}, ${lesson})">
                         <i class="fas fa-check"></i> Mark as Complete
                     </button>
-                    <button class="btn-next-lesson" onclick="app.nextLesson(${level}, ${lesson})">
+                    <button class="btn-next-lesson" onclick="window.app.nextLesson(${level}, ${lesson})">
                         Next Lesson <i class="fas fa-arrow-right"></i>
                     </button>
                 </div>
@@ -828,6 +828,16 @@ class KannadaEnglishApp {
             }
         } else {
             this.showNotification('This is the last lesson!', 'info');
+        }
+    }
+
+    showPreviousLesson(level, currentLesson) {
+        if (currentLesson > 1) {
+            if (this.currentLevelData && this.currentLevelData.lessons && this.currentLevelData.lessons[currentLesson - 2]) {
+                this.showLessonFromJSON(level, currentLesson - 1, this.currentLevelData.lessons[currentLesson - 2]);
+            } else {
+                this.showLesson(level, currentLesson - 1);
+            }
         }
     }
 
@@ -1000,7 +1010,7 @@ class KannadaEnglishApp {
             <div class="modal-content quiz-modal">
                 <div class="modal-header">
                     <h2>Level ${level} Quiz</h2>
-                    <button class="modal-close" onclick="app.closeQuiz()">&times;</button>
+                    <button class="modal-close" onclick="window.app.closeQuiz()">&times;</button>
                 </div>
                 <div class="modal-body">
                     ${quizContent}
