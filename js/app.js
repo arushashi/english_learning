@@ -648,13 +648,23 @@ class KannadaEnglishApp {
             </div>
         `;
 
-        const lessonContentElement = document.getElementById('lessonContent');
-        if (lessonContentElement) {
-            lessonContentElement.innerHTML = lessonContent;
-        } else {
-            console.error('lessonContent element not found');
-            return;
+        let lessonContentElement = document.getElementById('lessonContent');
+        if (!lessonContentElement) {
+            console.error('lessonContent element not found, attempting to create it');
+            const levelMain = document.querySelector('.level-main');
+            if (levelMain) {
+                lessonContentElement = document.createElement('div');
+                lessonContentElement.className = 'lesson-content';
+                lessonContentElement.id = 'lessonContent';
+                levelMain.appendChild(lessonContentElement);
+                console.log('Created lessonContent element');
+            } else {
+                console.error('levelMain element not found');
+                return;
+            }
         }
+        
+        lessonContentElement.innerHTML = lessonContent;
         
         // Mark lesson as active
         document.querySelectorAll('.lesson-item').forEach(item => {
@@ -734,13 +744,23 @@ class KannadaEnglishApp {
             </div>
         `;
         
-        const lessonContentElement = document.getElementById('lessonContent');
-        if (lessonContentElement) {
-            lessonContentElement.innerHTML = lessonContent;
-        } else {
-            console.error('lessonContent element not found');
-            return;
+        let lessonContentElement = document.getElementById('lessonContent');
+        if (!lessonContentElement) {
+            console.error('lessonContent element not found, attempting to create it');
+            const levelMain = document.querySelector('.level-main');
+            if (levelMain) {
+                lessonContentElement = document.createElement('div');
+                lessonContentElement.className = 'lesson-content';
+                lessonContentElement.id = 'lessonContent';
+                levelMain.appendChild(lessonContentElement);
+                console.log('Created lessonContent element');
+            } else {
+                console.error('levelMain element not found');
+                return;
+            }
         }
+        
+        lessonContentElement.innerHTML = lessonContent;
         
         // Mark lesson as active
         document.querySelectorAll('.lesson-item').forEach(item => {
