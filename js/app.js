@@ -4,7 +4,6 @@ class KannadaEnglishApp {
         this.currentLevel = 0;
         this.progress = this.loadProgress();
         this.currentLevelData = null; // Store current level data
-        this.init();
     }
 
     init() {
