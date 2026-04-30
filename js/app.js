@@ -333,35 +333,47 @@ class KannadaEnglishApp {
         return lessonsCount[level] || 10;
     }
 
-    showLevelContent(level) {
-        // Load level content from JSON
-        this.loadLevelContentFromJSON(level);
-    }
-
-    async loadLevelContentFromJSON(level) {
-        try {
-            const response = await fetch('data/courseContent.json');
-            const data = await response.json();
-            const levelKey = `level${level}`;
+    showLevelContent(level, levelData = null) {
+        console.log('showLevelContent called with level:', level);
+        this.currentLevel = level; // Store current level
+        // Load level content from JSON if available
+        if (levelData) {
+            this.currentLevelData = levelData;
+            const levelContent = this.createLevelContentHTML(level, levelData);
             
-            if (data[levelKey]) {
-                const levelData = data[levelKey];
-                this.currentLevelData = levelData; // Store level data in class instance
-                const levelContent = this.createLevelContentHTML(level, levelData);
-                
-                // Replace the levels page content with level content
-                const levelsPage = document.getElementById('levels');
-                levelsPage.innerHTML = levelContent;
-                
-                // Setup level-specific functionality
-                this.setupLevelContent(level, levelData);
-            } else {
-                // If no content in JSON, show placeholder
-                this.showPlaceholderLevelContent(level);
-            }
-        } catch (error) {
-            console.error('Error loading level content:', error);
-            this.showPlaceholderLevelContent(level);
+            // Replace the levels page content with level content
+            const levelsPage = document.getElementById('levels');
+            levelsPage.innerHTML = levelContent;
+            
+            // Setup level-specific functionality
+            this.setupLevelContent(level, levelData);
+        } else {
+            // Load from JSON file
+            fetch('data/courseContent.json')
+                .then(response => response.json())
+                .then(data => {
+                    const levelKey = `level${level}`;
+                    
+                    if (data[levelKey]) {
+                        const levelData = data[levelKey];
+                        this.currentLevelData = levelData; // Store level data in class instance
+                        const levelContent = this.createLevelContentHTML(level, levelData);
+                        
+                        // Replace the levels page content with level content
+                        const levelsPage = document.getElementById('levels');
+                        levelsPage.innerHTML = levelContent;
+                        
+                        // Setup level-specific functionality
+                        this.setupLevelContent(level, levelData);
+                    } else {
+                        // If no content in JSON, show placeholder
+                        this.showPlaceholderLevelContent(level);
+                    }
+                })
+                .catch(error => {
+                    console.error('Error loading level content:', error);
+                    this.showPlaceholderLevelContent(level);
+                });
         }
     }
 
