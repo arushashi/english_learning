@@ -366,6 +366,7 @@ class KannadaEnglishApp {
     }
 
     showPlaceholderLevelContent(level) {
+        console.log('showPlaceholderLevelContent called for level:', level);
         const levelNames = [
             'Absolute Foundation',
             'Survival English',
@@ -442,6 +443,7 @@ class KannadaEnglishApp {
         levelsPage.innerHTML = levelContent;
         
         this.setupLevelContent(level);
+        console.log('Placeholder level content loaded');
     }
 
     createLevelContentHTML(level, levelData) {
