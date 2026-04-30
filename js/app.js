@@ -704,6 +704,8 @@ class KannadaEnglishApp {
     showLesson(level, lesson) {
         console.log('showLesson called with level:', level, 'lesson:', lesson);
         const totalLessons = this.getLessonsCount(level);
+        console.log('totalLessons:', totalLessons);
+        
         const lessonContent = `
             <div class="lesson-detail">
                 <div class="lesson-navigation">
