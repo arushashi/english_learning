@@ -7,14 +7,25 @@ class KannadaEnglishApp {
     }
 
     init() {
-        this.setupNavigation();
-        this.setupLevelSystem();
-        this.setupSpeakingPractice();
-        this.setupAudioSystem();
-        this.updateProgressPage();
-        this.updateLevelCards();
-        // Show levels page by default
-        this.navigateTo('levels');
+        try {
+            this.setupNavigation();
+            this.setupLevelSystem();
+            this.setupSpeakingPractice();
+            this.setupAudioSystem();
+            this.updateProgressPage();
+            this.updateLevelCards();
+            // Show levels page by default
+            this.navigateTo('levels');
+        } catch (error) {
+            console.error('Error initializing app:', error);
+            // Fallback: ensure levels page is visible
+            const levelsPage = document.getElementById('levels');
+            const homePage = document.getElementById('home');
+            if (levelsPage && homePage) {
+                homePage.classList.remove('active');
+                levelsPage.classList.add('active');
+            }
+        }
     }
 
     // Navigation System
