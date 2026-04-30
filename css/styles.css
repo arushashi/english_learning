@@ -1299,11 +1299,64 @@ body {
 }
 
 /* Lesson Detail Styles */
-.lesson-detail {
-    background: white;
+.level-content-container {
+    display: grid;
+    grid-template-columns: 280px 1fr;
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+.level-sidebar {
+    background-color: white;
+    padding: 1.5rem;
+    border-radius: 12px;
+    box-shadow: var(--shadow);
+    height: fit-content;
+}
+
+.level-sidebar h3 {
+    color: var(--primary-color);
+    margin-bottom: 1rem;
+    font-size: 1.25rem;
+}
+
+.lessons-list {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.level-main {
+    background-color: white;
     padding: 2rem;
-    border-radius: 8px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
+    box-shadow: var(--shadow);
+    min-height: 400px;
+}
+
+.lesson-content {
+    width: 100%;
+}
+
+.lesson-placeholder {
+    text-align: center;
+    padding: 3rem 1rem;
+    color: var(--text-light);
+}
+
+.lesson-placeholder i {
+    font-size: 4rem;
+    color: var(--accent-color);
+    margin-bottom: 1rem;
+}
+
+.lesson-placeholder h3 {
+    color: var(--text-color);
+    margin-bottom: 0.5rem;
+}
+
+.lesson-detail {
+    width: 100%;
 }
 
 .lesson-detail h3 {
