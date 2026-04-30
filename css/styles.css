@@ -1296,6 +1296,87 @@ body {
     .hero p {
         font-size: 1rem;
     }
+
+    .level-content-container {
+        grid-template-columns: 1fr;
+        gap: 1rem;
+    }
+
+    .level-sidebar {
+        order: 2;
+    }
+
+    .level-main {
+        order: 1;
+        padding: 1rem;
+    }
+
+    .kannada-notice {
+        flex-direction: column;
+        text-align: center;
+        font-size: 1rem;
+    }
+
+    .lesson-navigation {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    .lesson-nav-buttons {
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .nav-buttons {
+        flex-wrap: wrap;
+    }
+
+    .nav-btn {
+        padding: 0.5rem 0.75rem;
+        font-size: 0.875rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .level-content-container {
+        grid-template-columns: 1fr;
+        gap: 1rem;
+    }
+
+    .level-sidebar {
+        order: 2;
+    }
+
+    .level-main {
+        order: 1;
+        padding: 1rem;
+    }
+
+    .kannada-notice {
+        flex-direction: column;
+        text-align: center;
+        font-size: 1rem;
+    }
+
+    .lesson-navigation {
+        flex-direction: column;
+        align-items: stretch;
+        gap: 1rem;
+    }
+
+    .lesson-nav-buttons {
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .nav-buttons {
+        flex-wrap: wrap;
+    }
+
+    .nav-btn {
+        padding: 0.5rem 0.75rem;
+        font-size: 0.875rem;
+    }
 }
 
 /* Lesson Detail Styles */
