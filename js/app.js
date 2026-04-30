@@ -866,6 +866,7 @@ class KannadaEnglishApp {
     }
 
     showLessonList(level) {
+        console.log('showLessonList called for level:', level);
         // Show the lesson placeholder to go back to the lesson list
         const lessonContent = `
             <div class="lesson-placeholder">
@@ -874,7 +875,16 @@ class KannadaEnglishApp {
                 <p>Choose a lesson from the sidebar to start learning</p>
             </div>
         `;
-        document.getElementById('lessonContent').innerHTML = lessonContent;
+        
+        const lessonContentElement = document.getElementById('lessonContent');
+        if (lessonContentElement) {
+            lessonContentElement.innerHTML = lessonContent;
+        } else {
+            console.error('lessonContent element not found in showLessonList');
+            // Try to recreate the level structure
+            this.showLevelContent(level);
+            return;
+        }
         
         // Remove active class from all lessons
         document.querySelectorAll('.lesson-item').forEach(item => {
