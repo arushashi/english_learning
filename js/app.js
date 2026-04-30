@@ -546,6 +546,7 @@ class KannadaEnglishApp {
         console.log('showLessonFromJSON called with level:', level, 'lesson:', lesson);
         // Get total lessons in current level
         const totalLessons = this.currentLevelData ? this.currentLevelData.lessons.length : this.getLessonsCount(level);
+        console.log('totalLessons:', totalLessons);
         
         let speakingPracticeHTML = '';
         if (lessonData.speakingPractice && lessonData.speakingPractice.length > 0) {
