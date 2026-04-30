@@ -15,7 +15,10 @@
                 <i class="fas fa-language"></i>
                 <span>Kannada Spoken English</span>
             </div>
-            <ul class="nav-menu">
+            <button class="nav-menu-toggle" id="navMenuToggle">
+                <i class="fas fa-bars"></i>
+            </button>
+            <ul class="nav-menu" id="navMenu">
                 <li><a href="#" class="nav-link active" data-page="home">Home</a></li>
                 <li><a href="#" class="nav-link" data-page="levels">Levels</a></li>
                 <li><a href="#" class="nav-link" data-page="practice">Practice</a></li>
@@ -26,6 +29,15 @@
 
     <!-- Main Content -->
     <main class="main-content">
+        <!-- Breadcrumbs -->
+        <div class="breadcrumbs" id="breadcrumbs" style="display: none;">
+            <div class="container">
+                <a href="#" class="breadcrumb-link" data-page="home">Home</a>
+                <span class="breadcrumb-separator">/</span>
+                <span class="breadcrumb-current" id="currentPage">Levels</span>
+            </div>
+        </div>
+
         <!-- Home Page -->
         <section id="home" class="page active">
             <div class="hero">

@@ -27,6 +27,32 @@ class KannadaEnglishApp {
             });
         });
 
+        // Mobile menu toggle
+        const navMenuToggle = document.getElementById('navMenuToggle');
+        const navMenu = document.getElementById('navMenu');
+        if (navMenuToggle && navMenu) {
+            navMenuToggle.addEventListener('click', () => {
+                navMenu.classList.toggle('active');
+                const icon = navMenuToggle.querySelector('i');
+                if (navMenu.classList.contains('active')) {
+                    icon.classList.remove('fa-bars');
+                    icon.classList.add('fa-times');
+                } else {
+                    icon.classList.remove('fa-times');
+                    icon.classList.add('fa-bars');
+                }
+            });
+        }
+
+        // Breadcrumb navigation
+        const breadcrumbLink = document.querySelector('.breadcrumb-link');
+        if (breadcrumbLink) {
+            breadcrumbLink.addEventListener('click', (e) => {
+                e.preventDefault();
+                this.navigateTo('home');
+            });
+        }
+
         // Start Learning button
         document.getElementById('startLearning')?.addEventListener('click', () => {
             this.navigateTo('levels');
@@ -57,6 +83,20 @@ class KannadaEnglishApp {
             activeLink.classList.add('active');
         }
 
+        // Update breadcrumbs
+        this.updateBreadcrumbs(page);
+
+        // Close mobile menu
+        const navMenu = document.getElementById('navMenu');
+        if (navMenu) {
+            navMenu.classList.remove('active');
+            const icon = document.querySelector('.nav-menu-toggle i');
+            if (icon) {
+                icon.classList.remove('fa-times');
+                icon.classList.add('fa-bars');
+            }
+        }
+
         // Update page-specific content
         if (page === 'levels') {
             // Restore original levels page content if it was replaced
@@ -64,6 +104,25 @@ class KannadaEnglishApp {
             this.updateLevelCards();
         } else if (page === 'progress') {
             this.updateProgressPage();
+        }
+    }
+
+    updateBreadcrumbs(page) {
+        const breadcrumbs = document.getElementById('breadcrumbs');
+        const currentPage = document.getElementById('currentPage');
+        
+        if (page === 'home') {
+            breadcrumbs.style.display = 'none';
+        } else {
+            breadcrumbs.style.display = 'block';
+            const pageNames = {
+                'levels': 'Levels',
+                'practice': 'Practice',
+                'progress': 'My Progress'
+            };
+            if (currentPage) {
+                currentPage.textContent = pageNames[page] || page;
+            }
         }
     }
 
