@@ -648,7 +648,13 @@ class KannadaEnglishApp {
             </div>
         `;
 
-        document.getElementById('lessonContent').innerHTML = lessonContent;
+        const lessonContentElement = document.getElementById('lessonContent');
+        if (lessonContentElement) {
+            lessonContentElement.innerHTML = lessonContent;
+        } else {
+            console.error('lessonContent element not found');
+            return;
+        }
         
         // Mark lesson as active
         document.querySelectorAll('.lesson-item').forEach(item => {
@@ -727,7 +733,14 @@ class KannadaEnglishApp {
                 </div>
             </div>
         `;
-        document.getElementById('lessonContent').innerHTML = lessonContent;
+        
+        const lessonContentElement = document.getElementById('lessonContent');
+        if (lessonContentElement) {
+            lessonContentElement.innerHTML = lessonContent;
+        } else {
+            console.error('lessonContent element not found');
+            return;
+        }
         
         // Mark lesson as active
         document.querySelectorAll('.lesson-item').forEach(item => {
