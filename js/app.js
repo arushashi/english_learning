@@ -692,6 +692,14 @@ class KannadaEnglishApp {
         
         console.log('Setting lesson content HTML');
         lessonContentElement.innerHTML = lessonContent;
+        console.log('Lesson content HTML set successfully');
+        
+        // Verify content was set
+        if (lessonContentElement.innerHTML === '') {
+            console.error('Lesson content is empty after setting');
+        } else {
+            console.log('Lesson content length:', lessonContentElement.innerHTML.length);
+        }
         
         // Mark lesson as active
         document.querySelectorAll('.lesson-item').forEach(item => {
@@ -802,6 +810,14 @@ class KannadaEnglishApp {
         
         console.log('Setting lesson content HTML');
         lessonContentElement.innerHTML = lessonContent;
+        console.log('Lesson content HTML set successfully');
+        
+        // Verify content was set
+        if (lessonContentElement.innerHTML === '') {
+            console.error('Lesson content is empty after setting');
+        } else {
+            console.log('Lesson content length:', lessonContentElement.innerHTML.length);
+        }
         
         // Mark lesson as active
         document.querySelectorAll('.lesson-item').forEach(item => {
