@@ -1417,6 +1417,8 @@ body {
 
 .lesson-content {
     width: 100%;
+    display: block;
+    min-height: 400px;
 }
 
 .lesson-placeholder {
@@ -1438,6 +1440,7 @@ body {
 
 .lesson-detail {
     width: 100%;
+    display: block;
 }
 
 .lesson-detail h3 {
