@@ -852,11 +852,15 @@ class KannadaEnglishApp {
     }
 
     showNextLesson(level, currentLesson) {
+        console.log('showNextLesson called with level:', level, 'currentLesson:', currentLesson);
         const totalLessons = this.currentLevelData ? this.currentLevelData.lessons.length : this.getLessonsCount(level);
+        console.log('totalLessons:', totalLessons);
         if (currentLesson < totalLessons) {
             if (this.currentLevelData && this.currentLevelData.lessons && this.currentLevelData.lessons[currentLesson]) {
+                console.log('Loading lesson from JSON');
                 this.showLessonFromJSON(level, currentLesson + 1, this.currentLevelData.lessons[currentLesson]);
             } else {
+                console.log('Loading lesson from template');
                 this.showLesson(level, currentLesson + 1);
             }
         } else {
