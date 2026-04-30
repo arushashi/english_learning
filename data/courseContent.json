@@ -1,0 +1,2560 @@
+{
+  "level0": {
+    "title": "Absolute Foundation",
+    "description": "Learn English letters, sounds, and basic reading",
+    "prerequisites": "None - This is where everyone starts",
+    "objectives": [
+      "Develop the right mindset for learning English",
+      "Learn tips to improve English communication",
+      "Read A-Z capital and small letters",
+      "Identify vowels and consonants",
+      "Read small words like cat, pen, bus, book",
+      "Spell your name",
+      "Say simple introduction lines"
+    ],
+    "lessons": [
+      {
+        "id": 0,
+        "title": "Mindset and Tips for Learning English",
+        "kannadaTitle": "ಇಂಗ್ಲಿಷ್ ಕಲಿಯಲು ಮನೋವೃತ್ತಿ ಮತ್ತು ಸೂಚನೆಗಳು",
+        "content": {
+          "explanation": "Success in learning English starts with the right mindset and consistent practice.",
+          "kannadaExplanation": "ಇಂಗ್ಲಿಷ್ ಕಲಿಯುವಲ್ಲಿ ಯಶಸ್ಸು ಸರಿಯಾದ ಮನೋವೃತ್ತಿ ಮತ್ತು ನಿರಂತರ ಅಭ್ಯಾಸದಿಂದ ಆರಂಭವಾಗುತ್ತದೆ.",
+          "mindsetPoints": [
+            {
+              "point": "Believe in yourself",
+              "kannada": "ನಿಮ್ಮನ್ನು ನಂಬಿಕೊಳ್ಳಿ",
+              "explanation": "Anyone can learn English with practice. Age and background don't matter.",
+              "kannadaExplanation": "ಅಭ್ಯಾಸದೊಂದಿಗೆ ಯಾರಾದರೂ ಇಂಗ್ಲಿಷ್ ಕಲಿಯಬಹುದು. ವಯಸ್ಸು ಮತ್ತು ಹಿನ್ನೆಲೆ ಮುಖ್ಯವಲ್ಲ."
+            },
+            {
+              "point": "Don't fear mistakes",
+              "kannada": "ತಪ್ಪುಗಳನ್ನು ಹೆದರಬೇಡಿ",
+              "explanation": "Mistakes are part of learning. Every mistake makes you better.",
+              "kannadaExplanation": "ತಪ್ಪುಗಳು ಕಲಿಕೆಯ ಭಾಗ. ಪ್ರತಿ ತಪ್ಪು ನಿಮ್ಮನ್ನು ಉತ್ತಮಗೊಳಿಸುತ್ತದೆ."
+            },
+            {
+              "point": "Be patient",
+              "kannada": "ತಾಳ್ಮೆಯಿರಿ",
+              "explanation": "Learning takes time. Don't expect overnight results.",
+              "kannadaExplanation": "ಕಲಿಕೆಗೆ ಸಮಯ ಬೇಕು. ಒಂದೇ ರಾತ್ರಿಯಲ್ಲಿ ಫಲಿತಾಂಶವನ್ನು ನಿರೀಕ್ಷಿಸಬೇಡಿ."
+            },
+            {
+              "point": "Practice daily",
+              "kannada": "ಪ್ರತಿದಿನ ಅಭ್ಯಾಸ ಮಾಡಿ",
+              "explanation": "Consistent daily practice is more effective than occasional long sessions.",
+              "kannadaExplanation": "ನಿರಂತರ ದೈನಂದಿನ ಅಭ್ಯಾಸವು ವಿರಳವಾದ ದೀರ್ಘ ಅಧಿವೇಶನಗಳಿಗಿಂತ ಹೆಚ್ಚು ಪರಿಣಾಮಕಾರಿ."
+            },
+            {
+              "point": "Think in English",
+              "kannada": "ಇಂಗ್ಲಿಷ್‌ನಲ್ಲಿ ಆಲೋಚಿಸಿ",
+              "explanation": "Try to think in English instead of translating from Kannada.",
+              "kannadaExplanation": "ಕನ್ನಡದಿಂದ ಅನುವಾದಿಸುವ ಬದಲು ಇಂಗ್ಲಿಷ್‌ನಲ್ಲಿ ಆಲೋಚಿಸಲು ಪ್ರಯತ್ನಿಸಿ."
+            }
+          ],
+          "tipsToImprove": [
+            {
+              "tip": "Listen to English daily",
+              "kannada": "ಪ್ರತಿದಿನ ಇಂಗ್ಲಿಷ್ ಕೇಳಿ",
+              "examples": ["Watch English news", "Listen to English songs", "Watch English movies with subtitles", "Listen to English podcasts"]
+            },
+            {
+              "tip": "Speak English daily",
+              "kannada": "ಪ್ರತಿದಿನ ಇಂಗ್ಲಿಷ್ ಮಾತನಾಡಿ",
+              "examples": ["Talk to yourself in English", "Practice with friends or family", "Use voice assistants like Alexa/Siri", "Record your voice and listen"]
+            },
+            {
+              "tip": "Read English regularly",
+              "kannada": "ನಿಯಮಿತವಾಗಿ ಇಂಗ್ಲಿಷ್ ಓದಿ",
+              "examples": ["Read simple story books", "Read English newspapers", "Read online articles", "Read children's books"]
+            },
+            {
+              "tip": "Learn new words daily",
+              "kannada": "ಪ್ರತಿದಿನ ಹೊಸ ಪದಗಳನ್ನು ಕಲಿಯಿರಿ",
+              "examples": ["Learn 5 new words every day", "Use new words in sentences", "Maintain a vocabulary notebook", "Review words regularly"]
+            },
+            {
+              "tip": "Don't translate word by word",
+              "kannada": "ಪದದಿಂದ ಪದಕ್ಕೆ ಅನುವಾದಿಸಬೇಡಿ",
+              "examples": ["Learn phrases instead of individual words", "Understand the context", "Focus on meaning, not literal translation"]
+            }
+          ]
+        },
+        "speakingPractice": [
+          {
+            "english": "I can learn English with practice",
+            "kannada": "ಅಭ್ಯಾಸದೊಂದಿಗೆ ನಾನು ಇಂಗ್ಲಿಷ್ ಕಲಿಯಬಹುದು"
+          },
+          {
+            "english": "I will practice English every day",
+            "kannada": "ನಾನು ಪ್ರತಿದಿನ ಇಂಗ್ಲಿಷ್ ಅಭ್ಯಾಸ ಮಾಡುತ್ತೇನೆ"
+          },
+          {
+            "english": "Mistakes help me learn better",
+            "kannada": "ತಪ್ಪುಗಳು ನನಗೆ ಉತ್ತಮವಾಗಿ ಕಲಿಯಲು ಸಹಾಯ ಮಾಡುತ್ತವೆ"
+          }
+        ]
+      },
+      {
+        "id": 1,
+        "title": "English Alphabet",
+        "kannadaTitle": "ಇಂಗ್ಲಿಷ್ ವರ್ಣಮಾಲೆ",
+        "content": {
+          "explanation": "English has 26 letters. Let's learn them one by one.",
+          "kannadaExplanation": "ಇಂಗ್ಲಿಷ್‌ನಲ್ಲಿ 26 ಅಕ್ಷರಗಳಿವೆ. ಅವುಗಳನ್ನು ಒಂದೊಂದಾಗಿ ಕಲಿಯೋಣ.",
+          "capitalLetters": "A B C D E F G H I J K L M N O P Q R S T U V W X Y Z",
+          "smallLetters": "a b c d e f g h i j k l m n o p q r s t u v w x y z",
+          "practice": [
+            {
+              "english": "A is for Apple",
+              "kannada": "A ಎಂದರೆ Apple (ಸೇಬು)"
+            },
+            {
+              "english": "B is for Ball",
+              "kannada": "B ಎಂದರೆ Ball (ಚೆಂಡು)"
+            },
+            {
+              "english": "C is for Cat",
+              "kannada": "C ಎಂದರೆ Cat (ಬೆಕ್ಕೆ)"
+            }
+          ]
+        },
+        "speakingPractice": [
+          {
+            "english": "A B C D E F G",
+            "kannada": "ಎ ಬಿ ಸಿ ಡಿ ಇ ಎಫ್ ಜಿ"
+          },
+          {
+            "english": "H I J K L M N",
+            "kannada": "ಎಚ್ ಐ ಜೆ ಕೆ ಎಲ್ ಎಂ ಎನ್"
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "title": "Vowels and Consonants",
+        "kannadaTitle": "ಸ್ವರಗಳು ಮತ್ತು ವ್ಯಂಜನಗಳು",
+        "content": {
+          "explanation": "Vowels are A, E, I, O, U. All other letters are consonants.",
+          "kannadaExplanation": "ಸ್ವರಗಳು A, E, I, O, U. ಉಳಿದ ಎಲ್ಲಾ ಅಕ್ಷರಗಳು ವ್ಯಂಜನಗಳು.",
+          "vowels": "A, E, I, O, U",
+          "consonants": "B, C, D, F, G, H, J, K, L, M, N, P, Q, R, S, T, V, W, X, Y, Z",
+          "practice": [
+            {
+              "english": "A is a vowel",
+              "kannada": "A ಒಂದು ಸ್ವರ"
+            },
+            {
+              "english": "B is a consonant",
+              "kannada": "B ಒಂದು ವ್ಯಂಜನ"
+            }
+          ]
+        },
+        "speakingPractice": [
+          {
+            "english": "A E I O U are vowels",
+            "kannada": "A E I O U ಸ್ವರಗಳು"
+          },
+          {
+            "english": "B C D are consonants",
+            "kannada": "B C D ವ್ಯಂಜನಗಳು"
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "title": "Letter Sounds",
+        "kannadaTitle": "ಅಕ್ಷರ ಧ್ವನಿಗಳು",
+        "content": {
+          "explanation": "Each letter has a sound. Learn the sound, not just the name.",
+          "kannadaExplanation": "ಪ್ರತಿ ಅಕ್ಷರಕ್ಕೆ ಒಂದು ಧ್ವನಿ ಇದೆ. ಹೆಸರನ್ನು ಮಾತ್ರ ಅಲ್ಲ, ಧ್ವನಿಯನ್ನು ಕಲಿಯಿರಿ.",
+          "soundChart": [
+            {
+              "letter": "A",
+              "sound": "ಅ / ಏ",
+              "example": "apple, ant"
+            },
+            {
+              "letter": "B",
+              "sound": "ಬ",
+              "example": "ball, bag, bus"
+            },
+            {
+              "letter": "C",
+              "sound": "ಕ / ಸ",
+              "example": "cat, cup, city"
+            },
+            {
+              "letter": "D",
+              "sound": "ಡ / ದ",
+              "example": "dog, day, door"
+            }
+          ],
+          "practice": [
+            {
+              "english": "A says /a/ as in apple",
+              "kannada": "A ನ ಧ್ವನಿ /a/, apple ನಲ್ಲಿರುವಂತೆ"
+            }
+          ]
+        },
+        "speakingPractice": [
+          {
+            "english": "A for apple, B for ball",
+            "kannada": "A ಸೇಬಿಗಾಗಿ, B ಚೆಂಡಿಗಾಗಿ"
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "title": "Reading Small Words",
+        "kannadaTitle": "ಸಣ್ಣ ಪದಗಳನ್ನು ಓದುವುದು",
+        "content": {
+          "explanation": "Blend letter sounds to read small words.",
+          "kannadaExplanation": "ಅಕ್ಷರ ಧ್ವನಿಗಳನ್ನು ಸೇರಿಸಿ ಸಣ್ಣ ಪದಗಳನ್ನು ಓದಿ.",
+          "blending": "c + a + t = cat",
+          "words": [
+            {
+              "word": "cat",
+              "kannada": "ಬೆಕ್ಕೆ"
+            },
+            {
+              "word": "pen",
+              "kannada": "ಪೆನ್"
+            },
+            {
+              "word": "bus",
+              "kannada": "ಬಸ್"
+            },
+            {
+              "word": "book",
+              "kannada": "ಪುಸ್ತಕ"
+            }
+          ]
+        },
+        "speakingPractice": [
+          {
+            "english": "cat, pen, bus, book",
+            "kannada": "ಬೆಕ್ಕೆ, ಪೆನ್, ಬಸ್, ಪುಸ್ತಕ"
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "title": "Spelling Your Name",
+        "kannadaTitle": "ನಿಮ್ಮ ಹೆಸರನ್ನು ಕಾಗುಣಿತ ಮಾಡುವುದು",
+        "content": {
+          "explanation": "Learn to spell your name in English letters.",
+          "kannadaExplanation": "ನಿಮ್ಮ ಹೆಸರನ್ನು ಇಂಗ್ಲಿಷ್ ಅಕ್ಷರಗಳಲ್ಲಿ ಕಾಗುಣಿತ ಮಾಡಲು ಕಲಿಯಿರಿ.",
+          "examples": [
+            {
+              "name": "ANIL",
+              "spelling": "A-N-I-L"
+            },
+            {
+              "name": "MEENA",
+              "spelling": "M-E-E-N-A"
+            },
+            {
+              "name": "KUMAR",
+              "spelling": "K-U-M-A-R"
+            }
+          ],
+          "phrases": [
+            {
+              "english": "My name is...",
+              "kannada": "ನನ್ನ ಹೆಸರು..."
+            },
+            {
+              "english": "It is spelled...",
+              "kannada": "ಇದರ ಕಾಗುಣಿತ..."
+            }
+          ]
+        },
+        "speakingPractice": [
+          {
+            "english": "My name is [your name]",
+            "kannada": "ನನ್ನ ಹೆಸರು [ನಿಮ್ಮ ಹೆಸರು]"
+          },
+          {
+            "english": "It is spelled [spelling]",
+            "kannada": "ಇದರ ಕಾಗುಣಿತ [ಕಾಗುಣಿತ]"
+          }
+        ]
+      },
+      {
+        "id": 6,
+        "title": "Common Letter Combinations",
+        "kannadaTitle": "ಸಾಮಾನ್ಯ ಅಕ್ಷರ ಸಂಯೋಜನೆಗಳು",
+        "content": {
+          "explanation": "Some letters together make special sounds.",
+          "kannadaExplanation": "ಕೆಲವು ಅಕ್ಷರಗಳು ಒಟ್ಟಿಗೆ ವಿಶೇಷ ಧ್ವನಿಗಳನ್ನು ಉಂಟುಮಾಡುತ್ತವೆ.",
+          "combinations": [
+            {
+              "letters": "sh",
+              "sound": "ಶ್",
+              "examples": "she, shop, fish"
+            },
+            {
+              "letters": "ch",
+              "sound": "ಚ್",
+              "examples": "chair, child, lunch"
+            },
+            {
+              "letters": "th",
+              "sound": "ತ್ / ದ್",
+              "examples": "thin, this, that"
+            },
+            {
+              "letters": "ph",
+              "sound": "ಫ್",
+              "examples": "phone, photo"
+            }
+          ]
+        },
+        "speakingPractice": [
+          {
+            "english": "sh - she, shop",
+            "kannada": "sh - she, shop"
+          },
+          {
+            "english": "ch - chair, child",
+            "kannada": "ch - chair, child"
+          }
+        ]
+      },
+      {
+        "id": 7,
+        "title": "Reading Practice",
+        "kannadaTitle": "ಓದುವ ಅಭ್ಯಾಸ",
+        "content": {
+          "explanation": "Read simple sentences aloud.",
+          "kannadaExplanation": "ಸರಳ ವಾಕ್ಯಗಳನ್ನು ಜೋರಾಗಿ ಓದಿ.",
+          "sentences": [
+            {
+              "english": "I am learning English.",
+              "kannada": "ನಾನು ಇಂಗ್ಲಿಷ್ ಕಲಿಯುತ್ತಿದ್ದೇನೆ."
+            },
+            {
+              "english": "I know the alphabet.",
+              "kannada": "ನನಗೆ ವರ್ಣಮಾಲೆ ಗೊತ್ತು."
+            },
+            {
+              "english": "I can read small words.",
+              "kannada": "ನಾನು ಸಣ್ಣ ಪದಗಳನ್ನು ಓದಬಲ್ಲೆ."
+            },
+            {
+              "english": "I can spell my name.",
+              "kannada": "ನಾನು ನನ್ನ ಹೆಸರನ್ನು ಕಾಗುಣಿತ ಮಾಡಬಲ್ಲೆ."
+            }
+          ]
+        },
+        "speakingPractice": [
+          {
+            "english": "I am learning English. I know the alphabet.",
+            "kannada": "ನಾನು ಇಂಗ್ಲಿಷ್ ಕಲಿಯುತ್ತಿದ್ದೇನೆ. ನನಗೆ ವರ್ಣಮಾಲೆ ಗೊತ್ತು."
+          }
+        ]
+      },
+      {
+        "id": 8,
+        "title": "Dictation Practice",
+        "kannadaTitle": "ಅನುಲೇಖನ ಅಭ್ಯಾಸ",
+        "content": {
+          "explanation": "Listen and write the words.",
+          "kannadaExplanation": "ಕೇಳಿ ಪದಗಳನ್ನು ಬರೆಯಿರಿ.",
+          "words": [
+            "cat", "pen", "bus", "cup", "book", "phone", "name", "work", "time", "road"
+          ]
+        },
+        "speakingPractice": [
+          {
+            "english": "cat, pen, bus, cup, book",
+            "kannada": "ಬೆಕ್ಕೆ, ಪೆನ್, ಬಸ್, ಕಪ್, ಪುಸ್ತಕ"
+          }
+        ]
+      },
+      {
+        "id": 9,
+        "title": "Common Mistakes",
+        "kannadaTitle": "ಸಾಮಾನ್ಯ ತಪ್ಪುಗಳು",
+        "content": {
+          "explanation": "Avoid these common beginner mistakes.",
+          "kannadaExplanation": "ಈ ಸಾಮಾನ್ಯ ಪ್ರಾರಂಭಿಕ ತಪ್ಪುಗಳನ್ನು ತಪ್ಪಿಸಿಕೊಳ್ಳಿ.",
+          "mistakes": [
+            {
+              "wrong": "Reading only letter names",
+              "right": "Learn letter sounds also",
+              "kannada": "ಕೇವಲ ಅಕ್ಷರ ಹೆಸರುಗಳನ್ನು ಓದುವುದು, ಅಕ್ಷರ ಧ್ವನಿಗಳನ್ನು ಕಲಿಯಿರಿ"
+            },
+            {
+              "wrong": "Confusing V and W",
+              "right": "Practice very/water, voice/work",
+              "kannada": "V ಮತ್ತು W ಗೊಂದಲ, very/water, voice/work ಅಭ್ಯಾಸ ಮಾಡಿ"
+            }
+          ]
+        },
+        "speakingPractice": [
+          {
+            "english": "V for very, W for water",
+            "kannada": "V very ಗಾಗಿ, W water ಗಾಗಿ"
+          }
+        ]
+      },
+      {
+        "id": 10,
+        "title": "Foundation Test",
+        "kannadaTitle": "ಪ್ರಾಥಮಿಕ ಪರೀಕ್ಷೆ",
+        "content": {
+          "explanation": "Test your foundation knowledge before moving to Level 1.",
+          "kannadaExplanation": "Level 1 ಗೆ ಹೋಗುವ ಮೊದಲು ನಿಮ್ಮ ಪ್ರಾಥಮಿಕ ಜ್ಞಾನವನ್ನು ಪರೀಕ್ಷಿಸಿ.",
+          "testItems": [
+            "Write A-Z capital letters",
+            "Write a-z small letters",
+            "Circle vowels from a group of letters",
+            "Read 20 small words",
+            "Spell your name correctly",
+            "Read a simple paragraph aloud",
+            "Take 10-word dictation"
+          ]
+        },
+        "speakingPractice": [
+          {
+            "english": "I am ready for Level 1",
+            "kannada": "ನಾನು Level 1 ಗೆ ಸಿದ್ಧ"
+          }
+        ]
+      }
+    ],
+    "masteryTest": {
+      "title": "Level 0 Mastery Test",
+      "instructions": "You must pass this test before moving to Level 1.",
+      "kannadaInstructions": "Level 1 ಗೆ ಹೋಗುವ ಮೊದಲು ಈ ಪರೀಕ್ಷೆಯನ್ನು ಪಾಸ್ ಮಾಡಬೇಕು.",
+      "questions": [
+        {
+          "question": "Write the alphabet A-Z in capital letters",
+          "type": "writing",
+          "answer": "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+        },
+        {
+          "question": "Which of these are vowels? A, B, C, E, I, O",
+          "type": "multiple",
+          "options": ["A, B, C", "A, E, I, O", "B, C, E", "A, I, O"],
+          "correct": "A, E, I, O"
+        },
+        {
+          "question": "What sound does 'C' make in 'cat'?",
+          "type": "multiple",
+          "options": ["/s/", "/k/", "/t/", "/p/"],
+          "correct": "/k/"
+        },
+        {
+          "question": "Read this word: 'book'",
+          "type": "speaking",
+          "answer": "book"
+        },
+        {
+          "question": "Spell your name in English letters",
+          "type": "writing",
+          "answer": "user specific"
+        }
+      ]
+    }
+  },
+  "level1": {
+    "title": "Survival English",
+    "description": "Greetings, self-introduction, basic needs",
+    "prerequisites": "Pass Level 0 test",
+    "objectives": [
+      "Greet someone confidently",
+      "Introduce yourself",
+      "Ask and answer basic questions",
+      "Express needs and likes",
+      "Ask for help politely"
+    ],
+    "lessons": [
+      {
+        "id": 1,
+        "title": "Greetings",
+        "kannadaTitle": "ನಮಸ್ಕಾರಗಳು",
+        "content": {
+          "explanation": "Learn basic greetings for different times of the day.",
+          "kannadaExplanation": "ದಿನದ ವಿವಿಧ ಸಮಯಗಳಿಗೆ ಪ್ರಾಥಮಿಕ ನಮಸ್ಕಾರಗಳನ್ನು ಕಲಿಯಿರಿ.",
+          "greetings": [
+            {
+              "english": "Good morning",
+              "kannada": "ಶುಭೋದಯ",
+              "usage": "Before noon"
+            },
+            {
+              "english": "Good afternoon",
+              "kannada": "ಶುಭ ಮಧ್ಯಾಹ್ನ",
+              "usage": "12 PM - 5 PM"
+            },
+            {
+              "english": "Good evening",
+              "kannada": "ಶುಭ ಸಾಯಂಕಾಲ",
+              "usage": "5 PM - 9 PM"
+            },
+            {
+              "english": "Good night",
+              "kannada": "ಶುಭ ರಾತ್ರಿ",
+              "usage": "Before sleeping"
+            }
+          ],
+          "commonPhrases": [
+            {
+              "english": "Hello",
+              "kannada": "ನಮಸ್ಕಾರ / ಹಲೋ"
+            },
+            {
+              "english": "Hi",
+              "kannada": "ಹಾಯ್"
+            },
+            {
+              "english": "How are you?",
+              "kannada": "ನೀವು ಹೇಗಿದ್ದೀರಿ?"
+            },
+            {
+              "english": "I am fine, thank you",
+              "kannada": "ನಾನು ಚೆನ್ನಾಗಿದ್ದೇನೆ, ಧನ್ಯವಾದಗಳು"
+            }
+          ]
+        },
+        "speakingPractice": [
+          {
+            "english": "Good morning. How are you?",
+            "kannada": "ಶುಭೋದಯ. ನೀವು ಹೇಗಿದ್ದೀರಿ?"
+          },
+          {
+            "english": "I am fine, thank you. And you?",
+            "kannada": "ನಾನು ಚೆನ್ನಾಗಿದ್ದೇನೆ, ಧನ್ಯವಾದಗಳು. ನೀವು?"
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "title": "Self-Introduction",
+        "kannadaTitle": "ಸ್ವಪರಿಚಯ",
+        "content": {
+          "explanation": "Learn to introduce yourself in English.",
+          "kannadaExplanation": "ಇಂಗ್ಲಿಷ್‌ನಲ್ಲಿ ನಿಮ್ಮನ್ನು ಪರಿಚಯಿಸಿಕೊಳ್ಲು ಕಲಿಯಿರಿ.",
+          "patterns": [
+            {
+              "pattern": "My name is...",
+              "kannada": "ನನ್ನ ಹೆಸರು...",
+              "examples": [
+                "My name is Ramesh.",
+                "My name is Priya."
+              ]
+            },
+            {
+              "pattern": "I am from...",
+              "kannada": "ನಾನು... ಇಂದ",
+              "examples": [
+                "I am from Bangalore.",
+                "I am from Karnataka."
+              ]
+            },
+            {
+              "pattern": "I am a...",
+              "kannada": "ನಾನು ಒಬ್ಬ...",
+              "examples": [
+                "I am a student.",
+                "I am a teacher."
+              ]
+            },
+            {
+              "pattern": "I work in...",
+              "kannada": "ನಾನು... ನಲ್ಲಿ ಕೆಲಸ ಮಾಡುತ್ತೇನೆ",
+              "examples": [
+                "I work in an office.",
+                "I work in a bank."
+              ]
+            }
+          ],
+          "completeIntro": "My name is [name]. I am from [place]. I am a [profession]. I want to improve my English."
+        },
+        "speakingPractice": [
+          {
+            "english": "My name is Ramesh. I am from Bangalore.",
+            "kannada": "ನನ್ನ ಹೆಸರು ರಮೇಶ್. ನಾನು ಬೆಂಗಳೂರಿನಿಂದ."
+          },
+          {
+            "english": "I am a student. I want to improve my English.",
+            "kannada": "ನಾನು ವಿದ್ಯಾರ್ಥಿ. ನನ್ನ ಇಂಗ್ಲಿಷ್ ಸುಧಾರಿಸಿಕೊಳ್ಳಬೇಕು."
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "title": "This / That / These / Those",
+        "kannadaTitle": "ಇದು / ಅದು / ಇವು / ಅವು",
+        "content": {
+          "explanation": "Learn to point and describe things near and far.",
+          "kannadaExplanation": "ಹತ್ತಿರ ಮತ್ತು ದೂರದ ವಸ್ತುಗಳನ್ನು ತೋರಿಸಿ ವಿವರಿಸಲು ಕಲಿಯಿರಿ.",
+          "patterns": [
+            {
+              "pattern": "This is...",
+              "kannada": "ಇದು...",
+              "usage": "For singular things near you",
+              "examples": [
+                "This is my book.",
+                "This is my pen."
+              ]
+            },
+            {
+              "pattern": "That is...",
+              "kannada": "ಅದು...",
+              "usage": "For singular things far from you",
+              "examples": [
+                "That is my car.",
+                "That is my house."
+              ]
+            },
+            {
+              "pattern": "These are...",
+              "kannada": "ಇವು...",
+              "usage": "For plural things near you",
+              "examples": [
+                "These are my books.",
+                "These are my friends."
+              ]
+            },
+            {
+              "pattern": "Those are...",
+              "kannada": "ಅವು...",
+              "usage": "For plural things far from you",
+              "examples": [
+                "Those are my bags.",
+                "Those are my shoes."
+              ]
+            }
+          ]
+        },
+        "speakingPractice": [
+          {
+            "english": "This is my book. That is your book.",
+            "kannada": "ಇದು ನನ್ನ ಪುಸ್ತಕ. ಅದು ನಿಮ್ಮ ಪುಸ್ತಕ."
+          },
+          {
+            "english": "These are my friends. Those are my colleagues.",
+            "kannada": "ಇವರು ನನ್ನ ಸ್ನೇಹಿತರು. ಅವರು ನನ್ನ ಸಹೋದ್ಯೋಗಿಗಳು."
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "title": "I Have / I Need",
+        "kannadaTitle": "ನನಗಿದೆ / ನನಗಿದು ಬೇಕು",
+        "content": {
+          "explanation": "Express what you have and what you need.",
+          "kannadaExplanation": "ನಿಮಗಿರುವುದನ್ನು ಮತ್ತು ನಿಮಗಿರುವುದನ್ನು ವ್ಯಕ್ತಪಡಿಸಿ.",
+          "patterns": [
+            {
+              "pattern": "I have...",
+              "kannada": "ನನಗಿದೆ...",
+              "examples": [
+                "I have a pen.",
+                "I have two brothers.",
+                "I have a car."
+              ]
+            },
+            {
+              "pattern": "I do not have...",
+              "kannada": "ನನಗಿಲ್ಲ...",
+              "examples": [
+                "I do not have time.",
+                "I do not have cash.",
+                "I do not have a laptop."
+              ]
+            },
+            {
+              "pattern": "I need...",
+              "kannada": "ನನಗಿದು ಬೇಕು...",
+              "examples": [
+                "I need water.",
+                "I need help.",
+                "I need a book."
+              ]
+            }
+          ]
+        },
+        "speakingPractice": [
+          {
+            "english": "I have a pen. I need a notebook.",
+            "kannada": "ನನಗೆ ಪೆನ್ ಇದೆ. ನನಗೆ ನೋಟ್ ಬುಕ್ ಬೇಕು."
+          },
+          {
+            "english": "I do not have cash. I need an ATM.",
+            "kannada": "ನನಗೆ ನಗದು ಇಲ್ಲ. ನನಗೆ ATM ಬೇಕು."
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "title": "I Like / I Do Not Like",
+        "kannadaTitle": "ನನಗೆ ಇಷ್ಟ / ನನಗೆ ಇಷ್ಟವಿಲ್ಲ",
+        "content": {
+          "explanation": "Express your likes and dislikes.",
+          "kannadaExplanation": "ನಿಮ್ಮ ಇಷ್ಟ ಮತ್ತು ಅಸಮ್ಮತಿಯನ್ನು ವ್ಯಕ್ತಪಡಿಸಿ.",
+          "patterns": [
+            {
+              "pattern": "I like...",
+              "kannada": "ನನಗೆ... ಇಷ್ಟ",
+              "examples": [
+                "I like tea.",
+                "I like English.",
+                "I like music.",
+                "I like reading."
+              ]
+            },
+            {
+              "pattern": "I do not like...",
+              "kannada": "ನನಗೆ... ಇಷ್ಟವಿಲ್ಲ",
+              "examples": [
+                "I do not like coffee.",
+                "I do not like traffic.",
+                "I do not like waiting."
+              ]
+            }
+          ]
+        },
+        "speakingPractice": [
+          {
+            "english": "I like tea. I do not like coffee.",
+            "kannada": "ನನಗೆ ಟೀ ಇಷ್ಟ. ನನಗೆ ಕಾಫಿ ಇಷ್ಟವಿಲ್ಲ."
+          },
+          {
+            "english": "I like reading books. I do not like watching TV.",
+            "kannada": "ನನಗೆ ಪುಸ್ತಕಗಳನ್ನು ಓದುವುದು ಇಷ್ಟ. ನನಗೆ TV ನೋಡುವುದು ಇಷ್ಟವಿಲ್ಲ."
+          }
+        ]
+      },
+      {
+        "id": 6,
+        "title": "Can / Cannot",
+        "kannadaTitle": "ಸಾಧ್ಯ / ಅಸಾಧ್ಯ",
+        "content": {
+          "explanation": "Talk about abilities and possibilities.",
+          "kannadaExplanation": "ಸಾಮರ್ಥ್ಯ ಮತ್ತು ಸಾಧ್ಯತೆಗಳ ಬಗ್ಗೆ ಮಾತನಾಡಿ.",
+          "patterns": [
+            {
+              "pattern": "I can...",
+              "kannada": "ನಾನು... ಮಾಡಬಲ್ಲೆ",
+              "examples": [
+                "I can speak Kannada.",
+                "I can understand English.",
+                "I can drive a car.",
+                "I can swim."
+              ]
+            },
+            {
+              "pattern": "I cannot...",
+              "kannada": "ನಾನು... ಮಾಡಲಾಗುವುದಿಲ್ಲ",
+              "examples": [
+                "I cannot speak fast.",
+                "I cannot understand Hindi.",
+                "I cannot cook well."
+              ]
+            },
+            {
+              "pattern": "Can you...?",
+              "kannada": "ನೀವು... ಮಾಡಬಲ್ಲೇ?",
+              "examples": [
+                "Can you help me?",
+                "Can you speak slowly?",
+                "Can you repeat that?"
+              ]
+            }
+          ]
+        },
+        "speakingPractice": [
+          {
+            "english": "I can speak English. I can understand a little.",
+            "kannada": "ನಾನು ಇಂಗ್ಲಿಷ್ ಮಾತನಾಡಬಲ್ಲೆ. ನನಗೆ ಸ್ವಲ್ಪ ಅರ್ಥವಾಗುತ್ದೆ."
+          },
+          {
+            "english": "Can you help me? I cannot find my book.",
+            "kannada": "ನನಗೆ ಸಹಾಯ ಮಾಡಬಲ್ಲೇ? ನನಗೆ ನನ್ನ ಪುಸ್ತಕ ಸಿಗುತ್ತಿಲ್ಲ."
+          }
+        ]
+      },
+      {
+        "id": 7,
+        "title": "Polite Requests",
+        "kannadaTitle": "ವಿನಮ್ರವಾದ ವಿನಂತಿಗಳು",
+        "content": {
+          "explanation": "Learn to ask for things politely.",
+          "kannadaExplanation": "ವಿಷಯಗಳನ್ನು ವಿನಮ್ರವಾಗಿ ಕೇಳಲು ಕಲಿಯಿರಿ.",
+          "phrases": [
+            {
+              "direct": "Give me water",
+              "polite": "Please give me some water",
+              "kannada": "ದಯವಿಟ್ಟು ನನಗೆ ನೀರು ಕೊಡಿ"
+            },
+            {
+              "direct": "Tell me your name",
+              "polite": "Could you please tell me your name?",
+              "kannada": "ದಯವಿಟ್ಟು ನಿಮ್ಮ ಹೆಸರನ್ನು ಹೇಳಬಲ್ಲೇ?"
+            },
+            {
+              "direct": "Repeat",
+              "polite": "Could you please repeat that?",
+              "kannada": "ದಯವಿಟ್ಟು ಅದನ್ನು ಪುನರಾವರ್ತಿಸಬಲ್ಲೇ?"
+            },
+            {
+              "direct": "Speak slowly",
+              "polite": "Could you please speak slowly?",
+              "kannada": "ದಯವಿಟ್ಟು ನಿಧಾನವಾಗಿ ಮಾತನಾಡಬಲ್ಲೇ?"
+            }
+          ]
+        },
+        "speakingPractice": [
+          {
+            "english": "Could you please help me?",
+            "kannada": "ದಯವಿಟ್ಟು ನನಗೆ ಸಹಾಯ ಮಾಡಬಲ್ಲೇ?"
+          },
+          {
+            "english": "Please speak slowly. I am learning.",
+            "kannada": "ದಯವಿಟ್ಟು ನಿಧಾನವಾಗಿ ಮಾತನಾಡಿ. ನಾನು ಕಲಿಯುತ್ತಿದ್ದೇನೆ."
+          }
+        ]
+      },
+      {
+        "id": 8,
+        "title": "Basic Questions",
+        "kannadaTitle": "ಪ್ರಾಥಮಿಕ ಪ್ರಶ್ನೆಗಳು",
+        "content": {
+          "explanation": "Learn to ask and answer basic questions.",
+          "kannadaExplanation": "ಪ್ರಾಥಮಿಕ ಪ್ರಶ್ನೆಗಳನ್ನು ಕೇಳಲು ಮತ್ತು ಉತ್ತರಿಸಲು ಕಲಿಯಿರಿ.",
+          "questions": [
+            {
+              "question": "What is your name?",
+              "kannada": "ನಿಮ್ಮ ಹೆಸರು ಏನು?",
+              "answer": "My name is..."
+            },
+            {
+              "question": "Where are you from?",
+              "kannada": "ನೀವು ಎಲ್ಲಿಂದ?",
+              "answer": "I am from..."
+            },
+            {
+              "question": "What do you do?",
+              "kannada": "ನೀವು ಏನು ಮಾಡುತ್ತೀರಿ?",
+              "answer": "I am a..."
+            },
+            {
+              "question": "How are you?",
+              "kannada": "ನೀವು ಹೇಗಿದ್ದೀರಿ?",
+              "answer": "I am fine, thank you."
+            }
+          ]
+        },
+        "speakingPractice": [
+          {
+            "english": "What is your name? My name is Ramesh.",
+            "kannada": "ನಿಮ್ಮ ಹೆಸರು ಏನು? ನನ್ನ ಹೆಸರು ರಮೇಶ್."
+          },
+          {
+            "english": "Where are you from? I am from Bangalore.",
+            "kannada": "ನೀವು ಎಲ್ಲಿಂದ? ನಾನು ಬೆಂಗಳೂರಿನಿಂದ."
+          }
+        ]
+      },
+      {
+        "id": 9,
+        "title": "Numbers and Counting",
+        "kannadaTitle": "ಸಂಖ್ಯೆಗಳು ಮತ್ತು ಎಣಿಕೆ",
+        "content": {
+          "explanation": "Learn numbers 1-20 and basic counting.",
+          "kannadaExplanation": "1-20 ಸಂಖ್ಯೆಗಳು ಮತ್ತು ಪ್ರಾಥಮಿಕ ಎಣಿಕೆಯನ್ನು ಕಲಿಯಿರಿ.",
+          "numbers": [
+            "One (1), Two (2), Three (3), Four (4), Five (5)",
+            "Six (6), Seven (7), Eight (8), Nine (9), Ten (10)",
+            "Eleven (11), Twelve (12), Thirteen (13), Fourteen (14), Fifteen (15)",
+            "Sixteen (16), Seventeen (17), Eighteen (18), Nineteen (19), Twenty (20)"
+          ],
+          "usage": [
+            "I have two brothers.",
+            "There are five books.",
+            "I am twenty years old."
+          ]
+        },
+        "speakingPractice": [
+          {
+            "english": "One, two, three, four, five",
+            "kannada": "ಒಂದು, ಎರಡು, ಮೂರು, ನಾಲ್ಕು, ಐದು"
+          },
+          {
+            "english": "I have two sisters and one brother.",
+            "kannada": "ನನಗೆ ಇಬ್ಬರು ಸಹೋದರಿಯರು ಮತ್ತು ಒಬ್ಬ ಸಹೋದರ ಇದ್ದಾರೆ."
+          }
+        ]
+      },
+      {
+        "id": 10,
+        "title": "Days of the Week",
+        "kannadaTitle": "ವಾರದ ದಿನಗಳು",
+        "content": {
+          "explanation": "Learn the seven days of the week.",
+          "kannadaExplanation": "ವಾರದ ಏಳು ದಿನಗಳನ್ನು ಕಲಿಯಿರಿ.",
+          "days": [
+            {
+              "english": "Monday",
+              "kannada": "ಸೋಮವಾರ"
+            },
+            {
+              "english": "Tuesday",
+              "kannada": "ಮಂಗಳವಾರ"
+            },
+            {
+              "english": "Wednesday",
+              "kannada": "ಬುಧವಾರ"
+            },
+            {
+              "english": "Thursday",
+              "kannada": "ಗುರುವಾರ"
+            },
+            {
+              "english": "Friday",
+              "kannada": "ಶುಕ್ರವಾರ"
+            },
+            {
+              "english": "Saturday",
+              "kannada": "ಶನಿವಾರ"
+            },
+            {
+              "english": "Sunday",
+              "kannada": "ಭಾನುವಾರ"
+            }
+          ],
+          "usage": [
+            "Today is Monday.",
+            "I work on Monday to Friday.",
+            "Sunday is a holiday."
+          ]
+        },
+        "speakingPractice": [
+          {
+            "english": "Monday, Tuesday, Wednesday, Thursday, Friday",
+            "kannada": "ಸೋಮವಾರ, ಮಂಗಳವಾರ, ಬುಧವಾರ, ಗುರುವಾರ, ಶುಕ್ರವಾರ"
+          },
+          {
+            "english": "Today is Monday. Tomorrow is Tuesday.",
+            "kannada": "ಇಂದು ಸೋಮವಾರ. ನಾಳೆ ಮಂಗಳವಾರ."
+          }
+        ]
+      },
+      {
+        "id": 11,
+        "title": "Revision Role-play",
+        "kannadaTitle": "ಪುನರಾವಲೋಕನ ಪಾತ್ರ-ನಿರ್ವಹಣ",
+        "content": {
+          "explanation": "Practice everything you learned in a conversation.",
+          "kannadaExplanation": "ಸಂಭಾಷಣೆಯಲ್ಲಿ ನೀವು ಕಲಿತ ಎಲ್ಲವನ್ನೂ ಅಭ್ಯಾಸ ಮಾಡಿ.",
+          "scenario": "Meet a new person at a party or office",
+          "dialogue": [
+            {
+              "speaker": "A",
+              "english": "Good morning. How are you?",
+              "kannada": "ಶುಭೋದಯ. ನೀವು ಹೇಗಿದ್ದೀರಿ?"
+            },
+            {
+              "speaker": "B",
+              "english": "I am fine, thank you. And you?",
+              "kannada": "ನಾನು ಚೆನ್ನಾಗಿದ್ದೇನೆ, ಧನ್ಯವಾದಗಳು. ನೀವು?"
+            },
+            {
+              "speaker": "A",
+              "english": "I am also fine. What is your name?",
+              "kannada": "ನಾನು ಸಹ ಚೆನ್ನಾಗಿದ್ದೇನೆ. ನಿಮ್ಮ ಹೆಸರು ಏನು?"
+            },
+            {
+              "speaker": "B",
+              "english": "My name is Priya. What is your name?",
+              "kannada": "ನನ್ನ ಹೆಸರು ಪ್ರಿಯಾ. ನಿಮ್ಮ ಹೆಸರು ಏನು?"
+            },
+            {
+              "speaker": "A",
+              "english": "My name is Ramesh. Where are you from?",
+              "kannada": "ನನ್ನ ಹೆಸರು ರಮೇಶ್. ನೀವು ಎಲ್ಲಿಂದ?"
+            },
+            {
+              "speaker": "B",
+              "english": "I am from Mysore. I work here.",
+              "kannada": "ನಾನು ಮೈಸೂರಿನಿಂದ. ನಾನು ಇಲ್ಲಿ ಕೆಲಸ ಮಾಡುತ್ತೇನೆ."
+            },
+            {
+              "speaker": "A",
+              "english": "Nice to meet you. Can you speak English?",
+              "kannada": "ನಿಮ್ಮನ್ನು ಭೇಟಿಯಾಗಿದ್ದು ಸಂತೋಷ. ನೀವು ಇಂಗ್ಲಿಷ್ ಮಾತನಾಡಬಲ್ಲೇ?"
+            },
+            {
+              "speaker": "B",
+              "english": "Yes, I can speak a little. I am learning.",
+              "kannada": "ಹೌದು, ನಾನು ಸ್ವಲ್ಪ ಮಾತನಾಡಬಲ್ಲೆ. ನಾನು ಕಲಿಯುತ್ತಿದ್ದೇನೆ."
+            },
+            {
+              "speaker": "A",
+              "english": "That's great. See you later.",
+              "kannada": "ಅದು ಉತ್ತಮ. ನಂತರ ಭೇಟಿಯಾಗೋಣ."
+            },
+            {
+              "speaker": "B",
+              "english": "Goodbye.",
+              "kannada": "ವಿದಾಯ."
+            }
+          ]
+        },
+        "speakingPractice": [
+          {
+            "english": "Practice the complete dialogue with a partner",
+            "kannada": "ಪಾಲುದಾರರೊಂದಿಗೆ ಸಂಪೂರ್ಣ ಸಂಭಾಷಣೆಯನ್ನು ಅಭ್ಯಾಸ ಮಾಡಿ"
+          }
+        ]
+      },
+      {
+        "id": 12,
+        "title": "Level 1 Test",
+        "kannadaTitle": "Level 1 ಪರೀಕ್ಷೆ",
+        "content": {
+          "explanation": "Test your survival English knowledge.",
+          "kannadaExplanation": "ನಿಮ್ಮ ಸರ್ವೈವಲ್ ಇಂಗ್ಲಿಷ್ ಜ್ಞಾನವನ್ನು ಪರೀಕ್ಷಿಸಿ.",
+          "testItems": [
+            "Greet someone in English",
+            "Introduce yourself (1 minute)",
+            "Use this/that correctly",
+            "Say 5 'I have/I need' sentences",
+            "Ask for help politely",
+            "Use can/cannot correctly"
+          ]
+        },
+        "speakingPractice": [
+          {
+            "english": "I am ready for Level 2",
+            "kannada": "ನಾನು Level 2 ಗೆ ಸಿದ್ಧ"
+          }
+        ]
+      }
+    ],
+    "masteryTest": {
+      "title": "Level 1 Mastery Test",
+      "instructions": "You must pass this test before moving to Level 2.",
+      "kannadaInstructions": "Level 2 ಗೆ ಹೋಗುವ ಮೊದಲು ಈ ಪರೀಕ್ಷೆಯನ್ನು ಪಾಸ್ ಮಾಡಬೇಕು.",
+      "questions": [
+        {
+          "question": "Complete: Good _____",
+          "type": "multiple",
+          "options": ["night", "morning", "evening", "all are correct"],
+          "correct": "all are correct"
+        },
+        {
+          "question": "How do you say 'ನನ್ನ ಹೆಸರು' in English?",
+          "type": "multiple",
+          "options": ["My name is", "I am", "Myself", "Name is"],
+          "correct": "My name is"
+        },
+        {
+          "question": "Which is correct for things near you?",
+          "type": "multiple",
+          "options": ["This", "That", "These", "Both This and These"],
+          "correct": "Both This and These"
+        },
+        {
+          "question": "Introduce yourself for 1 minute",
+          "type": "speaking",
+          "answer": "user specific"
+        }
+      ]
+    }
+  },
+  "level2": {
+    "title": "Core Grammar Foundation",
+    "description": "Present tense, questions, daily routines",
+    "prerequisites": "Pass Level 1 test",
+    "objectives": [
+      "Use present simple tense correctly",
+      "Ask and answer questions",
+      "Talk about daily routines",
+      "Use question words properly",
+      "Understand subject-verb agreement"
+    ],
+    "lessons": [
+      {
+        "id": 1,
+        "title": "Present Simple Tense - I/You/We/They",
+        "kannadaTitle": "ವರ್ತಮಾನ ಕಾಲ - I/You/We/They",
+        "content": {
+          "explanation": "Use 'do' for I, you, we, and they in present simple tense.",
+          "kannadaExplanation": "I, you, we, they ಗೆ ವರ್ತಮಾನ ಕಾಲದಲ್ಲಿ 'do' ಬಳಸಿ.",
+          "patterns": [
+            {
+              "pattern": "I do",
+              "kannada": "ನಾನು ಮಾಡುತ್ತೇನೆ",
+              "examples": ["I do my work", "I do exercise", "I do homework"]
+            },
+            {
+              "pattern": "You do",
+              "kannada": "ನೀನು/ನೀವು ಮಾಡುತ್ತೀರಿ",
+              "examples": ["You do good work", "You do yoga", "You do your best"]
+            },
+            {
+              "pattern": "We do",
+              "kannada": "ನಾವು ಮಾಡುತ್ತೇವೆ",
+              "examples": ["We do business", "We do shopping", "We do practice"]
+            },
+            {
+              "pattern": "They do",
+              "kannada": "ಅವರು ಮಾಡುತ್ತಾರೆ",
+              "examples": ["They do their job", "They do exercise", "They do research"]
+            }
+          ]
+        },
+        "speakingPractice": [
+          {
+            "english": "I do my work every day",
+            "kannada": "ನಾನು ಪ್ರತಿದಿನ ನನ್ನ ಕೆಲಸ ಮಾಡುತ್ತೇನೆ"
+          },
+          {
+            "english": "We do shopping on Sunday",
+            "kannada": "ಭಾನುವಾರ ನಾವು ಶಾಪಿಂಗ್ ಮಾಡುತ್ತೇವೆ"
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "title": "Present Simple Tense - He/She/It",
+        "kannadaTitle": "ವರ್ತಮಾನ ಕಾಲ - He/She/It",
+        "content": {
+          "explanation": "Use 'does' for he, she, and it. Add 'es' or 's' to verbs.",
+          "kannadaExplanation": "he, she, it ಗೆ 'does' ಬಳಸಿ. ಕ್ರಿಯಾಪದಗಳಿಗೆ 'es' ಅಥವಾ 's' ಸೇರಿಸಿ.",
+          "patterns": [
+            {
+              "pattern": "He does",
+              "kannada": "ಅವನು ಮಾಡುತ್ತಾನೆ",
+              "examples": ["He does his work", "He does exercise", "He does cooking"]
+            },
+            {
+              "pattern": "She does",
+              "kannada": "ಅವಳು ಮಾಡುತ್ತಾಳೆ",
+              "examples": ["She does homework", "She does painting", "She does gardening"]
+            },
+            {
+              "pattern": "It does",
+              "kannada": "ಅದು ಮಾಡುತ್ತದೆ",
+              "examples": ["It does work", "It does magic", "It does the job"]
+            }
+          ]
+        },
+        "speakingPractice": [
+          {
+            "english": "He does his work well",
+            "kannada": "ಅವನು ತನ್ನ ಕೆಲಸವನ್ನು ಚೆನ್ನಾಗಿ ಮಾಡುತ್ತಾನೆ"
+          },
+          {
+            "english": "She does yoga every morning",
+            "kannada": "ಅವಳು ಪ್ರತಿ ಬೆಳಿಗೆ ಯೋಗ ಮಾಡುತ್ತಾಳೆ"
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "title": "Present Simple - Negative Sentences",
+        "kannadaTitle": "ವರ್ತಮಾನ ಕಾಲ - ನಕಾರಾತ್ಮಕ ವಾಕ್ಯಗಳು",
+        "content": {
+          "explanation": "Use 'do not' or 'don't' for negatives. Use 'does not' or 'doesn't' for he/she/it.",
+          "kannadaExplanation": "ನಕಾರಾತ್ಮಕಕ್ಕೆ 'do not' ಅಥವಾ 'don't' ಬಳಸಿ. he/she/it ಗೆ 'does not' ಅಥವಾ 'doesn't' ಬಳಸಿ.",
+          "patterns": [
+            {
+              "pattern": "I do not / I don't",
+              "kannada": "ನಾನು ಮಾಡುವುದಿಲ್ಲ",
+              "examples": ["I don't know", "I don't like coffee", "I don't have time"]
+            },
+            {
+              "pattern": "He does not / He doesn't",
+              "kannada": "ಅವನು ಮಾಡುವುದಿಲ್ಲ",
+              "examples": ["He doesn't work", "He doesn't speak Hindi", "He doesn't understand"]
+            },
+            {
+              "pattern": "They do not / They don't",
+              "kannada": "ಅವರು ಮಾಡುವುದಿಲ್ಲ",
+              "examples": ["They don't come", "They don't know", "They don't have money"]
+            }
+          ]
+        },
+        "speakingPractice": [
+          {
+            "english": "I don't know the answer",
+            "kannada": "ನನಗೆ ಉತ್ತರ ಗೊತ್ತಿಲ್ಲ"
+          },
+          {
+            "english": "He doesn't work on Sunday",
+            "kannada": "ಅವನು ಭಾನುವಾರ ಕೆಲಸ ಮಾಡುವುದಿಲ್ಲ"
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "title": "Present Simple - Questions",
+        "kannadaTitle": "ವರ್ತಮಾನ ಕಾಲ - ಪ್ರಶ್ನೆಗಳು",
+        "content": {
+          "explanation": "Start questions with 'Do' for I/you/we/they and 'Does' for he/she/it.",
+          "kannadaExplanation": "I/you/we/they ಗೆ 'Do' ದಿಂದ ಪ್ರಾರಂಭಿಸಿ. he/she/it ಗೆ 'Does' ದಿಂದ ಪ್ರಾರಂಭಿಸಿ.",
+          "patterns": [
+            {
+              "pattern": "Do you...?",
+              "kannada": "ನೀವು...?",
+              "examples": ["Do you like tea?", "Do you work here?", "Do you speak English?"]
+            },
+            {
+              "pattern": "Does he...?",
+              "kannada": "ಅವನು...?",
+              "examples": ["Does he live here?", "Does he know you?", "Does he have a car?"]
+            },
+            {
+              "pattern": "Do they...?",
+              "kannada": "ಅವರು...?",
+              "examples": ["Do they come daily?", "Do they understand?", "Do they need help?"]
+            }
+          ]
+        },
+        "speakingPractice": [
+          {
+            "english": "Do you like English?",
+            "kannada": "ನಿಮಗೆ ಇಂಗ್ಲಿಷ್ ಇಷ್ಟವೇ?"
+          },
+          {
+            "english": "Does he work in Bangalore?",
+            "kannada": "ಅವನು ಬೆಂಗಳೂರಿನಲ್ಲಿ ಕೆಲಸ ಮಾಡುತ್ತಾನೇ?"
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "title": "Question Words - What, Where, When",
+        "kannadaTitle": "ಪ್ರಶ್ನಾರ್ಥಕ ಪದಗಳು - What, Where, When",
+        "content": {
+          "explanation": "Use question words to ask specific questions.",
+          "kannadaExplanation": "ನಿರ್ದಿಷ್ಟ ಪ್ರಶ್ನೆಗಳನ್ನು ಕೇಳಲು ಪ್ರಶ್ನಾರ್ಥಕ ಪದಗಳನ್ನು ಬಳಸಿ.",
+          "patterns": [
+            {
+              "pattern": "What...?",
+              "kannada": "ಏನು...?",
+              "examples": ["What is your name?", "What do you do?", "What time is it?"]
+            },
+            {
+              "pattern": "Where...?",
+              "kannada": "ಎಲ್ಲಿ...?",
+              "examples": ["Where do you live?", "Where is the bank?", "Where are you from?"]
+            },
+            {
+              "pattern": "When...?",
+              "kannada": "ಯಾವಾಗ...?",
+              "examples": ["When do you start?", "When is the meeting?", "When did you come?"]
+            }
+          ]
+        },
+        "speakingPractice": [
+          {
+            "english": "What is your name? Where do you live?",
+            "kannada": "ನಿಮ್ಮ ಹೆಸರು ಏನು? ನೀವು ಎಲ್ಲಿ ವಾಸಿಸುತ್ತೀರಿ?"
+          },
+          {
+            "english": "When do you go to office?",
+            "kannada": "ನೀವು ಯಾವಾಗ ಆಫೀಸ್‌ಗೆ ಹೋಗುತ್ತೀರಿ?"
+          }
+        ]
+      },
+      {
+        "id": 6,
+        "title": "Question Words - Who, Why, How",
+        "kannadaTitle": "ಪ್ರಶ್ನಾರ್ಥಕ ಪದಗಳು - Who, Why, How",
+        "content": {
+          "explanation": "More question words for different types of questions.",
+          "kannadaExplanation": "ವಿವಿಧ ರೀತಿಯ ಪ್ರಶ್ನೆಗಳಿಗೆ ಹೆಚ್ಚಿನ ಪ್ರಶ್ನಾರ್ಥಕ ಪದಗಳು.",
+          "patterns": [
+            {
+              "pattern": "Who...?",
+              "kannada": "ಯಾರು...?",
+              "examples": ["Who is this?", "Who called you?", "Who is your teacher?"]
+            },
+            {
+              "pattern": "Why...?",
+              "kannada": "ಏಕೆ...?",
+              "examples": ["Why are you late?", "Why do you study?", "Why is it closed?"]
+            },
+            {
+              "pattern": "How...?",
+              "kannada": "ಹೇಗೆ...?",
+              "examples": ["How are you?", "How do you go?", "How much is it?"]
+            }
+          ]
+        },
+        "speakingPractice": [
+          {
+            "english": "Who is your friend? Why are you here?",
+            "kannada": "ನಿಮ್ಮ ಸ್ನೇಹಿತ ಯಾರು? ನೀವು ಇಲ್ಲಿ ಏಕೆ ಇದ್ದೀರಿ?"
+          },
+          {
+            "english": "How do you come to office?",
+            "kannada": "ನೀವು ಆಫೀಸ್‌ಗೆ ಹೇಗೆ ಬರುತ್ತೀರಿ?"
+          }
+        ]
+      },
+      {
+        "id": 7,
+        "title": "Daily Routines - Morning",
+        "kannadaTitle": "ದೈನಂದಿನ ಕಾರ್ಯಗಳು - ಬೆಳಿಗೆ",
+        "content": {
+          "explanation": "Talk about what you do in the morning.",
+          "kannadaExplanation": "ನೀವು ಬೆಳಿಗೆ ಏನು ಮಾಡುತ್ತೀರಿ ಎಂದು ಹೇಳಿ.",
+          "vocabulary": [
+            {"english": "wake up", "kannada": "ಎಚ್ಚರಗೊಳ್ಳುವುದು"},
+            {"english": "brush teeth", "kannada": "ಹಲ್ಲು ತೂರುವುದು"},
+            {"english": "take bath", "kannada": "ಸ್ನಾನ ಮಾಡುವುದು"},
+            {"english": "eat breakfast", "kannada": "ಬೆಳಗಿನ ಊಟ ಮಾಡುವುದು"},
+            {"english": "go to work/school", "kannada": "ಕೆಲಸ/ಶಾಲೆಗೆ ಹೋಗುವುದು"}
+          ],
+          "examples": [
+            "I wake up at 6 AM",
+            "I brush my teeth",
+            "I take a bath",
+            "I eat breakfast at 7 AM",
+            "I go to work at 8 AM"
+          ]
+        },
+        "speakingPractice": [
+          {
+            "english": "I wake up at 6 AM and brush my teeth",
+            "kannada": "ನಾನು ಬೆಳಿಗೆ 6 ಗಂಟೆಗೆ ಎಚ್ಚರಗೊಳ್ಳುತ್ತೇನೆ ಮತ್ತು ಹಲ್ಲು ತೂರುತ್ತೇನೆ"
+          },
+          {
+            "english": "I eat breakfast and go to work",
+            "kannada": "ನಾನು ಬೆಳಗಿನ ಊಟ ಮಾಡುತ್ತೇನೆ ಮತ್ತು ಕೆಲಸಕ್ಕೆ ಹೋಗುತ್ತೇನೆ"
+          }
+        ]
+      },
+      {
+        "id": 8,
+        "title": "Daily Routines - Afternoon/Evening",
+        "kannadaTitle": "ದೈನಂದಿನ ಕಾರ್ಯಗಳು - ಮಧ್ಯಾಹ್ನ/ಸಾಯಂಕಾಲ",
+        "content": {
+          "explanation": "Talk about afternoon and evening activities.",
+          "kannadaExplanation": "ಮಧ್ಯಾಹ್ನ ಮತ್ತು ಸಾಯಂಕಾಲದ ಚಟುವಟಿಕೆಗಳ ಬಗ್ಗೆ ಹೇಳಿ.",
+          "vocabulary": [
+            {"english": "eat lunch", "kannada": "ಮಧ್ಯಾಹ್ನದ ಊಟ ಮಾಡುವುದು"},
+            {"english": "come home", "kannada": "ಮನೆಗೆ ಬರುವುದು"},
+            {"english": "take rest", "kannada": "ವಿಶ್ರಾಂತಿ ಪಡೆಯುವುದು"},
+            {"english": "watch TV", "kannada": "TV ನೋಡುವುದು"},
+            {"english": "go to sleep", "kannada": "ನಿದ್ರಿಸಲು ಹೋಗುವುದು"}
+          ],
+          "examples": [
+            "I eat lunch at 1 PM",
+            "I come home at 6 PM",
+            "I take rest for some time",
+            "I watch TV in the evening",
+            "I go to sleep at 10 PM"
+          ]
+        },
+        "speakingPractice": [
+          {
+            "english": "I eat lunch at 1 PM and come home at 6 PM",
+            "kannada": "ನಾನು ಮಧ್ಯಾಹ್ನ 1 ಗಂಟೆಗೆ ಊಟ ಮಾಡುತ್ತೇನೆ ಮತ್ತು ಸಾಯಂಕಾಲ 6 ಗಂಟೆಗೆ ಮನೆಗೆ ಬರುತ್ತೇನೆ"
+          },
+          {
+            "english": "I watch TV and go to sleep at 10 PM",
+            "kannada": "ನಾನು TV ನೋಡುತ್ತೇನೆ ಮತ್ತು ರಾತ್ರಿ 10 ಗಂಟೆಗೆ ನಿದ್ರಿಸಲು ಹೋಗುತ್ತೇನೆ"
+          }
+        ]
+      },
+      {
+        "id": 9,
+        "title": "Frequency Words",
+        "kannadaTitle": "ಆವರ್ತನ ಪದಗಳು",
+        "content": {
+          "explanation": "Words that tell how often something happens.",
+          "kannadaExplanation": "ಏನಾದರೂ ಎಷ್ಟು ಬಾರಿ ಸಂಭವಿಸುತ್ತದೆ ಎಂದು ಹೇಳುವ ಪದಗಳು.",
+          "patterns": [
+            {
+              "pattern": "always",
+              "kannada": "ಯಾವಾಗಲೂ",
+              "examples": ["I always come on time", "He always helps others"]
+            },
+            {
+              "pattern": "usually",
+              "kannada": "ಸಾಮಾನ್ಯವಾಗಿ",
+              "examples": ["I usually wake up early", "She usually walks to work"]
+            },
+            {
+              "pattern": "sometimes",
+              "kannada": "ಕೆಲವೊಮ್ಮೆ",
+              "examples": ["I sometimes skip breakfast", "They sometimes visit us"]
+            },
+            {
+              "pattern": "never",
+              "kannada": "ಎಂದಿಗೂ ಇಲ್ಲ",
+              "examples": ["I never lie", "He never comes late"]
+            }
+          ]
+        },
+        "speakingPractice": [
+          {
+            "english": "I always wake up at 6 AM",
+            "kannada": "ನಾನು ಯಾವಾಗಲೂ ಬೆಳಿಗೆ 6 ಗಂಟೆಗೆ ಎಚ್ಚರಗೊಳ್ಳುತ್ತೇನೆ"
+          },
+          {
+            "english": "I sometimes go to the park",
+            "kannada": "ನಾನು ಕೆಲವೊಮ್ಮೆ ಪಾರ್ಕ್‌ಗೆ ಹೋಗುತ್ತೇನೆ"
+          }
+        ]
+      },
+      {
+        "id": 10,
+        "title": "Subject-Verb Agreement",
+        "kannadaTitle": "ಕರ್ತ-ಕ್ರಿಯಾಪದ ಒಪ್ಪಂದ",
+        "content": {
+          "explanation": "Verbs must agree with their subjects in number and person.",
+          "kannadaExplanation": "ಕ್ರಿಯಾಪದಗಳು ತಮ್ಮ ಕರ್ತೃಪದಗಳೊಂದಿಗೆ ಸಂಖ್ಯೆ ಮತ್ತು ಪುರುಷದಲ್ಲಿ ಒಪ್ಪಂದವಾಗಬೇಕು.",
+          "rules": [
+            "I/You/We/They + base verb (do, go, eat)",
+            "He/She/It + verb+s/does/goes/eats",
+            "Singular subjects take singular verbs",
+            "Plural subjects take plural verbs"
+          ],
+          "examples": [
+            "I go to school - He goes to school",
+            "We eat rice - She eats rice",
+            "They play football - He plays football"
+          ]
+        },
+        "speakingPractice": [
+          {
+            "english": "He goes to office, I go to school",
+            "kannada": "ಅವನು ಆಫೀಸ್‌ಗೆ ಹೋಗುತ್ತಾನೆ, ನಾನು ಶಾಲೆಗೆ ಹೋಗುತ್ತೇನೆ"
+          },
+          {
+            "english": "She reads books, We read newspapers",
+            "kannada": "ಅವಳು ಪುಸ್ತಕಗಳನ್ನು ಓದುತ್ತಾಳೆ, ನಾವು ವೃತ್ತಪತ್ರಿಕೆಗಳನ್ನು ಓದುತ್ತೇವೆ"
+          }
+        ]
+      },
+      {
+        "id": 11,
+        "title": "There is / There are",
+        "kannadaTitle": "There is / There are",
+        "content": {
+          "explanation": "Use 'there is' for singular and 'there are' for plural.",
+          "kannadaExplanation": "ಏಕವಚನಕ್ಕೆ 'there is' ಮತ್ತು ಬಹುವಚನಕ್ಕೆ 'there are' ಬಳಸಿ.",
+          "patterns": [
+            {
+              "pattern": "There is",
+              "kannada": "ಇಲ್ಲಿ ಒಂದು... ಇದೆ",
+              "examples": ["There is a book", "There is a table", "There is a problem"]
+            },
+            {
+              "pattern": "There are",
+              "kannada": "ಇಲ್ಲಿ... ಇವೆ",
+              "examples": ["There are many books", "There are two tables", "There are some problems"]
+            }
+          ]
+        },
+        "speakingPractice": [
+          {
+            "english": "There is a computer on the table",
+            "kannada": "ಕೋಷ್ಟಕದ ಮೇಲೆ ಒಂದು ಕಂಪ್ಯೂಟರ್ ಇದೆ"
+          },
+          {
+            "english": "There are many students in the class",
+            "kannada": "ತರಗತಿಯಲ್ಲಿ ಹಲವಾರು ವಿದ್ಯಾರ್ಥಿಗಳಿದ್ದಾರೆ"
+          }
+        ]
+      },
+      {
+        "id": 12,
+        "title": "Have / Has",
+        "kannadaTitle": "Have / Has",
+        "content": {
+          "explanation": "Use 'have' with I/you/we/they, 'has' with he/she/it.",
+          "kannadaExplanation": "I/you/we/they ಗೆ 'have', he/she/it ಗೆ 'has' ಬಳಸಿ.",
+          "patterns": [
+            {
+              "pattern": "I have / You have / We have / They have",
+              "kannada": "ನನಗಿದೆ / ನಿಮಗಿದೆ / ನಮಗಿದೆ / ಅವರಿಗಿದೆ",
+              "examples": ["I have a car", "You have time", "We have a house", "They have children"]
+            },
+            {
+              "pattern": "He has / She has / It has",
+              "kannada": "ಅವನಿಗಿದೆ / ಅವಳಿಗಿದೆ / ಅದಕ್ಕಿದೆ",
+              "examples": ["He has a bike", "She has a job", "It has a name"]
+            }
+          ]
+        },
+        "speakingPractice": [
+          {
+            "english": "I have a car, He has a bike",
+            "kannada": "ನನಗೆ ಕಾರು ಇದೆ, ಅವನಿಗೆ ಬೈಕ್ ಇದೆ"
+          },
+          {
+            "english": "We have a big house",
+            "kannada": "ನಮಗೆ ಒಂದು ದೊಡ್ಡ ಮನೆ ಇದೆ"
+          }
+        ]
+      },
+      {
+        "id": 13,
+        "title": "Prepositions of Time",
+        "kannadaTitle": "ಕಾಲದ ಉಪಸರ್ಗಗಳು",
+        "content": {
+          "explanation": "Use 'in', 'on', 'at' for different time expressions.",
+          "kannadaExplanation": "ವಿವಿಧ ಕಾಲ ವ್ಯಕ್ತಪಡಿಸಲು 'in', 'on', 'at' ಬಳಸಿ.",
+          "patterns": [
+            {
+              "pattern": "in",
+              "kannada": "ನಲ್ಲಿ",
+              "examples": ["in the morning", "in the evening", "in 2024", "in January"]
+            },
+            {
+              "pattern": "on",
+              "kannada": "ನಲ್ಲಿ (ದಿನಾಂಕ)",
+              "examples": ["on Monday", "on 5th January", "on my birthday"]
+            },
+            {
+              "pattern": "at",
+              "kannada": "ನಲ್ಲಿ (ಸಮಯ)",
+              "examples": ["at 6 AM", "at noon", "at night"]
+            }
+          ]
+        },
+        "speakingPractice": [
+          {
+            "english": "I wake up at 6 AM in the morning",
+            "kannada": "ನಾನು ಬೆಳಿಗೆ 6 ಗಂಟೆಗೆ ಎಚ್ಚರಗೊಳ್ಳುತ್ತೇನೆ"
+          },
+          {
+            "english": "The meeting is on Monday at 10 AM",
+            "kannada": "ಸಭೆಯು ಸೋಮವಾರ ಬೆಳಿಗೆ 10 ಗಂಟೆಗೆ ಇದೆ"
+          }
+        ]
+      },
+      {
+        "id": 14,
+        "title": "Prepositions of Place",
+        "kannadaTitle": "ಸ್ಥಳದ ಉಪಸರ್ಗಗಳು",
+        "content": {
+          "explanation": "Use 'in', 'on', 'at' for different place expressions.",
+          "kannadaExplanation": "ವಿವಿಧ ಸ್ಥಳ ವ್ಯಕ್ತಪಡಿಸಲು 'in', 'on', 'at' ಬಳಸಿ.",
+          "patterns": [
+            {
+              "pattern": "in",
+              "kannada": "ಒಳಗೆ",
+              "examples": ["in the room", "in the box", "in Bangalore"]
+            },
+            {
+              "pattern": "on",
+              "kannada": "ಮೇಲೆ",
+              "examples": ["on the table", "on the wall", "on the floor"]
+            },
+            {
+              "pattern": "at",
+              "kannada": "ನಲ್ಲಿ (ನಿರ್ದಿಷ್ಟ ಸ್ಥಳ)",
+              "examples": ["at the bus stop", "at the office", "at home"]
+            }
+          ]
+        },
+        "speakingPractice": [
+          {
+            "english": "The book is on the table",
+            "kannada": "ಪುಸ್ತಕವು ಕೋಷ್ಟಕದ ಮೇಲೆ ಇದೆ"
+          },
+          {
+            "english": "I am at the office",
+            "kannada": "ನಾನು ಆಫೀಸಿನಲ್ಲಿದ್ದೇನೆ"
+          }
+        ]
+      },
+      {
+        "id": 15,
+        "title": "Level 2 Test",
+        "kannadaTitle": "Level 2 ಪರೀಕ್ಷೆ",
+        "content": {
+          "explanation": "Test your core grammar knowledge.",
+          "kannadaExplanation": "ನಿಮ್ಮ ಮೂಲಭೂತ ವ್ಯಾಕರಣ ಜ್ಞಾನವನ್ನು ಪರೀಕ್ಷಿಸಿ.",
+          "testItems": [
+            "Use present simple tense correctly",
+            "Ask 5 different types of questions",
+            "Describe your daily routine",
+            "Use frequency words correctly",
+            "Use prepositions of time and place"
+          ]
+        },
+        "speakingPractice": [
+          {
+            "english": "I am ready for Level 3",
+            "kannada": "ನಾನು Level 3 ಗೆ ಸಿದ್ಧ"
+          }
+        ]
+      }
+    ],
+    "masteryTest": {
+      "title": "Level 2 Mastery Test",
+      "instructions": "You must pass this test before moving to Level 3.",
+      "kannadaInstructions": "Level 3 ಗೆ ಹೋಗುವ ಮೊದಲು ಈ ಪರೀಕ್ಷೆಯನ್ನು ಪಾಸ್ ಮಾಡಬೇಕು.",
+      "questions": [
+        {
+          "question": "Complete: He ___ to school every day.",
+          "type": "multiple",
+          "options": ["go", "goes", "going", "went"],
+          "correct": "goes"
+        },
+        {
+          "question": "___ you like coffee?",
+          "type": "multiple",
+          "options": ["Does", "Do", "Did", "Is"],
+          "correct": "Do"
+        },
+        {
+          "question": "I wake up ___ 6 AM ___ the morning.",
+          "type": "multiple",
+          "options": ["at, in", "in, at", "on, in", "at, on"],
+          "correct": "at, in"
+        },
+        {
+          "question": "Describe your daily routine (1 minute)",
+          "type": "speaking",
+          "answer": "user specific"
+        }
+      ]
+    }
+  },
+  "level3": {
+    "title": "Daily Life English",
+    "description": "Present continuous, home, family",
+    "prerequisites": "Pass Level 2 test",
+    "objectives": [
+      "Use present continuous tense correctly",
+      "Talk about home and family",
+      "Make polite requests",
+      "Ask for help",
+      "Describe ongoing actions"
+    ],
+    "lessons": [
+      {
+        "id": 1,
+        "title": "Present Continuous Tense",
+        "kannadaTitle": "ವರ್ತಮಾನ ನಿರಂತರ ಕಾಲ",
+        "content": {
+          "explanation": "Use 'am/is/are + verb-ing' for actions happening now.",
+          "kannadaExplanation": "ಈಗ ನಡೆಯುತ್ತಿರುವ ಕ್ರಿಯೆಗಳಿಗೆ 'am/is/are + verb-ing' ಬಳಸಿ.",
+          "patterns": [
+            {
+              "pattern": "I am + verb-ing",
+              "kannada": "ನಾನು... ಮಾಡುತ್ತಿದ್ದೇನೆ",
+              "examples": ["I am eating", "I am working", "I am reading"]
+            },
+            {
+              "pattern": "He/She/It is + verb-ing",
+              "kannada": "ಅವನು/ಅವಳು/ಅದು... ಮಾಡುತ್ತಿದೆ",
+              "examples": ["He is sleeping", "She is cooking", "It is raining"]
+            },
+            {
+              "pattern": "We/They are + verb-ing",
+              "kannada": "ನಾವು/ಅವರು... ಮಾಡುತ್ತಿದ್ದಾರೆ",
+              "examples": ["We are playing", "They are studying", "We are talking"]
+            }
+          ]
+        },
+        "speakingPractice": [
+          {
+            "english": "I am studying English now",
+            "kannada": "ನಾನು ಈಗ ಇಂಗ್ಲಿಷ್ ಅಧ್ಯಯನ ಮಾಡುತ್ತಿದ್ದೇನೆ"
+          },
+          {
+            "english": "She is cooking dinner",
+            "kannada": "ಅವಳು ರಾತ್ರಿಯ ಊಟ ಮಾಡುತ್ತಿದ್ದಾಳೆ"
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "title": "Present Continuous - Negative",
+        "kannadaTitle": "ವರ್ತಮಾನ ನಿರಂತರ ಕಾಲ - ನಕಾರಾತ್ಮಕ",
+        "content": {
+          "explanation": "Use 'am not/is not/are not + verb-ing' for negative.",
+          "kannadaExplanation": "ನಕಾರಾತ್ಮಕಕ್ಕೆ 'am not/is not/are not + verb-ing' ಬಳಸಿ.",
+          "patterns": [
+            {
+              "pattern": "I am not + verb-ing",
+              "kannada": "ನಾನು... ಮಾಡುತ್ತಿಲ್ಲ",
+              "examples": ["I am not working", "I am not sleeping", "I am not eating"]
+            },
+            {
+              "pattern": "He is not / She is not / It is not + verb-ing",
+              "kannada": "ಅವನು/ಅವಳು/ಅದು... ಮಾಡುತ್ತಿಲ್ಲ",
+              "examples": ["He is not coming", "She is not studying", "It is not working"]
+            },
+            {
+              "pattern": "We are not / They are not + verb-ing",
+              "kannada": "ನಾವು/ಅವರು... ಮಾಡುತ್ತಿಲ್ಲ",
+              "examples": ["We are not playing", "They are not working", "We are not going"]
+            }
+          ]
+        },
+        "speakingPractice": [
+          {
+            "english": "I am not working today",
+            "kannada": "ನಾನು ಈಗ ಕೆಲಸ ಮಾಡುತ್ತಿಲ್ಲ"
+          },
+          {
+            "english": "He is not coming to the meeting",
+            "kannada": "ಅವನು ಸಭೆಗೆ ಬರುತ್ತಿಲ್ಲ"
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "title": "Present Continuous - Questions",
+        "kannadaTitle": "ವರ್ತಮಾನ ನಿರಂತರ ಕಾಲ - ಪ್ರಶ್ನೆಗಳು",
+        "content": {
+          "explanation": "Use 'Am/Are/Is + subject + verb-ing' for questions.",
+          "kannadaExplanation": "ಪ್ರಶ್ನೆಗಳಿಗೆ 'Am/Are/Is + subject + verb-ing' ಬಳಸಿ.",
+          "patterns": [
+            {
+              "pattern": "Am I + verb-ing?",
+              "kannada": "ನಾನು... ಮಾಡುತ್ತಿದ್ದೇನೆಯ?",
+              "examples": ["Am I doing right?", "Am I speaking correctly?"]
+            },
+            {
+              "pattern": "Are you + verb-ing?",
+              "kannada": "ನೀವು... ಮಾಡುತ್ತಿದ್ದೀರಿ?",
+              "examples": ["Are you listening?", "Are you working today?", "Are you coming?"]
+            },
+            {
+              "pattern": "Is he/she/it + verb-ing?",
+              "kannada": "ಅವನು/ಅವಳು/ಅದು... ಮಾಡುತ್ತಿದೆಯ?",
+              "examples": ["Is he sleeping?", "Is she cooking?", "Is it raining?"]
+            }
+          ]
+        },
+        "speakingPractice": [
+          {
+            "english": "Are you listening to me?",
+            "kannada": "ನೀವು ನನ್ನ ಮಾತನ್ನು ಕೇಳುತ್ತಿದ್ದೀರಿ?"
+          },
+          {
+            "english": "Is she working from home?",
+            "kannada": "ಅವಳು ಮನೆಯಿಂದ ಕೆಲಸ ಮಾಡುತ್ತಿದ್ದಾಳೆಯ?"
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "title": "Family Members",
+        "kannadaTitle": "ಕುಟುಂಬದ ಸದಸ್ಯರು",
+        "content": {
+          "explanation": "Learn vocabulary for family members.",
+          "kannadaExplanation": "ಕುಟುಂಬದ ಸದಸ್ಯರಿಗಾಗಿ ಶಬ್ದಕೋಶವನ್ನು ಕಲಿಯಿರಿ.",
+          "vocabulary": [
+            {"english": "father", "kannada": "ತಂದೆ"},
+            {"english": "mother", "kannada": "ತಾಯಿ"},
+            {"english": "brother", "kannada": "ಸಹೋದರ"},
+            {"english": "sister", "kannada": "ಸಹೋದರಿ"},
+            {"english": "son", "kannada": "ಮಗ"},
+            {"english": "daughter", "kannada": "ಮಗಳು"},
+            {"english": "grandfather", "kannada": "ಅಜ್ಜ"},
+            {"english": "grandmother", "kannada": "ಅಜ್ಜಿ"},
+            {"english": "husband", "kannada": "ಗಂಡ"},
+            {"english": "wife", "kannada": "ಹೆಂಡತಿ"}
+          ]
+        },
+        "speakingPractice": [
+          {
+            "english": "This is my father. His name is...",
+            "kannada": "ಇದು ನನ್ನ ತಂದೆ. ಅವರ ಹೆಸರು..."
+          },
+          {
+            "english": "I have one brother and one sister",
+            "kannada": "ನನಗೆ ಒಬ್ಬ ಸಹೋದರ ಮತ್ತು ಒಬ್ಬ ಸಹೋದರಿ ಇದ್ದಾರೆ"
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "title": "Describing Family",
+        "kannadaTitle": "ಕುಟುಂಬವನ್ನು ವಿವರಿಸುವುದು",
+        "content": {
+          "explanation": "Talk about your family members and their occupations.",
+          "kannadaExplanation": "ನಿಮ್ಮ ಕುಟುಂಬದ ಸದಸ್ಯರು ಮತ್ತು ಅವರ ವೃತ್ತಿಗಳ ಬಗ್ಗೆ ಮಾತನಾಡಿ.",
+          "patterns": [
+            {
+              "pattern": "My father is a...",
+              "kannada": "ನನ್ನ ತಂದೆ ಒಬ್ಬ...",
+              "examples": ["My father is a teacher", "My father is a doctor", "My father is a farmer"]
+            },
+            {
+              "pattern": "My mother works at...",
+              "kannada": "ನನ್ನ ತಾಯಿ... ನಲ್ಲಿ ಕೆಲಸ ಮಾಡುತ್ತಾರೆ",
+              "examples": ["My mother works at home", "My mother works in a bank", "My mother works in a school"]
+            },
+            {
+              "pattern": "My brother/sister is studying",
+              "kannada": "ನನ್ನ ಸಹೋದರ/ಸಹೋದರಿ ಅಧ್ಯಯನ ಮಾಡುತ್ತಾರೆ",
+              "examples": ["My brother is studying engineering", "My sister is studying medicine"]
+            }
+          ]
+        },
+        "speakingPractice": [
+          {
+            "english": "My father is a teacher and my mother is a homemaker",
+            "kannada": "ನನ್ನ ತಂದೆ ಒಬ್ಬ ಶಿಕ್ಷಕರು ಮತ್ತು ನನ್ನ ತಾಯಿ ಗೃಹಿಣಿ"
+          },
+          {
+            "english": "My brother is working in Bangalore",
+            "kannada": "ನನ್ನ ಸಹೋದರ ಬೆಂಗಳೂರಿನಲ್ಲಿ ಕೆಲಸ ಮಾಡುತ್ತಾರೆ"
+          }
+        ]
+      },
+      {
+        "id": 6,
+        "title": "Home and Rooms",
+        "kannadaTitle": "ಮನೆ ಮತ್ತು ಕೋಣೆಗಳು",
+        "content": {
+          "explanation": "Learn vocabulary for different rooms in a house.",
+          "kannadaExplanation": "ಮನೆಯ ವಿವಿಧ ಕೋಣೆಗಳಿಗಾಗಿ ಶಬ್ದಕೋಶವನ್ನು ಕಲಿಯಿರಿ.",
+          "vocabulary": [
+            {"english": "living room", "kannada": "ಕುಟುಂಬ ಕೋಣೆ"},
+            {"english": "bedroom", "kannada": "ಶಯನಗೃಹ"},
+            {"english": "kitchen", "kannada": "ಅಡುಗೆ ಮನೆ"},
+            {"english": "bathroom", "kannada": "ಸ್ನಾನಾಗಾರ"},
+            {"english": "dining room", "kannada": "ಊಟದ ಕೋಣೆ"},
+            {"english": "balcony", "kannada": "ಬಾಲ್ಕನಿ"},
+            {"english": "roof", "kannada": "ಛಾವಣಿ"},
+            {"english": "gate", "kannada": "ಬಾಗಿಲು"}
+          ]
+        },
+        "speakingPractice": [
+          {
+            "english": "My house has three bedrooms",
+            "kannada": "ನನ್ನ ಮನೆಯಲ್ಲಿ ಮೂರು ಶಯನಗೃಹಗಳಿವೆ"
+          },
+          {
+            "english": "The kitchen is on the ground floor",
+            "kannada": "ಅಡುಗೆ ಮನೆಯು ಕೆಳ ಮಹಡಿಯಲ್ಲಿದೆ"
+          }
+        ]
+      },
+      {
+        "id": 7,
+        "title": "Household Items",
+        "kannadaTitle": "ಗೃಹೋಪಯೋಗಿ ವಸ್ತುಗಳು",
+        "content": {
+          "explanation": "Common items found in a home.",
+          "kannadaExplanation": "ಮನೆಯಲ್ಲಿ ಸಾಮಾನ್ಯವಾಗಿ ಕಾಣುವ ವಸ್ತುಗಳು.",
+          "vocabulary": [
+            {"english": "table", "kannada": "ಕೋಷ್ಟಕ"},
+            {"english": "chair", "kannada": "ಕುರ್ಚಿ"},
+            {"english": "bed", "kannada": "ಹಾಸಿಗೆ"},
+            {"english": "sofa", "kannada": "ಸೋಫಾ"},
+            {"english": "television", "kannada": "ದೂರದರ್ಶನ"},
+            {"english": "refrigerator", "kannada": "ಫ್ರಿಜ್"},
+            {"english": "fan", "kannada": "ಪಂಖ"},
+            {"english": "light", "kannada": "ದೀಪ"},
+            {"english": "window", "kannada": "ಕಿಟಕಿ"},
+            {"english": "door", "kannada": "ಬಾಗಿಲು"}
+          ]
+        },
+        "speakingPractice": [
+          {
+            "english": "There is a table and four chairs in the dining room",
+            "kannada": "ಊಟದ ಕೋಣೆಯಲ್ಲಿ ಒಂದು ಕೋಷ್ಟಕ ಮತ್ತು ನಾಲ್ಕು ಕುರ್ಚಿಗಳಿವೆ"
+          },
+          {
+            "english": "The television is in the living room",
+            "kannada": "ದೂರದರ್ಶನವು ಕುಟುಂಬ ಕೋಣೆಯಲ್ಲಿದೆ"
+          }
+        ]
+      },
+      {
+        "id": 8,
+        "title": "Polite Requests",
+        "kannadaTitle": "ವಿನಮ್ರವಾದ ವಿನಂತಿಗಳು",
+        "content": {
+          "explanation": "How to ask for things politely at home.",
+          "kannadaExplanation": "ಮನೆಯಲ್ಲಿ ವಿಷಯಗಳನ್ನು ವಿನಮ್ರವಾಗಿ ಕೇಳುವುದು ಹೇಗೆ.",
+          "patterns": [
+            {
+              "pattern": "Can you please...?",
+              "kannada": "ದಯವಿಟ್ಟು... ಮಾಡಬಲ್ಲೇ?",
+              "examples": ["Can you please help me?", "Can you please pass the salt?", "Can you please open the door?"]
+            },
+            {
+              "pattern": "Could you please...?",
+              "kannada": "ದಯವಿಟ್ಟು... ಮಾಡಬಲ್ಲೇ?",
+              "examples": ["Could you please wait?", "Could you please come here?", "Could you please check this?"]
+            },
+            {
+              "pattern": "Would you mind...?",
+              "kannada": "ನೀವು... ಮಾಡಲು ಆಸ್ಪಾಸಿಸುವಿರಾ?",
+              "examples": ["Would you mind helping me?", "Would you mind waiting?", "Would you mind closing the door?"]
+            }
+          ]
+        },
+        "speakingPractice": [
+          {
+            "english": "Can you please help me with this work?",
+            "kannada": "ಈ ಕೆಲಸದಲ್ಲಿ ದಯವಿಟ್ಟು ನನಗೆ ಸಹಾಯ ಮಾಡಬಲ್ಲೇ?"
+          },
+          {
+            "english": "Could you please pass me the water?",
+            "kannada": "ದಯವಿಟ್ಟು ನನಗೆ ನೀರನ್ನು ಕೊಡಬಲ್ಲೇ?"
+          }
+        ]
+      },
+      {
+        "id": 9,
+        "title": "Asking for Help",
+        "kannadaTitle": "ಸಹಾಯ ಕೇಳುವುದು",
+        "content": {
+          "explanation": "How to ask for help when you need it.",
+          "kannadaExplanation": "ನಿಮಗೆ ಸಹಾಯ ಬೇಕಾದಾಗ ಹೇಗೆ ಕೇಳಬೇಕು.",
+          "patterns": [
+            {
+              "pattern": "I need help with...",
+              "kannada": "ನನಗೆ... ನಲ್ಲಿ ಸಹಾಯ ಬೇಕು",
+              "examples": ["I need help with cooking", "I need help with homework", "I need help with this problem"]
+            },
+            {
+              "pattern": "Can you help me...?",
+              "kannada": "ನನಗೆ ಸಹಾಯ ಮಾಡಬಲ್ಲೇ?",
+              "examples": ["Can you help me carry this?", "Can you help me find this?", "Can you help me understand?"]
+            },
+            {
+              "pattern": "Please help me to...",
+              "kannada": "ದಯವಿಟ್ಟು ನನಗೆ... ಮಾಡಲು ಸಹಾಯ ಮಾಡಿ",
+              "examples": ["Please help me to find this", "Please help me to understand", "Please help me to fix this"]
+            }
+          ]
+        },
+        "speakingPractice": [
+          {
+            "english": "I need help with this English homework",
+            "kannada": "ಈ ಇಂಗ್ಲಿಷ್ ಹೋಮ್‌ವರ್ಕ್‌ನಲ್ಲಿ ನನಗೆ ಸಹಾಯ ಬೇಕು"
+          },
+          {
+            "english": "Can you help me find the remote?",
+            "kannada": "ದೂರಸಂಚಾರವನ್ನು ಹುಡುಕಲು ನನಗೆ ಸಹಾಯ ಮಾಡಬಲ್ಲೇ?"
+          }
+        ]
+      },
+      {
+        "id": 10,
+        "title": "Daily Activities at Home",
+        "kannadaTitle": "ಮನೆಯಲ್ಲಿ ದೈನಂದಿನ ಚಟುವಟಿಕೆಗಳು",
+        "content": {
+          "explanation": "Talk about what you do at home using present continuous.",
+          "kannadaExplanation": "ವರ್ತಮಾನ ನಿರಂತರ ಕಾಲವನ್ನು ಬಳಸಿ ನೀವು ಮನೆಯಲ್ಲಿ ಏನು ಮಾಡುತ್ತೀರಿ ಎಂದು ಹೇಳಿ.",
+          "activities": [
+            "cooking food",
+            "cleaning the house",
+            "watching television",
+            "reading books",
+            "talking with family",
+            "resting",
+            "working from home",
+            "doing exercise"
+          ]
+        },
+        "speakingPractice": [
+          {
+            "english": "My mother is cooking in the kitchen",
+            "kannada": "ನನ್ನ ತಾಯಿ ಅಡುಗೆ ಮನೆಯಲ್ಲಿ ಅಡುಗೆ ಮಾಡುತ್ತಿದ್ದಾರೆ"
+          },
+          {
+            "english": "My father is watching television in the living room",
+            "kannada": "ನನ್ನ ತಂದೆ ಕುಟುಂಬ ಕೋಣೆಯಲ್ಲಿ ದೂರದರ್ಶನ ನೋಡುತ್ತಿದ್ದಾರೆ"
+          }
+        ]
+      },
+      {
+        "id": 11,
+        "title": "Present Simple vs Present Continuous",
+        "kannadaTitle": "ವರ್ತಮಾನ ಕಾಲ vs ವರ್ತಮಾನ ನಿರಂತರ ಕಾಲ",
+        "content": {
+          "explanation": "Difference between habits (present simple) and current actions (present continuous).",
+          "kannadaExplanation": "ಅಭ್ಯಾಸಗಳು (ವರ್ತಮಾನ ಕಾಲ) ಮತ್ತು ಪ್ರಸ್ತುತ ಕ್ರಿಯೆಗಳ (ವರ್ತಮಾನ ನಿರಂತರ ಕಾಲ) ನಡುವಿನ ವ್ಯತ್ಯಾಸ.",
+          "rules": [
+            "Present Simple: Habits, routines, facts (I work every day)",
+            "Present Continuous: Happening now, temporary (I am working now)",
+            "Present Simple: Permanent situations (I live in Bangalore)",
+            "Present Continuous: Temporary situations (I am staying in a hotel)"
+          ],
+          "examples": [
+            "I work here (habit) vs I am working now (current action)",
+            "He speaks English (ability) vs He is speaking English now (current action)",
+            "They play football (habit) vs They are playing football now (current action)"
+          ]
+        },
+        "speakingPractice": [
+          {
+            "english": "I usually wake up at 6 AM, but today I am waking up at 7 AM",
+            "kannada": "ನಾನು ಸಾಮಾನ್ಯವಾಗಿ ಬೆಳಿಗೆ 6 ಗಂಟೆಗೆ ಎಚ್ಚರಗೊಳ್ಳುತ್ತೇನೆ, ಆದರೆ ಇಂದು 7 ಗಂಟೆಗೆ ಎಚ್ಚರಗೊಳ್ಳುತ್ತಿದ್ದೇನೆ"
+          },
+          {
+            "english": "She works in a bank, but this week she is working from home",
+            "kannada": "ಅವಳು ಬ್ಯಾಂಕ್‌ನಲ್ಲಿ ಕೆಲಸ ಮಾಡುತ್ತಾಳೆ, ಆದರೆ ಈ ವಾರ ಅವಳು ಮನೆಯಿಂದ ಕೆಲಸ ಮಾಡುತ್ತಿದ್ದಾಳೆ"
+          }
+        ]
+      },
+      {
+        "id": 12,
+        "title": "Level 3 Test",
+        "kannadaTitle": "Level 3 ಪರೀಕ್ಷೆ",
+        "content": {
+          "explanation": "Test your daily life English knowledge.",
+          "kannadaExplanation": "ನಿಮ್ಮ ದೈನಂದಿನ ಜೀವನ ಇಂಗ್ಲಿಷ್ ಜ್ಞಾನವನ್ನು ಪರೀಕ್ಷಿಸಿ.",
+          "testItems": [
+            "Use present continuous tense correctly",
+            "Describe your family members",
+            "Talk about your home",
+            "Make polite requests",
+            "Ask for help appropriately"
+          ]
+        },
+        "speakingPractice": [
+          {
+            "english": "I am ready for Level 4",
+            "kannada": "ನಾನು Level 4 ಗೆ ಸಿದ್ಧ"
+          }
+        ]
+      }
+    ],
+    "masteryTest": {
+      "title": "Level 3 Mastery Test",
+      "instructions": "You must pass this test before moving to Level 4.",
+      "kannadaInstructions": "Level 4 ಗೆ ಹೋಗುವ ಮೊದಲು ಈ ಪರೀಕ್ಷೆಯನ್ನು ಪಾಸ್ ಮಾಡಬೇಕು.",
+      "questions": [
+        {
+          "question": "What is he doing now?",
+          "type": "multiple",
+          "options": ["He work", "He works", "He is working", "He working"],
+          "correct": "He is working"
+        },
+        {
+          "question": "___ you listening to music?",
+          "type": "multiple",
+          "options": ["Do", "Are", "Is", "Does"],
+          "correct": "Are"
+        },
+        {
+          "question": "Where is the kitchen?",
+          "type": "multiple",
+          "options": ["in the roof", "on the table", "on the ground floor", "at the bedroom"],
+          "correct": "on the ground floor"
+        },
+        {
+          "question": "Describe your family (1 minute)",
+          "type": "speaking",
+          "answer": "user specific"
+        }
+      ]
+    }
+  },
+  "level4": {
+    "title": "Past and Future Foundation",
+    "description": "Basic past, future, time expressions",
+    "prerequisites": "Pass Level 3 test",
+    "objectives": [
+      "Use past simple tense correctly",
+      "Use future tense with 'will' and 'going to'",
+      "Talk about past events",
+      "Talk about future plans",
+      "Use time expressions correctly"
+    ],
+    "lessons": [
+      {
+        "id": 1,
+        "title": "Past Simple Tense - Regular Verbs",
+        "kannadaTitle": "ಭೂತಕಾಲ - ನಿಯಮಿತ ಕ್ರಿಯಾಪದಗಳು",
+        "content": {
+          "explanation": "Add '-ed' to regular verbs for past simple.",
+          "kannadaExplanation": "ನಿಯಮಿತ ಕ್ರಿಯಾಪದಗಳಿಗೆ ಭೂತಕಾಲದಲ್ಲಿ '-ed' ಸೇರಿಸಿ.",
+          "patterns": [
+            {
+              "pattern": "verb + ed",
+              "kannada": "ಕ್ರಿಯಾಪದ + ed",
+              "examples": ["work → worked", "play → played", "cook → cooked"]
+            }
+          ],
+          "examples": [
+            "I worked yesterday",
+            "She played football",
+            "We cooked dinner"
+          ]
+        },
+        "speakingPractice": [
+          {
+            "english": "I worked in a bank last year",
+            "kannada": "ಕಳೆದ ವರ್ಷ ನಾನು ಬ್ಯಾಂಕ್‌ನಲ್ಲಿ ಕೆಲಸ ಮಾಡಿದ್ದೆ"
+          },
+          {
+            "english": "We played cricket yesterday",
+            "kannada": "ನಾವು ನಿನ್ನೆ ಕ್ರಿಕೆಟ್ ಆಡಿದ್ದೇವೆ"
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "title": "Past Simple Tense - Irregular Verbs",
+        "kannadaTitle": "ಭೂತಕಾಲ - ಅನಿಯಮಿತ ಕ್ರಿಯಾಪದಗಳು",
+        "content": {
+          "explanation": "Irregular verbs have special past forms.",
+          "kannadaExplanation": "ಅನಿಯಮಿತ ಕ್ರಿಯಾಪದಗಳು ವಿಶೇಷ ಭೂತಕಾಲ ರೂಪಗಳನ್ನು ಹೊಂದಿವೆ.",
+          "patterns": [
+            {
+              "pattern": "go → went",
+              "kannada": "go → went",
+              "examples": ["I went to school", "He went home"]
+            },
+            {
+              "pattern": "come → came",
+              "kannada": "come → came",
+              "examples": ["She came here", "They came yesterday"]
+            },
+            {
+              "pattern": "eat → ate",
+              "kannada": "eat → ate",
+              "examples": ["I ate lunch", "We ate dinner"]
+            },
+            {
+              "pattern": "have → had",
+              "kannada": "have → had",
+              "examples": ["I had a car", "She had money"]
+            }
+          ]
+        },
+        "speakingPractice": [
+          {
+            "english": "I went to Mysore last week",
+            "kannada": "ಕಳೆದ ವಾರ ನಾನು ಮೈಸೂರಿಗೆ ಹೋದ್ದೆ"
+          },
+          {
+            "english": "She had breakfast at 8 AM",
+            "kannada": "ಅವಳು ಬೆಳಿಗೆ 8 ಗಂಟೆಗೆ ಬೆಳಗಿನ ಊಟ ಮಾಡಿದ್ದಳು"
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "title": "Past Simple - Negative",
+        "kannadaTitle": "ಭೂತಕಾಲ - ನಕಾರಾತ್ಮಕ",
+        "content": {
+          "explanation": "Use 'did not' or 'didn't' + base verb for negatives.",
+          "kannadaExplanation": "ನಕಾರಾತ್ಮಕಕ್ಕೆ 'did not' ಅಥವಾ 'didn't' + ಮೂಲ ಕ್ರಿಯಾಪದ ಬಳಸಿ.",
+          "patterns": [
+            {
+              "pattern": "I did not / I didn't",
+              "kannada": "ನಾನು... ಮಾಡಲಿಲ್ಲ",
+              "examples": ["I didn't go", "I didn't eat", "I didn't work"]
+            },
+            {
+              "pattern": "He/She did not",
+              "kannada": "ಅವನು/ಅವಳು... ಮಾಡಲಿಲ್ಲ",
+              "examples": ["He didn't come", "She didn't know", "It didn't work"]
+            }
+          ]
+        },
+        "speakingPractice": [
+          {
+            "english": "I didn't go to the meeting",
+            "kannada": "ನಾನು ಸಭೆಗೆ ಹೋಗಲಿಲ್ಲ"
+          },
+          {
+            "english": "She didn't call me yesterday",
+            "kannada": "ಅವಳು ನಿನ್ನೆ ನನಗೆ ಕಾಲ್ ಮಾಡಲಿಲ್ಲ"
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "title": "Past Simple - Questions",
+        "kannadaTitle": "ಭೂತಕಾಲ - ಪ್ರಶ್ನೆಗಳು",
+        "content": {
+          "explanation": "Use 'Did' + subject + base verb for questions.",
+          "kannadaExplanation": "ಪ್ರಶ್ನೆಗಳಿಗೆ 'Did' + subject + ಮೂಲ ಕ್ರಿಯಾಪದ ಬಳಸಿ.",
+          "patterns": [
+            {
+              "pattern": "Did you...?",
+              "kannada": "ನೀವು...?",
+              "examples": ["Did you go?", "Did you eat?", "Did you like it?"]
+            },
+            {
+              "pattern": "Did he/she...?",
+              "kannada": "ಅವನು/ಅವಳು...?",
+              "examples": ["Did he come?", "Did she work?", "Did it rain?"]
+            }
+          ]
+        },
+        "speakingPractice": [
+          {
+            "english": "Did you finish the work?",
+            "kannada": "ನೀವು ಕೆಲಸ ಮುಗಿಸಿದ್ದೀರಾ?"
+          },
+          {
+            "english": "Did she call you yesterday?",
+            "kannada": "ಅವಳು ನಿನ್ನೆ ನಿಮಗೆ ಕಾಲ್ ಮಾಡಿದ್ದಳಾ?"
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "title": "Future with Will",
+        "kannadaTitle": "Will ನೊಂದಿಗೆ ಭವಿಷ್ಯತ್",
+        "content": {
+          "explanation": "Use 'will' + base verb for future predictions and spontaneous decisions.",
+          "kannadaExplanation": "ಭವಿಷ್ಯ ಭಾವನೆಗಳಿಗೆ ಮತ್ತು ಸ್ವಯಂಚಾಲಿತ ನಿರ್ಧಾರಗಳಿಗೆ 'will' + ಮೂಲ ಕ್ರಿಯಾಪದ ಬಳಸಿ.",
+          "patterns": [
+            {
+              "pattern": "I will / I'll",
+              "kannada": "ನಾನು... ಮಾಡುತ್ತೇನೆ",
+              "examples": ["I will go", "I will help", "I'll call you"]
+            },
+            {
+              "pattern": "He/She will",
+              "kannada": "ಅವನು/ಅವಳು... ಮಾಡುತ್ತಾರೆ",
+              "examples": ["He will come", "She will work", "It will rain"]
+            }
+          ]
+        },
+        "speakingPractice": [
+          {
+            "english": "I will call you tomorrow",
+            "kannada": "ನಾನು ನಾಳೆ ನಿಮಗೆ ಕಾಲ್ ಮಾಡುತ್ತೇನೆ"
+          },
+          {
+            "english": "It will rain today",
+            "kannada": "ಇಂದು ಮಳೆ ಬರುತ್ತದೆ"
+          }
+        ]
+      },
+      {
+        "id": 6,
+        "title": "Future with Going To",
+        "kannadaTitle": "Going To ನೊಂದಿಗೆ ಭವಿಷ್ಯತ್",
+        "content": {
+          "explanation": "Use 'am/is/are going to + verb' for planned actions and predictions based on evidence.",
+          "kannadaExplanation": "ಯೋಜಿತ ಕ್ರಿಯೆಗಳಿಗೆ ಮತ್ತು ಸಾಕ್ಷ್ಯದ ಆಧಾರದ ಮೇಲೆ ಭವಿಷ್ಯಕ್ಕೆ 'am/is/are going to + verb' ಬಳಸಿ.",
+          "patterns": [
+            {
+              "pattern": "I am going to",
+              "kannada": "ನಾನು... ಮಾಡಲು ಉದ್ದೇಶಿಸಿದ್ದೇನೆ",
+              "examples": ["I am going to study", "I am going to buy a car"]
+            },
+            {
+              "pattern": "He/She is going to",
+              "kannada": "ಅವನು/ಅವಳು... ಮಾಡಲು ಉದ್ದೇಶಿಸಿದ್ದಾರೆ",
+              "examples": ["He is going to work", "She is going to cook"]
+            }
+          ]
+        },
+        "speakingPractice": [
+          {
+            "english": "I am going to learn English",
+            "kannada": "ನಾನು ಇಂಗ್ಲಿಷ್ ಕಲಿಯಲು ಉದ್ದೇಶಿಸಿದ್ದೇನೆ"
+          },
+          {
+            "english": "She is going to start a new job",
+            "kannada": "ಅವಳು ಹೊಸ ಕೆಲಸವನ್ನು ಪ್ರಾರಂಭಿಸಲು ಉದ್ದೇಶಿಸಿದ್ದಾಳೆ"
+          }
+        ]
+      },
+      {
+        "id": 7,
+        "title": "Time Expressions - Past",
+        "kannadaTitle": "ಕಾಲ ವ್ಯಕ್ತಪಡಿಕೆ - ಭೂತಕಾಲ",
+        "content": {
+          "explanation": "Words used to talk about past time.",
+          "kannadaExplanation": "ಭೂತಕಾಲದ ಬಗ್ಗೆ ಮಾತನಾಡಲು ಬಳಸುವ ಪದಗಳು.",
+          "vocabulary": [
+            {"english": "yesterday", "kannada": "ನಿನ್ನೆ"},
+            {"english": "last week", "kannada": "ಕಳೆದ ವಾರ"},
+            {"english": "last month", "kannada": "ಕಳೆದ ತಿಂಗಳು"},
+            {"english": "last year", "kannada": "ಕಳೆದ ವರ್ಷ"},
+            {"english": "ago", "kannada": "ಹಿಂದೆ"},
+            {"english": "in the past", "kannada": "ಹಿಂದೆ"}
+          ]
+        },
+        "speakingPractice": [
+          {
+            "english": "I went to Bangalore last week",
+            "kannada": "ಕಳೆದ ವಾರ ನಾನು ಬೆಂಗಳೂರಿಗೆ ಹೋದ್ದೆ"
+          },
+          {
+            "english": "She worked here two years ago",
+            "kannada": "ಅವಳು ಎರಡು ವರ್ಷಗಳ ಹಿಂದೆ ಇಲ್ಲಿ ಕೆಲಸ ಮಾಡಿದ್ದಳು"
+          }
+        ]
+      },
+      {
+        "id": 8,
+        "title": "Time Expressions - Future",
+        "kannadaTitle": "ಕಾಲ ವ್ಯಕ್ತಪಡಿಕೆ - ಭವಿಷ್ಯತ್",
+        "content": {
+          "explanation": "Words used to talk about future time.",
+          "kannadaExplanation": "ಭವಿಷ್ಯದ ಬಗ್ಗೆ ಮಾತನಾಡಲು ಬಳಸುವ ಪದಗಳು.",
+          "vocabulary": [
+            {"english": "tomorrow", "kannada": "ನಾಳೆ"},
+            {"english": "next week", "kannada": "ಮುಂದಿನ ವಾರ"},
+            {"english": "next month", "kannada": "ಮುಂದಿನ ತಿಂಗಳು"},
+            {"english": "next year", "kannada": "ಮುಂದಿನ ವರ್ಷ"},
+            {"english": "soon", "kannada": "ಶೀಘ್ರದಲ್ಲಿ"},
+            {"english": "in the future", "kannada": "ಭವಿಷ್ಯದಲ್ಲಿ"}
+          ]
+        },
+        "speakingPractice": [
+          {
+            "english": "I will meet you tomorrow",
+            "kannada": "ನಾನು ನಾಳೆ ನಿಮ್ಮನ್ನು ಭೇಟಿಯಾಗುತ್ತೇನೆ"
+          },
+          {
+            "english": "She is going to start next month",
+            "kannada": "ಅವಳು ಮುಂದಿನ ತಿಂಗಳು ಪ್ರಾರಂಭಿಸುತ್ತಾಳೆ"
+          }
+        ]
+      },
+      {
+        "id": 9,
+        "title": "Past vs Present vs Future",
+        "kannadaTitle": "ಭೂತ vs ವರ್ತಮಾನ vs ಭವಿಷ್ಯ",
+        "content": {
+          "explanation": "Understanding the difference between past, present, and future.",
+          "kannadaExplanation": "ಭೂತ, ವರ್ತಮಾನ, ಮತ್ತು ಭವಿಷ್ಯದ ನಡುವಿನ ವ್ಯತ್ಯಾಸವನ್ನು ಅರ್ಥಮಾಡಿಕೊಳ್ಳುವುದು.",
+          "examples": [
+            "I worked there (past)",
+            "I work there (present)",
+            "I will work there (future)"
+          ]
+        },
+        "speakingPractice": [
+          {
+            "english": "I worked in a bank, I work in an office, I will work in a company",
+            "kannada": "ನಾನು ಬ್ಯಾಂಕ್‌ನಲ್ಲಿ ಕೆಲಸ ಮಾಡಿದ್ದೆ, ನಾನು ಆಫೀಸಿನಲ್ಲಿ ಕೆಲಸ ಮಾಡುತ್ತೇನೆ, ನಾನು ಕಂಪನಿಯಲ್ಲಿ ಕೆಲಸ ಮಾಡುತ್ತೇನೆ"
+          },
+          {
+            "english": "Yesterday I was tired, today I am happy, tomorrow I will be busy",
+            "kannada": "ನಿನ್ನೆ ನಾನು ದಣಿದಿದ್ದೆ, ಇಂದು ನಾನು ಸಂತೋಷದಿದ್ದೇನೆ, ನಾಳೆ ನಾನು ಕಾರ್ಯನಿರತನಾಗಿರುತ್ತೇನೆ"
+          }
+        ]
+      },
+      {
+        "id": 10,
+        "title": "Level 4 Test",
+        "kannadaTitle": "Level 4 ಪರೀಕ್ಷೆ",
+        "content": {
+          "explanation": "Test your past and future knowledge.",
+          "kannadaExplanation": "ನಿಮ್ಮ ಭೂತ ಮತ್ತು ಭವಿಷ್ಯ ಜ್ಞಾನವನ್ನು ಪರೀಕ್ಷಿಸಿ.",
+          "testItems": [
+            "Use past simple tense correctly",
+            "Use future tense with will and going to",
+            "Talk about past events",
+            "Talk about future plans",
+            "Use time expressions correctly"
+          ]
+        },
+        "speakingPractice": [
+          {
+            "english": "I am ready for Level 5",
+            "kannada": "ನಾನು Level 5 ಗೆ ಸಿದ್ಧ"
+          }
+        ]
+      }
+    ],
+    "masteryTest": {
+      "title": "Level 4 Mastery Test",
+      "instructions": "You must pass this test before moving to Level 5.",
+      "kannadaInstructions": "Level 5 ಗೆ ಹೋಗುವ ಮೊದಲು ಈ ಪರೀಕ್ಷೆಯನ್ನು ಪಾಸ್ ಮಾಡಬೇಕು.",
+      "questions": [
+        {
+          "question": "I ___ to school yesterday.",
+          "type": "multiple",
+          "options": ["go", "went", "going", "will go"],
+          "correct": "went"
+        },
+        {
+          "question": "___ you eat lunch?",
+          "type": "multiple",
+          "options": ["Do", "Did", "Does", "Are"],
+          "correct": "Did"
+        },
+        {
+          "question": "I ___ call you tomorrow.",
+          "type": "multiple",
+          "options": ["will", "did", "am", "was"],
+          "correct": "will"
+        },
+        {
+          "question": "Talk about what you did yesterday (1 minute)",
+          "type": "speaking",
+          "answer": "user specific"
+        }
+      ]
+    }
+  },
+  "level5": {
+    "title": "Real World Situations",
+    "description": "Shopping, travel, phone, food",
+    "prerequisites": "Pass Level 4 test",
+    "objectives": ["Shop in English", "Use phone conversations", "Order food at restaurants", "Handle travel situations", "Deal with emergencies"],
+    "lessons": [
+      {"id": 1, "title": "Shopping Vocabulary", "kannadaTitle": "ಶಾಪಿಂಗ್ ಶಬ್ದಕೋಶ", "content": {"explanation": "Learn words for shopping.", "kannadaExplanation": "ಶಾಪಿಂಗ್‌ಗಾಗಿ ಶಬ್ದಗಳನ್ನು ಕಲಿಯಿರಿ.", "vocabulary": [{"english": "shop", "kannada": "ಅಂಗಡಿ"}, {"english": "market", "kannada": "ಮಾರುಕಟ್ಟೆ"}, {"english": "price", "kannada": "ಬೆಲೆ"}, {"english": "buy", "kannada": "ಖರೀದಿಸು"}, {"english": "sell", "kannada": "ಮಾರಾಟ"}, {"english": "discount", "kannada": "ರಿಯಾಯಿತಿ"}]}, "speakingPractice": [{"english": "I want to buy a shirt", "kannada": "ನಾನು ಶರ್ಟ್ ಖರೀದಿಸಲು ಬಯಸುತ್ತೇನೆ"}]},
+      {"id": 2, "title": "Shopping Conversations", "kannadaTitle": "ಶಾಪಿಂಗ್ ಸಂಭಾಷಣೆಗಳು", "content": {"explanation": "How to talk when shopping.", "kannadaExplanation": "ಶಾಪಿಂಗ್ ಮಾಡುವಾಗ ಹೇಗೆ ಮಾತನಾಡಬೇಕು.", "patterns": [{"pattern": "How much is this?", "kannada": "ಇದು ಎಷ್ಟು?", "examples": ["How much is this shirt?"]}, {"pattern": "Can I try this on?", "kannada": "ನಾನು ಇದನ್ನು ಧರಿಸಿ ನೋಡಬಹುದೇ?", "examples": ["Can I try this shirt on?"]}]}, "speakingPractice": [{"english": "How much is this shirt? Can I try it on?", "kannada": "ಈ ಶರ್ಟ್ ಎಷ್ಟು? ನಾನು ಇದನ್ನು ಧರಿಸಿ ನೋಡಬಹುದೇ?"}]},
+      {"id": 3, "title": "Phone Conversations", "kannadaTitle": "ದೂರವಾಣಿ ಸಂಭಾಷಣೆಗಳು", "content": {"explanation": "How to talk on the phone in English.", "kannadaExplanation": "ಇಂಗ್ಲಿಷ್‌ನಲ್ಲಿ ದೂರವಾಣಿಯಲ್ಲಿ ಹೇಗೆ ಮಾತನಾಡಬೇಕು.", "patterns": [{"pattern": "Hello, this is...", "kannada": "ಹೇಳೋ, ಇದು...", "examples": ["Hello, this is Ramesh"]}, {"pattern": "May I speak to...?", "kannada": "ನಾನು... ಜೊತೆ ಮಾತನಾಡಬಹುದೇ?", "examples": ["May I speak to Mr. Sharma?"]}]}, "speakingPractice": [{"english": "Hello, this is Ramesh. May I speak to Mr. Sharma?", "kannada": "ಹೇಳೋ, ಇದು ರಮೇಶ್. ನಾನು ಶ್ರೀ ಶರ್ಮಾ ಅವರೊಂದಿಗೆ ಮಾತನಾಡಬಹುದೇ?"}]},
+      {"id": 4, "title": "Restaurant Vocabulary", "kannadaTitle": "ರೆಸ್ಟೋರೆಂಟ್ ಶಬ್ದಕೋಶ", "content": {"explanation": "Words for eating at restaurants.", "kannadaExplanation": "ರೆಸ್ಟೋರೆಂಟ್‌ನಲ್ಲಿ ಊಟ ಮಾಡಲು ಶಬ್ದಗಳು.", "vocabulary": [{"english": "restaurant", "kannada": "ರೆಸ್ಟೋರೆಂಟ್"}, {"english": "menu", "kannada": "ಮೆನು"}, {"english": "order", "kannada": "ಆರ್ಡರ್"}, {"english": "waiter", "kannada": "ವೇಟರ್"}, {"english": "bill", "kannada": "ಬಿಲ್"}]}, "speakingPractice": [{"english": "I would like to see the menu", "kannada": "ನಾನು ಮೆನು ನೋಡಲು ಬಯಸುತ್ತೇನೆ"}]},
+      {"id": 5, "title": "Ordering Food", "kannadaTitle": "ಆಹಾರ ಆರ್ಡರ್ ಮಾಡುವುದು", "content": {"explanation": "How to order food in a restaurant.", "kannadaExplanation": "ರೆಸ್ಟೋರೆಂಟ್‌ನಲ್ಲಿ ಆಹಾರವನ್ನು ಹೇಗೆ ಆರ್ಡರ್ ಮಾಡಬೇಕು.", "patterns": [{"pattern": "I would like to order...", "kannada": "ನಾನು... ಆರ್ಡರ್ ಮಾಡಲು ಬಯಸುತ್ತೇನೆ", "examples": ["I would like to order chicken biryani"]}]}, "speakingPractice": [{"english": "I would like to order chicken biryani and a coffee", "kannada": "ನಾನು ಚಿಕನ್ ಬಿರಿಯಾನಿ ಮತ್ತು ಕಾಫಿ ಆರ್ಡರ್ ಮಾಡಲು ಬಯಸುತ್ತೇನೆ"}]},
+      {"id": 6, "title": "Travel Vocabulary", "kannadaTitle": "ಪ್ರಯಾಣ ಶಬ್ದಕೋಶ", "content": {"explanation": "Words for traveling.", "kannadaExplanation": "ಪ್ರಯಾಣಕ್ಕಾಗಿ ಶಬ್ದಗಳು.", "vocabulary": [{"english": "ticket", "kannada": "ಟಿಕೆಟ್"}, {"english": "train", "kannada": "ರೈಲು"}, {"english": "bus", "kannada": "ಬಸ್"}, {"english": "airport", "kannada": "ವಿಮಾನ ನಿಲ್ದಾಣ"}, {"english": "hotel", "kannada": "ಹೋಟೆಲ್"}]}, "speakingPractice": [{"english": "I need a ticket to Bangalore", "kannada": "ನನಗೆ ಬೆಂಗಳೂರಿಗೆ ಟಿಕೆಟ್ ಬೇಕು"}]},
+      {"id": 7, "title": "Asking for Directions", "kannadaTitle": "ದಿಕ್ಕು ಕೇಳುವುದು", "content": {"explanation": "How to ask for and give directions.", "kannadaExplanation": "ದಿಕ್ಕನ್ನು ಕೇಳಲು ಮತ್ತು ನೀಡಲು ಹೇಗೆ.", "patterns": [{"pattern": "Where is...?", "kannada": "... ಎಲ್ಲಿದೆ?", "examples": ["Where is the bus stop?"]}]}, "speakingPractice": [{"english": "Where is the nearest bus stop?", "kannada": "ಹತ್ತಿರದ ಬಸ್ ನಿಲ್ದಾಣ ಎಲ್ಲಿದೆ?"}]},
+      {"id": 8, "title": "Emergency Situations", "kannadaTitle": "ತುರ್ತು ಪರಿಸ್ಥಿತಿಗಳು", "content": {"explanation": "What to say in emergencies.", "kannadaExplanation": "ತುರ್ತು ಪರಿಸ್ಥಿತಿಗಳಲ್ಲಿ ಏನು ಹೇಳಬೇಕು.", "patterns": [{"pattern": "Help!", "kannada": "ಸಹಾಯ!", "examples": ["Help me please!"]}, {"pattern": "Call the police", "kannada": "ಪೊಲೀಸರನ್ನು ಕಾಲ್ ಮಾಡಿ", "examples": ["Call the police"]}]}, "speakingPractice": [{"english": "Help me please! I lost my bag", "kannada": "ದಯವಿಟ್ಟು ನನಗೆ ಸಹಾಯ ಮಾಡಿ! ನನ್ನ ಚೀಲ ಕಳೆದುಹೋಗಿದೆ"}]},
+      {"id": 9, "title": "Banking Vocabulary", "kannadaTitle": "ಬ್ಯಾಂಕಿಂಗ್ ಶಬ್ದಕೋಶ", "content": {"explanation": "Words for banking transactions.", "kannadaExplanation": "ಬ್ಯಾಂಕಿಂಗ್ ವಹಿವಾಟುಗಳಿಗಾಗಿ ಶಬ್ದಗಳು.", "vocabulary": [{"english": "bank", "kannada": "ಬ್ಯಾಂಕ್"}, {"english": "account", "kannada": "ಖಾತೆ"}, {"english": "deposit", "kannada": "ಠೇವಾತು"}, {"english": "withdraw", "kannada": "ಹಿಂಪಡೆಯಿರಿ"}, {"english": "ATM", "kannada": "ATM"}]}, "speakingPractice": [{"english": "I want to open a bank account", "kannada": "ನಾನು ಬ್ಯಾಂಕ್ ಖಾತೆ ತೆರೆಯಲು ಬಯಸುತ್ತೇನೆ"}]},
+      {"id": 10, "title": "Medical Situations", "kannadaTitle": "ವೈದ್ಯಕೀಯ ಪರಿಸ್ಥಿತಿಗಳು", "content": {"explanation": "How to talk to doctors.", "kannadaExplanation": "ವೈದ್ಯರೊಂದಿಗೆ ಹೇಗೆ ಮಾತನಾಡಬೇಕು.", "patterns": [{"pattern": "I have a...", "kannada": "ನನಗೆ... ಇದೆ", "examples": ["I have a headache", "I have a fever"]}]}, "speakingPractice": [{"english": "I have a headache and fever", "kannada": "ನನಗೆ ತಲೆನೋವು ಮತ್ತು ಜ್ವರ ಇದೆ"}]},
+      {"id": 11, "title": "Hotel Check-in", "kannadaTitle": "ಹೋಟೆಲ್ ಚೆಕ್-ಇನ್", "content": {"explanation": "How to check into a hotel.", "kannadaExplanation": "ಹೋಟೆಲ್‌ಗೆ ಹೇಗೆ ಚೆಕ್-ಇನ್ ಮಾಡಬೇಕು.", "patterns": [{"pattern": "I have a reservation", "kannada": "ನನಗೆ ಮೀಸಲಾತಿ ಇದೆ", "examples": ["I have a reservation under Ramesh"]}]}, "speakingPractice": [{"english": "I have a reservation under Ramesh for two nights", "kannada": "ರಮೇಶ್ ಹೆಸರಿನಲ್ಲಿ ಎರಡು ರಾತ್ರಿಗಳಿಗೆ ನನಗೆ ಮೀಸಲಾತಿ ಇದೆ"}]},
+      {"id": 12, "title": "Making Complaints", "kannadaTitle": "ದೂರುಗಳನ್ನು ಮಾಡುವುದು", "content": {"explanation": "How to make polite complaints.", "kannadaExplanation": "ವಿನಮ್ರವಾಗಿ ದೂರುಗಳನ್ನು ಹೇಗೆ ಮಾಡಬೇಕು.", "patterns": [{"pattern": "I am sorry, but...", "kannada": "ನಾನು ವಿಷಾದಿಸುತ್ತೇನೆ, ಆದರೆ...", "examples": ["I am sorry, but this is not working"]}]}, "speakingPractice": [{"english": "I am sorry, but this food is cold", "kannada": "ನಾನು ವಿಷಾದಿಸುತ್ತೇನೆ, ಆದರೆ ಈ ಆಹಾರವು ತಂಪಾಗಿದೆ"}]},
+      {"id": 13, "title": "Post Office", "kannadaTitle": "ಅಂಚೆ ಕಚೇರಿ", "content": {"explanation": "How to communicate at the post office.", "kannadaExplanation": "ಅಂಚೆ ಕಚೇರಿಯಲ್ಲಿ ಹೇಗೆ ಸಂವಹಿಸಿಕೊಳ್ಳಬೇಕು.", "vocabulary": [{"english": "post office", "kannada": "ಅಂಚೆ ಕಚೇರಿ"}, {"english": "letter", "kannada": "ಪತ್ರ"}, {"english": "stamp", "kannada": "ಅಂಚೆ ಚೀಟಿ"}, {"english": "parcel", "kannada": "ಪಾರ್ಸಲ್"}]}, "speakingPractice": [{"english": "I want to send a letter to Bangalore", "kannada": "ನಾನು ಬೆಂಗಳೂರಿಗೆ ಪತ್ರ ಕಳುಹಿಸಲು ಬಯಸುತ್ತೇನೆ"}]},
+      {"id": 14, "title": "At the Airport", "kannadaTitle": "ವಿಮಾನ ನಿಲ್ದಾಣದಲ್ಲಿ", "content": {"explanation": "How to communicate at the airport.", "kannadaExplanation": "ವಿಮಾನ ನಿಲ್ದಾಣದಲ್ಲಿ ಹೇಗೆ ಸಂವಹಿಸಿಕೊಳ್ಳಬೇಕು.", "patterns": [{"pattern": "Where is the...?", "kannada": "... ಎಲ್ಲಿದೆ?", "examples": ["Where is the check-in counter?"]}]}, "speakingPractice": [{"english": "Where is the check-in counter?", "kannada": "ಚೆಕ್-ಇನ್ ಕೌಂಟರ್ ಎಲ್ಲಿದೆ?"}]},
+      {"id": 15, "title": "Level 5 Test", "kannadaTitle": "Level 5 ಪರೀಕ್ಷೆ", "content": {"explanation": "Test your real world English.", "kannadaExplanation": "ನಿಮ್ಮ ವಾಸ್ತವ ಜಗತ್ತಿನ ಇಂಗ್ಲಿಷ್ ಅನ್ನು ಪರೀಕ್ಷಿಸಿ.", "testItems": ["Shop in English", "Use phone conversations", "Order food at restaurants", "Handle travel situations", "Deal with emergencies"]}, "speakingPractice": [{"english": "I am ready for Level 6", "kannada": "ನಾನು Level 6 ಗೆ ಸಿದ್ಧ"}]}
+    ],
+    "masteryTest": {
+      "title": "Level 5 Mastery Test",
+      "instructions": "You must pass this test before moving to Level 6.",
+      "kannadaInstructions": "Level 6 ಗೆ ಹೋಗುವ ಮೊದಲು ಈ ಪರೀಕ್ಷೆಯನ್ನು ಪಾಸ್ ಮಾಡಬೇಕು.",
+      "questions": [
+        {"question": "How much ___ this shirt?", "type": "multiple", "options": ["is", "are", "was", "were"], "correct": "is"},
+        {"question": "___ you like to order?", "type": "multiple", "options": ["Do", "Would", "Did", "Will"], "correct": "Would"},
+        {"question": "Where ___ the bus stop?", "type": "multiple", "options": ["is", "are", "was", "were"], "correct": "is"},
+        {"question": "Role-play: Order food at a restaurant (1 minute)", "type": "speaking", "answer": "user specific"}
+      ]
+    }
+  },
+  "level6": {
+    "title": "Descriptive English",
+    "description": "People, places, opinions, stories",
+    "prerequisites": "Pass Level 5 test",
+    "objectives": ["Describe people and places", "Express opinions", "Tell simple stories", "Use adjectives correctly", "Compare things"],
+    "lessons": [
+      {"id": 1, "title": "Describing People", "kannadaTitle": "ಜನರನ್ನು ವಿವರಿಸುವುದು", "content": {"explanation": "How to describe people's appearance.", "kannadaExplanation": "ಜನರ ಬಾಹ್ಯ ರೂಪವನ್ನು ಹೇಗೆ ವಿವರಿಸಬೇಕು.", "vocabulary": [{"english": "tall", "kannada": "ಎತ್ತರದ"}, {"english": "short", "kannada": "ಚಿಕ್ಕದಾಗಿರುವ"}, {"english": "thin", "kannada": "ತೆಳುವಾದ"}, {"english": "fat", "kannada": "ದಪ್ಪದ"}, {"english": "young", "kannada": "ಕಿರಿಯ"}, {"english": "old", "kannada": "ವೃದ್ಧ"}, {"english": "beautiful", "kannada": "ಸುಂದರ"}, {"english": "handsome", "kannada": "ಆಕರ್ಷಕ"}]}, "speakingPractice": [{"english": "He is tall and handsome", "kannada": "ಅವನು ಎತ್ತರದ ಮತ್ತು ಆಕರ್ಷಕ"}, {"english": "She is young and beautiful", "kannada": "ಅವಳು ಕಿರಿಯ ಮತ್ತು ಸುಂದರ"}]},
+      {"id": 2, "title": "Personality Adjectives", "kannadaTitle": "ವ್ಯಕ್ತಿತ್ವ ವಿಶೇಷಣಗಳು", "content": {"explanation": "Words to describe personality.", "kannadaExplanation": "ವ್ಯಕ್ತಿತ್ವವನ್ನು ವಿವರಿಸಲು ಪದಗಳು.", "vocabulary": [{"english": "kind", "kannada": "ದಯಾಳು"}, {"english": "friendly", "kannada": "ಸ್ನೇಹಿ"}, {"english": "smart", "kannada": "ಬುದ್ಧಿವಂತ"}, {"english": "funny", "kannada": "ತಮಾಷೆಯ"}, {"english": "quiet", "kannada": "ಸ್ತಬ್ಧ"}, {"english": "active", "kannada": "ಸಕ್ರಿಯ"}, {"english": "hardworking", "kannada": "ಪರಿಶ್ರಮಿ"}]}, "speakingPractice": [{"english": "He is very kind and friendly", "kannada": "ಅವನು ಬಹಳ ದಯಾಳು ಮತ್ತು ಸ್ನೇಹಿ"}, {"english": "She is smart and hardworking", "kannada": "ಅವಳು ಬುದ್ಧಿವಂತಿ ಮತ್ತು ಪರಿಶ್ರಮಿ"}]},
+      {"id": 3, "title": "Describing Places", "kannadaTitle": "ಸ್ಥಳಗಳನ್ನು ವಿವರಿಸುವುದು", "content": {"explanation": "How to describe different places.", "kannadaExplanation": "ವಿವಿಧ ಸ್ಥಳಗಳನ್ನು ಹೇಗೆ ವಿವರಿಸಬೇಕು.", "vocabulary": [{"english": "big", "kannada": "ದೊಡ್ಡ"}, {"english": "small", "kannada": "ಚಿಕ್ಕ"}, {"english": "beautiful", "kannada": "ಸುಂದರ"}, {"english": "crowded", "kannada": "ಜನನಿಬಿಡದ"}, {"english": "quiet", "kannada": "ಶಾಂತ"}, {"english": "noisy", "kannada": "ಗದ್ದಲದ"}, {"english": "clean", "kannada": "ಸ್ವಚ್ಛ"}, {"english": "dirty", "kannada": "ಕೊಳಕಾದ"}]}, "speakingPractice": [{"english": "Bangalore is a big and beautiful city", "kannada": "ಬೆಂಗಳೂರು ದೊಡ್ಡ ಮತ್ತು ಸುಂದರ ನಗರ"}, {"english": "My village is small and quiet", "kannada": "ನನ್ನ ಊರು ಚಿಕ್ಕದು ಮತ್ತು ಶಾಂತ"}]},
+      {"id": 4, "title": "Weather Descriptions", "kannadaTitle": "ಹವಾಮಾನ ವಿವರಣೆ", "content": {"explanation": "Talking about weather.", "kannadaExplanation": "ಹವಾಮಾನದ ಬಗ್ಗೆ ಮಾತನಾಡುವುದು.", "vocabulary": [{"english": "sunny", "kannada": "ಬಿಸಿಲಿನ"}, {"english": "rainy", "kannada": "ಮಳೆಯ"}, {"english": "cloudy", "kannada": "ಮೋಡದಿಂದ ಕೂಡಿದ"}, {"english": "windy", "kannada": "ಗಾಳಿಯ"}, {"english": "hot", "kannada": "ಬಿಸಿಯಾದ"}, {"english": "cold", "kannada": "ತಂಪಾದ"}, {"english": "humid", "kannada": "ತೇವಾಂಶಯುಕ್ತ"}]}, "speakingPractice": [{"english": "Today is sunny and hot", "kannada": "ಇಂದು ಬಿಸಿಲಿನ ಮತ್ತು ಬಿಸಿಯಾಗಿದೆ"}, {"english": "It is rainy and cold today", "kannada": "ಇಂದು ಮಳೆಯ ಮತ್ತು ತಂಪಾಗಿದೆ"}]},
+      {"id": 5, "title": "Expressing Opinions", "kannadaTitle": "ಅಭಿಪ್ರಾಯಗಳನ್ನು ವ್ಯಕ್ತಪಡಿಸುವುದು", "content": {"explanation": "How to give your opinion.", "kannadaExplanation": "ನಿಮ್ಮ ಅಭಿಪ್ರಾಯವನ್ನು ಹೇಗೆ ನೀಡಬೇಕು.", "patterns": [{"pattern": "I think...", "kannada": "ನನಗೆ ಅನಿಸುತ್ತೆ...", "examples": ["I think this is good", "I think he is right"]}, {"pattern": "In my opinion...", "kannada": "ನನ್ನ ಅಭಿಪ್ರಾಯದಲ್ಲಿ...", "examples": ["In my opinion, this is better"]}, {"pattern": "I believe...", "kannada": "ನಾನು ನಂಬುತ್ತೇನೆ...", "examples": ["I believe we can do it"]}]}, "speakingPractice": [{"english": "I think this movie is very good", "kannada": "ನನಗೆ ಅನಿಸುತ್ತೆ ಈ ಚಲನಚಿತ್ರವು ಬಹಳ ಉತ್ತಮ"}, {"english": "In my opinion, English is important", "kannada": "ನನ್ನ ಅಭಿಪ್ರಾಯದಲ್ಲಿ, ಇಂಗ್ಲಿಷ್ ಮುಖ್ಯವಾಗಿದೆ"}]},
+      {"id": 6, "title": "Agreeing and Disagreeing", "kannadaTitle": "ಒಪ್ಪುಗೆ ಮತ್ತು ಭಿನ್ನಾಭಿಪ್ರಾಯ", "content": {"explanation": "Polite ways to agree and disagree.", "kannadaExplanation": "ಒಪ್ಪುವ ಮತ್ತು ಒಪ್ಪದಿರುವ ವಿನಮ್ರ ಮಾರ್ಗಗಳು.", "patterns": [{"pattern": "I agree with you", "kannada": "ನಾನು ನಿಮಗೆ ಒಪ್ಪುತ್ತೇನೆ", "examples": ["I agree with you", "I completely agree"]}, {"pattern": "I disagree", "kannada": "ನಾನು ಒಪ್ಪುವುದಿಲ್ಲ", "examples": ["I disagree with that", "I'm afraid I disagree"]}, {"pattern": "I'm not sure", "kannada": "ನನಗೆ ಖಚಿತವಿಲ್ಲ", "examples": ["I'm not sure about that"]}]}, "speakingPractice": [{"english": "I agree with your opinion", "kannada": "ನಾನು ನಿಮ್ಮ ಅಭಿಪ್ರಾಯಕ್ಕೆ ಒಪ್ಪುತ್ತೇನೆ"}, {"english": "I disagree, I think it's different", "kannada": "ನಾನು ಒಪ್ಪುವುದಿಲ್ಲ, ನನಗೆ ಅದು ಬೇರೆಯಾಗಿ ಅನಿಸುತ್ತೆ"}]},
+      {"id": 7, "title": "Telling Past Stories", "kannadaTitle": "ಭೂತಕಾಲದ ಕಥೆಗಳನ್ನು ಹೇಳುವುದು", "content": {"explanation": "How to tell stories about the past.", "kannadaExplanation": "ಭೂತಕಾಲದ ಬಗ್ಗೆ ಕಥೆಗಳನ್ನು ಹೇಗೆ ಹೇಳಬೇಕು.", "patterns": [{"pattern": "Last year/week/yesterday...", "kannada": "ಕಳೆದ ವರ್ಷ/ವಾರ/ನಿನ್ನೆ...", "examples": ["Last year I went to Mysore", "Yesterday I met my friend"]}, {"pattern": "First, then, finally", "kannada": "ಮೊದಲು, ಆಮೇಲೆ, ಕೊನೆಗೆ", "examples": ["First I woke up, then I ate, finally I went to work"]}]}, "speakingPractice": [{"english": "Last year I went to Mysore with my family", "kannada": "ಕಳೆದ ವರ್ಷ ನಾನು ನನ್ನ ಕುಟುಂಬದೊಂದಿಗೆ ಮೈಸೂರಿಗೆ ಹೋದ್ದೆ"}, {"english": "Yesterday I met my old friend after many years", "kannada": "ನಿನ್ನೆ ನಾನು ಹಲವು ವರ್ಷಗಳ ನಂತರ ನನ್ನ ಹಳೆಯ ಸ್ನೇಹಿತನನ್ನು ಭೇಟಿಯಾದೆ"}]},
+      {"id": 8, "title": "Comparing Things", "kannadaTitle": "ವಸ್ತುಗಳನ್ನು ಹೋಲಿಸುವುದು", "content": {"explanation": "Using comparatives and superlatives.", "kannadaExplanation": "ಹೋಲಿಕೆಗಳು ಮತ್ತು ಅತ್ಯುತ್ತಮಗಳನ್ನು ಬಳಸುವುದು.", "patterns": [{"pattern": "adjective + er than", "kannada": "ವಿಶೇಷಣ + er than", "examples": ["bigger than", "taller than", "faster than"]}, {"pattern": "more + adjective", "kannada": "more + ವಿಶೇಷಣ", "examples": ["more beautiful than", "more expensive than"]}, {"pattern": "the most + adjective", "kannada": "the most + ವಿಶೇಷಣ", "examples": ["the most beautiful", "the most expensive"]}]}, "speakingPractice": [{"english": "Bangalore is bigger than Mysore", "kannada": "ಬೆಂಗಳೂರು ಮೈಸೂರಿಗಿಂತ ದೊಡ್ಡದು"}, {"english": "This is the most beautiful place I have seen", "kannada": "ಇದು ನಾನು ನೋಡಿದ ಅತ್ಯಂತ ಸುಂದರ ಸ್ಥಳ"}]},
+      {"id": 9, "title": "Describing Experiences", "kannadaTitle": "ಅನುಭವಗಳನ್ನು ವಿವರಿಸುವುದು", "content": {"explanation": "Talking about your experiences.", "kannadaExplanation": "ನಿಮ್ಮ ಅನುಭವಗಳ ಬಗ್ಗೆ ಮಾತನಾಡುವುದು.", "patterns": [{"pattern": "I have never...", "kannada": "ನಾನು ಎಂದೂ...", "examples": ["I have never been abroad", "I have never seen snow"]}, {"pattern": "I have experienced...", "kannada": "ನನಗೆ ಅನುಭವವಾಗಿದೆ...", "examples": ["I have experienced many things"]}]}, "speakingPractice": [{"english": "I have never been outside India", "kannada": "ನಾನು ಭಾರತದ ಹೊರಗೆ ಎಂದೂ ಹೋಗಿಲ್ಲ"}, {"english": "I have experienced working in different places", "kannada": "ನನಗೆ ವಿವಿಧ ಸ್ಥಳಗಳಲ್ಲಿ ಕೆಲಸ ಮಾಡುವ ಅನುಭವವಾಗಿದೆ"}]},
+      {"id": 10, "title": "Giving Reasons", "kannadaTitle": "ಕಾರಣಗಳನ್ನು ನೀಡುವುದು", "content": {"explanation": "Using because, so, therefore.", "kannadaExplanation": "because, so, therefore ಬಳಸುವುದು.", "patterns": [{"pattern": "because...", "kannada": "ಏಕೆಂದರೆ...", "examples": ["I like it because it is good", "I am tired because I worked late"]}, {"pattern": "so...", "kannada": "ಆದ್ದರಿಂದ...", "examples": ["It was late, so I went home", "I was hungry, so I ate"]}]}, "speakingPractice": [{"english": "I like English because it is useful", "kannada": "ನನಗೆ ಇಂಗ್ಲಿಷ್ ಇಷ್ಟು ಏಕೆಂದರೆ ಅದು ಉಪಯುಕ್ತ"}, {"english": "I was tired, so I went to sleep early", "kannada": "ನಾನು ದಣಿದಿದ್ದೆ, ಆದ್ದರಿಂದ ನಾನು ಮುಂಜಾನವೇ ಮಲಗಿದೆ"}]},
+      {"id": 11, "title": "Describing Feelings", "kannadaTitle": "ಭಾವನೆಗಳನ್ನು ವಿವರಿಸುವುದು", "content": {"explanation": "How to talk about feelings.", "kannadaExplanation": "ಭಾವನೆಗಳ ಬಗ್ಗೆ ಹೇಗೆ ಮಾತನಾಡಬೇಕು.", "vocabulary": [{"english": "happy", "kannada": "ಸಂತೋಷ"}, {"english": "sad", "kannada": "ದುಃಖ"}, {"english": "angry", "kannada": "ಕೋಪ"}, {"english": "excited", "kannada": "ಉತ್ಸಾಹ"}, {"english": "worried", "kannada": "ಚಿಂತಿತ"}, {"english": "proud", "kannada": "ಹೆಮ್ಮೆ"}, {"english": "nervous", "kannada": "ಗಾಬರಿ"}]}, "speakingPractice": [{"english": "I am very happy today", "kannada": "ನಾನು ಇಂದು ಬಹಳ ಸಂತೋಷದಿದ್ದೇನೆ"}, {"english": "I feel excited about the new job", "kannada": "ಹೊಸ ಕೆಲಸದ ಬಗ್ಗೆ ನನಗೆ ಉತ್ಸಾಹವಾಗಿದೆ"}]},
+      {"id": 12, "title": "Level 6 Test", "kannadaTitle": "Level 6 ಪರೀಕ್ಷೆ", "content": {"explanation": "Test your descriptive English.", "kannadaExplanation": "ನಿಮ್ಮ ವಿವರಣಾತ್ಮಕ ಇಂಗ್ಲಿಷ್ ಅನ್ನು ಪರೀಕ್ಷಿಸಿ.", "testItems": ["Describe people and places", "Express opinions", "Tell simple stories", "Use adjectives correctly", "Compare things"]}, "speakingPractice": [{"english": "I am ready for Level 7", "kannada": "ನಾನು Level 7 ಗೆ ಸಿದ್ಧ"}]}
+    ],
+    "masteryTest": {
+      "title": "Level 6 Mastery Test",
+      "instructions": "You must pass this test before moving to Level 7.",
+      "kannadaInstructions": "Level 7 ಗೆ ಹೋಗುವ ಮೊದಲು ಈ ಪರೀಕ್ಷೆಯನ್ನು ಪಾಸ್ ಮಾಡಬೇಕು.",
+      "questions": [
+        {"question": "He is ___ than me.", "type": "multiple", "options": ["taller", "tallest", "more tall", "tall"], "correct": "taller"},
+        {"question": "This is the ___ city in India.", "type": "multiple", "options": ["big", "bigger", "biggest", "more big"], "correct": "biggest"},
+        {"question": "I think ___ good idea.", "type": "multiple", "options": ["it is a", "is it a", "it a", "a is"], "correct": "it is a"},
+        {"question": "Describe your best friend (1 minute)", "type": "speaking", "answer": "user specific"}
+      ]
+    }
+  },
+  "level7": {
+    "title": "Workplace & Professional",
+    "description": "Office, emails, interviews",
+    "prerequisites": "Pass Level 6 test",
+    "objectives": ["Use office vocabulary", "Write professional emails", "Handle job interviews", "Talk about work experience", "Participate in meetings"],
+    "lessons": [
+      {"id": 1, "title": "Office Vocabulary", "kannadaTitle": "ಕಚೇರಿ ಶಬ್ದಕೋಶ", "content": {"explanation": "Common words used in offices.", "kannadaExplanation": "ಕಚೇರಿಗಳಲ್ಲಿ ಸಾಮಾನ್ಯವಾಗಿ ಬಳಸುವ ಪದಗಳು.", "vocabulary": [{"english": "office", "kannada": "ಕಚೇರಿ"}, {"english": "meeting", "kannada": "ಸಭೆ"}, {"english": "colleague", "kannada": "ಸಹೋದ್ಯೋಗಿ"}, {"english": "manager", "kannada": "ವ್ಯವಸ್ಥಾಪಕ"}, {"english": "deadline", "kannada": "ಕೊನೆಯ ದಿನಾಂಕ"}, {"english": "report", "kannada": "ವರದಿ"}, {"english": "project", "kannada": "ಯೋಜನೆ"}, {"english": "presentation", "kannada": "ಪ್ರಸ್ತುತಿ"}]}, "speakingPractice": [{"english": "I have a meeting at 10 AM", "kannada": "ನನಗೆ ಬೆಳಿಗೆ 10 ಗಂಟೆಗೆ ಸಭೆ ಇದೆ"}, {"english": "My manager asked for a report", "kannada": "ನನ್ನ ವ್ಯವಸ್ಥಾಪಕರು ವರದಿಯನ್ನು ಕೇಳಿದರು"}]},
+      {"id": 2, "title": "Job Titles and Roles", "kannadaTitle": "ಹುದ್ದುಗಳು ಮತ್ತು ಪಾತ್ರಗಳು", "content": {"explanation": "Common job titles.", "kannadaExplanation": "ಸಾಮಾನ್ಯ ಹುದ್ದುಗಳು.", "vocabulary": [{"english": "engineer", "kannada": "ಎಂಜಿನಿಯರ್"}, {"english": "doctor", "kannada": "ವೈದ್ಯ"}, {"english": "teacher", "kannada": "ಶಿಕ್ಷಕ"}, {"english": "accountant", "kannada": "ಲೆಕ್ಕಪರಿಶೀಕ್ಷಕ"}, {"english": "manager", "kannada": "ವ್ಯವಸ್ಥಾಪಕ"}, {"english": "assistant", "kannada": "ಸಹಾಯಕ"}, {"english": "developer", "kannada": "ಡೆವಲಪರ್"}, {"english": "designer", "kannada": "ವಿನ್ಯಾಸಕ"}]}, "speakingPractice": [{"english": "I am a software engineer", "kannada": "ನಾನು ಒಬ್ಬ ಸಾಫ್ಟ್‌ವೇರ್ ಎಂಜಿನಿಯರ್"}, {"english": "She works as a manager", "kannada": "ಅವಳು ವ್ಯವಸ್ಥಾಪಕರಾಗಿ ಕೆಲಸ ಮಾಡುತ್ತಾಳೆ"}]},
+      {"id": 3, "title": "Email Writing Basics", "kannadaTitle": "ಇಮೇಲ್ ಬರೆಯುವ ಮೂಲಾಂಶಗಳು", "content": {"explanation": "How to write professional emails.", "kannadaExplanation": "ವೃತ್ತಿಪರ ಇಮೇಲ್‌ಗಳನ್ನು ಹೇಗೆ ಬರೆಯಬೇಕು.", "patterns": [{"pattern": "Dear [Name],", "kannada": "ಪ್ರಿಯ [ಹೆಸರು],", "examples": ["Dear Mr. Sharma,", "Dear Team,"]}, {"pattern": "I am writing to...", "kannada": "ನಾನು... ಬರೆಯುತ್ತಿದ್ದೇನೆ", "examples": ["I am writing to inquire about...", "I am writing to apply for..."]}, {"pattern": "Best regards,", "kannada": "ಶ್ರೇಷ್ಠ ವಂದನೆಗಳು,", "examples": ["Best regards,", "Sincerely,"]}]}, "speakingPractice": [{"english": "I will send you an email with the details", "kannada": "ನಾನು ವಿವರಗಳೊಂದಿಗೆ ನಿಮಗೆ ಇಮೇಲ್ ಕಳುಹಿಸುತ್ತೇನೆ"}, {"english": "Please check your email for the update", "kannada": "ದಯವಿಟ್ಟು ನವೀಕರಣಕ್ಕಾಗಿ ನಿಮ್ಮ ಇಮೇಲ್ ಪರಿಶೀಲಿಸಿ"}]},
+      {"id": 4, "title": "Job Interview - Introduction", "kannadaTitle": "ಉದ್ಯೋಗ ಸಂದರ್ಶನ - ಪರಿಚಯ", "content": {"explanation": "How to introduce yourself in an interview.", "kannadaExplanation": "ಸಂದರ್ಶನದಲ್ಲಿ ನಿಮ್ಮನ್ನು ಹೇಗೆ ಪರಿಚಯಿಸಿಕೊಳ್ಳಬೇಕು.", "patterns": [{"pattern": "My name is...", "kannada": "ನನ್ನ ಹೆಸರು...", "examples": ["My name is Ramesh", "My name is Priya"]}, {"pattern": "I have experience in...", "kannada": "ನನಗೆ... ಅನುಭವವಿದೆ", "examples": ["I have experience in software development", "I have experience in teaching"]}, {"pattern": "I am looking for...", "kannada": "ನಾನು... ಹುಡುಕುತ್ತಿದ್ದೇನೆ", "examples": ["I am looking for a challenging role", "I am looking for growth opportunities"]}]}, "speakingPractice": [{"english": "My name is Ramesh and I have 5 years of experience in IT", "kannada": "ನನ್ನ ಹೆಸರು ರಮೇಶ್ ಮತ್ತು ನನಗೆ IT ಯಲ್ಲಿ 5 ವರ್ಷಗಳ ಅನುಭವವಿದೆ"}, {"english": "I am looking for a new opportunity in this field", "kannada": "ನಾನು ಈ ಕ್ಷೇತ್ರದಲ್ಲಿ ಹೊಸ ಅವಕಾಶವನ್ನು ಹುಡುಕುತ್ತಿದ್ದೇನೆ"}]},
+      {"id": 5, "title": "Job Interview - Questions", "kannadaTitle": "ಉದ್ಯೋಗ ಸಂದರ್ಶನ - ಪ್ರಶ್ನೆಗಳು", "content": {"explanation": "Common interview questions and answers.", "kannadaExplanation": "ಸಾಮಾನ್ಯ ಸಂದರ್ಶನ ಪ್ರಶ್ನೆಗಳು ಮತ್ತು ಉತ್ತರಗಳು.", "patterns": [{"pattern": "What are your strengths?", "kannada": "ನಿಮ್ಮ ಬಲಗಳು ಯಾವುವು?", "examples": ["My strength is problem-solving", "I am a hard worker"]}, {"pattern": "What are your weaknesses?", "kannada": "ನಿಮ್ಮ ದೌರ್ಬಲ್ಯಗಳು ಯಾವುವು?", "examples": ["I sometimes work too hard", "I am learning to be more patient"]}, {"pattern": "Why do you want this job?", "kannada": "ನೀವು ಈ ಕೆಲಸವನ್ನು ಏಕೆ ಬಯಸುತ್ತೀರಿ?", "examples": ["I want to grow my career", "I like your company's values"]}]}, "speakingPractice": [{"english": "My strength is communication and problem-solving", "kannada": "ನನ್ನ ಬಲವು ಸಂವಹನ ಮತ್ತು ಸಮಸ್ಯೆ ಪರಿಹಾರ"}, {"english": "I want this job because it offers growth opportunities", "kannada": "ನಾನು ಈ ಕೆಲಸವನ್ನು ಬಯಸುತ್ತೇನೆ ಏಕೆಂದರೆ ಇದು ಬೆಳವಣಿಗೆಯ ಅವಕಾಶಗಳನ್ನು ನೀಡುತ್ತದೆ"}]},
+      {"id": 6, "title": "Talking About Work Experience", "kannadaTitle": "ಕೆಲಸ ಅನುಭವದ ಬಗ್ಗೆ ಮಾತನಾಡುವುದು", "content": {"explanation": "How to describe your work history.", "kannadaExplanation": "ನಿಮ್ಮ ಕೆಲಸ ಇತಿಹಾಸವನ್ನು ಹೇಗೆ ವಿವರಿಸಬೇಕು.", "patterns": [{"pattern": "I worked at... for... years", "kannada": "ನಾನು... ನಲ್ಲಿ... ವರ್ಷಗಳ ಕಾಲ ಕೆಲಸ ಮಾಡಿದ್ದೆ", "examples": ["I worked at ABC company for 3 years", "I worked at Infosys for 5 years"]}, {"pattern": "My responsibilities included...", "kannada": "ನನ್ನ ಜವಾಬ್ದಾರಿಗಳು ಸೇರಿವೆ...", "examples": ["My responsibilities included managing projects", "My responsibilities included teaching students"]}]}, "speakingPractice": [{"english": "I worked at TCS for 3 years as a developer", "kannada": "ನಾನು TCS ನಲ್ಲಿ 3 ವರ್ಷಗಳ ಕಾಲ ಡೆವಲಪರ್ ಆಗಿ ಕೆಲಸ ಮಾಡಿದ್ದೆ"}, {"english": "My responsibilities included managing the team and projects", "kannada": "ನನ್ನ ಜವಾಬ್ದಾರಿಗಳು ತಂಡ ಮತ್ತು ಯೋಜನೆಗಳನ್ನು ನಿರ್ವಹಿಸುವುದು ಸೇರಿವೆ"}]},
+      {"id": 7, "title": "Meeting Vocabulary", "kannadaTitle": "ಸಭೆ ಶಬ್ದಕೋಶ", "content": {"explanation": "Words used in meetings.", "kannadaExplanation": "ಸಭೆಗಳಲ್ಲಿ ಬಳಸುವ ಪದಗಳು.", "vocabulary": [{"english": "agenda", "kannada": "ಕಾರ್ಯಸೂಚಿ"}, {"english": "discussion", "kannada": "ಚರ್ಚೆ"}, {"english": "action item", "kannada": "ಕ್ರಿಯಾ ವಿಷಯ"}, {"english": "follow-up", "kannada": "ಅನುಸರಣೆ"}, {"english": "conclusion", "kannada": "ತೀರ್ಮಾನ"}, {"english": "suggestion", "kannada": "ಸಲಹೆ"}]}, "speakingPractice": [{"english": "Let's discuss the agenda", "kannada": "ಕಾರ್ಯಸೂಚಿಯನ್ನು ಚರ್ಚಿಸೋಣ"}, {"english": "I have a suggestion for the project", "kannada": "ಯೋಜನೆಗಾಗಿ ನನಗೊಂದು ಸಲಹೆ ಇದೆ"}]},
+      {"id": 8, "title": "Participating in Meetings", "kannadaTitle": "ಸಭೆಗಳಲ್ಲ ಭಾಗವಹಿಸುವುದು", "content": {"explanation": "How to speak up in meetings.", "kannadaExplanation": "ಸಭೆಗಳಲ್ಲಿ ಹೇಗೆ ಮಾತನಾಡಬೇಕು.", "patterns": [{"pattern": "I would like to add...", "kannada": "ನಾನು... ಸೇರಿಸಲು ಬಯಸುತ್ತೇನೆ", "examples": ["I would like to add a point", "I would like to share my opinion"]}, {"pattern": "Can you explain...?", "kannada": "ನೀವು... ವಿವರಿಸಬಹುದೇ?", "examples": ["Can you explain that again?", "Can you explain your idea?"]}, {"pattern": "I agree/disagree with...", "kannada": "ನಾನು... ಜೊತೆ ಒಪ್ಪುತ್ತೇನೆ/ಒಪ್ಪುವುದಿಲ್ಲ", "examples": ["I agree with your point", "I disagree with that approach"]}]}, "speakingPractice": [{"english": "I would like to add a point to the discussion", "kannada": "ಚರ್ಚೆಗೆ ನಾನು ಒಂದು ಪಾಯಿಂಟ್ ಸೇರಿಸಲು ಬಯಸುತ್ತೇನೆ"}, {"english": "Can you explain that in more detail?", "kannada": "ನೀವು ಅದನ್ನು ಹೆಚ್ಚಿನ ವಿವರಗಳಲ್ಲಿ ವಿವರಿಸಬಹುದೇ?"}]},
+      {"id": 9, "title": "Professional Greetings", "kannadaTitle": "ವೃತ್ತಿಪರ ಅಭಿವಾದನೆಗಳು", "content": {"explanation": "How to greet people professionally.", "kannadaExplanation": "ಜನರನ್ನು ವೃತ್ತಿಪರವಾಗಿ ಹೇಗೆ ಅಭಿವಾದಿಸಬೇಕು.", "patterns": [{"pattern": "Good morning/afternoon/evening", "kannada": "ಶುಭೋದಯ/ಶುಭ ಮಧ್ಯಾಹ್ನ/ಶುಭ ಸಂಜೆ", "examples": ["Good morning, sir", "Good afternoon, everyone"]}, {"pattern": "Nice to meet you", "kannada": "ನಿಮ್ಮನ್ನು ಭೇಟಿಯಾಗಿ ಸಂತೋಷವಾಯಿತು", "examples": ["Nice to meet you", "It's nice to meet you too"]}]}, "speakingPractice": [{"english": "Good morning, how are you today?", "kannada": "ಶುಭೋದಯ, ನೀವು ಈಗ ಹೇಗಿದ್ದೀರಿ?"}, {"english": "Nice to meet you, I look forward to working together", "kannada": "ನಿಮ್ಮನ್ನು ಭೇಟಿಯಾಗಿ ಸಂತೋಷವಾಯಿತು, ಒಟ್ಟಿಗೆ ಕೆಲಸ ಮಾಡುವುದಕ್ಕೆ ನಾನು ಎದುರುನೋಡುತ್ತೇನೆ"}]},
+      {"id": 10, "title": "Giving and Receiving Feedback", "kannadaTitle": "ಪ್ರತಿಕ್ರಿಯೆ ನೀಡುವುದು ಮತ್ತು ಸ್ವೀಕರಿಸುವುದು", "content": {"explanation": "How to give and receive feedback professionally.", "kannadaExplanation": "ವೃತ್ತಿಪರವಾಗಿ ಪ್ರತಿಕ್ರಿಯೆಯನ್ನು ಹೇಗೆ ನೀಡಬೇಕು ಮತ್ತು ಸ್ವೀಕರಿಸಬೇಕು.", "patterns": [{"pattern": "I appreciate your feedback", "kannada": "ನಿಮ್ಮ ಪ್ರತಿಕ್ರಿಯೆಯನ್ನು ನಾನು ಮೆಚ್ಚುತ್ತೇನೆ", "examples": ["I appreciate your feedback", "Thank you for your feedback"]}, {"pattern": "I would like to suggest...", "kannada": "ನಾನು ಸಲಹೆ ನೀಡಲು ಬಯಸುತ್ತೇನೆ...", "examples": ["I would like to suggest an improvement", "I would like to suggest a different approach"]}]}, "speakingPractice": [{"english": "I appreciate your feedback and will work on it", "kannada": "ನಿಮ್ಮ ಪ್ರತಿಕ್ರಿಯೆಯನ್ನು ನಾನು ಮೆಚ್ಚುತ್ತೇನೆ ಮತ್ತು ಅದರ ಮೇಲೆ ಕೆಲಸ ಮಾಡುತ್ತೇನೆ"}, {"english": "I would like to suggest we try a different approach", "kannada": "ನಾನು ಬೇರೆ ವಿಧಾನವನ್ನು ಪ್ರಯತ್ನಿಸೋಣ ಎಂದು ಸಲಹೆ ನೀಡಲು ಬಯಸುತ್ತೇನೆ"}]},
+      {"id": 11, "title": "Salary and Benefits", "kannadaTitle": "ಸಂಬಳ ಮತ್ತು ಸೌಲಭ್ಯಗಳು", "content": {"explanation": "Talking about compensation.", "kannadaExplanation": "ಪರಿಹಾರದ ಬಗ್ಗೆ ಮಾತನಾಡುವುದು.", "vocabulary": [{"english": "salary", "kannada": "ಸಂಬಳ"}, {"english": "bonus", "kannada": "ಬೋನಸ್"}, {"english": "benefits", "kannada": "ಸೌಲಭ್ಯಗಳು"}, {"english": "insurance", "kannada": "ವಿಮೆ"}, {"english": "leave", "kannada": "ರಜಾ"}, {"english": "promotion", "kannada": "ಬಡ್ತಿ"}]}, "speakingPractice": [{"english": "What is the expected salary for this position?", "kannada": "ಈ ಸ್ಥಾನಕ್ಕೆ ನಿರೀಕ್ಷಿತ ಸಂಬಳ ಎಷ್ಟು?"}, {"english": "The company offers good benefits and insurance", "kannada": "ಕಂಪನಿಯು ಉತ್ತಮ ಸೌಲಭ್ಯಗಳು ಮತ್ತು ವಿಮೆಯನ್ನು ನೀಡುತ್ತದೆ"}]},
+      {"id": 12, "title": "Level 7 Test", "kannadaTitle": "Level 7 ಪರೀಕ್ಷೆ", "content": {"explanation": "Test your workplace English.", "kannadaExplanation": "ನಿಮ್ಮ ಕಾರ್ಯಸ್ಥಳ ಇಂಗ್ಲಿಷ್ ಅನ್ನು ಪರೀಕ್ಷಿಸಿ.", "testItems": ["Use office vocabulary", "Write professional emails", "Handle job interviews", "Talk about work experience", "Participate in meetings"]}, "speakingPractice": [{"english": "I am ready for Level 8", "kannada": "ನಾನು Level 8 ಗೆ ಸಿದ್ಧ"}]}
+    ],
+    "masteryTest": {
+      "title": "Level 7 Mastery Test",
+      "instructions": "You must pass this test before moving to Level 8.",
+      "kannadaInstructions": "Level 8 ಗೆ ಹೋಗುವ ಮೊದಲು ಈ ಪರೀಕ್ಷೆಯನ್ನು ಪಾಸ್ ಮಾಡಬೇಕು.",
+      "questions": [
+        {"question": "I am writing to ___ about the job opening.", "type": "multiple", "options": ["inquire", "inquiring", "inquired", "inquires"], "correct": "inquire"},
+        {"question": "My ___ include project management.", "type": "multiple", "options": ["responsibilities", "responsibility", "responsible", "respond"], "correct": "responsibilities"},
+        {"question": "I look forward to ___ with you.", "type": "multiple", "options": ["work", "working", "worked", "works"], "correct": "working"},
+        {"question": "Introduce yourself in a job interview (1 minute)", "type": "speaking", "answer": "user specific"}
+      ]
+    }
+  },
+  "level8": {
+    "title": "Advanced Grammar",
+    "description": "Passive voice, conditionals, perfect tenses",
+    "prerequisites": "Pass Level 7 test",
+    "objectives": ["Use passive voice correctly", "Use conditionals", "Use present perfect tense", "Use past perfect tense", "Use future perfect tense"],
+    "lessons": [
+      {"id": 1, "title": "Passive Voice - Present", "kannadaTitle": "ಕರ್ಮಣಿ ಪ್ರಯೋಗ - ವರ್ತಮಾನ", "content": {"explanation": "Object becomes subject in passive voice.", "kannadaExplanation": "ಕರ್ಮಣಿ ಪ್ರಯೋಗದಲ್ಲಿ ಕರ್ಮವು ಕರ್ತೃವಾಗುತ್ತದೆ.", "patterns": [{"pattern": "am/is/are + past participle", "kannada": "am/is/are + ಭೂತ ಕೃದಂತು", "examples": ["The work is done", "The letter is written", "The food is cooked"]}]}, "speakingPractice": [{"english": "The work is done by me", "kannada": "ಕೆಲಸವು ನನ್ನಿಂದ ಮಾಡಲ್ಪಟ್ಟಿದೆ"}, {"english": "The letter is written by her", "kannada": "ಪತ್ರವು ಅವಳಿಂದ ಬರೆಯಲ್ಪಟ್ಟಿದೆ"}]},
+      {"id": 2, "title": "Passive Voice - Past", "kannadaTitle": "ಕರ್ಮಣಿ ಪ್ರಯೋಗ - ಭೂತ", "content": {"explanation": "Past passive voice construction.", "kannadaExplanation": "ಭೂತ ಕರ್ಮಣಿ ಪ್ರಯೋಗದ ನಿರ್ಮಾಣ.", "patterns": [{"pattern": "was/were + past participle", "kannada": "was/were + ಭೂತ ಕೃದಂತು", "examples": ["The work was done", "The letters were written", "The food was cooked"]}]}, "speakingPractice": [{"english": "The work was completed yesterday", "kannada": "ಕೆಲಸವು ನಿನ್ನೆ ಪೂರ್ಣಗೊಂಡಿತ್ತು"}, {"english": "The house was built last year", "kannada": "ಮನೆಯು ಕಳೆದ ವರ್ಷ ನಿರ್ಮಿಸಲ್ಪಟ್ಟಿತ್ತು"}]},
+      {"id": 3, "title": "Present Perfect Tense", "kannadaTitle": "ವರ್ತಮಾನ ಪೂರ್ಣ ಕಾಲ", "content": {"explanation": "Actions completed in the past with present relevance.", "kannadaExplanation": "ಭೂತಕಾಲದಲ್ಲಿ ಪೂರ್ಣಗೊಂಡ ಕ್ರಿಯೆಗಳು ವರ್ತಮಾನಕ್ಕೆ ಸಂಬಂಧಿಸಿದಂತೆ.", "patterns": [{"pattern": "have/has + past participle", "kannada": "have/has + ಭೂತ ಕೃದಂತು", "examples": ["I have finished", "She has completed", "They have arrived"]}]}, "speakingPractice": [{"english": "I have completed the project", "kannada": "ನಾನು ಯೋಜನೆಯನ್ನು ಪೂರ್ಣಗೊಳಿಸಿದ್ದೇನೆ"}, {"english": "She has lived here for 5 years", "kannada": "ಅವಳು 5 ವರ್ಷಗಳಿಂದ ಇಲ್ಲಿ ವಾಸಿಸುತ್ತಿದ್ದಾಳೆ"}]},
+      {"id": 4, "title": "Present Perfect vs Past Simple", "kannadaTitle": "ವರ್ತಮಾನ ಪೂರ್ಣ vs ಭೂತ ಸರಳ", "content": {"explanation": "Difference between present perfect and past simple.", "kannadaExplanation": "ವರ್ತಮಾನ ಪೂರ್ಣ ಮತ್ತು ಭೂತ ಸರಳದ ನಡುವಿನ ವ್ಯತ್ಯಾಸ.", "examples": ["I have lost my key (still lost) vs I lost my key (found it later)", "She has worked here (still works) vs She worked here (doesn't work now)"]}, "speakingPractice": [{"english": "I have visited India many times", "kannada": "ನಾನು ಭಾರತಕ್ಕೆ ಹಲವು ಬಾರಿ ಭೇಟಿ ನೀಡಿದ್ದೇನೆ"}, {"english": "I visited India last year", "kannada": "ನಾನು ಕಳೆದ ವರ್ಷ ಭಾರತಕ್ಕೆ ಭೇಟಿ ನೀಡಿದ್ದೆ"}]},
+      {"id": 5, "title": "Past Perfect Tense", "kannadaTitle": "ಭೂತ ಪೂರ್ಣ ಕಾಲ", "content": {"explanation": "Actions completed before another past action.", "kannadaExplanation": "ಇನ್ನೊಂದು ಭೂತ ಕ್ರಿಯೆಗೆ ಮೊದಲು ಪೂರ್ಣಗೊಂಡ ಕ್ರಿಯೆಗಳು.", "patterns": [{"pattern": "had + past participle", "kannada": "had + ಭೂತ ಕೃದಂತು", "examples": ["I had finished before he came", "She had left when I arrived"]}]}, "speakingPractice": [{"english": "I had already eaten when he called", "kannada": "ಅವನು ಕಾಲ್ ಮಾಡಿದಾಗ ನಾನು ಈಗಾಗಲೇ ಊಟ ಮಾಡಿದ್ದೆ"}, {"english": "The train had left when we reached", "kannada": "ನಾವು ತಲುಪಿದಾಗ ರೈಲು ಹೊರಟ್ಟಿತ್ತು"}]},
+      {"id": 6, "title": "Future Perfect Tense", "kannadaTitle": "ಭವಿಷ್ಯ ಪೂರ್ಣ ಕಾಲ", "content": {"explanation": "Actions that will be completed by a future time.", "kannadaExplanation": "ಭವಿಷ್ಯದ ಒಂದು ಸಮಯದವರೆಗೆ ಪೂರ್ಣಗೊಳ್ಳುವ ಕ್ರಿಯೆಗಳು.", "patterns": [{"pattern": "will have + past participle", "kannada": "will have + ಭೂತ ಕೃದಂತು", "examples": ["I will have finished", "She will have completed", "They will have arrived"]}]}, "speakingPractice": [{"english": "I will have finished by tomorrow", "kannada": "ನಾಳೆಯೊಳಗೆ ನಾನು ಪೂರ್ಣಗೊಳಿಸುತ್ತೇನೆ"}, {"english": "She will have completed her degree by next year", "kannada": "ಮುಂದಿನ ವರ್ಷದೊಳಗೆ ಅವಳು ತನ್ನ ಪದವಿಯನ್ನು ಪೂರ್ಣಗೊಳಿಸುತ್ತಾಳೆ"}]},
+      {"id": 7, "title": "Conditionals - Type 0", "kannadaTitle": "ಸಶರ್ತಗಳು - ಪ್ರಕಾರ 0", "content": {"explanation": "General truths and scientific facts.", "kannadaExplanation": "ಸಾಮಾನ್ಯ ಸತ್ಯಗಳು ಮತ್ತು ವೈಜ್ಞಾನಿಕ ವಾಸ್ತವಗಳು.", "patterns": [{"pattern": "If + present, present", "kannada": "If + ವರ್ತಮಾನ, ವರ್ತಮಾನ", "examples": ["If you heat water, it boils", "If it rains, the ground gets wet"]}]}, "speakingPractice": [{"english": "If you study hard, you get good marks", "kannada": "ನೀವು ಕಠಿಣವಾಗಿ ಅಧ್ಯಯನ ಮಾಡಿದರೆ, ನಿಮಗೆ ಉತ್ತಮ ಅಂಕಗಳು ಸಿಗುತ್ತವೆ"}, {"english": "If you mix red and blue, you get purple", "kannada": "ನೀವು ಕೆಂಪು ಮತ್ತು ನೀಲಿಯನ್ನು ಮಿಶ್ರಣ ಮಾಡಿದರೆ, ನಿಮಗೆ ನೇರಳೆ ಸಿಗುತ್ತದೆ"}]},
+      {"id": 8, "title": "Conditionals - Type 1", "kannadaTitle": "ಸಶರ್ತಗಳು - ಪ್ರಕಾರ 1", "content": {"explanation": "Real possibilities in the future.", "kannadaExplanation": "ಭವಿಷ್ಯದಲ್ಲಿ ನೈಜ ಸಾಧ್ಯತೆಗಳು.", "patterns": [{"pattern": "If + present, will + verb", "kannada": "If + ವರ್ತಮಾನ, will + ಕ್ರಿಯಾಪದ", "examples": ["If it rains, I will stay home", "If you study, you will pass"]}]}, "speakingPractice": [{"english": "If it rains tomorrow, I will stay at home", "kannada": "ನಾಳೆ ಮಳೆ ಬಂದರೆ, ನಾನು ಮನೆಯಲ್ಲಿಯೇ ಇರುತ್ತೇನೆ"}, {"english": "If you work hard, you will succeed", "kannada": "ನೀವು ಕಠಿಣವಾಗಿ ಕೆಲಸ ಮಾಡಿದರೆ, ನೀವು ಯಶಸ್ವಿಯಾಗುತ್ತೀರಿ"}]},
+      {"id": 9, "title": "Conditionals - Type 2", "kannadaTitle": "ಸಶರ್ತಗಳು - ಪ್ರಕಾರ 2", "content": {"explanation": "Hypothetical or unlikely situations.", "kannadaExplanation": "ಕಾಲ್ಪನಿಕ ಅಥವಾ ಅಸಂಭವನೀಯ ಪರಿಸ್ಥಿತಿಗಳು.", "patterns": [{"pattern": "If + past, would + verb", "kannada": "If + ಭೂತ, would + ಕ್ರಿಯಾಪದ", "examples": ["If I were rich, I would travel", "If it snowed here, we would play"]}]}, "speakingPractice": [{"english": "If I had more money, I would buy a car", "kannada": "ನನಗೆ ಹೆಚ್ಚು ಹಣ ಇದ್ದರೆ, ನಾನು ಕಾರು ಖರೀದಿಸುತ್ತೆ"}, {"english": "If I were you, I would take that job", "kannada": "ನಾನು ನೀವಾಗಿದ್ದರೆ, ನಾನು ಆ ಕೆಲಸವನ್ನು ತೆಗೆದುಕೊಳ್ಳುತ್ತೆ"}]},
+      {"id": 10, "title": "Conditionals - Type 3", "kannadaTitle": "ಸಶರ್ತಗಳು - ಪ್ರಕಾರ 3", "content": {"explanation": "Past situations that didn't happen.", "kannadaExplanation": "ಸಂಭವಿಸದ ಭೂತ ಪರಿಸ್ಥಿತಿಗಳು.", "patterns": [{"pattern": "If + past perfect, would have + past participle", "kannada": "If + ಭೂತ ಪೂರ್ಣ, would have + ಭೂತ ಕೃದಂತು", "examples": ["If I had known, I would have helped", "If it had rained, we would have stayed"]}]}, "speakingPractice": [{"english": "If I had studied harder, I would have passed", "kannada": "ನಾನು ಹೆಚ್ಚು ಕಠಿಣವಾಗಿ ಅಧ್ಯಯನ ಮಾಡಿದ್ದರೆ, ನಾನು ಪಾಸ್ ಆಗುತ್ತಿದ್ದೆ"}, {"english": "If I had known, I would have called you", "kannada": "ನನಗೆ ತಿಳಿದಿದ್ದರೆ, ನಾನು ನಿಮಗೆ ಕಾಲ್ ಮಾಡುತ್ತಿದ್ದೆ"}]},
+      {"id": 11, "title": "Reported Speech", "kannadaTitle": "ವರದಿಗೊಳಿಸಿದ ಮಾತು", "content": {"explanation": "How to report what someone said.", "kannadaExplanation": "ಯಾರಾದರೂ ಹೇಳಿದ್ದನ್ನು ಹೇಗೆ ವರದಿ ಮಾಡಬೇಕು.", "patterns": [{"pattern": "He said that...", "kannada": "ಅವನು ಹೇಳಿದ...", "examples": ["He said that he was tired", "She said that she would come"]}, {"pattern": "She told me that...", "kannada": "ಅವಳು ನನಗೆ ಹೇಳಿದ...", "examples": ["She told me that she liked it"]}]}, "speakingPractice": [{"english": "He said that he would come tomorrow", "kannada": "ಅವನು ನಾಳೆ ಬರುತ್ತಾನೆ ಎಂದು ಹೇಳಿದನು"}, {"english": "She told me that she liked the movie", "kannada": "ಅವಳು ಚಲನಚಿತ್ರ ಇಷ್ಟಪಟ್ಟಿದೆ ಎಂದು ನನಗೆ ಹೇಳಿದಳು"}]},
+      {"id": 12, "title": "Relative Clauses", "kannadaTitle": "ಸಂಬಂಧಿತ ಉಪವಾಕ್ಯಗಳು", "content": {"explanation": "Using who, which, that to connect sentences.", "kannadaExplanation": "ವಾಕ್ಯಗಳನ್ನು ಸಂಪರ್ಕಿಸಲು who, which, that ಬಳಸುವುದು.", "patterns": [{"pattern": "who for people", "kannada": "ಜನರಿಗಾಗಿ who", "examples": ["The man who called me", "The woman who lives here"]}, {"pattern": "which/that for things", "kannada": "ವಸ್ತುಗಳಿಗಾಗಿ which/that", "examples": ["The book which I read", "The car that I bought"]}]}, "speakingPractice": [{"english": "The man who called me is my friend", "kannada": "ನನಗೆ ಕಾಲ್ ಮಾಡಿದ ವ್ಯಕ್ತಿ ನನ್ನ ಸ್ನೇಹಿತ"}, {"english": "The book which I read was very interesting", "kannada": "ನಾನು ಓದಿದ ಪುಸ್ತಕವು ಬಹಳ ಆಸಕ್ತಿದಾಯಕವಾಗಿತ್ತು"}]},
+      {"id": 13, "title": "Modals of Probability", "kannadaTitle": "ಸಂಭಾವ್ಯತೆಯ ಮೋಡಲ್‌ಗಳು", "content": {"explanation": "Using must, may, might, could for probability.", "kannadaExplanation": "ಸಂಭಾವ್ಯತೆಗಾಗಿ must, may, might, could ಬಳಸುವುದು.", "patterns": [{"pattern": "must be", "kannada": "ಖಚಿತವಾಗಿ ಇರಬೇಕು", "examples": ["He must be at home", "It must be true"]}, {"pattern": "may/might be", "kannada": "ಇರಬಹುದು", "examples": ["She may be busy", "It might rain"]}, {"pattern": "could be", "kannada": "ಇರಬಹುದು", "examples": ["It could be possible"]}]}, "speakingPractice": [{"english": "He must be at home now", "kannada": "ಅವನು ಈಗ ಖಚಿತವಾಗಿ ಮನೆಯಲ್ಲಿರಬೇಕು"}, {"english": "It might rain later today", "kannada": "ಇಂದು ನಂತರ ಮಳೆ ಬರಬಹುದು"}]},
+      {"id": 14, "title": "Used to and Would", "kannadaTitle": "Used to ಮತ್ತು Would", "content": {"explanation": "Talking about past habits.", "kannadaExplanation": "ಭೂತಕಾಲದ ಅಭ್ಯಾಸಗಳ ಬಗ್ಗೆ ಮಾತನಾಡುವುದು.", "patterns": [{"pattern": "used to + verb", "kannada": "used to + ಕ್ರಿಯಾಪದ", "examples": ["I used to play cricket", "She used to live here"]}, {"pattern": "would + verb", "kannada": "would + ಕ್ರಿಯಾಪದ", "examples": ["We would go there often", "He would help us"]}]}, "speakingPractice": [{"english": "I used to play cricket when I was young", "kannada": "ನಾನು ಕಿರಿಯನಾಗಿದ್ದಾಗ ಕ್ರಿಕೆಟ್ ಆಡುತ್ತಿದ್ದೆ"}, {"english": "We would visit our grandparents every summer", "kannada": "ಪ್ರತಿ ಬೇಸಗೆಯಲ್ಲಿ ನಾವು ನಮ್ಮ ಅಜ್ಜ-ಅಜ್ಜಿಯನ್ನು ಭೇಟಿ ಮಾಡುತ್ತಿದ್ದೇವೆ"}]},
+      {"id": 15, "title": "Level 8 Test", "kannadaTitle": "Level 8 ಪರೀಕ್ಷೆ", "content": {"explanation": "Test your advanced grammar.", "kannadaExplanation": "ನಿಮ್ಮ ಸುಧಾರಿತ ವ್ಯಾಕರಣವನ್ನು ಪರೀಕ್ಷಿಸಿ.", "testItems": ["Use passive voice correctly", "Use conditionals", "Use perfect tenses", "Use reported speech", "Use relative clauses"]}, "speakingPractice": [{"english": "I am ready for Level 9", "kannada": "ನಾನು Level 9 ಗೆ ಸಿದ್ಧ"}]}
+    ],
+    "masteryTest": {
+      "title": "Level 8 Mastery Test",
+      "instructions": "You must pass this test before moving to Level 9.",
+      "kannadaInstructions": "Level 9 ಗೆ ಹೋಗುವ ಮೊದಲು ಈ ಪರೀಕ್ಷೆಯನ್ನು ಪಾಸ್ ಮಾಡಬೇಕು.",
+      "questions": [
+        {"question": "The work ___ by me.", "type": "multiple", "options": ["is done", "was done", "done", "doing"], "correct": "is done"},
+        {"question": "If I ___ rich, I would travel the world.", "type": "multiple", "options": ["am", "was", "were", "be"], "correct": "were"},
+        {"question": "I have ___ this book.", "type": "multiple", "options": ["read", "reading", "reads", "to read"], "correct": "read"},
+        {"question": "Describe a hypothetical situation (1 minute)", "type": "speaking", "answer": "user specific"}
+      ]
+    }
+  },
+  "level9": {
+    "title": "Fluency & Mastery",
+    "description": "Advanced speaking, presentations",
+    "prerequisites": "Pass Level 8 test",
+    "objectives": ["Speak fluently on various topics", "Give presentations", "Participate in discussions", "Express complex ideas", "Handle advanced conversations"],
+    "lessons": [
+      {"id": 1, "title": "Fluent Speaking Skills", "kannadaTitle": "ನಿರರ್ಗಳ ಮಾತನಾಡುವ ಕೌಶಲ್ಯಗಳು", "content": {"explanation": "Tips for speaking fluently.", "kannadaExplanation": "ನಿರರ್ಗಳವಾಗಿ ಮಾತನಾಡಲು ಸೂಚನೆಗಳು.", "tips": ["Practice speaking daily", "Think in English", "Learn phrases, not just words", "Don't worry about mistakes", "Listen to native speakers"]}, "speakingPractice": [{"english": "I practice speaking English every day to improve my fluency", "kannada": "ನನ್ನ ನಿರರ್ಗಳತೆಯನ್ನು ಸುಧಾರಿಸಲು ನಾನು ಪ್ರತಿದಿನ ಇಂಗ್ಲಿಷ್ ಮಾತನಾಡುವ ಅಭ್ಯಾಸ ಮಾಡುತ್ತೇನೆ"}]},
+      {"id": 2, "title": "Giving Presentations", "kannadaTitle": "ಪ್ರಸ್ತುತಿಗಳನ್ನು ನೀಡುವುದು", "content": {"explanation": "How to give effective presentations.", "kannadaExplanation": "ಪರಿಣಾಮಕಾರಿ ಪ್ರಸ್ತುತಿಗಳನ್ನು ಹೇಗೆ ನೀಡಬೇಕು.", "patterns": [{"pattern": "Introduction, body, conclusion", "kannada": "ಪರಿಚಯ, ಮುಖ್ಯಭಾಗ, ತೀರ್ಮಾನ", "examples": ["Start with introduction, cover main points, end with conclusion"]}, {"pattern": "Let me begin with...", "kannada": "ನಾನು... ನೊಂದಿಗೆ ಪ್ರಾರಂಭಿಸೋಣ", "examples": ["Let me begin with an overview"]}]}, "speakingPractice": [{"english": "Today I will present about our new project", "kannada": "ಇಂದು ನಾನು ನಮ್ಮ ಹೊಸ ಯೋಜನೆಯ ಬಗ್ಗೆ ಪ್ರಸ್ತುತಿ ನೀಡುತ್ತೇನೆ"}, {"english": "Let me begin with an introduction to the topic", "kannada": "ನಾನು ವಿಷಯಕ್ಕೆ ಪರಿಚಯದೊಂದಿಗೆ ಪ್ರಾರಂಭಿಸೋಣ"}]},
+      {"id": 3, "title": "Participating in Discussions", "kannadaTitle": "ಚರ್ಚೆಗಳಲ್ಲಿ ಭಾಗವಹಿಸುವುದು", "content": {"explanation": "How to participate effectively in group discussions.", "kannadaExplanation": "ಗುಂಪು ಚರ್ಚೆಗಳಲ್ಲಿ ಪರಿಣಾಮಕಾರಿಯಾಗಿ ಹೇಗೆ ಭಾಗವಹಿಸಬೇಕು.", "patterns": [{"pattern": "I would like to add...", "kannada": "ನಾನು... ಸೇರಿಸಲು ಬಯಸುತ್ತೇನೆ", "examples": ["I would like to add my perspective"]}, {"pattern": "That's a good point, but...", "kannada": "ಅದು ಒಳ್ಳೆಯ ಪಾಯಿಂಟ್, ಆದರೆ...", "examples": ["That's a good point, but I have a different view"]}]}, "speakingPractice": [{"english": "I would like to share my thoughts on this topic", "kannada": "ಈ ವಿಷಯದ ಬಗ್ಗೆ ನನ್ನ ಆಲೋಚನೆಗಳನ್ನು ಹಂಚಿಸಲು ನಾನು ಬಯಸುತ್ತೇನೆ"}, {"english": "That's a good point, but I have a different perspective", "kannada": "ಅದು ಒಳ್ಳೆಯ ಪಾಯಿಂಟ್, ಆದರೆ ನನಗೆ ಬೇರೆ ದೃಷ್ಟಿಕೋನವಿದೆ"}]},
+      {"id": 4, "title": "Expressing Complex Ideas", "kannadaTitle": "ಸಂಕೀರ್ಣ ಆಲೋಚನೆಗಳನ್ನು ವ್ಯಕ್ತಪಡಿಸುವುದು", "content": {"explanation": "How to express complex thoughts clearly.", "kannadaExplanation": "ಸಂಕೀರ್ಣ ಆಲೋಚನೆಗಳನ್ನು ಸ್ಪಷ್ಟವಾಗಿ ಹೇಗೆ ವ್ಯಕ್ತಪಡಿಸಬೇಕು.", "patterns": [{"pattern": "First, second, finally", "kannada": "ಮೊದಲು, ಎರಡನೆಯದಾಗಿ, ಕೊನೆಗೆ", "examples": ["First, let me explain. Second, consider this. Finally, conclude"]}, {"pattern": "On one hand... on the other hand...", "kannada": "ಒಂದು ಕಡೆ... ಇನ್ನೊಂದು ಕಡೆ...", "examples": ["On one hand it's good, on the other hand it's expensive"]}]}, "speakingPractice": [{"english": "On one hand, technology is helpful. On the other hand, it can be distracting", "kannada": "ಒಂದು ಕಡೆ, ತಂತ್ರಜ್ಞಾನವು ಸಹಾಯಕ. ಇನ್ನೊಂದು ಕಡೆ, ಅದು ಗಮನವನ್ನು ತಿರುಗಿಸಬಹುದು"}, {"english": "Let me explain step by step", "kannada": "ಹಂತ ಹಂತವಾಗಿ ವಿವರಿಸಲು ನನಗೆ ಅನುವು ಮಾಡಿ"}]},
+      {"id": 5, "title": "Debate Skills", "kannadaTitle": "ರ್ಚಾ ಕೌಶಲ್ಯಗಳು", "content": {"explanation": "How to participate in debates.", "kannadaExplanation": "ಚರ್ಚೆಗಳಲ್ಲಿ ಹೇಗೆ ಭಾಗವಹಿಸಬೇಕು.", "patterns": [{"pattern": "I strongly believe that...", "kannada": "ನಾನು ದೃಢವಾಗಿ ನಂಬುತ್ತೇನೆ...", "examples": ["I strongly believe that education is important"]}, {"pattern": "I respectfully disagree because...", "kannada": "ನಾನು ಗೌರವದಿಂದ ಭಿನ್ನಾಭಿಪ್ರಾಯ ವ್ಯಕ್ತಪಡಿಸುತ್ತೇನೆ ಏಕೆಂದರೆ...", "examples": ["I respectfully disagree because the evidence suggests otherwise"]}]}, "speakingPractice": [{"english": "I strongly believe that learning English opens many opportunities", "kannada": "ನಾನು ದೃಢವಾಗಿ ನಂಬುತ್ತೇನೆ ಇಂಗ್ಲಿಷ್ ಕಲಿಯುವು ಹಲವು ಅವಕಾಶಗಳನ್ನು ತೆರೆಯುತ್ತದೆ"}, {"english": "I respectfully disagree with that point", "kannada": "ಆ ಪಾಯಿಂಟ್‌ನೊಂದಿಗೆ ನಾನು ಗೌರವದಿಂದ ಭಿನ್ನಾಭಿಪ್ರಾಯ ವ್ಯಕ್ತಪಡಿಸುತ್ತೇನೆ"}]},
+      {"id": 6, "title": "Negotiation Skills", "kannadaTitle": "ಮಾತುಕತೆ ಕೌಶಲ್ಯಗಳು", "content": {"explanation": "How to negotiate effectively.", "kannadaExplanation": "ಪರಿಣಾಮಕಾರಿಯಾಗಿ ಹೇಗೆ ಮಾತುಕತೆ ಮಾಡಬೇಕು.", "patterns": [{"pattern": "I propose that...", "kannada": "ನಾನು ಪ್ರಸ್ತಾಪಿಸುತ್ತೇನೆ...", "examples": ["I propose that we meet in the middle"]}, {"pattern": "Would you be willing to...?", "kannada": "ನೀವು... ಸಿದ್ಧರಾಗಿರುತ್ತೀರಾ?", "examples": ["Would you be willing to compromise?"]}]}, "speakingPractice": [{"english": "I propose we split the cost equally", "kannada": "ವೆಚ್ಚವನ್ನು ಸಮಾನವಾಗಿ ಹಂಚಿಸೋಣ ಎಂದು ನಾನು ಪ್ರಸ್ತಾಪಿಸುತ್ತೇನೆ"}, {"english": "Would you be willing to accept this offer?", "kannada": "ಈ ಪ್ರಸ್ತಾಪವನ್ನು ಸ್ವೀಕರಿಸಲು ನೀವು ಸಿದ್ಧರಾಗಿರುತ್ತೀರಾ?"}]},
+      {"id": 7, "title": "Small Talk", "kannadaTitle": "ಸಣ್ಣ ಮಾತುಗಳು", "content": {"explanation": "How to make conversation in social situations.", "kannadaExplanation": "ಸಾಮಾಜಿಕ ಪರಿಸ್ಥಿತಿಗಳಲ್ಲಿ ಹೇಗೆ ಸಂಭಾಷಣೆ ಮಾಡಬೇಕು.", "patterns": [{"pattern": "How do you like...?", "kannada": "ನಿಮಗೆ... ಹೇಗೆ ಇಷ್ಟಾಗಿದೆ?", "examples": ["How do you like the weather?", "How do you like this place?"]}, {"pattern": "Have you been to...?", "kannada": "ನೀವು... ಗೆ ಹೋಗಿದ್ದೀರಾ?", "examples": ["Have you been to that restaurant?", "Have you been to India?"]}]}, "speakingPractice": [{"english": "How do you like living in Bangalore?", "kannada": "ಬೆಂಗಳೂರಿನಲ್ಲಿ ವಾಸಿಸುವು ನಿಮಗೆ ಹೇಗೆ ಇಷ್ಟಾಗಿದೆ?"}, {"english": "Have you been to the new mall?", "kannada": "ಹೊಸ ಮಾಲ್‌ಗೆ ನೀವು ಹೋಗಿದ್ದೀರಾ?"}]},
+      {"id": 8, "title": "Cultural Topics", "kannadaTitle": "ಸಾಂಸ್ಕೃತಿಕ ವಿಷಯಗಳು", "content": {"explanation": "Discussing culture, traditions, and festivals.", "kannadaExplanation": "ಸಂಸ್ಕೃತಿ, ಸಂಪ್ರದಾಯಗಳು, ಮತ್ತು ಹಬ್ಬಗಳ ಬಗ್ಗೆ ಚರ್ಚಿಸುವುದು.", "vocabulary": [{"english": "culture", "kannada": "ಸಂಸ್ಕೃತಿ"}, {"english": "tradition", "kannada": "ಸಂಪ್ರದಾಯ"}, {"english": "festival", "kannada": "ಹಬ್ಬ"}, {"english": "celebration", "kannada": "ಆಚರಣೆ"}, {"english": "custom", "kannada": "ರೂಢಿ"}]}, "speakingPractice": [{"english": "I love celebrating Indian festivals with my family", "kannada": "ನನಗೆ ನನ್ನ ಕುಟುಂಬದೊಂದಿಗೆ ಭಾರತೀಯ ಹಬ್ಬಗಳನ್ನು ಆಚರಿಸುವುದು ಇಷ್ಟು"}, {"english": "Our culture values respect for elders", "kannada": "ನಮ್ಮ ಸಂಸ್ಕೃತಿಯು ಹಿರಿಯರ ಬಗ್ಗೆ ಗೌರವವನ್ನು ಮೌಲ್ಯ ಮಾಡುತ್ತದೆ"}]},
+      {"id": 9, "title": "Current Affairs", "kannadaTitle": "ಪ್ರಸ್ತುತ ವಿದ್ಯಮಾನಗಳು", "content": {"explanation": "Discussing news and current events.", "kannadaExplanation": "ಸುದ್ದಿ ಮತ್ತು ಪ್ರಸ್ತುತ ಘಟನೆಗಳ ಬಗ್ಗೆ ಚರ್ಚಿಸುವುದು.", "vocabulary": [{"english": "news", "kannada": "ಸುದ್ದಿ"}, {"english": "politics", "kannada": "ರಾಜಕೀಯ"}, {"english": "economy", "kannada": "ಆರ್ಥಿಕ"}, {"english": "technology", "kannada": "ತಂತ್ರಜ್ಞಾನ"}, {"english": "environment", "kannada": "ಪರಿಸರ"}]}, "speakingPractice": [{"english": "I read the news every morning", "kannada": "ನಾನು ಪ್ರತಿ ಬೆಳಿಗೆ ಸುದ್ದಿಯನ್ನು ಓದುತ್ತೇನೆ"}, {"english": "Technology is changing our world rapidly", "kannada": "ತಂತ್ರಜ್ಞಾನವು ನಮ್ಮ ಪ್ರಪಂಚವನ್ನು ತ್ವರಿತವಾಗಿ ಬದಲಾಯಿಸುತ್ತಿದೆ"}]},
+      {"id": 10, "title": "Level 9 Final Test", "kannadaTitle": "Level 9 ಅಂತಿಮ ಪರೀಕ್ಷೆ", "content": {"explanation": "Test your overall English fluency.", "kannadaExplanation": "ನಿಮ್ಮ ಒಟ್ಟಾತ್ಮಕ ಇಂಗ್ಲಿಷ್ ನಿರರ್ಗಳತೆಯನ್ನು ಪರೀಕ್ಷಿಸಿ.", "testItems": ["Speak fluently on various topics", "Give presentations", "Participate in discussions", "Express complex ideas", "Handle advanced conversations"]}, "speakingPractice": [{"english": "I have completed all levels and I am fluent in English", "kannada": "ನಾನು ಎಲ್ಲಾ ಮಟ್ಟಗಳನ್ನು ಪೂರ್ಣಗೊಳಿಸಿದ್ದೇನೆ ಮತ್ತು ನಾನು ಇಂಗ್ಲಿಷ್‌ನಲ್ಲಿ ನಿರರ್ಗಳ"}, {"english": "Thank you for this learning journey", "kannada": "ಈ ಕಲಿಕೆಯ ಪ್ರಯಾಣಕ್ಕಾಗಿ ಧನ್ಯವಾದರು"}]}
+    ],
+    "masteryTest": {
+      "title": "Level 9 Mastery Test - Final",
+      "instructions": "This is the final test. Pass it to complete the course!",
+      "kannadaInstructions": "ಇದು ಅಂತಿಮ ಪರೀಕ್ಷೆ. ಕೋರ್ಸ್ ಅನ್ನು ಪೂರ್ಣಗೊಳಿಸಲು ಇದನ್ನು ಪಾಸ್ ಮಾಡಿ!",
+      "questions": [
+        {"question": "If I ___ known earlier, I would have helped.", "type": "multiple", "options": ["have", "had", "has", "having"], "correct": "had"},
+        {"question": "The project ___ by the team.", "type": "multiple", "options": ["was completed", "is completed", "completed", "completing"], "correct": "was completed"},
+        {"question": "I ___ working here for five years.", "type": "multiple", "options": ["have been", "has been", "am", "was"], "correct": "have been"},
+        {"question": "Give a 2-minute presentation on any topic of your choice", "type": "speaking", "answer": "user specific"}
+      ]
+    }
+  }
+}
