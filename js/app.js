@@ -691,14 +691,22 @@ class KannadaEnglishApp {
         }
         
         console.log('Setting lesson content HTML');
-        lessonContentElement.innerHTML = lessonContent;
-        console.log('Lesson content HTML set successfully');
-        
-        // Verify content was set
-        if (lessonContentElement.innerHTML === '') {
-            console.error('Lesson content is empty after setting');
-        } else {
-            console.log('Lesson content length:', lessonContentElement.innerHTML.length);
+        try {
+            lessonContentElement.innerHTML = lessonContent;
+            console.log('Lesson content HTML set successfully');
+            
+            // Verify content was set
+            if (lessonContentElement.innerHTML === '') {
+                console.error('Lesson content is empty after setting');
+            } else {
+                console.log('Lesson content length:', lessonContentElement.innerHTML.length);
+            }
+            
+            // Force a reflow to ensure content is rendered
+            lessonContentElement.offsetHeight;
+            console.log('Reflow forced');
+        } catch (error) {
+            console.error('Error setting lesson content HTML:', error);
         }
         
         // Mark lesson as active
@@ -809,14 +817,22 @@ class KannadaEnglishApp {
         }
         
         console.log('Setting lesson content HTML');
-        lessonContentElement.innerHTML = lessonContent;
-        console.log('Lesson content HTML set successfully');
-        
-        // Verify content was set
-        if (lessonContentElement.innerHTML === '') {
-            console.error('Lesson content is empty after setting');
-        } else {
-            console.log('Lesson content length:', lessonContentElement.innerHTML.length);
+        try {
+            lessonContentElement.innerHTML = lessonContent;
+            console.log('Lesson content HTML set successfully');
+            
+            // Verify content was set
+            if (lessonContentElement.innerHTML === '') {
+                console.error('Lesson content is empty after setting');
+            } else {
+                console.log('Lesson content length:', lessonContentElement.innerHTML.length);
+            }
+            
+            // Force a reflow to ensure content is rendered
+            lessonContentElement.offsetHeight;
+            console.log('Reflow forced');
+        } catch (error) {
+            console.error('Error setting lesson content HTML:', error);
         }
         
         // Mark lesson as active
