@@ -949,6 +949,24 @@ body {
     margin-bottom: 2rem;
 }
 
+.kannada-notice {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    background: linear-gradient(135deg, var(--accent-color) 0%, var(--primary-color) 100%);
+    color: white;
+    padding: 1.25rem 1.5rem;
+    border-radius: 12px;
+    margin-bottom: 2rem;
+    font-weight: 500;
+    font-size: 1.1rem;
+    box-shadow: var(--shadow-lg);
+}
+
+.kannada-notice i {
+    font-size: 1.5rem;
+}
+
 /* Quick Navigation */
 .level-quick-nav {
     display: flex;
