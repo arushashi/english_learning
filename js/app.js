@@ -62,6 +62,68 @@ class KannadaEnglishApp {
         document.getElementById('viewLevels')?.addEventListener('click', () => {
             this.navigateTo('levels');
         });
+
+        // Quick navigation buttons
+        this.setupQuickNavigation();
+        this.setupLevelFilters();
+    }
+
+    setupQuickNavigation() {
+        const navButtons = document.querySelectorAll('.nav-btn');
+        navButtons.forEach(btn => {
+            btn.addEventListener('click', () => {
+                const level = parseInt(btn.dataset.level);
+                this.scrollToLevel(level);
+                
+                // Update active state
+                navButtons.forEach(b => b.classList.remove('active'));
+                btn.classList.add('active');
+            });
+        });
+    }
+
+    setupLevelFilters() {
+        const filterButtons = document.querySelectorAll('.filter-btn');
+        filterButtons.forEach(btn => {
+            btn.addEventListener('click', () => {
+                const filter = btn.dataset.filter;
+                this.filterLevels(filter);
+                
+                // Update active state
+                filterButtons.forEach(b => b.classList.remove('active'));
+                btn.classList.add('active');
+            });
+        });
+    }
+
+    scrollToLevel(level) {
+        const levelCard = document.querySelector(`.level-card[data-level="${level}"]`);
+        if (levelCard) {
+            levelCard.scrollIntoView({ behavior: 'smooth', block: 'center' });
+            // Highlight the card temporarily
+            levelCard.style.transform = 'scale(1.05)';
+            setTimeout(() => {
+                levelCard.style.transform = '';
+            }, 500);
+        }
+    }
+
+    filterLevels(filter) {
+        const levelCards = document.querySelectorAll('.level-card');
+        levelCards.forEach(card => {
+            const level = parseInt(card.dataset.level);
+            let shouldShow = true;
+            
+            if (filter === 'beginner') {
+                shouldShow = level >= 0 && level <= 3;
+            } else if (filter === 'intermediate') {
+                shouldShow = level >= 4 && level <= 6;
+            } else if (filter === 'advanced') {
+                shouldShow = level >= 7 && level <= 9;
+            }
+            
+            card.style.display = shouldShow ? 'block' : 'none';
+        });
     }
 
     navigateTo(page) {
