@@ -1,14 +1,12 @@
 {
-  "timestamp": "2026-07-28T06:34:43.050Z",
-  "totalLessons": 129,
-  "totalErrors": 9,
-  "totalWarnings": 2,
+  "timestamp": "2026-07-28T06:49:25.907Z",
+  "totalLessons": 174,
+  "totalErrors": 18,
+  "totalWarnings": 0,
   "errorsByCategory": {
-    "SCRIPT_VALIDATION": 9
+    "SCRIPT_VALIDATION": 18
   },
-  "warningsByCategory": {
-    "PLACEHOLDERS": 2
-  },
+  "warningsByCategory": {},
   "lessons": [
     {
       "levelKey": "level0",
@@ -318,52 +316,79 @@
     },
     {
       "levelKey": "level2",
-      "lessonId": 13,
-      "title": "Sentence Structure - Subject, Verb, Object",
+      "lessonId": 16,
+      "title": "Nouns - Countable and Uncountable",
       "errors": [],
       "warnings": []
     },
     {
       "levelKey": "level2",
-      "lessonId": 14,
+      "lessonId": 17,
       "title": "Articles - A, An, The",
       "errors": [],
       "warnings": []
     },
     {
       "levelKey": "level2",
-      "lessonId": 15,
-      "title": "Simple Past Tense - Regular Verbs",
-      "errors": [],
-      "warnings": [
+      "lessonId": 18,
+      "title": "Pronouns - Subject, Object, Possessive",
+      "errors": [
         {
-          "level": "WARNING",
-          "category": "PLACEHOLDERS",
-          "message": "Placeholder text in explanation",
-          "lessonId": "15",
-          "field": "explanation"
+          "level": "ERROR",
+          "category": "SCRIPT_VALIDATION",
+          "message": "kannadaExplanation is 38% Latin (expected Kannada)",
+          "lessonId": "18",
+          "field": "kannadaExplanation"
         }
-      ]
+      ],
+      "warnings": []
     },
     {
       "levelKey": "level2",
-      "lessonId": 16,
-      "title": "Simple Past Tense - Irregular Verbs",
+      "lessonId": 19,
+      "title": "Adjectives - Describing Words",
       "errors": [],
-      "warnings": [
-        {
-          "level": "WARNING",
-          "category": "PLACEHOLDERS",
-          "message": "Placeholder text in explanation",
-          "lessonId": "16",
-          "field": "explanation"
-        }
-      ]
+      "warnings": []
     },
     {
       "levelKey": "level2",
-      "lessonId": 17,
-      "title": "Prepositions of Time - In, On, At",
+      "lessonId": 20,
+      "title": "Adverbs - How, When, Where",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "levelKey": "level2",
+      "lessonId": 21,
+      "title": "Conjunctions - And, But, Or, So, Because",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "levelKey": "level2",
+      "lessonId": 22,
+      "title": "SVO Word Order",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "levelKey": "level2",
+      "lessonId": 23,
+      "title": "Comparatives and Superlatives",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "levelKey": "level2",
+      "lessonId": 24,
+      "title": "Plurals and Irregular Plurals",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "levelKey": "level2",
+      "lessonId": 25,
+      "title": "Level 2 Comprehensive Test",
       "errors": [],
       "warnings": []
     },
@@ -468,6 +493,77 @@
       "warnings": []
     },
     {
+      "levelKey": "level3",
+      "lessonId": 13,
+      "title": "Prepositions of Place",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "levelKey": "level3",
+      "lessonId": 14,
+      "title": "Prepositions of Time",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "levelKey": "level3",
+      "lessonId": 15,
+      "title": "Prepositions of Movement",
+      "errors": [
+        {
+          "level": "ERROR",
+          "category": "SCRIPT_VALIDATION",
+          "message": "kannadaExplanation is 34% Latin (expected Kannada)",
+          "lessonId": "15",
+          "field": "kannadaExplanation"
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "levelKey": "level3",
+      "lessonId": 16,
+      "title": "Imperatives - Commands",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "levelKey": "level3",
+      "lessonId": 17,
+      "title": "Possessives",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "levelKey": "level3",
+      "lessonId": 18,
+      "title": "Wh- Questions Complete",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "levelKey": "level3",
+      "lessonId": 19,
+      "title": "Simple Past - Regular Verbs",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "levelKey": "level3",
+      "lessonId": 20,
+      "title": "Simple Past - Irregular Verbs",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "levelKey": "level3",
+      "lessonId": 21,
+      "title": "Level 3 Comprehensive Test",
+      "errors": [],
+      "warnings": []
+    },
+    {
       "levelKey": "level4",
       "lessonId": 1,
       "title": "Past Simple Tense - Regular Verbs",
@@ -534,6 +630,115 @@
       "levelKey": "level4",
       "lessonId": 10,
       "title": "Level 4 Test",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "levelKey": "level4",
+      "lessonId": 11,
+      "title": "Past Continuous Tense",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "levelKey": "level4",
+      "lessonId": 12,
+      "title": "Modals - Can, Could, May, Might",
+      "errors": [
+        {
+          "level": "ERROR",
+          "category": "SCRIPT_VALIDATION",
+          "message": "kannadaTitle is 48% Latin (expected Kannada)",
+          "lessonId": "12",
+          "field": "kannadaTitle"
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "levelKey": "level4",
+      "lessonId": 13,
+      "title": "Modals - Must, Should, Have to",
+      "errors": [
+        {
+          "level": "ERROR",
+          "category": "SCRIPT_VALIDATION",
+          "message": "kannadaTitle is 50% Latin (expected Kannada)",
+          "lessonId": "13",
+          "field": "kannadaTitle"
+        },
+        {
+          "level": "ERROR",
+          "category": "SCRIPT_VALIDATION",
+          "message": "kannadaExplanation is 30% Latin (expected Kannada)",
+          "lessonId": "13",
+          "field": "kannadaExplanation"
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "levelKey": "level4",
+      "lessonId": 14,
+      "title": "Present Perfect Tense",
+      "errors": [
+        {
+          "level": "ERROR",
+          "category": "SCRIPT_VALIDATION",
+          "message": "kannadaExplanation is 31% Latin (expected Kannada)",
+          "lessonId": "14",
+          "field": "kannadaExplanation"
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "levelKey": "level4",
+      "lessonId": 15,
+      "title": "Present Perfect vs Past Simple",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "levelKey": "level4",
+      "lessonId": 16,
+      "title": "Future Continuous Tense",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "levelKey": "level4",
+      "lessonId": 17,
+      "title": "Used to and Would",
+      "errors": [
+        {
+          "level": "ERROR",
+          "category": "SCRIPT_VALIDATION",
+          "message": "kannadaTitle is 58% Latin (expected Kannada)",
+          "lessonId": "17",
+          "field": "kannadaTitle"
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "levelKey": "level4",
+      "lessonId": 18,
+      "title": "Past Perfect Tense",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "levelKey": "level4",
+      "lessonId": 19,
+      "title": "Future Perfect Tense",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "levelKey": "level4",
+      "lessonId": 20,
+      "title": "Level 4 Comprehensive Test",
       "errors": [],
       "warnings": []
     },
@@ -643,6 +848,41 @@
       "warnings": []
     },
     {
+      "levelKey": "level5",
+      "lessonId": 16,
+      "title": "Phrasal Verbs - Common",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "levelKey": "level5",
+      "lessonId": 17,
+      "title": "Common Idioms",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "levelKey": "level5",
+      "lessonId": 18,
+      "title": "Collocations",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "levelKey": "level5",
+      "lessonId": 19,
+      "title": "Formal vs Informal English",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "levelKey": "level5",
+      "lessonId": 20,
+      "title": "Level 5 Comprehensive Test",
+      "errors": [],
+      "warnings": []
+    },
+    {
       "levelKey": "level6",
       "lessonId": 1,
       "title": "Describing People",
@@ -731,6 +971,56 @@
       "levelKey": "level6",
       "lessonId": 12,
       "title": "Level 6 Test",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "levelKey": "level6",
+      "lessonId": 13,
+      "title": "Linking Words - Addition and Contrast",
+      "errors": [
+        {
+          "level": "ERROR",
+          "category": "SCRIPT_VALIDATION",
+          "message": "kannadaExplanation is 61% Latin (expected Kannada)",
+          "lessonId": "13",
+          "field": "kannadaExplanation"
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "levelKey": "level6",
+      "lessonId": 14,
+      "title": "Expressing Emotions",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "levelKey": "level6",
+      "lessonId": 15,
+      "title": "Relative Clauses - Who, Which, That",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "levelKey": "level6",
+      "lessonId": 16,
+      "title": "Conditional Sentences - Type 0 and 1",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "levelKey": "level6",
+      "lessonId": 17,
+      "title": "Conditional Sentences - Type 2 and 3",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "levelKey": "level6",
+      "lessonId": 18,
+      "title": "Level 6 Comprehensive Test",
       "errors": [],
       "warnings": []
     },
@@ -928,6 +1218,84 @@
       "levelKey": "level8",
       "lessonId": 15,
       "title": "Level 8 Test",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "levelKey": "level8",
+      "lessonId": 16,
+      "title": "Gerunds and Infinitives",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "levelKey": "level8",
+      "lessonId": 17,
+      "title": "Tag Questions",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "levelKey": "level8",
+      "lessonId": 18,
+      "title": "Causative Structures",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "levelKey": "level8",
+      "lessonId": 19,
+      "title": "Direct and Indirect Speech",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "levelKey": "level8",
+      "lessonId": 20,
+      "title": "Active vs Passive Voice - All Tenses",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "levelKey": "level8",
+      "lessonId": 21,
+      "title": "Subject-Verb Agreement Advanced",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "levelKey": "level8",
+      "lessonId": 22,
+      "title": "Wish and If only",
+      "errors": [
+        {
+          "level": "ERROR",
+          "category": "SCRIPT_VALIDATION",
+          "message": "kannadaTitle is 56% Latin (expected Kannada)",
+          "lessonId": "22",
+          "field": "kannadaTitle"
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "levelKey": "level8",
+      "lessonId": 23,
+      "title": "Punctuation and Capitalization",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "levelKey": "level8",
+      "lessonId": 24,
+      "title": "Common Kannada-English Errors",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "levelKey": "level8",
+      "lessonId": 25,
+      "title": "Level 8 Comprehensive Test",
       "errors": [],
       "warnings": []
     },
