@@ -192,7 +192,9 @@ class KannadaEnglishApp {
             const pageNames = {
                 'levels': 'Levels',
                 'practice': 'Practice',
-                'progress': 'My Progress'
+                'progress': 'My Progress',
+                'resources': 'Resources',
+                'about': 'About'
             };
             if (currentPage) {
                 currentPage.textContent = pageNames[page] || page;
@@ -893,7 +895,8 @@ class KannadaEnglishApp {
         const totalLessons = this.getLessonsCount(level);
         console.log('totalLessons:', totalLessons);
         if (currentLesson < totalLessons) {
-            this.showLesson(level, currentLesson + 1);
+            // Use showNextLesson to load actual lesson data from JSON
+            this.showNextLesson(level, currentLesson);
         } else {
             this.showNotification('You have completed all lessons in this level!', 'success');
         }
