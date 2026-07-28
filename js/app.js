@@ -223,17 +223,17 @@ class KannadaEnglishApp {
         const levelDescriptions = [
             'Learn English letters, sounds, and basic reading',
             'Greetings, self-introduction, basic needs',
-            'Present tense, questions, daily routines',
-            'Present continuous, home, family',
-            'Basic past, future, time expressions',
-            'Shopping, travel, phone, food',
-            'People, places, opinions, stories',
+            'Nouns, articles, pronouns, adjectives, adverbs, conjunctions, comparatives, sentence structure',
+            'Prepositions, imperatives, possessives, Wh-questions, past tense introduction',
+            'Past continuous, modals, present/past/future perfect, used to',
+            'Shopping, travel, phone, phrasal verbs, idioms, collocations',
+            'People, places, opinions, relative clauses, conditionals',
             'Office, emails, interviews',
-            'Passive voice, conditionals, perfect tenses',
+            'Gerunds, tag questions, causatives, reported speech, passive voice, wishes',
             'Advanced speaking, presentations'
         ];
 
-        const lessonCounts = [11, 12, 15, 12, 10, 15, 12, 12, 15, 10];
+        const lessonCounts = [11, 12, 25, 21, 20, 20, 18, 12, 25, 10];
 
         let levelsGridHTML = '';
         for (let i = 0; i < 10; i++) {
@@ -320,16 +320,20 @@ class KannadaEnglishApp {
     }
 
     getLessonsCount(level) {
+        // If we have live data loaded, use that
+        if (this.currentLevelData && this.currentLevelData.lessons) {
+            return this.currentLevelData.lessons.length;
+        }
         const lessonsCount = {
-            0: 10,
+            0: 11,
             1: 12,
-            2: 15,
-            3: 12,
-            4: 10,
-            5: 15,
-            6: 12,
+            2: 25,
+            3: 21,
+            4: 20,
+            5: 20,
+            6: 18,
             7: 12,
-            8: 15,
+            8: 25,
             9: 10
         };
         return lessonsCount[level] || 10;
@@ -397,13 +401,13 @@ class KannadaEnglishApp {
         const levelDescriptions = [
             'Learn English letters, sounds, and basic reading',
             'Greetings, self-introduction, basic needs',
-            'Present tense, questions, daily routines',
-            'Present continuous, home, family',
-            'Basic past, future, time expressions',
-            'Shopping, travel, phone, food',
-            'People, places, opinions, stories',
+            'Nouns, articles, pronouns, adjectives, adverbs, conjunctions, comparatives, sentence structure',
+            'Prepositions, imperatives, possessives, Wh-questions, past tense introduction',
+            'Past continuous, modals, present/past/future perfect, used to',
+            'Shopping, travel, phone, phrasal verbs, idioms, collocations',
+            'People, places, opinions, relative clauses, conditionals',
             'Office, emails, interviews',
-            'Passive voice, conditionals, perfect tenses',
+            'Gerunds, tag questions, causatives, reported speech, passive voice, wishes',
             'Advanced speaking, presentations'
         ];
 
@@ -603,6 +607,58 @@ class KannadaEnglishApp {
             `;
         }
 
+        // Render practice questions
+        let practiceQuestionsHTML = '';
+        if (lessonData.practiceQuestions && lessonData.practiceQuestions.length > 0) {
+            const questionsToShow = lessonData.practiceQuestions.slice(0, 5);
+            practiceQuestionsHTML = `
+                <div class="lesson-section">
+                    <h4>📝 Practice Questions</h4>
+                    <div class="practice-questions-block">
+                        ${questionsToShow.map((q, idx) => `
+                            <div class="practice-question" data-question="${idx}" data-correct="${q.correct}">
+                                <p class="pq-text"><strong>Q${idx+1}.</strong> ${q.question}</p>
+                                <div class="pq-options">
+                                    ${q.options.map((opt, oi) => `
+                                        <label class="pq-option" data-idx="${oi}">
+                                            <input type="radio" name="pq_${lesson}_${idx}" value="${oi}">
+                                            <span>${opt}</span>
+                                        </label>
+                                    `).join('')}
+                                </div>
+                                <div class="pq-feedback" style="display:none;"></div>
+                            </div>
+                        `).join('')}
+                        <button class="btn-check-answers" onclick="window.app.checkPracticeAnswers(${lesson})">
+                            <i class="fas fa-check-circle"></i> Check Answers
+                        </button>
+                    </div>
+                </div>
+            `;
+        }
+
+        // Render common mistakes
+        let commonMistakesHTML = '';
+        if (lessonData.commonMistakes && lessonData.commonMistakes.length > 0) {
+            commonMistakesHTML = `
+                <div class="lesson-section">
+                    <h4>⚠️ Common Mistakes</h4>
+                    <div class="common-mistakes-block">
+                        ${lessonData.commonMistakes.map(m => `
+                            <div class="mistake-item">
+                                <div class="mistake-wrong">❌ ${m.mistake}</div>
+                                <div class="mistake-correct">✅ ${m.correction}</div>
+                                <div class="mistake-explain">${m.explanation}</div>
+                            </div>
+                        `).join('')}
+                    </div>
+                </div>
+            `;
+        }
+
+        // CEFR badge
+        const cefrBadge = lessonData.cefr ? `<span class="cefr-badge">${lessonData.cefr}</span>` : '';
+
         const lessonContent = `
             <div class="lesson-detail">
                 <div class="lesson-navigation">
@@ -620,7 +676,7 @@ class KannadaEnglishApp {
                     </div>
                 </div>
                 
-                <h3>${lessonData.title}</h3>
+                <h3>${lessonData.title} ${cefrBadge}</h3>
                 <p class="kannada-title">${lessonData.kannadaTitle || ''}</p>
                 
                 <div class="lesson-section">
@@ -654,6 +710,9 @@ class KannadaEnglishApp {
                         `}
                     </div>
                 </div>
+                
+                ${practiceQuestionsHTML}
+                ${commonMistakesHTML}
                 
                 <div class="lesson-actions">
                     <button class="btn-complete-lesson" onclick="window.app.completeLesson(${level}, ${lesson})">
@@ -1363,6 +1422,35 @@ class KannadaEnglishApp {
         return quizCount > 0 ? Math.round(totalScore / quizCount) : 0;
     }
 
+    checkPracticeAnswers(lesson) {
+        const questions = document.querySelectorAll('.practice-question');
+        let correct = 0;
+        let total = questions.length;
+        
+        questions.forEach(q => {
+            const correctAnswer = parseInt(q.dataset.correct);
+            const selected = q.querySelector('input[type="radio"]:checked');
+            const feedback = q.querySelector('.pq-feedback');
+            
+            if (selected) {
+                const selectedValue = parseInt(selected.value);
+                if (selectedValue === correctAnswer) {
+                    correct++;
+                    feedback.innerHTML = '<span style="color:#27ae60;">✅ Correct!</span>';
+                    feedback.style.display = 'block';
+                } else {
+                    feedback.innerHTML = '<span style="color:#e74c3c;">❌ Incorrect</span>';
+                    feedback.style.display = 'block';
+                }
+            } else {
+                feedback.innerHTML = '<span style="color:#f39c12;">⚠️ Not answered</span>';
+                feedback.style.display = 'block';
+            }
+        });
+        
+        this.showNotification(`Score: ${correct}/${total} correct!`, correct === total ? 'success' : 'info');
+    }
+
     // Utility Functions
     showNotification(message, type = 'info') {
         const notification = document.createElement('div');
@@ -1667,6 +1755,194 @@ style.textContent = `
     .progress-message p {
         margin: 0.5rem 0;
         font-size: 1.1rem;
+    }
+
+    .cefr-badge {
+        display: inline-block;
+        padding: 0.2rem 0.6rem;
+        background-color: #3498db;
+        color: white;
+        border-radius: 12px;
+        font-size: 0.75rem;
+        font-weight: bold;
+        vertical-align: middle;
+        margin-left: 0.5rem;
+    }
+
+    .practice-questions-block {
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .practice-question {
+        background-color: var(--light-color);
+        padding: 1rem;
+        border-radius: 8px;
+        border-left: 4px solid var(--primary-color);
+    }
+
+    .pq-text {
+        margin-bottom: 0.5rem;
+    }
+
+    .pq-options {
+        display: flex;
+        flex-direction: column;
+        gap: 0.4rem;
+    }
+
+    .pq-option {
+        display: flex;
+        align-items: center;
+        gap: 0.5rem;
+        padding: 0.4rem 0.8rem;
+        background-color: white;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background-color 0.2s;
+    }
+
+    .pq-option:hover {
+        background-color: #d5d8dc;
+    }
+
+    .pq-feedback {
+        margin-top: 0.5rem;
+        font-weight: bold;
+    }
+
+    .btn-check-answers {
+        background-color: var(--accent-color);
+        color: white;
+        border: none;
+        padding: 0.75rem 1.5rem;
+        border-radius: 5px;
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        gap: 0.5rem;
+        margin-top: 0.5rem;
+        font-size: 1rem;
+    }
+
+    .btn-check-answers:hover {
+        opacity: 0.9;
+    }
+
+    .common-mistakes-block {
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .mistake-item {
+        background-color: #fff3cd;
+        padding: 1rem;
+        border-radius: 8px;
+        border-left: 4px solid #f39c12;
+    }
+
+    .mistake-wrong {
+        color: #e74c3c;
+        font-weight: 500;
+        margin-bottom: 0.3rem;
+    }
+
+    .mistake-correct {
+        color: #27ae60;
+        font-weight: 500;
+        margin-bottom: 0.3rem;
+    }
+
+    .mistake-explain {
+        color: #555;
+        font-size: 0.9rem;
+        font-style: italic;
+    }
+
+    .pattern-item {
+        background-color: var(--light-color);
+        padding: 1rem;
+        border-radius: 8px;
+        margin-bottom: 0.5rem;
+    }
+
+    .pattern-examples {
+        margin-top: 0.5rem;
+        padding-left: 1rem;
+        color: #555;
+    }
+
+    .pattern-examples div {
+        padding: 0.2rem 0;
+    }
+
+    .vocab-item {
+        display: flex;
+        justify-content: space-between;
+        padding: 0.5rem 1rem;
+        background-color: var(--light-color);
+        border-radius: 5px;
+        margin-bottom: 0.3rem;
+    }
+
+    .vocab-english {
+        font-weight: 500;
+    }
+
+    .vocab-kannada {
+        color: var(--secondary-color);
+        font-style: italic;
+    }
+
+    .lesson-navigation {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 1.5rem;
+        flex-wrap: wrap;
+        gap: 0.5rem;
+    }
+
+    .lesson-nav-buttons {
+        display: flex;
+        align-items: center;
+        gap: 0.5rem;
+    }
+
+    .btn-nav-lesson {
+        background-color: var(--secondary-color);
+        color: white;
+        border: none;
+        padding: 0.5rem 1rem;
+        border-radius: 5px;
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        gap: 0.3rem;
+    }
+
+    .btn-nav-lesson:disabled {
+        opacity: 0.5;
+        cursor: not-allowed;
+    }
+
+    .btn-back-lesson {
+        background-color: transparent;
+        color: var(--secondary-color);
+        border: 1px solid var(--secondary-color);
+        padding: 0.5rem 1rem;
+        border-radius: 5px;
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        gap: 0.3rem;
+    }
+
+    .lesson-indicator {
+        font-weight: 500;
+        color: var(--text-color);
     }
 
     @media (max-width: 768px) {
