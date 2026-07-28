@@ -1900,19 +1900,42 @@ body {
     justify-content: space-between;
     background: white;
     padding: 1rem;
-    border-radius: 4px;
-    border: 1px solid #ddd;
+    border-radius: 8px;
+    border: 1px solid #e2e8f0;
     gap: 1rem;
+    transition: box-shadow 0.2s ease;
+}
+
+.sentence-item:hover {
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+
+.sentence-text-group {
+    display: flex;
+    flex-direction: column;
+    gap: 0.35rem;
+    flex: 1;
 }
 
 .sentence {
-    flex: 1;
     font-size: 1.1rem;
     color: #2c3e50;
+    font-weight: 500;
+}
+
+.transliteration {
+    font-size: 0.92rem;
+    color: #6366f1;
+    font-style: italic;
+    padding: 0.2rem 0.5rem;
+    background: #eef2ff;
+    border-radius: 4px;
+    display: inline-block;
+    width: fit-content;
+    letter-spacing: 0.02em;
 }
 
 .kannada {
-    flex: 1;
     color: #e67e22;
     font-size: 1rem;
 }
@@ -1967,4 +1990,51 @@ body {
 
 .btn-next-lesson:hover {
     background: var(--secondary-color);
+}
+
+/* Kannada Interference Tip */
+.interference-tip-section {
+    border-left: 4px solid #f59e0b;
+}
+
+.interference-tip {
+    background: #fffbeb;
+    border: 1px solid #fde68a;
+    border-radius: 8px;
+    padding: 1rem 1.25rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.tip-pattern {
+    color: #92400e;
+    font-size: 1.05rem;
+}
+
+.tip-example {
+    color: #b45309;
+    font-size: 0.95rem;
+}
+
+.tip-correction {
+    color: #065f46;
+    background: #ecfdf5;
+    padding: 0.5rem 0.75rem;
+    border-radius: 4px;
+    font-size: 0.95rem;
+    border-left: 3px solid #10b981;
+}
+
+/* CEFR Badge */
+.cefr-badge {
+    display: inline-block;
+    background: var(--accent-color);
+    color: white;
+    font-size: 0.75rem;
+    padding: 0.15rem 0.5rem;
+    border-radius: 10px;
+    vertical-align: middle;
+    margin-left: 0.5rem;
+    font-weight: 600;
 }

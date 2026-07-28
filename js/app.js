@@ -558,8 +558,11 @@ class KannadaEnglishApp {
         if (lessonData.speakingPractice && lessonData.speakingPractice.length > 0) {
             speakingPracticeHTML = lessonData.speakingPractice.map(item => `
                 <div class="sentence-item">
-                    <span class="sentence">${item.english}</span>
-                    <span class="kannada">${item.kannada}</span>
+                    <div class="sentence-text-group">
+                        <span class="sentence">${item.english}</span>
+                        ${item.transliteration ? `<span class="transliteration">${item.transliteration}</span>` : ''}
+                        <span class="kannada">${item.kannada}</span>
+                    </div>
                     <button class="btn-audio-mini" onclick="window.app.speakText('${item.english.replace(/'/g, "\\'")}')">
                         <i class="fas fa-volume-up"></i>
                     </button>
@@ -710,6 +713,24 @@ class KannadaEnglishApp {
                         `}
                     </div>
                 </div>
+                
+                ${(() => {
+                    if (window.KannadaInterference) {
+                        const tip = window.KannadaInterference.getRandomTip(level);
+                        if (tip) {
+                            return `
+                            <div class="lesson-section interference-tip-section">
+                                <h4>💡 Kannada Speaker Tip</h4>
+                                <div class="interference-tip">
+                                    <div class="tip-pattern"><strong>${tip.pattern}</strong></div>
+                                    <div class="tip-example">Example: <em>${tip.example}</em></div>
+                                    <div class="tip-correction">${tip.tip}</div>
+                                </div>
+                            </div>`;
+                        }
+                    }
+                    return '';
+                })()}
                 
                 ${practiceQuestionsHTML}
                 ${commonMistakesHTML}
