@@ -1,0 +1,687 @@
+{
+  "tier_2_comprehensive": {
+    "title": "Tier 2: High-Impact Gaps - Comprehensive Module",
+    "description": "Thematic Vocabulary, Writing Skills, Reading Comprehension, Functional English",
+    "cefr": "A2-B2",
+    "modules": {
+      "thematic_vocabulary": {
+        "title": "Thematic Vocabulary (10 Modules)",
+        "modules": [
+          {
+            "id": 1,
+            "title": "Food & Drink Vocabulary",
+            "kannadaTitle": "ಆಹಾರ ಮತ್ತು ಪಾನೀಯ ಶಬ್ದಾವಳಿ",
+            "cefr": "A1-A2",
+            "vocabulary": [
+              {"english": "Apple", "kannada": "ಸೇಬು"},
+              {"english": "Banana", "kannada": "ಬಾಳೆ ಹಣ್ಣು"},
+              {"english": "Orange", "kannada": "ಕಿತ್ತಳೆ"},
+              {"english": "Mango", "kannada": "ಮಾವಿನಕಾಯಿ"},
+              {"english": "Carrot", "kannada": "ಕ್ಯಾರೆಟ್"},
+              {"english": "Onion", "kannada": "ಈರುಳ್ಳಿ"},
+              {"english": "Tomato", "kannada": "ಪೊಂಡೆ"},
+              {"english": "Rice", "kannada": "ಅಕ್ಕಿ"},
+              {"english": "Bread", "kannada": "ಬ್ರೆಡ್"},
+              {"english": "Milk", "kannada": "ಹಾಲು"},
+              {"english": "Water", "kannada": "ನೀರು"},
+              {"english": "Tea", "kannada": "ಚಹಾ"},
+              {"english": "Coffee", "kannada": "ಕಾಫಿ"},
+              {"english": "Juice", "kannada": "ರಸ"},
+              {"english": "Salt", "kannada": "ಉಪ್ಪು"},
+              {"english": "Sugar", "kannada": "ಸಕ್ಕರೆ"},
+              {"english": "Chilli", "kannada": "ಮೆಣಸಿನಕಾಯಿ"},
+              {"english": "Turmeric", "kannada": "ಹಲದಿ"},
+              {"english": "Coriander", "kannada": "ಕೋತಂಬರಿ"},
+              {"english": "Ghee", "kannada": "ತುಪ್ಪ"}
+            ],
+            "examples": [
+              "I like to eat mangoes in summer.",
+              "Can you pass me the salt, please?",
+              "I have milk and bread for breakfast.",
+              "Do you drink tea or coffee?",
+              "The vegetables are fresh at the market.",
+              "She cooks with turmeric and chilli.",
+              "I need to buy rice and dal for cooking.",
+              "Orange juice is healthy for you.",
+              "The bread is soft and fresh.",
+              "I prefer water to any other drink."
+            ]
+          },
+          {
+            "id": 2,
+            "title": "Body Parts & Health Vocabulary",
+            "kannadaTitle": "ದೇಹದ ಭಾಗಗಳು ಮತ್ತು ಆರೋಗ್ಯ ಶಬ್ದಾವಳಿ",
+            "cefr": "A1-A2",
+            "vocabulary": [
+              {"english": "Head", "kannada": "ತಲೆ"},
+              {"english": "Eye", "kannada": "ಕಣ್ಣು"},
+              {"english": "Ear", "kannada": "ಕಿವಿ"},
+              {"english": "Nose", "kannada": "ಮೂಗು"},
+              {"english": "Mouth", "kannada": "ಬಾಯಿ"},
+              {"english": "Tooth", "kannada": "ಹಲ್ಲು"},
+              {"english": "Hand", "kannada": "ಕೈ"},
+              {"english": "Finger", "kannada": "ಬೆರಳು"},
+              {"english": "Leg", "kannada": "ಕಾಲು"},
+              {"english": "Foot", "kannada": "ಪಾದ"},
+              {"english": "Heart", "kannada": "ಹೃದಯ"},
+              {"english": "Lung", "kannada": "ಶ್ವಾಸಕೋಶ"},
+              {"english": "Stomach", "kannada": "ಹೊಟ್ಟೆ"},
+              {"english": "Bone", "kannada": "ಮೂಳೆ"},
+              {"english": "Blood", "kannada": "ರಕ್ತ"},
+              {"english": "Fever", "kannada": "ಜ್ವರ"},
+              {"english": "Cough", "kannada": "ಕೆಮ್ಮು"},
+              {"english": "Cold", "kannada": "ಸಾಮಾನ್ಯ ಜ್ವರ"},
+              {"english": "Pain", "kannada": "ನೋವು"},
+              {"english": "Doctor", "kannada": "ವೈದ್ಯ"}
+            ],
+            "examples": [
+              "I have a headache.",
+              "She has a sore throat.",
+              "He has a fever.",
+              "I need to see a doctor.",
+              "My leg hurts.",
+              "The doctor prescribed medicine.",
+              "I have a cold.",
+              "My stomach is aching.",
+              "She has a toothache.",
+              "I need to go to the hospital."
+            ]
+          },
+          {
+            "id": 3,
+            "title": "Travel & Transport Vocabulary",
+            "kannadaTitle": "ಪ್ರವಾಸ ಮತ್ತು ಸಾರಿಗೆ ಶಬ್ದಾವಳಿ",
+            "cefr": "A1-A2",
+            "vocabulary": [
+              {"english": "Car", "kannada": "ಕಾರು"},
+              {"english": "Bus", "kannada": "ಬಸ್"},
+              {"english": "Train", "kannada": "ರೈಲು"},
+              {"english": "Airplane", "kannada": "ವಿಮಾನ"},
+              {"english": "Bicycle", "kannada": "ಸೈಕಲ್"},
+              {"english": "Motorcycle", "kannada": "ಮೋಟರ್ಸೈಕಲ್"},
+              {"english": "Taxi", "kannada": "ಟ್ಯಾಕ್ಸಿ"},
+              {"english": "Auto-rickshaw", "kannada": "ಆಟೋ"},
+              {"english": "Road", "kannada": "ರಸ್ತೆ"},
+              {"english": "Street", "kannada": "ಬೀದಿ"},
+              {"english": "Station", "kannada": "ನಿಲ್ದಾಣ"},
+              {"english": "Airport", "kannada": "ವಿಮಾನ ನಿಲ್ದಾಣ"},
+              {"english": "Hotel", "kannada": "ಹೋಟೆಲ್"},
+              {"english": "Ticket", "kannada": "ಟಿಕೆಟ್"},
+              {"english": "Passport", "kannada": "ಪಾಸ್‌ಪೋರ್ಟ್"},
+              {"english": "Luggage", "kannada": "ಸಾಮಾನು"},
+              {"english": "Journey", "kannada": "ಯಾತ್ರೆ"},
+              {"english": "Destination", "kannada": "ಗಂತವ್ಯ"},
+              {"english": "Departure", "kannada": "ಪ್ರಸ್ಥಾನ"},
+              {"english": "Arrival", "kannada": "ಆಗಮನ"}
+            ],
+            "examples": [
+              "I travel by car to office.",
+              "The train is late.",
+              "I need to book a flight.",
+              "Where is the nearest bus stop?",
+              "I lost my luggage at the airport.",
+              "The hotel is near the station.",
+              "I have a ticket for tomorrow.",
+              "The journey takes 2 hours.",
+              "What is your destination?",
+              "The airplane arrives at 5 PM."
+            ]
+          },
+          {
+            "id": 4,
+            "title": "Money & Finance Vocabulary",
+            "kannadaTitle": "ಹಣ ಮತ್ತು ಹಣಕಾಸು ಶಬ್ದಾವಳಿ",
+            "cefr": "A2-B1",
+            "vocabulary": [
+              {"english": "Money", "kannada": "ಹಣ"},
+              {"english": "Rupee", "kannada": "ರೂಪಾಯಿ"},
+              {"english": "Coin", "kannada": "ನಾಣ್ಯ"},
+              {"english": "Note", "kannada": "ನೋಟ್"},
+              {"english": "Bank", "kannada": "ಬ್ಯಾಂಕ್"},
+              {"english": "Account", "kannada": "ಖಾತೆ"},
+              {"english": "Deposit", "kannada": "ಠೇವಣೆ"},
+              {"english": "Withdrawal", "kannada": "ಪಡೆಯುವುದು"},
+              {"english": "Loan", "kannada": "ಸಾಲ"},
+              {"english": "Interest", "kannada": "ಬಡ್ಡಿ"},
+              {"english": "Price", "kannada": "ಬೆಲೆ"},
+              {"english": "Cost", "kannada": "ವೆಚ್ಚ"},
+              {"english": "Expensive", "kannada": "ದುಬಾರಿ"},
+              {"english": "Cheap", "kannada": "ಅಗ್ಗ"},
+              {"english": "Discount", "kannada": "ರಿಯಾಯತಿ"},
+              {"english": "Bill", "kannada": "ಬಿಲ್"},
+              {"english": "Receipt", "kannada": "ರಸೀದಿ"},
+              {"english": "Payment", "kannada": "ಪಾವತಿ"},
+              {"english": "Salary", "kannada": "ವೇತನ"},
+              {"english": "Income", "kannada": "ಆದಾಯ"}
+            ],
+            "examples": [
+              "How much does it cost?",
+              "I need to withdraw money from the bank.",
+              "The price is too expensive.",
+              "I have a bank account.",
+              "What is the interest rate?",
+              "I got a discount on this item.",
+              "Can you give me a receipt?",
+              "My salary is credited every month.",
+              "I need to pay the bill.",
+              "The loan has low interest."
+            ]
+          },
+          {
+            "id": 5,
+            "title": "Weather & Seasons Vocabulary",
+            "kannadaTitle": "ಹವಾಮಾನ ಮತ್ತು ಋತುಗಳ ಶಬ್ದಾವಳಿ",
+            "cefr": "A1-A2",
+            "vocabulary": [
+              {"english": "Sun", "kannada": "ಸೂರ್ಯ"},
+              {"english": "Moon", "kannada": "ಚಂದ್ರ"},
+              {"english": "Star", "kannada": "ನಕ್ಷತ್ರ"},
+              {"english": "Cloud", "kannada": "ಮೇಘ"},
+              {"english": "Rain", "kannada": "ಮಳೆ"},
+              {"english": "Snow", "kannada": "ಹಿಮ"},
+              {"english": "Wind", "kannada": "ಗಾಳಿ"},
+              {"english": "Storm", "kannada": "ಝಡ"},
+              {"english": "Thunder", "kannada": "ಗುಡುಗು"},
+              {"english": "Lightning", "kannada": "ಮಿಂಚು"},
+              {"english": "Hot", "kannada": "ಬಿಸಿ"},
+              {"english": "Cold", "kannada": "ತಂಪು"},
+              {"english": "Warm", "kannada": "ಬೆಚ್ಚಗಾದ"},
+              {"english": "Wet", "kannada": "ತೇವ"},
+              {"english": "Dry", "kannada": "ಶುಷ್ಕ"},
+              {"english": "Spring", "kannada": "ವಸಂತ"},
+              {"english": "Summer", "kannada": "ಬೇಸಿಗೆ"},
+              {"english": "Autumn", "kannada": "ಶರತ್ಕಾಲ"},
+              {"english": "Winter", "kannada": "ಶೀತಕಾಲ"},
+              {"english": "Monsoon", "kannada": "ಮಾನ್ಸೂನ್"}
+            ],
+            "examples": [
+              "It is raining heavily.",
+              "The sun is bright today.",
+              "It is cold in winter.",
+              "Summer is very hot.",
+              "There is a storm coming.",
+              "The weather is beautiful.",
+              "It is windy today.",
+              "The sky is cloudy.",
+              "I like the monsoon season.",
+              "Spring is the best season."
+            ]
+          },
+          {
+            "id": 6,
+            "title": "Colours Vocabulary",
+            "kannadaTitle": "ಬಣ್ಣಗಳ ಶಬ್ದಾವಳಿ",
+            "cefr": "A1",
+            "vocabulary": [
+              {"english": "Red", "kannada": "ಕೆಂಪು"},
+              {"english": "Blue", "kannada": "ನೀಲಿ"},
+              {"english": "Green", "kannada": "ಹಸಿರು"},
+              {"english": "Yellow", "kannada": "ಹಳದಿ"},
+              {"english": "Orange", "kannada": "ಕಿತ್ತಳೆ"},
+              {"english": "Purple", "kannada": "ನೇರಳೆ"},
+              {"english": "Pink", "kannada": "ಗುಲಾಬಿ"},
+              {"english": "Brown", "kannada": "ಕಂದು"},
+              {"english": "Black", "kannada": "ಕಪ್ಪೆ"},
+              {"english": "White", "kannada": "ಬಿಳಿ"},
+              {"english": "Grey", "kannada": "ಬೂದು"},
+              {"english": "Silver", "kannada": "ಬೆಳ್ಳಿ"},
+              {"english": "Gold", "kannada": "ಚಿನ್ನ"},
+              {"english": "Dark", "kannada": "ಗಾಢ"},
+              {"english": "Light", "kannada": "ಹಗುರ"},
+              {"english": "Bright", "kannada": "ಪ್ರಕಾಶಮಾನ"},
+              {"english": "Pale", "kannada": "ಮಸುಕು"},
+              {"english": "Vivid", "kannada": "ಜೀವಂತ"},
+              {"english": "Dull", "kannada": "ಮಂದ"},
+              {"english": "Transparent", "kannada": "ಪಾರದರ್ಶಕ"}
+            ],
+            "examples": [
+              "The car is red.",
+              "I like blue color.",
+              "The sky is blue.",
+              "The grass is green.",
+              "She is wearing a yellow dress.",
+              "The flower is pink.",
+              "The house is white.",
+              "The night is dark.",
+              "The sun is bright and yellow.",
+              "I prefer dark colors."
+            ]
+          },
+          {
+            "id": 7,
+            "title": "Directions & Location Vocabulary",
+            "kannadaTitle": "ದಿಕ್ಕು ಮತ್ತು ಸ್ಥಳ ಶಬ್ದಾವಳಿ",
+            "cefr": "A1-A2",
+            "vocabulary": [
+              {"english": "North", "kannada": "ಉತ್ತರ"},
+              {"english": "South", "kannada": "ದಕ್ಷಿಣ"},
+              {"english": "East", "kannada": "ಪೂರ್ವ"},
+              {"english": "West", "kannada": "ಪಶ್ಚಿಮ"},
+              {"english": "Left", "kannada": "ಎಡ"},
+              {"english": "Right", "kannada": "ಬಲ"},
+              {"english": "Straight", "kannada": "ನೇರ"},
+              {"english": "Near", "kannada": "ಹತ್ತಿರ"},
+              {"english": "Far", "kannada": "ದೂರ"},
+              {"english": "Opposite", "kannada": "ಎದುರು"},
+              {"english": "Behind", "kannada": "ಹಿಂದೆ"},
+              {"english": "Front", "kannada": "ಮುಂದೆ"},
+              {"english": "Above", "kannada": "ಮೇಲೆ"},
+              {"english": "Below", "kannada": "ಕೆಳಗೆ"},
+              {"english": "Inside", "kannada": "ಒಳಗೆ"},
+              {"english": "Outside", "kannada": "ಹೊರಗೆ"},
+              {"english": "Corner", "kannada": "ಮೂಲೆ"},
+              {"english": "Center", "kannada": "ಕೇಂದ್ರ"},
+              {"english": "Street", "kannada": "ಬೀದಿ"},
+              {"english": "Road", "kannada": "ರಸ್ತೆ"}
+            ],
+            "examples": [
+              "Go straight ahead.",
+              "Turn left at the traffic light.",
+              "The bank is near here.",
+              "The hospital is far from here.",
+              "The school is opposite the park.",
+              "The house is behind the tree.",
+              "The book is on the table.",
+              "The pen is in the drawer.",
+              "The picture is above the sofa.",
+              "The basement is below the house."
+            ]
+          },
+          {
+            "id": 8,
+            "title": "Shopping Vocabulary",
+            "kannadaTitle": "ಶಾಪಿಂಗ್ ಶಬ್ದಾವಳಿ",
+            "cefr": "A2-B1",
+            "vocabulary": [
+              {"english": "Shop", "kannada": "ಅಂಗಡಿ"},
+              {"english": "Market", "kannada": "ಮಾರುಕಟ್ಟೆ"},
+              {"english": "Store", "kannada": "ಸ್ಟೋರ್"},
+              {"english": "Customer", "kannada": "ಗ್ರಾಹಕ"},
+              {"english": "Seller", "kannada": "ಮಾರಾಟಗಾರ"},
+              {"english": "Price", "kannada": "ಬೆಲೆ"},
+              {"english": "Cost", "kannada": "ವೆಚ್ಚ"},
+              {"english": "Expensive", "kannada": "ದುಬಾರಿ"},
+              {"english": "Cheap", "kannada": "ಅಗ್ಗ"},
+              {"english": "Discount", "kannada": "ರಿಯಾಯತಿ"},
+              {"english": "Offer", "kannada": "ಪ್ರಸ್ತಾಪ"},
+              {"english": "Sale", "kannada": "ಮಾರಾಟ"},
+              {"english": "Bargain", "kannada": "ಚೌಪಡಿ"},
+              {"english": "Bill", "kannada": "ಬಿಲ್"},
+              {"english": "Receipt", "kannada": "ರಸೀದಿ"},
+              {"english": "Payment", "kannada": "ಪಾವತಿ"},
+              {"english": "Cash", "kannada": "ನಗದು"},
+              {"english": "Card", "kannada": "ಕಾರ್ಡ್"},
+              {"english": "Change", "kannada": "ಬದಲಾವಣೆ"},
+              {"english": "Bag", "kannada": "ಚೀಲ"}
+            ],
+            "examples": [
+              "How much does it cost?",
+              "This is too expensive.",
+              "Can you give me a discount?",
+              "I want to buy this item.",
+              "What is the price?",
+              "Do you have a smaller size?",
+              "Can I pay by card?",
+              "Where is the nearest shop?",
+              "The market is crowded today.",
+              "I need to bargain for a better price."
+            ]
+          },
+          {
+            "id": 9,
+            "title": "Office & Workplace Vocabulary",
+            "kannadaTitle": "ಆಫೀಸ್ ಮತ್ತು ಕೆಲಸದ ಸ್ಥಳ ಶಬ್ದಾವಳಿ",
+            "cefr": "A2-B1",
+            "vocabulary": [
+              {"english": "Office", "kannada": "ಆಫೀಸ್"},
+              {"english": "Desk", "kannada": "ಮೇಜು"},
+              {"english": "Chair", "kannada": "ಕುರ್ಚಿ"},
+              {"english": "Computer", "kannada": "ಕಂಪ್ಯೂಟರ್"},
+              {"english": "Keyboard", "kannada": "ಕೀಬೋರ್ಡ್"},
+              {"english": "Mouse", "kannada": "ಮೌಸ್"},
+              {"english": "Monitor", "kannada": "ಮಾನಿಟರ್"},
+              {"english": "Printer", "kannada": "ಪ್ರಿಂಟರ್"},
+              {"english": "Phone", "kannada": "ಫೋನ್"},
+              {"english": "Email", "kannada": "ಇಮೇಲ್"},
+              {"english": "Meeting", "kannada": "ಸಭೆ"},
+              {"english": "Conference", "kannada": "ಸಮ್ಮೇಳನ"},
+              {"english": "Project", "kannada": "ಯೋಜನೆ"},
+              {"english": "Deadline", "kannada": "ಅವಧಿ"},
+              {"english": "Report", "kannada": "ವರದಿ"},
+              {"english": "Document", "kannada": "ದಾಖಲೆ"},
+              {"english": "File", "kannada": "ಫೈಲ್"},
+              {"english": "Folder", "kannada": "ಫೋಲ್ಡರ್"},
+              {"english": "Boss", "kannada": "ಮುಖ್ಯಸ್ಥ"},
+              {"english": "Colleague", "kannada": "ಸಹೋದ್ಯೋಗಿ"}
+            ],
+            "examples": [
+              "I work in an office.",
+              "The meeting is at 2 PM.",
+              "I need to send an email.",
+              "The deadline is tomorrow.",
+              "I have to finish the report.",
+              "Can you print this document?",
+              "My boss is in the conference room.",
+              "I work with my colleagues.",
+              "The project is almost complete.",
+              "I have a lot of work today."
+            ]
+          },
+          {
+            "id": 10,
+            "title": "Numbers & Quantities Vocabulary",
+            "kannadaTitle": "ಸಂಖ್ಯೆಗಳು ಮತ್ತು ಪ್ರಮಾಣ ಶಬ್ದಾವಳಿ",
+            "cefr": "A1-B1",
+            "vocabulary": [
+              {"english": "One", "kannada": "ಒಂದು"},
+              {"english": "Two", "kannada": "ಎರಡು"},
+              {"english": "Three", "kannada": "ಮೂರು"},
+              {"english": "Ten", "kannada": "ಹತ್ತು"},
+              {"english": "Twenty", "kannada": "ಇಪ್ಪತ್ತು"},
+              {"english": "Hundred", "kannada": "ನೂರು"},
+              {"english": "Thousand", "kannada": "ಸಾವಿರ"},
+              {"english": "Million", "kannada": "ಮಿಲಿಯನ್"},
+              {"english": "First", "kannada": "ಮೊದಲನೆಯ"},
+              {"english": "Second", "kannada": "ಎರಡನೆಯ"},
+              {"english": "Third", "kannada": "ಮೂರನೆಯ"},
+              {"english": "Last", "kannada": "ಕೊನೆಯ"},
+              {"english": "Few", "kannada": "ಕೆಲವು"},
+              {"english": "Many", "kannada": "ಹಲವು"},
+              {"english": "Some", "kannada": "ಕೆಲವು"},
+              {"english": "All", "kannada": "ಎಲ್ಲ"},
+              {"english": "Half", "kannada": "ಅರ್ಧ"},
+              {"english": "Double", "kannada": "ದ್ವಿಗುಣ"},
+              {"english": "Pair", "kannada": "ಜೋಡಿ"},
+              {"english": "Dozen", "kannada": "ಡಜನ್"}
+            ],
+            "examples": [
+              "I have two brothers.",
+              "There are ten students in the class.",
+              "The book costs one hundred rupees.",
+              "I need a few minutes.",
+              "There are many people here.",
+              "All the students are present.",
+              "I ate half the pizza.",
+              "She bought a dozen eggs.",
+              "This is the first time.",
+              "He is the last person in the line."
+            ]
+          }
+        ]
+      },
+      "writing_skills": {
+        "title": "Writing Skills (6 Lessons)",
+        "lessons": [
+          {
+            "id": 1,
+            "title": "Paragraph Writing",
+            "kannadaTitle": "ಪ್ರಸ್ತಾರ ಬರೆಯುವುದು",
+            "cefr": "A2-B1",
+            "structure": [
+              "Topic sentence (main idea)",
+              "Supporting sentences (details and examples)",
+              "Concluding sentence (summary)"
+            ],
+            "example": "My Favorite Season is Summer. Summer is my favorite season because of the warm weather and outdoor activities. I enjoy swimming, playing sports, and spending time with friends. The days are longer, giving me more time to do things I love. However, summer can be very hot, and I need to stay hydrated. Overall, summer is the best season for me."
+          },
+          {
+            "id": 2,
+            "title": "Email Writing",
+            "kannadaTitle": "ಇಮೇಲ್ ಬರೆಯುವುದು",
+            "cefr": "B1",
+            "structure": [
+              "Subject line (clear and concise)",
+              "Greeting (Dear Sir/Madam, Hi [Name])",
+              "Body (main message in 2-3 paragraphs)",
+              "Closing (Sincerely, Best regards, Thank you)",
+              "Signature ([Your Name])"
+            ],
+            "example": "Subject: Request for Leave\n\nDear Sir/Madam,\n\nI am writing to request leave from [date] to [date] for [reason]. I have completed all my pending work and will ensure a smooth handover to my colleague.\n\nI would appreciate your approval at your earliest convenience.\n\nThank you for your consideration.\n\nYours sincerely,\n[Your Name]"
+          },
+          {
+            "id": 3,
+            "title": "Formal Letter Writing",
+            "kannadaTitle": "ಔಪಚಾರಿಕ ಪತ್ರ ಬರೆಯುವುದು",
+            "cefr": "B1-B2",
+            "structure": [
+              "Your address and date",
+              "Recipient's address",
+              "Salutation (Dear Sir/Madam)",
+              "Body (3-4 paragraphs)",
+              "Closing (Yours sincerely)",
+              "Signature"
+            ],
+            "example": "[Your Address]\n[Date]\n\n[Recipient's Address]\n\nDear Sir/Madam,\n\n[Opening paragraph: State the purpose]\n\n[Middle paragraph: Provide details and reasons]\n\n[Closing paragraph: Request action or conclusion]\n\nYours sincerely,\n[Your Name]"
+          },
+          {
+            "id": 4,
+            "title": "Essay Writing",
+            "kannadaTitle": "ಪ್ರಬಂಧ ಬರೆಯುವುದು",
+            "cefr": "B2",
+            "structure": [
+              "Introduction (hook, thesis statement)",
+              "Body (3-5 paragraphs with topic sentences and supporting details)",
+              "Conclusion (summary and final thoughts)"
+            ],
+            "example": "Title: The Importance of Education\n\nIntroduction: Education is the foundation of a successful life. It provides knowledge, skills, and opportunities for personal growth and career advancement.\n\nBody: [Paragraph 1] Education improves critical thinking skills. [Paragraph 2] Education increases job opportunities. [Paragraph 3] Education promotes social development.\n\nConclusion: In conclusion, education is essential for personal and societal development."
+          },
+          {
+            "id": 5,
+            "title": "Application & Resume Writing",
+            "kannadaTitle": "ಅರ್ಜಿ ಮತ್ತು ಸಾರಾಂಶ ಬರೆಯುವುದು",
+            "cefr": "B2",
+            "structure": [
+              "Resume: Contact info, objective, experience, education, skills",
+              "Application: Formal letter addressing job requirements"
+            ],
+            "example": "Resume:\n[Your Name]\n[Contact Information]\n\nObjective: To obtain a position in [field]\n\nExperience:\n- [Job Title] at [Company] (dates)\n- [Responsibilities and achievements]\n\nEducation:\n- [Degree] from [Institution] (year)\n\nSkills:\n- [Relevant skills]"
+          },
+          {
+            "id": 6,
+            "title": "Report & Summary Writing",
+            "kannadaTitle": "ವರದಿ ಮತ್ತು ಸಾರಾಂಶ ಬರೆಯುವುದು",
+            "cefr": "B2",
+            "structure": [
+              "Title and date",
+              "Executive summary (overview)",
+              "Introduction (background)",
+              "Body (findings and analysis)",
+              "Conclusion (recommendations)"
+            ],
+            "example": "Title: Monthly Sales Report\nDate: [Date]\n\nExecutive Summary: Sales increased by 15% this month.\n\nIntroduction: This report covers sales performance for [month].\n\nBody: [Key findings and data]\n\nConclusion: [Recommendations for next month]"
+          }
+        ]
+      },
+      "reading_comprehension": {
+        "title": "Reading Comprehension (5 Lessons)",
+        "lessons": [
+          {
+            "id": 1,
+            "title": "Skimming & Scanning",
+            "kannadaTitle": "ತ್ವರಿತ ಓದುವುದು ಮತ್ತು ಹುಡುಕುವುದು",
+            "cefr": "A2",
+            "techniques": [
+              "Skimming: Read quickly to get the main idea",
+              "Scanning: Look for specific information"
+            ],
+            "practice": "Read a passage and answer questions about main ideas and specific details"
+          },
+          {
+            "id": 2,
+            "title": "Inference & Vocabulary in Context",
+            "kannadaTitle": "ತೀರ್ಮಾನ ಮತ್ತು ಸಂದರ್ಭದಲ್ಲಿ ಶಬ್ದಾವಳಿ",
+            "cefr": "B1",
+            "techniques": [
+              "Infer meaning from context",
+              "Understand vocabulary without dictionary",
+              "Identify author's tone and purpose"
+            ],
+            "practice": "Read passages and infer meanings, answer comprehension questions"
+          },
+          {
+            "id": 3,
+            "title": "Graded Reading Passages (A2)",
+            "kannadaTitle": "ಶ್ರೇಣೀಕೃತ ಓದುವ ಪಾಠಗಳು (A2)",
+            "cefr": "A2",
+            "passages": [
+              "Passage 1: My Daily Routine (200 words)",
+              "Passage 2: A Visit to the Market (250 words)",
+              "Passage 3: My Best Friend (200 words)"
+            ],
+            "questions": "5-7 comprehension questions per passage"
+          },
+          {
+            "id": 4,
+            "title": "Graded Reading Passages (B1)",
+            "kannadaTitle": "ಶ್ರೇಣೀಕೃತ ಓದುವ ಪಾಠಗಳು (B1)",
+            "cefr": "B1",
+            "passages": [
+              "Passage 1: The Importance of Education (300 words)",
+              "Passage 2: Technology and Society (350 words)",
+              "Passage 3: Environmental Conservation (300 words)"
+            ],
+            "questions": "8-10 comprehension questions per passage"
+          },
+          {
+            "id": 5,
+            "title": "Critical Reading & Analysis",
+            "kannadaTitle": "ವಿಮರ್ಶಾತ್ಮಕ ಓದುವುದು ಮತ್ತು ವಿಶ್ಲೇಷಣೆ",
+            "cefr": "B2",
+            "techniques": [
+              "Identify main idea and supporting details",
+              "Evaluate author's arguments",
+              "Distinguish fact from opinion",
+              "Understand implicit meanings"
+            ],
+            "practice": "Analyze complex passages and answer analytical questions"
+          }
+        ]
+      },
+      "functional_english": {
+        "title": "Functional English (12 Lessons)",
+        "lessons": [
+          {
+            "id": 1,
+            "title": "Asking & Giving Directions",
+            "kannadaTitle": "ದಿಕ್ಕು ಕೇಳುವುದು ಮತ್ತು ನೀಡುವುದು",
+            "cefr": "A2",
+            "dialogues": [
+              "A: Excuse me, where is the nearest bank?\nB: Go straight ahead and turn left at the traffic light.",
+              "A: Is it far from here?\nB: No, it's about 5 minutes walk."
+            ]
+          },
+          {
+            "id": 2,
+            "title": "Telephone & Video-Call English",
+            "kannadaTitle": "ಫೋನ್ ಮತ್ತು ವಿಡಿಯೋ ಕಾಲ್ ಇಂಗ್ಲಿಷ್",
+            "cefr": "A2-B1",
+            "dialogues": [
+              "A: Hello, this is Ramesh speaking.\nB: Hi Ramesh, how are you?",
+              "A: Can I speak to the manager?\nB: One moment, please."
+            ]
+          },
+          {
+            "id": 3,
+            "title": "Ordering Food & Restaurant English",
+            "kannadaTitle": "ಆಹಾರ ಆದೇಶಿಸುವುದು ಮತ್ತು ರೆಸ್ತೋರೆ ಇಂಗ್ಲಿಷ್",
+            "cefr": "A2",
+            "dialogues": [
+              "A: What would you like to order?\nB: I'll have a biryani and a glass of water.",
+              "A: Is the food spicy?\nB: Yes, it is. Would you like it less spicy?"
+            ]
+          },
+          {
+            "id": 4,
+            "title": "Shopping & Bargaining",
+            "kannadaTitle": "ಶಾಪಿಂಗ್ ಮತ್ತು ಚೌಪಡಿ",
+            "cefr": "A2-B1",
+            "dialogues": [
+              "A: How much does this cost?\nB: It's 500 rupees.\nA: Can you give me a discount?",
+              "B: I can give you 10% off."
+            ]
+          },
+          {
+            "id": 5,
+            "title": "At the Bank",
+            "kannadaTitle": "ಬ್ಯಾಂಕ್‌ನಲ್ಲಿ",
+            "cefr": "B1",
+            "dialogues": [
+              "A: I want to open a savings account.\nB: Sure, please fill this form.",
+              "A: What is the interest rate?\nB: It's 4% per annum."
+            ]
+          },
+          {
+            "id": 6,
+            "title": "At the Hospital",
+            "kannadaTitle": "ಆಸ್ಪತ್ರೆಯಲ್ಲಿ",
+            "cefr": "B1",
+            "dialogues": [
+              "A: I have a fever and cough.\nB: How long have you had these symptoms?",
+              "A: For 3 days.\nB: Let me examine you."
+            ]
+          },
+          {
+            "id": 7,
+            "title": "At Railway Station & Airport",
+            "kannadaTitle": "ರೈಲ್ವೆ ನಿಲ್ದಾಣ ಮತ್ತು ವಿಮಾನ ನಿಲ್ದಾಣದಲ್ಲಿ",
+            "cefr": "B1",
+            "dialogues": [
+              "A: I want to book a ticket to Bangalore.\nB: When do you want to travel?\nA: Tomorrow at 10 AM.",
+              "A: Where is the boarding gate?\nB: Gate number 5."
+            ]
+          },
+          {
+            "id": 8,
+            "title": "At Government Office",
+            "kannadaTitle": "ಸರ್ಕಾರಿ ಕಚೇರಿಯಲ್ಲಿ",
+            "cefr": "B1",
+            "dialogues": [
+              "A: I want to apply for a passport.\nB: Please fill this application form.",
+              "A: What documents do I need?\nB: You need your birth certificate and ID proof."
+            ]
+          },
+          {
+            "id": 9,
+            "title": "Job Interview English",
+            "kannadaTitle": "ಕೆಲಸದ ಸಂದರ್ಶನ ಇಂಗ್ಲಿಷ್",
+            "cefr": "B2",
+            "dialogues": [
+              "A: Tell me about yourself.\nB: I have 5 years of experience in IT.",
+              "A: What are your strengths?\nB: I am a good problem solver and team player."
+            ]
+          },
+          {
+            "id": 10,
+            "title": "Workplace English (Meetings, Email, Presentations)",
+            "kannadaTitle": "ಕೆಲಸದ ಸ್ಥಳ ಇಂಗ್ಲಿಷ್ (ಸಭೆಗಳು, ಇಮೇಲ್, ಪ್ರಸ್ತುತಿಗಳು)",
+            "cefr": "B2",
+            "dialogues": [
+              "A: Let's start the meeting.\nB: I have some updates on the project.",
+              "A: Can you send me the report by email?\nB: Sure, I'll send it by end of day."
+            ]
+          },
+          {
+            "id": 11,
+            "title": "Customer Support & BPO English",
+            "kannadaTitle": "ಗ್ರಾಹಕ ಸಹಾಯ ಮತ್ತು BPO ಇಂಗ್ಲಿಷ್",
+            "cefr": "B2",
+            "dialogues": [
+              "A: How can I help you today?\nB: I have a problem with my account.",
+              "A: Let me check that for you.\nB: Thank you for your help."
+            ]
+          },
+          {
+            "id": 12,
+            "title": "Classroom English",
+            "kannadaTitle": "ತರಗತಿ ಇಂಗ್ಲಿಷ್",
+            "cefr": "A2",
+            "dialogues": [
+              "A: Can I ask a question?\nB: Of course, go ahead.",
+              "A: I don't understand this.\nB: Let me explain it again."
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

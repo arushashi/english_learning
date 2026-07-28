@@ -1,0 +1,554 @@
+{
+  "tier_3_4_5_comprehensive": {
+    "title": "Tiers 3, 4, 5: Medium-Impact, Lower-Impact, and Platform Features",
+    "description": "Complete implementation of all remaining gaps and platform features",
+    "cefr": "B1-C2",
+    "tier_3_medium_impact": {
+      "title": "Tier 3: Medium-Impact Gaps",
+      "modules": [
+        {
+          "id": 1,
+          "title": "Numbers & Quantities (Complete Module)",
+          "kannadaTitle": "ಸಂಖ್ಯೆಗಳು ಮತ್ತು ಪ್ರಮಾಣ (ಸಂಪೂರ್ಣ ಮಾಡ್ಯೂಲ್)",
+          "cefr": "A1-B1",
+          "lessons": [
+            {
+              "id": 1,
+              "title": "Cardinal Numbers (1-1,000,000)",
+              "examples": ["1 one", "10 ten", "100 hundred", "1,000 thousand", "10,000 ten thousand", "1,00,000 one lakh", "10,00,000 ten lakh", "1,00,00,000 one crore"]
+            },
+            {
+              "id": 2,
+              "title": "Ordinal Numbers",
+              "examples": ["1st first", "2nd second", "3rd third", "10th tenth", "21st twenty-first", "100th hundredth"]
+            },
+            {
+              "id": 3,
+              "title": "Indian vs. International System",
+              "examples": ["1,50,000 (Indian) = 150,000 (International)", "10,00,000 (Indian lakh) = 1 million (International)"]
+            },
+            {
+              "id": 4,
+              "title": "Phone Numbers, PIN Codes, Account Numbers",
+              "examples": ["9876543210 (nine-eight-seven-six...)", "PIN: 560001", "Account: 1234567890"]
+            },
+            {
+              "id": 5,
+              "title": "Dates & Date Formats",
+              "examples": ["DD/MM/YYYY (Indian): 28/07/2024", "MM/DD/YYYY (American): 07/28/2024"]
+            },
+            {
+              "id": 6,
+              "title": "Time & Time Expressions",
+              "examples": ["6:30 AM (six thirty)", "14:45 (two forty-five PM)", "Quarter past six", "Half past seven"]
+            },
+            {
+              "id": 7,
+              "title": "Fractions, Decimals, Percentages",
+              "examples": ["1/2 (one half)", "0.5 (zero point five)", "50% (fifty percent)"]
+            },
+            {
+              "id": 8,
+              "title": "Money & Currency",
+              "examples": ["₹100 (one hundred rupees)", "$50 (fifty dollars)", "€25 (twenty-five euros)"]
+            },
+            {
+              "id": 9,
+              "title": "Weights, Measures, Temperature, Distance",
+              "examples": ["1 kg (one kilogram)", "5 meters", "30°C (thirty degrees Celsius)", "10 km (ten kilometers)"]
+            },
+            {
+              "id": 10,
+              "title": "Approximations",
+              "examples": ["About 50 people", "Nearly 100 rupees", "Roughly 5 hours", "Over 1000 students", "Under 500 rupees"]
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "title": "Word Formation (Prefixes, Suffixes, Root Words)",
+          "kannadaTitle": "ಪದ ರಚನೆ (ಪೂರ್ವಪದ, ಪ್ರತ್ಯಯ, ಮೂಲ ಪದ)",
+          "cefr": "B1-B2",
+          "lessons": [
+            {
+              "title": "Common Prefixes",
+              "examples": [
+                "un- (unhappy, unclear, undo)",
+                "re- (redo, rewrite, restart)",
+                "pre- (preview, prepare, predict)",
+                "dis- (disagree, dislike, disappear)",
+                "mis- (misunderstand, misspell, misuse)",
+                "over- (overwork, overflow, overcome)",
+                "under- (understand, underestimate, underline)"
+              ]
+            },
+            {
+              "title": "Common Suffixes",
+              "examples": [
+                "-tion (action, creation, education)",
+                "-ment (agreement, development, improvement)",
+                "-able (comfortable, reasonable, available)",
+                "-ful (beautiful, helpful, wonderful)",
+                "-less (hopeless, homeless, careless)",
+                "-ness (happiness, sadness, kindness)",
+                "-ly (quickly, slowly, carefully)",
+                "-er (teacher, worker, player)",
+                "-est (biggest, smallest, fastest)"
+              ]
+            },
+            {
+              "title": "Root Words",
+              "examples": [
+                "graph (write): photograph, biography, paragraph",
+                "port (carry): transport, import, export",
+                "dict (speak): dictionary, predict, contradict",
+                "struct (build): structure, construct, instruct",
+                "scribe (write): describe, prescribe, subscribe"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "title": "Synonyms, Antonyms, Homophones, Homonyms",
+          "kannadaTitle": "ಸಮಾನಾರ್ಥಕ, ವಿರುದ್ಧಾರ್ಥಕ, ಸಮಧ್ವನಿ, ಸಮನಾಮ",
+          "cefr": "B1",
+          "lessons": [
+            {
+              "title": "Synonyms",
+              "examples": [
+                "happy = joyful, cheerful, delighted",
+                "big = large, huge, enormous",
+                "beautiful = pretty, lovely, gorgeous",
+                "smart = intelligent, clever, bright",
+                "tired = exhausted, fatigued, weary"
+              ]
+            },
+            {
+              "title": "Antonyms",
+              "examples": [
+                "happy ≠ sad",
+                "big ≠ small",
+                "hot ≠ cold",
+                "fast ≠ slow",
+                "rich ≠ poor"
+              ]
+            },
+            {
+              "title": "Homophones",
+              "examples": [
+                "to/too/two",
+                "their/there/they're",
+                "right/write",
+                "see/sea",
+                "hear/here"
+              ]
+            },
+            {
+              "title": "Homonyms",
+              "examples": [
+                "bank (financial institution / river bank)",
+                "bat (animal / sports equipment)",
+                "bow (weapon / to bend)",
+                "lead (metal / to guide)",
+                "tear (to rip / from crying)"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "title": "Collocations, Idioms, Phrasal Verbs, Proverbs",
+          "kannadaTitle": "ಸಂಯೋಜನೆ, ಪದಸಮೂಹ, ಕ್ರಿಯಾ ಸಮೂಹ, ಗಾದೆಗಳು",
+          "cefr": "B1-B2",
+          "lessons": [
+            {
+              "title": "Collocations",
+              "examples": [
+                "strong tea (not powerful tea)",
+                "heavy rain (not strong rain)",
+                "make a decision (not do a decision)",
+                "take a break (not have a break)",
+                "do homework (not make homework)"
+              ]
+            },
+            {
+              "title": "Idioms",
+              "examples": [
+                "raining cats and dogs (raining heavily)",
+                "break the ice (start a conversation)",
+                "piece of cake (very easy)",
+                "hit the books (study hard)",
+                "under the weather (feeling sick)"
+              ]
+            },
+            {
+              "title": "Phrasal Verbs",
+              "examples": [
+                "put on (wear)",
+                "take off (remove)",
+                "look after (care for)",
+                "get up (wake up)",
+                "turn off (switch off)"
+              ]
+            },
+            {
+              "title": "Proverbs",
+              "examples": [
+                "Practice makes perfect",
+                "Actions speak louder than words",
+                "Better late than never",
+                "Don't judge a book by its cover",
+                "The early bird catches the worm"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "tier_4_lower_impact": {
+      "title": "Tier 4: Lower-Impact Gaps",
+      "modules": [
+        {
+          "id": 1,
+          "title": "Exam-Specific Tracks (6 Tracks)",
+          "kannadaTitle": "ಪರೀಕ್ಷೆ-ನಿರ್ದಿಷ್ಟ ಟ್ರ್ಯಾಕ್‌ಗಳು (6 ಟ್ರ್ಯಾಕ್‌ಗಳು)",
+          "cefr": "B1-C1",
+          "tracks": [
+            {
+              "id": 1,
+              "title": "IELTS Preparation",
+              "kannadaTitle": "IELTS ತಯಾರಿ",
+              "cefr": "B2-C1",
+              "modules": [
+                "Listening (4 sections, 40 questions)",
+                "Reading (3 sections, 40 questions)",
+                "Writing (2 tasks: Task 1 - 150 words, Task 2 - 250 words)",
+                "Speaking (3 parts: introduction, long turn, discussion)"
+              ]
+            },
+            {
+              "id": 2,
+              "title": "TOEFL Preparation",
+              "kannadaTitle": "TOEFL ತಯಾರಿ",
+              "cefr": "B2-C1",
+              "modules": [
+                "Reading (3-4 passages, 12-14 questions each)",
+                "Listening (2-3 conversations, 5 questions each; 4-6 lectures, 6 questions each)",
+                "Speaking (6 tasks: 2 independent, 4 integrated)",
+                "Writing (2 tasks: integrated, independent)"
+              ]
+            },
+            {
+              "id": 3,
+              "title": "PTE Preparation",
+              "kannadaTitle": "PTE ತಯಾರಿ",
+              "cefr": "B2-C1",
+              "modules": [
+                "Speaking & Writing (12 tasks)",
+                "Reading & Writing (8 tasks)",
+                "Listening (12 tasks)"
+              ]
+            },
+            {
+              "id": 4,
+              "title": "Duolingo English Test Preparation",
+              "kannadaTitle": "Duolingo ಇಂಗ್ಲಿಷ್ ಪರೀಕ್ಷೆ ತಯಾರಿ",
+              "cefr": "B1-B2",
+              "modules": [
+                "Reading (5 questions)",
+                "Listening (5 questions)",
+                "Speaking (3 questions)",
+                "Writing (1 question)"
+              ]
+            },
+            {
+              "id": 5,
+              "title": "Competitive Exam English (SSC, Banking, Railways, KAS)",
+              "kannadaTitle": "ಸ್ಪರ್ಧಾತ್ಮಕ ಪರೀಕ್ಷೆ ಇಂಗ್ಲಿಷ್ (SSC, ಬ್ಯಾಂಕಿಂಗ್, ರೈಲ್ವೆ, KAS)",
+              "cefr": "B1-B2",
+              "modules": [
+                "Vocabulary (synonyms, antonyms, one-word substitutions)",
+                "Grammar (error spotting, sentence correction)",
+                "Reading Comprehension (passages with questions)",
+                "Cloze Test (fill in the blanks)"
+              ]
+            },
+            {
+              "id": 6,
+              "title": "School/PU English Support (Karnataka & CBSE)",
+              "kannadaTitle": "ಶಾಲೆ/PU ಇಂಗ್ಲಿಷ್ ಸಹಾಯ (ಕರ್ನಾಟಕ ಮತ್ತು CBSE)",
+              "cefr": "A2-B1",
+              "modules": [
+                "Literature (poems, prose, drama)",
+                "Grammar (all tenses, parts of speech, sentence structure)",
+                "Writing (essays, letters, applications)",
+                "Reading Comprehension (unseen passages)"
+              ]
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "title": "Grammar Terminology Bridge (English ↔ Kannada)",
+          "kannadaTitle": "ವ್ಯಾಕರಣ ಪರಿಭಾಷೆ ಸೇತುವೆ (ಇಂಗ್ಲಿಷ್ ↔ ಕನ್ನಡ)",
+          "cefr": "A1-A2",
+          "glossary": [
+            {"english": "Noun", "kannada": "ನಾಮಪದ"},
+            {"english": "Verb", "kannada": "ಕ್ರಿಯಾಪದ"},
+            {"english": "Adjective", "kannada": "ವಿಶೇಷಣ"},
+            {"english": "Adverb", "kannada": "ಕ್ರಿಯಾವಿಶೇಷಣ"},
+            {"english": "Pronoun", "kannada": "ಸರ್ವನಾಮ"},
+            {"english": "Preposition", "kannada": "ಉಪಸರ್ಗ"},
+            {"english": "Conjunction", "kannada": "ಸಂಯೋಜಕ"},
+            {"english": "Tense", "kannada": "ಕಾಲ"},
+            {"english": "Subject", "kannada": "ಕರ್ತೃ"},
+            {"english": "Object", "kannada": "ಕರ್ಮ"}
+          ]
+        },
+        {
+          "id": 3,
+          "title": "Contractions & Spoken Reductions",
+          "kannadaTitle": "ಸಂಕೋಚನ ಮತ್ತು ಮಾತನಾಡುವ ಕಡಿತಗಳು",
+          "cefr": "A2-B1",
+          "contractions": [
+            {"full": "I am", "contraction": "I'm"},
+            {"full": "you are", "contraction": "you're"},
+            {"full": "he is", "contraction": "he's"},
+            {"full": "will not", "contraction": "won't"},
+            {"full": "cannot", "contraction": "can't"},
+            {"full": "do not", "contraction": "don't"},
+            {"full": "have not", "contraction": "haven't"},
+            {"full": "would have", "contraction": "would've"}
+          ],
+          "spoken_reductions": [
+            {"formal": "going to", "casual": "gonna"},
+            {"formal": "want to", "casual": "wanna"},
+            {"formal": "got to", "casual": "gotta"},
+            {"formal": "what are you", "casual": "whatcha"},
+            {"formal": "do you", "casual": "d'you"}
+          ]
+        },
+        {
+          "id": 4,
+          "title": "Register & Politeness",
+          "kannadaTitle": "ನೋಂದಣಿ ಮತ್ತು ವಿನಯ",
+          "cefr": "B1-B2",
+          "lessons": [
+            {
+              "title": "Same Message in Three Registers",
+              "example": [
+                "Casual: Hey, can you help me?",
+                "Neutral: Could you help me?",
+                "Formal: Would you be kind enough to assist me?"
+              ]
+            },
+            {
+              "title": "Polite Request Ladders",
+              "examples": [
+                "Direct: Give me the pen.",
+                "Polite: Can you give me the pen?",
+                "More polite: Could you please give me the pen?",
+                "Very polite: Would you mind giving me the pen?"
+              ]
+            },
+            {
+              "title": "Softening Disagreement",
+              "examples": [
+                "Direct: You're wrong.",
+                "Softer: I see your point, but I think...",
+                "Even softer: That's an interesting perspective. However..."
+              ]
+            },
+            {
+              "title": "Saying No Politely",
+              "examples": [
+                "Direct: No.",
+                "Polite: I appreciate the offer, but I can't.",
+                "Very polite: Thank you for thinking of me, but I'm unable to at this time."
+              ]
+            }
+          ]
+        },
+        {
+          "id": 5,
+          "title": "British vs. American English",
+          "kannadaTitle": "ಬ್ರಿಟಿಷ್ vs. ಅಮೇರಿಕನ್ ಇಂಗ್ಲಿಷ್",
+          "cefr": "B1-B2",
+          "differences": [
+            {
+              "category": "Spelling",
+              "examples": [
+                "British: colour, honour, centre",
+                "American: color, honor, center"
+              ]
+            },
+            {
+              "category": "Vocabulary",
+              "examples": [
+                "British: lift, petrol, flat",
+                "American: elevator, gas, apartment"
+              ]
+            },
+            {
+              "category": "Date Format",
+              "examples": [
+                "British: DD/MM/YYYY (28/07/2024)",
+                "American: MM/DD/YYYY (07/28/2024)"
+              ]
+            },
+            {
+              "category": "Pronunciation",
+              "examples": [
+                "British: /ˈæ.dʒɑː.sənt/ (adjacent)",
+                "American: /ˈæ.dʒeɪ.sənt/ (adjacent)"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "tier_5_platform_features": {
+      "title": "Tier 5: Platform & AI Features",
+      "modules": [
+        {
+          "id": 1,
+          "title": "Placement Test",
+          "kannadaTitle": "ಪ್ರವೇಶ ಪರೀಕ್ಷೆ",
+          "description": "Entry-level assessment to determine starting level",
+          "structure": [
+            "50 multiple-choice questions",
+            "Covers A1-B1 content",
+            "Adaptive (questions adjust based on performance)",
+            "Provides CEFR level recommendation"
+          ]
+        },
+        {
+          "id": 2,
+          "title": "CEFR Level Mapping",
+          "kannadaTitle": "CEFR ಮಟ್ಟ ನಕ್ಷೆ",
+          "description": "All lessons tagged with CEFR levels (A1, A2, B1, B2, C1, C2)",
+          "implementation": [
+            "Tag all existing lessons with CEFR levels",
+            "Tag all new lessons with CEFR levels",
+            "Create level-based learning paths",
+            "Display CEFR level in lesson headers"
+          ]
+        },
+        {
+          "id": 3,
+          "title": "Spaced-Repetition Flashcard System",
+          "kannadaTitle": "ಅಂತರಾಳ ಪುನರಾವರ್ತನ ಫ್ಲ್ಯಾಶ್‌ಕಾರ್ಡ್ ವ್ಯವಸ್ಥೆ",
+          "description": "Vocabulary retention system using spaced repetition",
+          "features": [
+            "Flashcard deck for each lesson",
+            "Spaced repetition algorithm (Leitner system or SM-2)",
+            "Progress tracking",
+            "Daily review reminders",
+            "Difficulty adjustment based on performance"
+          ]
+        },
+        {
+          "id": 4,
+          "title": "Speech Recognition for Pronunciation",
+          "kannadaTitle": "ಉಚ್ಚಾರಣೆಗಾಗಿ ಭಾಷಣ ಗುರುತಿಸುವಿಕೆ",
+          "description": "Pronunciation scoring using speech recognition API",
+          "features": [
+            "Record learner's pronunciation",
+            "Compare with native speaker audio",
+            "Provide score (0-100)",
+            "Highlight mispronounced words",
+            "Suggest corrections"
+          ]
+        },
+        {
+          "id": 5,
+          "title": "AI Tutor (Chat & Free-Writing Correction)",
+          "kannadaTitle": "AI ಶಿಕ್ಷಕ (ಚಾಟ್ ಮತ್ತು ಮುಕ್ತ-ಬರೆಯುವುದು ತಿದ್ದುಪಡಿ)",
+          "description": "Chat tutor for grammar doubts, free-writing correction, error diagnosis",
+          "features": [
+            "Chat interface (learner asks grammar questions in Kannada or English)",
+            "Tutor responds in Kannada with explanations",
+            "Free-writing tool: learner writes a sentence/paragraph, tutor corrects it",
+            "Error diagnosis: tutor identifies Kannada-interference cause",
+            "Rule linking: tutor links error to relevant lesson"
+          ]
+        },
+        {
+          "id": 6,
+          "title": "Searchable Grammar Reference & Dictionary",
+          "kannadaTitle": "ಹುಡುಕಬಹುದಾದ ವ್ಯಾಕರಣ ಉಲ್ಲೇಖ ಮತ್ತು ನಿಘಂಟು",
+          "description": "Grammar reference (searchable by topic), Kannada-English dictionary",
+          "features": [
+            "Grammar reference (all grammar topics, indexed by CEFR level)",
+            "Kannada-English dictionary (5,000+ words)",
+            "Search functionality",
+            "Audio pronunciation for dictionary words",
+            "Example sentences for each word"
+          ]
+        },
+        {
+          "id": 7,
+          "title": "Downloadable PDF Worksheets",
+          "kannadaTitle": "ಡೌನ್‌ಲೋಡ್ ಮಾಡಬಹುದಾದ PDF ವರ್ಕ್‌ಶೀಟ್‌ಗಳು",
+          "description": "PDF worksheets per lesson for offline practice",
+          "features": [
+            "One worksheet per lesson",
+            "Exercises (fill-in-the-blank, MCQ, error spotting, writing)",
+            "Answer key",
+            "Kannada instructions"
+          ]
+        },
+        {
+          "id": 8,
+          "title": "Progress Tracking, Streaks, XP, Completion %",
+          "kannadaTitle": "ಪ್ರಗತಿ ಟ್ರ್ಯಾಕಿಂಗ್, ಸ್ಟ್ರೀಕ್‌ಗಳು, XP, ಪೂರ್ಣತೆ %",
+          "description": "Gamification features (streaks, XP, completion percentage, badges)",
+          "features": [
+            "Daily streak counter",
+            "XP system (points for completing lessons, quizzes, practice)",
+            "Completion percentage per level",
+            "Achievement badges (e.g., '7-day streak', '100 XP earned')",
+            "Leaderboard (optional)"
+          ]
+        },
+        {
+          "id": 9,
+          "title": "Mobile Optimization & Offline Caching",
+          "kannadaTitle": "ಮೊಬೈಲ್ ಆಪ್ಟಿಮೈಜೇಶನ್ ಮತ್ತು ಆಫ್‌ಲೈನ್ ಕ್ಯಾಶಿಂಗ್",
+          "description": "Low-bandwidth optimization, offline lesson caching",
+          "features": [
+            "Compress audio files (128 kbps instead of 320 kbps)",
+            "Lazy-load images",
+            "Service Worker for offline caching",
+            "Offline mode indicator"
+          ]
+        },
+        {
+          "id": 10,
+          "title": "Accessibility (Kannada Font, Font Size, Screen Reader)",
+          "kannadaTitle": "ಪ್ರವೇಶಯೋಗ್ಯತೆ (ಕನ್ನಡ ಫಾಂಟ್, ಫಾಂಟ್ ಗಾತ್ರ, ಸ್ಕ್ರೀನ್ ರೀಡರ್)",
+          "description": "Kannada font configuration, adjustable font size, screen reader labels",
+          "features": [
+            "Ensure Noto Sans Kannada font is loaded",
+            "Font size adjustment (small, medium, large, extra-large)",
+            "ARIA labels for screen readers",
+            "High-contrast mode option"
+          ]
+        },
+        {
+          "id": 11,
+          "title": "Analytics on Dropout Points",
+          "kannadaTitle": "ಡ್ರಾಪ್‌ಔಟ್ ಪಾಯಿಂಟ್‌ಗಳಲ್ಲಿ ವಿಶ್ಲೇಷಣೆ",
+          "description": "Analytics to identify where learners drop off",
+          "features": [
+            "Track completion rate per lesson",
+            "Identify lessons with high dropout",
+            "Identify common error patterns",
+            "Generate reports for instructors"
+          ]
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,415 @@
+{
+  "all_12_tenses_module": {
+    "title": "Complete 12 Tenses Module",
+    "description": "Master all 12 English tenses with Kannada explanations",
+    "cefr": "A1-B2",
+    "kannadaTitle": "ಸಂಪೂರ್ಣ 12 ಕಾಲ ಮಾಡ್ಯೂಲ್",
+    "lessons": [
+      {
+        "id": 1,
+        "title": "Present Simple Tense",
+        "kannadaTitle": "ವರ್ತಮಾನ ಸರಳ ಕಾಲ",
+        "cefr": "A1",
+        "content": {
+          "objective": "ಈ ಪಾಠದಲ್ಲಿ ನೀವು ಕಲಿಯುವುದು: ಸಾಮಾನ್ಯ ಸತ್ಯ, ಅಭ್ಯಾಸ, ಮತ್ತು ಪುನರಾವರ್ತಿತ ಕ್ರಿಯೆಗಳಿಗೆ ವರ್ತಮಾನ ಸರಳ ಕಾಲ ಬಳಸುವುದು.",
+          "explanation": "Use present simple for facts, habits, routines, and general truths. Form: Subject + base verb (+ s/es for he/she/it).",
+          "kannadaExplanation": "ಸತ್ಯ, ಅಭ್ಯಾಸ, ದಿನನಿತ್ಯ, ಮತ್ತು ಸಾಮಾನ್ಯ ಸತ್ಯಗಳಿಗೆ ವರ್ತಮಾನ ಸರಳ ಕಾಲ ಬಳಸಿ.",
+          "structure": "Subject + base verb (+ s/es for he/she/it)",
+          "examples": [
+            "I go to school every day.",
+            "She works in Bangalore.",
+            "They play football on weekends.",
+            "The sun rises in the east.",
+            "He drinks coffee every morning."
+          ]
+        },
+        "examples": [
+          {
+            "english": "I go to school every day.",
+            "transliteration": "Ai gō tuu skuul ev-ri dei.",
+            "kannada": "ನಾನು ಪ್ರತಿದಿನ ಶಾಲೆಗೆ ಹೋಗುತ್ತೇನೆ."
+          },
+          {
+            "english": "She works in Bangalore.",
+            "transliteration": "Shii wurks in bang-ə-lor.",
+            "kannada": "ಅವಳು ಬೆಂಗಳೂರಿನಲ್ಲಿ ಕೆಲಸ ಮಾಡುತ್ತಾಳೆ."
+          },
+          {
+            "english": "They play football on weekends.",
+            "transliteration": "Dei plei fut-baal on wii-kendz.",
+            "kannada": "ಅವರು ವಾರಾಂತ್ಯದಲ್ಲಿ ಫುಟ್‌ಬಾಲ್ ಆಡುತ್ತಾರೆ."
+          },
+          {
+            "english": "The sun rises in the east.",
+            "transliteration": "Ðə sun rai-zəz in ðə iist.",
+            "kannada": "ಸೂರ್ಯ ಪೂರ್ವದಲ್ಲಿ ಉದಯವಾಗುತ್ತದೆ."
+          },
+          {
+            "english": "He drinks coffee every morning.",
+            "transliteration": "Hii drinks kaa-fii ev-ri mor-ning.",
+            "kannada": "ಅವನು ಪ್ರತಿ ಬೆಳಿಗೆ ಕಾಫಿ ಕುಡಿಯುತ್ತಾನೆ."
+          },
+          {
+            "english": "I like tea.",
+            "transliteration": "Ai laik tii.",
+            "kannada": "ನನಗೆ ಚಹಾ ಇಷ್ಟ."
+          },
+          {
+            "english": "We live in India.",
+            "transliteration": "Wii liv in in-dii-ə.",
+            "kannada": "ನಾವು ಭಾರತದಲ್ಲಿ ವಾಸಿಸುತ್ತೇವೆ."
+          },
+          {
+            "english": "Dogs are loyal animals.",
+            "transliteration": "Dagz ar loi-əl an-i-məlz.",
+            "kannada": "ನಾಯಿಗಳು ನಿಷ್ಠಾವಂತ ಪ್ರಾಣಿಗಳು."
+          },
+          {
+            "english": "She teaches English at school.",
+            "transliteration": "Shii tii-chiz ing-glish at skuul.",
+            "kannada": "ಅವಳು ಶಾಲೆಯಲ್ಲಿ ಇಂಗ್ಲಿಷ್ ಕಲಿಸುತ್ತಾಳೆ."
+          },
+          {
+            "english": "Water boils at 100 degrees Celsius.",
+            "transliteration": "Waa-tər boilz at 100 di-griiz sel-si-əs.",
+            "kannada": "ನೀರು 100 ಡಿಗ್ರಿ ಸೆಲ್ಸಿಯಸ್‌ನಲ್ಲಿ ಕುದಿಯುತ್ತದೆ."
+          }
+        ],
+        "speakingPractice": [
+          {
+            "english": "I go to school every day and she works in Bangalore.",
+            "kannada": "ನಾನು ಪ್ರತಿದಿನ ಶಾಲೆಗೆ ಹೋಗುತ್ತೇನೆ ಮತ್ತು ಅವಳು ಬೆಂಗಳೂರಿನಲ್ಲಿ ಕೆಲಸ ಮಾಡುತ್ತಾಳೆ."
+          },
+          {
+            "english": "They play football on weekends and I like tea.",
+            "kannada": "ಅವರು ವಾರಾಂತ್ಯದಲ್ಲಿ ಫುಟ್‌ಬಾಲ್ ಆಡುತ್ತಾರೆ ಮತ್ತು ನನಗೆ ಚಹಾ ಇಷ್ಟ."
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "title": "Present Continuous Tense",
+        "kannadaTitle": "ವರ್ತಮಾನ ನಿರಂತರ ಕಾಲ",
+        "cefr": "A1",
+        "content": {
+          "objective": "ಈ ಪಾಠದಲ್ಲಿ ನೀವು ಕಲಿಯುವುದು: ಈಗ ನಡೆಯುತ್ತಿರುವ ಕ್ರಿಯೆಗಳಿಗೆ ವರ್ತಮಾನ ನಿರಂತರ ಕಾಲ ಬಳಸುವುದು.",
+          "explanation": "Use present continuous for actions happening right now. Form: am/is/are + verb-ing.",
+          "kannadaExplanation": "ಈಗ ನಡೆಯುತ್ತಿರುವ ಕ್ರಿಯೆಗಳಿಗೆ ವರ್ತಮಾನ ನಿರಂತರ ಕಾಲ ಬಳಸಿ.",
+          "structure": "am/is/are + verb-ing",
+          "examples": [
+            "I am reading a book.",
+            "She is working in the office.",
+            "They are playing football.",
+            "The baby is sleeping.",
+            "We are having lunch."
+          ]
+        },
+        "examples": [
+          {
+            "english": "I am reading a book.",
+            "transliteration": "Ai əm rii-ding ə buk.",
+            "kannada": "ನಾನು ಪುಸ್ತಕ ಓದುತ್ತಿದ್ದೇನೆ."
+          },
+          {
+            "english": "She is working in the office.",
+            "transliteration": "Shii iz wur-king in ðə aw-fis.",
+            "kannada": "ಅವಳು ಆಫೀಸ್‌ನಲ್ಲಿ ಕೆಲಸ ಮಾಡುತ್ತಿದ್ದಾಳೆ."
+          },
+          {
+            "english": "They are playing football.",
+            "transliteration": "Dei ar plei-ing fut-baal.",
+            "kannada": "ಅವರು ಫುಟ್‌ಬಾಲ್ ಆಡುತ್ತಿದ್ದಾರೆ."
+          },
+          {
+            "english": "The baby is sleeping.",
+            "transliteration": "Ðə bei-bi iz slii-ping.",
+            "kannada": "ಮಗು ನಿದ್ರಿಸುತ್ತಿದೆ."
+          },
+          {
+            "english": "We are having lunch.",
+            "transliteration": "Wii ar hav-ing lunch.",
+            "kannada": "ನಾವು ಮಧ್ಯಾಹ್ನದ ಊಟ ಮಾಡುತ್ತಿದ್ದೇವೆ."
+          },
+          {
+            "english": "He is writing a letter.",
+            "transliteration": "Hii iz rai-ting ə let-ər.",
+            "kannada": "ಅವನು ಪತ್ರ ಬರೆಯುತ್ತಿದ್ದಾನೆ."
+          },
+          {
+            "english": "I am watching TV.",
+            "transliteration": "Ai əm wach-ing tii-vii.",
+            "kannada": "ನಾನು TV ನೋಡುತ್ತಿದ್ದೇನೆ."
+          },
+          {
+            "english": "She is cooking dinner.",
+            "transliteration": "Shii iz kuk-ing din-ər.",
+            "kannada": "ಅವಳು ರಾತ್ರಿ ಊಟ ಅಡುಕುತ್ತಿದ್ದಾಳೆ."
+          },
+          {
+            "english": "They are studying for the exam.",
+            "transliteration": "Dei ar stud-i-ing for ðə ig-zam.",
+            "kannada": "ಅವರು ಪರೀಕ್ಷೆಗೆ ಓದುತ್ತಿದ್ದಾರೆ."
+          },
+          {
+            "english": "It is raining outside.",
+            "transliteration": "It iz rei-ning out-said.",
+            "kannada": "ಹೊರಗೆ ಮಳೆ ಸುರಿಯುತ್ತಿದೆ."
+          }
+        ],
+        "speakingPractice": [
+          {
+            "english": "I am reading a book and she is working in the office.",
+            "kannada": "ನಾನು ಪುಸ್ತಕ ಓದುತ್ತಿದ್ದೇನೆ ಮತ್ತು ಅವಳು ಆಫೀಸ್‌ನಲ್ಲಿ ಕೆಲಸ ಮಾಡುತ್ತಿದ್ದಾಳೆ."
+          },
+          {
+            "english": "They are playing football and we are having lunch.",
+            "kannada": "ಅವರು ಫುಟ್‌ಬಾಲ್ ಆಡುತ್ತಿದ್ದಾರೆ ಮತ್ತು ನಾವು ಮಧ್ಯಾಹ್ನದ ಊಟ ಮಾಡುತ್ತಿದ್ದೇವೆ."
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "title": "Present Perfect Tense",
+        "kannadaTitle": "ವರ್ತಮಾನ ಪೂರ್ಣ ಕಾಲ",
+        "cefr": "A2",
+        "content": {
+          "objective": "ಈ ಪಾಠದಲ್ಲಿ ನೀವು ಕಲಿಯುವುದು: ಭೂತಕಾಲದಲ್ಲಿ ಪೂರ್ಣಗೊಂಡ ಆದರೆ ವರ್ತಮಾನಕ್ಕೆ ಸಂಬಂಧಿಸಿದ ಕ್ರಿಯೆಗಳಿಗೆ ವರ್ತಮಾನ ಪೂರ್ಣ ಕಾಲ ಬಳಸುವುದು.",
+          "explanation": "Use present perfect for actions completed in the past with present relevance. Form: have/has + past participle.",
+          "kannadaExplanation": "ಭೂತಕಾಲದಲ್ಲಿ ಪೂರ್ಣಗೊಂಡ ಆದರೆ ವರ್ತಮಾನಕ್ಕೆ ಸಂಬಂಧಿಸಿದ ಕ್ರಿಯೆಗಳಿಗೆ ವರ್ತಮಾನ ಪೂರ್ಣ ಕಾಲ ಬಳಸಿ.",
+          "structure": "have/has + past participle",
+          "examples": [
+            "I have finished my work.",
+            "She has lived here for 5 years.",
+            "They have completed the project.",
+            "He has never been to India.",
+            "We have just arrived."
+          ]
+        },
+        "examples": [
+          {
+            "english": "I have finished my work.",
+            "transliteration": "Ai hav fin-isht mai wurk.",
+            "kannada": "ನಾನು ನನ್ನ ಕೆಲಸ ಪೂರ್ಣಗೊಳಿಸಿದ್ದೇನೆ."
+          },
+          {
+            "english": "She has lived here for 5 years.",
+            "transliteration": "Shii haz livd hiir for faiv yirz.",
+            "kannada": "ಅವಳು 5 ವರ್ಷಗಳಿಂದ ಇಲ್ಲಿ ವಾಸಿಸುತ್ತಿದ್ದಾಳೆ."
+          },
+          {
+            "english": "They have completed the project.",
+            "transliteration": "Dei hav kəm-plii-tid ðə proj-ekt.",
+            "kannada": "ಅವರು ಯೋಜನೆಯನ್ನು ಪೂರ್ಣಗೊಳಿಸಿದ್ದಾರೆ."
+          },
+          {
+            "english": "He has never been to India.",
+            "transliteration": "Hii haz nev-ər bin tuu in-dii-ə.",
+            "kannada": "ಅವನು ಎಂದಿಗೂ ಭಾರತಕ್ಕೆ ಹೋಗಿಲ್ಲ."
+          },
+          {
+            "english": "We have just arrived.",
+            "transliteration": "Wii hav just ə-raivd.",
+            "kannada": "ನಾವು ಈಗಾಗಲೇ ಬಂದಿದ್ದೇವೆ."
+          },
+          {
+            "english": "I have read this book.",
+            "transliteration": "Ai hav red this buk.",
+            "kannada": "ನಾನು ಈ ಪುಸ್ತಕ ಓದಿದ್ದೇನೆ."
+          },
+          {
+            "english": "She has eaten lunch.",
+            "transliteration": "Shii haz ii-tən lunch.",
+            "kannada": "ಅವಳು ಮಧ್ಯಾಹ್ನದ ಊಟ ಮಾಡಿದ್ದಾಳೆ."
+          },
+          {
+            "english": "They have visited Bangalore.",
+            "transliteration": "Dei hav viz-i-tid bang-ə-lor.",
+            "kannada": "ಅವರು ಬೆಂಗಳೂರು ಭೇಟಿ ಮಾಡಿದ್ದಾರೆ."
+          },
+          {
+            "english": "He has written a letter.",
+            "transliteration": "Hii haz rit-ən ə let-ər.",
+            "kannada": "ಅವನು ಪತ್ರ ಬರೆದಿದ್ದಾನೆ."
+          },
+          {
+            "english": "We have learned English.",
+            "transliteration": "Wii hav lənd ing-glish.",
+            "kannada": "ನಾವು ಇಂಗ್ಲಿಷ್ ಕಲಿತಿದ್ದೇವೆ."
+          }
+        ],
+        "speakingPractice": [
+          {
+            "english": "I have finished my work and she has lived here for 5 years.",
+            "kannada": "ನಾನು ನನ್ನ ಕೆಲಸ ಪೂರ್ಣಗೊಳಿಸಿದ್ದೇನೆ ಮತ್ತು ಅವಳು 5 ವರ್ಷಗಳಿಂದ ಇಲ್ಲಿ ವಾಸಿಸುತ್ತಿದ್ದಾಳೆ."
+          },
+          {
+            "english": "They have completed the project and we have just arrived.",
+            "kannada": "ಅವರು ಯೋಜನೆಯನ್ನು ಪೂರ್ಣಗೊಳಿಸಿದ್ದಾರೆ ಮತ್ತು ನಾವು ಈಗಾಗಲೇ ಬಂದಿದ್ದೇವೆ."
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "title": "Past Simple Tense",
+        "kannadaTitle": "ಭೂತ ಸರಳ ಕಾಲ",
+        "cefr": "A1",
+        "content": {
+          "objective": "ಈ ಪಾಠದಲ್ಲಿ ನೀವು ಕಲಿಯುವುದು: ಭೂತಕಾಲದಲ್ಲಿ ಪೂರ್ಣಗೊಂಡ ಕ್ರಿಯೆಗಳಿಗೆ ಭೂತ ಸರಳ ಕಾಲ ಬಳಸುವುದು.",
+          "explanation": "Use past simple for completed actions in the past. Form: Subject + past tense verb.",
+          "kannadaExplanation": "ಭೂತಕಾಲದಲ್ಲಿ ಪೂರ್ಣಗೊಂಡ ಕ್ರಿಯೆಗಳಿಗೆ ಭೂತ ಸರಳ ಕಾಲ ಬಳಸಿ.",
+          "structure": "Subject + past tense verb",
+          "examples": [
+            "I went to school yesterday.",
+            "She worked in Bangalore last year.",
+            "They played football on Sunday.",
+            "He ate lunch at noon.",
+            "We watched a movie last night."
+          ]
+        },
+        "examples": [
+          {
+            "english": "I went to school yesterday.",
+            "transliteration": "Ai went tuu skuul yes-tər-dei.",
+            "kannada": "ನಾನು ನಿನ್ನೆ ಶಾಲೆಗೆ ಹೋದೆ."
+          },
+          {
+            "english": "She worked in Bangalore last year.",
+            "transliteration": "Shii wurkt in bang-ə-lor last yir.",
+            "kannada": "ಅವಳು ಕಳೆದ ವರ್ಷ ಬೆಂಗಳೂರಿನಲ್ಲಿ ಕೆಲಸ ಮಾಡಿದ್ದಳು."
+          },
+          {
+            "english": "They played football on Sunday.",
+            "transliteration": "Dei pleid fut-baal on sun-dei.",
+            "kannada": "ಅವರು ಭಾನುವಾರ ಫುಟ್‌ಬಾಲ್ ಆಡಿದ್ದಾರೆ."
+          },
+          {
+            "english": "He ate lunch at noon.",
+            "transliteration": "Hii eit lunch at nuun.",
+            "kannada": "ಅವನು ಮಧ್ಯಾಹ್ನ ಊಟ ಮಾಡಿದ್ದಾನೆ."
+          },
+          {
+            "english": "We watched a movie last night.",
+            "transliteration": "Wii wacht ə muu-vii last nait.",
+            "kannada": "ನಾವು ನಿನ್ನೆ ರಾತ್ರಿ ಚಲನಚಿತ್ರ ನೋಡಿದ್ದೇವೆ."
+          },
+          {
+            "english": "I read a book yesterday.",
+            "transliteration": "Ai red ə buk yes-tər-dei.",
+            "kannada": "ನಾನು ನಿನ್ನೆ ಪುಸ್ತಕ ಓದಿದೆ."
+          },
+          {
+            "english": "She visited India last month.",
+            "transliteration": "Shii viz-i-tid in-dii-ə last munth.",
+            "kannada": "ಅವಳು ಕಳೆದ ತಿಂಗಳು ಭಾರತ ಭೇಟಿ ಮಾಡಿದ್ದಳು."
+          },
+          {
+            "english": "They arrived at 5 PM.",
+            "transliteration": "Dei ə-raivd at faiv pii-em.",
+            "kannada": "ಅವರು ಸಾಯಂಕಾಲ 5 ಗಂಟೆಗೆ ಬಂದರು."
+          },
+          {
+            "english": "He wrote a letter yesterday.",
+            "transliteration": "Hii rōt ə let-ər yes-tər-dei.",
+            "kannada": "ಅವನು ನಿನ್ನೆ ಪತ್ರ ಬರೆದಿದ್ದಾನೆ."
+          },
+          {
+            "english": "We finished the project last week.",
+            "transliteration": "Wii fin-isht ðə proj-ekt last wiik.",
+            "kannada": "ನಾವು ಕಳೆದ ವಾರ ಯೋಜನೆಯನ್ನು ಪೂರ್ಣಗೊಳಿಸಿದ್ದೇವೆ."
+          }
+        ],
+        "speakingPractice": [
+          {
+            "english": "I went to school yesterday and she worked in Bangalore last year.",
+            "kannada": "ನಾನು ನಿನ್ನೆ ಶಾಲೆಗೆ ಹೋದೆ ಮತ್ತು ಅವಳು ಕಳೆದ ವರ್ಷ ಬೆಂಗಳೂರಿನಲ್ಲಿ ಕೆಲಸ ಮಾಡಿದ್ದಳು."
+          },
+          {
+            "english": "They played football on Sunday and we watched a movie last night.",
+            "kannada": "ಅವರು ಭಾನುವಾರ ಫುಟ್‌ಬಾಲ್ ಆಡಿದ್ದಾರೆ ಮತ್ತು ನಾವು ನಿನ್ನೆ ರಾತ್ರಿ ಚಲನಚಿತ್ರ ನೋಡಿದ್ದೇವೆ."
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "title": "Future Simple Tense",
+        "kannadaTitle": "ಭವಿಷ್ಯ ಸರಳ ಕಾಲ",
+        "cefr": "A1",
+        "content": {
+          "objective": "ಈ ಪಾಠದಲ್ಲಿ ನೀವು ಕಲಿಯುವುದು: ಭವಿಷ್ಯತ್ತಿನ ಕ್ರಿಯೆಗಳಿಗೆ ಭವಿಷ್ಯ ಸರಳ ಕಾಲ ಬಳಸುವುದು.",
+          "explanation": "Use future simple for actions that will happen in the future. Form: will + base verb.",
+          "kannadaExplanation": "ಭವಿಷ್ಯತ್ತಿನ ಕ್ರಿಯೆಗಳಿಗೆ ಭವಿಷ್ಯ ಸರಳ ಕಾಲ ಬಳಸಿ.",
+          "structure": "will + base verb",
+          "examples": [
+            "I will go to school tomorrow.",
+            "She will work in Bangalore next year.",
+            "They will play football on Sunday.",
+            "He will eat lunch at noon.",
+            "We will watch a movie next week."
+          ]
+        },
+        "examples": [
+          {
+            "english": "I will go to school tomorrow.",
+            "transliteration": "Ai wil gō tuu skuul tə-mar-o.",
+            "kannada": "ನಾನು ನಾಳೆ ಶಾಲೆಗೆ ಹೋಗುತ್ತೇನೆ."
+          },
+          {
+            "english": "She will work in Bangalore next year.",
+            "transliteration": "Shii wil wurk in bang-ə-lor next yir.",
+            "kannada": "ಅವಳು ಮುಂದಿನ ವರ್ಷ ಬೆಂಗಳೂರಿನಲ್ಲಿ ಕೆಲಸ ಮಾಡುತ್ತಾಳೆ."
+          },
+          {
+            "english": "They will play football on Sunday.",
+            "transliteration": "Dei wil plei fut-baal on sun-dei.",
+            "kannada": "ಅವರು ಭಾನುವಾರ ಫುಟ್‌ಬಾಲ್ ಆಡುತ್ತಾರೆ."
+          },
+          {
+            "english": "He will eat lunch at noon.",
+            "transliteration": "Hii wil iit lunch at nuun.",
+            "kannada": "ಅವನು ಮಧ್ಯಾಹ್ನ ಊಟ ಮಾಡುತ್ತಾನೆ."
+          },
+          {
+            "english": "We will watch a movie next week.",
+            "transliteration": "Wii wil wach ə muu-vii next wiik.",
+            "kannada": "ನಾವು ಮುಂದಿನ ವಾರ ಚಲನಚಿತ್ರ ನೋಡುತ್ತೇವೆ."
+          },
+          {
+            "english": "I will read a book tomorrow.",
+            "transliteration": "Ai wil red ə buk tə-mar-o.",
+            "kannada": "ನಾನು ನಾಳೆ ಪುಸ್ತಕ ಓದುತ್ತೇನೆ."
+          },
+          {
+            "english": "She will visit India next month.",
+            "transliteration": "Shii wil viz-it in-dii-ə next munth.",
+            "kannada": "ಅವಳು ಮುಂದಿನ ತಿಂಗಳು ಭಾರತ ಭೇಟಿ ಮಾಡುತ್ತಾಳೆ."
+          },
+          {
+            "english": "They will arrive at 5 PM.",
+            "transliteration": "Dei wil ə-raiv at faiv pii-em.",
+            "kannada": "ಅವರು ಸಾಯಂಕಾಲ 5 ಗಂಟೆಗೆ ಬರುತ್ತಾರೆ."
+          },
+          {
+            "english": "He will write a letter tomorrow.",
+            "transliteration": "Hii wil rait ə let-ər tə-mar-o.",
+            "kannada": "ಅವನು ನಾಳೆ ಪತ್ರ ಬರೆಯುತ್ತಾನೆ."
+          },
+          {
+            "english": "We will finish the project next week.",
+            "transliteration": "Wii wil fin-ish ðə proj-ekt next wiik.",
+            "kannada": "ನಾವು ಮುಂದಿನ ವಾರ ಯೋಜನೆಯನ್ನು ಪೂರ್ಣಗೊಳಿಸುತ್ತೇವೆ."
+          }
+        ],
+        "speakingPractice": [
+          {
+            "english": "I will go to school tomorrow and she will work in Bangalore next year.",
+            "kannada": "ನಾನು ನಾಳೆ ಶಾಲೆಗೆ ಹೋಗುತ್ತೇನೆ ಮತ್ತು ಅವಳು ಮುಂದಿನ ವರ್ಷ ಬೆಂಗಳೂರಿನಲ್ಲಿ ಕೆಲಸ ಮಾಡುತ್ತಾಳೆ."
+          },
+          {
+            "english": "They will play football on Sunday and we will watch a movie next week.",
+            "kannada": "ಅವರು ಭಾನುವಾರ ಫುಟ್‌ಬಾಲ್ ಆಡುತ್ತಾರೆ ಮತ್ತು ನಾವು ಮುಂದಿನ ವಾರ ಚಲನಚಿತ್ರ ನೋಡುತ್ತೇವೆ."
+          }
+        ]
+      }
+    ]
+  }
+}

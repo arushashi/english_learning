@@ -1,0 +1,1020 @@
+{
+  "timestamp": "2026-07-28T06:34:43.050Z",
+  "totalLessons": 129,
+  "totalErrors": 9,
+  "totalWarnings": 2,
+  "errorsByCategory": {
+    "SCRIPT_VALIDATION": 9
+  },
+  "warningsByCategory": {
+    "PLACEHOLDERS": 2
+  },
+  "lessons": [
+    {
+      "levelKey": "level0",
+      "lessonId": 0,
+      "title": "Mindset and Tips for Learning English",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "levelKey": "level0",
+      "lessonId": 1,
+      "title": "English Alphabet",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "levelKey": "level0",
+      "lessonId": 2,
+      "title": "Vowels and Consonants",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "levelKey": "level0",
+      "lessonId": 3,
+      "title": "Letter Sounds",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "levelKey": "level0",
+      "lessonId": 4,
+      "title": "Reading Small Words",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "levelKey": "level0",
+      "lessonId": 5,
+      "title": "Spelling Your Name",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "levelKey": "level0",
+      "lessonId": 6,
+      "title": "Common Letter Combinations",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "levelKey": "level0",
+      "lessonId": 7,
+      "title": "Reading Practice",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "levelKey": "level0",
+      "lessonId": 8,
+      "title": "Dictation Practice",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "levelKey": "level0",
+      "lessonId": 9,
+      "title": "Common Mistakes",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "levelKey": "level0",
+      "lessonId": 10,
+      "title": "Foundation Test",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "levelKey": "level1",
+      "lessonId": 1,
+      "title": "Greetings",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "levelKey": "level1",
+      "lessonId": 2,
+      "title": "Self-Introduction",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "levelKey": "level1",
+      "lessonId": 3,
+      "title": "This / That / These / Those",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "levelKey": "level1",
+      "lessonId": 4,
+      "title": "I Have / I Need",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "levelKey": "level1",
+      "lessonId": 5,
+      "title": "I Like / I Do Not Like",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "levelKey": "level1",
+      "lessonId": 6,
+      "title": "Can / Cannot",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "levelKey": "level1",
+      "lessonId": 7,
+      "title": "Polite Requests",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "levelKey": "level1",
+      "lessonId": 8,
+      "title": "Basic Questions",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "levelKey": "level1",
+      "lessonId": 9,
+      "title": "Numbers and Counting",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "levelKey": "level1",
+      "lessonId": 10,
+      "title": "Days of the Week",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "levelKey": "level1",
+      "lessonId": 11,
+      "title": "Revision Role-play",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "levelKey": "level1",
+      "lessonId": 12,
+      "title": "Level 1 Test",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "levelKey": "level2",
+      "lessonId": 1,
+      "title": "Present Simple Tense - I/You/We/They",
+      "errors": [
+        {
+          "level": "ERROR",
+          "category": "SCRIPT_VALIDATION",
+          "message": "kannadaTitle is 31% Latin (expected Kannada)",
+          "lessonId": "1",
+          "field": "kannadaTitle"
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "levelKey": "level2",
+      "lessonId": 2,
+      "title": "Present Simple Tense - He/She/It",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "levelKey": "level2",
+      "lessonId": 3,
+      "title": "Present Simple - Negative Sentences",
+      "errors": [
+        {
+          "level": "ERROR",
+          "category": "SCRIPT_VALIDATION",
+          "message": "kannadaExplanation is 34% Latin (expected Kannada)",
+          "lessonId": "3",
+          "field": "kannadaExplanation"
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "levelKey": "level2",
+      "lessonId": 4,
+      "title": "Present Simple - Questions",
+      "errors": [
+        {
+          "level": "ERROR",
+          "category": "SCRIPT_VALIDATION",
+          "message": "kannadaExplanation is 31% Latin (expected Kannada)",
+          "lessonId": "4",
+          "field": "kannadaExplanation"
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "levelKey": "level2",
+      "lessonId": 5,
+      "title": "Question Words - What, Where, When",
+      "errors": [
+        {
+          "level": "ERROR",
+          "category": "SCRIPT_VALIDATION",
+          "message": "kannadaTitle is 35% Latin (expected Kannada)",
+          "lessonId": "5",
+          "field": "kannadaTitle"
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "levelKey": "level2",
+      "lessonId": 6,
+      "title": "Question Words - Who, Why, How",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "levelKey": "level2",
+      "lessonId": 7,
+      "title": "Daily Routines - Morning",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "levelKey": "level2",
+      "lessonId": 8,
+      "title": "Daily Routines - Afternoon/Evening",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "levelKey": "level2",
+      "lessonId": 9,
+      "title": "Frequency Words",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "levelKey": "level2",
+      "lessonId": 10,
+      "title": "Subject-Verb Agreement",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "levelKey": "level2",
+      "lessonId": 11,
+      "title": "There is / There are",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "levelKey": "level2",
+      "lessonId": 12,
+      "title": "Have / Has",
+      "errors": [
+        {
+          "level": "ERROR",
+          "category": "SCRIPT_VALIDATION",
+          "message": "kannadaExplanation is 49% Latin (expected Kannada)",
+          "lessonId": "12",
+          "field": "kannadaExplanation"
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "levelKey": "level2",
+      "lessonId": 13,
+      "title": "Prepositions of Time",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "levelKey": "level2",
+      "lessonId": 14,
+      "title": "Prepositions of Place",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "levelKey": "level2",
+      "lessonId": 15,
+      "title": "Level 2 Test",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "levelKey": "level2",
+      "lessonId": 13,
+      "title": "Sentence Structure - Subject, Verb, Object",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "levelKey": "level2",
+      "lessonId": 14,
+      "title": "Articles - A, An, The",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "levelKey": "level2",
+      "lessonId": 15,
+      "title": "Simple Past Tense - Regular Verbs",
+      "errors": [],
+      "warnings": [
+        {
+          "level": "WARNING",
+          "category": "PLACEHOLDERS",
+          "message": "Placeholder text in explanation",
+          "lessonId": "15",
+          "field": "explanation"
+        }
+      ]
+    },
+    {
+      "levelKey": "level2",
+      "lessonId": 16,
+      "title": "Simple Past Tense - Irregular Verbs",
+      "errors": [],
+      "warnings": [
+        {
+          "level": "WARNING",
+          "category": "PLACEHOLDERS",
+          "message": "Placeholder text in explanation",
+          "lessonId": "16",
+          "field": "explanation"
+        }
+      ]
+    },
+    {
+      "levelKey": "level2",
+      "lessonId": 17,
+      "title": "Prepositions of Time - In, On, At",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "levelKey": "level3",
+      "lessonId": 1,
+      "title": "Present Continuous Tense",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "levelKey": "level3",
+      "lessonId": 2,
+      "title": "Present Continuous - Negative",
+      "errors": [
+        {
+          "level": "ERROR",
+          "category": "SCRIPT_VALIDATION",
+          "message": "kannadaExplanation is 43% Latin (expected Kannada)",
+          "lessonId": "2",
+          "field": "kannadaExplanation"
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "levelKey": "level3",
+      "lessonId": 3,
+      "title": "Present Continuous - Questions",
+      "errors": [
+        {
+          "level": "ERROR",
+          "category": "SCRIPT_VALIDATION",
+          "message": "kannadaExplanation is 41% Latin (expected Kannada)",
+          "lessonId": "3",
+          "field": "kannadaExplanation"
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "levelKey": "level3",
+      "lessonId": 4,
+      "title": "Family Members",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "levelKey": "level3",
+      "lessonId": 5,
+      "title": "Describing Family",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "levelKey": "level3",
+      "lessonId": 6,
+      "title": "Home and Rooms",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "levelKey": "level3",
+      "lessonId": 7,
+      "title": "Household Items",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "levelKey": "level3",
+      "lessonId": 8,
+      "title": "Polite Requests",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "levelKey": "level3",
+      "lessonId": 9,
+      "title": "Asking for Help",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "levelKey": "level3",
+      "lessonId": 10,
+      "title": "Daily Activities at Home",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "levelKey": "level3",
+      "lessonId": 11,
+      "title": "Present Simple vs Present Continuous",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "levelKey": "level3",
+      "lessonId": 12,
+      "title": "Level 3 Test",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "levelKey": "level4",
+      "lessonId": 1,
+      "title": "Past Simple Tense - Regular Verbs",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "levelKey": "level4",
+      "lessonId": 2,
+      "title": "Past Simple Tense - Irregular Verbs",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "levelKey": "level4",
+      "lessonId": 3,
+      "title": "Past Simple - Negative",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "levelKey": "level4",
+      "lessonId": 4,
+      "title": "Past Simple - Questions",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "levelKey": "level4",
+      "lessonId": 5,
+      "title": "Future with Will",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "levelKey": "level4",
+      "lessonId": 6,
+      "title": "Future with Going To",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "levelKey": "level4",
+      "lessonId": 7,
+      "title": "Time Expressions - Past",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "levelKey": "level4",
+      "lessonId": 8,
+      "title": "Time Expressions - Future",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "levelKey": "level4",
+      "lessonId": 9,
+      "title": "Past vs Present vs Future",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "levelKey": "level4",
+      "lessonId": 10,
+      "title": "Level 4 Test",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "levelKey": "level5",
+      "lessonId": 1,
+      "title": "Shopping Vocabulary",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "levelKey": "level5",
+      "lessonId": 2,
+      "title": "Shopping Conversations",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "levelKey": "level5",
+      "lessonId": 3,
+      "title": "Phone Conversations",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "levelKey": "level5",
+      "lessonId": 4,
+      "title": "Restaurant Vocabulary",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "levelKey": "level5",
+      "lessonId": 5,
+      "title": "Ordering Food",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "levelKey": "level5",
+      "lessonId": 6,
+      "title": "Travel Vocabulary",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "levelKey": "level5",
+      "lessonId": 7,
+      "title": "Asking for Directions",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "levelKey": "level5",
+      "lessonId": 8,
+      "title": "Emergency Situations",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "levelKey": "level5",
+      "lessonId": 9,
+      "title": "Banking Vocabulary",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "levelKey": "level5",
+      "lessonId": 10,
+      "title": "Medical Situations",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "levelKey": "level5",
+      "lessonId": 11,
+      "title": "Hotel Check-in",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "levelKey": "level5",
+      "lessonId": 12,
+      "title": "Making Complaints",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "levelKey": "level5",
+      "lessonId": 13,
+      "title": "Post Office",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "levelKey": "level5",
+      "lessonId": 14,
+      "title": "At the Airport",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "levelKey": "level5",
+      "lessonId": 15,
+      "title": "Level 5 Test",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "levelKey": "level6",
+      "lessonId": 1,
+      "title": "Describing People",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "levelKey": "level6",
+      "lessonId": 2,
+      "title": "Personality Adjectives",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "levelKey": "level6",
+      "lessonId": 3,
+      "title": "Describing Places",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "levelKey": "level6",
+      "lessonId": 4,
+      "title": "Weather Descriptions",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "levelKey": "level6",
+      "lessonId": 5,
+      "title": "Expressing Opinions",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "levelKey": "level6",
+      "lessonId": 6,
+      "title": "Agreeing and Disagreeing",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "levelKey": "level6",
+      "lessonId": 7,
+      "title": "Telling Past Stories",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "levelKey": "level6",
+      "lessonId": 8,
+      "title": "Comparing Things",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "levelKey": "level6",
+      "lessonId": 9,
+      "title": "Describing Experiences",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "levelKey": "level6",
+      "lessonId": 10,
+      "title": "Giving Reasons",
+      "errors": [
+        {
+          "level": "ERROR",
+          "category": "SCRIPT_VALIDATION",
+          "message": "kannadaExplanation is 56% Latin (expected Kannada)",
+          "lessonId": "10",
+          "field": "kannadaExplanation"
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "levelKey": "level6",
+      "lessonId": 11,
+      "title": "Describing Feelings",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "levelKey": "level6",
+      "lessonId": 12,
+      "title": "Level 6 Test",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "levelKey": "level7",
+      "lessonId": 1,
+      "title": "Office Vocabulary",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "levelKey": "level7",
+      "lessonId": 2,
+      "title": "Job Titles and Roles",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "levelKey": "level7",
+      "lessonId": 3,
+      "title": "Email Writing Basics",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "levelKey": "level7",
+      "lessonId": 4,
+      "title": "Job Interview - Introduction",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "levelKey": "level7",
+      "lessonId": 5,
+      "title": "Job Interview - Questions",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "levelKey": "level7",
+      "lessonId": 6,
+      "title": "Talking About Work Experience",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "levelKey": "level7",
+      "lessonId": 7,
+      "title": "Meeting Vocabulary",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "levelKey": "level7",
+      "lessonId": 8,
+      "title": "Participating in Meetings",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "levelKey": "level7",
+      "lessonId": 9,
+      "title": "Professional Greetings",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "levelKey": "level7",
+      "lessonId": 10,
+      "title": "Giving and Receiving Feedback",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "levelKey": "level7",
+      "lessonId": 11,
+      "title": "Salary and Benefits",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "levelKey": "level7",
+      "lessonId": 12,
+      "title": "Level 7 Test",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "levelKey": "level8",
+      "lessonId": 1,
+      "title": "Passive Voice - Present",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "levelKey": "level8",
+      "lessonId": 2,
+      "title": "Passive Voice - Past",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "levelKey": "level8",
+      "lessonId": 3,
+      "title": "Present Perfect Tense",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "levelKey": "level8",
+      "lessonId": 4,
+      "title": "Present Perfect vs Past Simple",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "levelKey": "level8",
+      "lessonId": 5,
+      "title": "Past Perfect Tense",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "levelKey": "level8",
+      "lessonId": 6,
+      "title": "Future Perfect Tense",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "levelKey": "level8",
+      "lessonId": 7,
+      "title": "Conditionals - Type 0",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "levelKey": "level8",
+      "lessonId": 8,
+      "title": "Conditionals - Type 1",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "levelKey": "level8",
+      "lessonId": 9,
+      "title": "Conditionals - Type 2",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "levelKey": "level8",
+      "lessonId": 10,
+      "title": "Conditionals - Type 3",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "levelKey": "level8",
+      "lessonId": 11,
+      "title": "Reported Speech",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "levelKey": "level8",
+      "lessonId": 12,
+      "title": "Relative Clauses",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "levelKey": "level8",
+      "lessonId": 13,
+      "title": "Modals of Probability",
+      "errors": [
+        {
+          "level": "ERROR",
+          "category": "SCRIPT_VALIDATION",
+          "message": "kannadaExplanation is 36% Latin (expected Kannada)",
+          "lessonId": "13",
+          "field": "kannadaExplanation"
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "levelKey": "level8",
+      "lessonId": 14,
+      "title": "Used to and Would",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "levelKey": "level8",
+      "lessonId": 15,
+      "title": "Level 8 Test",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "levelKey": "level9",
+      "lessonId": 1,
+      "title": "Fluent Speaking Skills",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "levelKey": "level9",
+      "lessonId": 2,
+      "title": "Giving Presentations",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "levelKey": "level9",
+      "lessonId": 3,
+      "title": "Participating in Discussions",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "levelKey": "level9",
+      "lessonId": 4,
+      "title": "Expressing Complex Ideas",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "levelKey": "level9",
+      "lessonId": 5,
+      "title": "Debate Skills",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "levelKey": "level9",
+      "lessonId": 6,
+      "title": "Negotiation Skills",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "levelKey": "level9",
+      "lessonId": 7,
+      "title": "Small Talk",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "levelKey": "level9",
+      "lessonId": 8,
+      "title": "Cultural Topics",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "levelKey": "level9",
+      "lessonId": 9,
+      "title": "Current Affairs",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "levelKey": "level9",
+      "lessonId": 10,
+      "title": "Level 9 Final Test",
+      "errors": [],
+      "warnings": []
+    }
+  ],
+  "summary": {
+    "passedChecks": [
+      "Schema validation",
+      "Script validation",
+      "Placeholder detection",
+      "Audio references",
+      "Quiz sanity",
+      "CEFR levels"
+    ],
+    "failedChecks": [
+      "Schema",
+      "Script validation",
+      "Quiz sanity"
+    ]
+  }
+}

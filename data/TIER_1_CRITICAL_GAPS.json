@@ -1,0 +1,595 @@
+{
+  "level3_extended_articles": {
+    "title": "Articles: a, an, the, and Zero Article",
+    "cefr": "A1",
+    "kannadaTitle": "ಲೇಖನಗಳು: a, an, the ಮತ್ತು ಶೂನ್ಯ ಲೇಖನ",
+    "description": "Master the use of articles - the #1 error source for Kannada speakers",
+    "prerequisites": "Pass Level 2 test",
+    "objectives": [
+      "Understand why Kannada speakers struggle with articles",
+      "Use 'a' and 'an' correctly for indefinite nouns",
+      "Use 'the' correctly for definite nouns",
+      "Know when to use zero article",
+      "Avoid common Kannada-speaker mistakes with articles"
+    ],
+    "lessons": [
+      {
+        "id": 1,
+        "title": "Why Articles Matter: Kannada vs. English",
+        "kannadaTitle": "ಲೇಖನಗಳು ಏಕೆ ಮುಖ್ಯ: ಕನ್ನಡ vs. ಇಂಗ್ಲಿಷ್",
+        "cefr": "A1",
+        "content": {
+          "objective": "ಈ ಪಾಠದಲ್ಲಿ ನೀವು ಕಲಿಯುವುದು: ಕನ್ನಡದಲ್ಲಿ ಲೇಖನಗಳಿಲ್ಲ, ಆದರೆ ಇಂಗ್ಲಿಷ್‌ನಲ್ಲಿ ಅವು ಅಗತ್ಯ.",
+          "explanation": "Kannada has no articles (a, an, the). English requires them. This is why Kannada speakers make so many article errors.",
+          "kannadaExplanation": "ಕನ್ನಡದಲ್ಲಿ ಲೇಖನಗಳಿಲ್ಲ (a, an, the). ಇಂಗ್ಲಿಷ್‌ನಲ್ಲಿ ಅವು ಅಗತ್ಯ. ಇದೇ ಕನ್ನಡ ಮಾತನಾಡುವವರು ಲೇಖನ ತಪ್ಪುಗಳನ್ನು ಮಾಡುವ ಕಾರಣ.",
+          "comparison": [
+            {
+              "kannada": "ಅವಳು ಶಿಕ್ಷಕೆ.",
+              "english": "She is a teacher.",
+              "explanation": "Kannada doesn't need an article. English requires 'a' before 'teacher'."
+            },
+            {
+              "kannada": "ಅವನು ಕಾರು ಖರೀದಿಸಿದ.",
+              "english": "He bought a car.",
+              "explanation": "Kannada doesn't need an article. English requires 'a' before 'car'."
+            },
+            {
+              "kannada": "ಸೂರ್ಯ ಪ್ರಕಾಶಮಾನವಾಗಿದೆ.",
+              "english": "The sun is bright.",
+              "explanation": "Kannada doesn't need an article. English requires 'the' (unique noun)."
+            }
+          ],
+          "commonMistakes": [
+            {
+              "wrong": "She is teacher.",
+              "correct": "She is a teacher.",
+              "kannada": "ತಪ್ಪು: ಅವಳು ಶಿಕ್ಷಕೆ. ಸರಿ: ಅವಳು ಒಬ್ಬ ಶಿಕ್ಷಕೆ.",
+              "reason": "Countable singular nouns need 'a' or 'an' in English."
+            },
+            {
+              "wrong": "I saw movie yesterday.",
+              "correct": "I saw a movie yesterday.",
+              "kannada": "ತಪ್ಪು: ನಾನು ನಿನ್ನೆ ಚಲನಚಿತ್ರ ನೋಡಿದೆ. ಸರಿ: ನಾನು ನಿನ್ನೆ ಒಂದು ಚಲನಚಿತ್ರ ನೋಡಿದೆ.",
+              "reason": "Indefinite singular countable nouns need 'a' or 'an'."
+            }
+          ]
+        },
+        "examples": [
+          {
+            "english": "I have a car.",
+            "transliteration": "Ai hav ə kaar.",
+            "kannada": "ನನಗೆ ಒಂದು ಕಾರು ಇದೆ."
+          },
+          {
+            "english": "She is a doctor.",
+            "transliteration": "Shii iz ə dok-tər.",
+            "kannada": "ಅವಳು ಒಬ್ಬ ವೈದ್ಯೆ."
+          },
+          {
+            "english": "The book is on the table.",
+            "transliteration": "Ðə buk iz on ðə tei-bəl.",
+            "kannada": "ಪುಸ್ತಕವು ಮೇಜಿನ ಮೇಲೆ ಇದೆ."
+          },
+          {
+            "english": "I like tea.",
+            "transliteration": "Ai laik tii.",
+            "kannada": "ನನಗೆ ಚಹಾ ಇಷ್ಟ."
+          },
+          {
+            "english": "The sun is bright.",
+            "transliteration": "Ðə sun iz brait.",
+            "kannada": "ಸೂರ್ಯ ಪ್ರಕಾಶಮಾನವಾಗಿದೆ."
+          },
+          {
+            "english": "I need an umbrella.",
+            "transliteration": "Ai niid ən um-brel-ə.",
+            "kannada": "ನನಗೆ ಛತ್ರ ಬೇಕು."
+          },
+          {
+            "english": "She ate an apple.",
+            "transliteration": "Shii eit ən ap-əl.",
+            "kannada": "ಅವಳು ಒಂದು ಸೇಬು ತಿನ್ನುತ್ತಿದ್ದಳು."
+          },
+          {
+            "english": "Water is essential for life.",
+            "transliteration": "Waa-tər iz i-sen-shəl for laif.",
+            "kannada": "ನೀರು ಜೀವನಕ್ಕೆ ಅಗತ್ಯ."
+          },
+          {
+            "english": "I saw a movie yesterday.",
+            "transliteration": "Ai saa ə muu-vii yes-tər-dei.",
+            "kannada": "ನಾನು ನಿನ್ನೆ ಒಂದು ಚಲನಚಿತ್ರ ನೋಡಿದೆ."
+          },
+          {
+            "english": "The Taj Mahal is in Agra.",
+            "transliteration": "Ðə taj mə-haal iz in ag-rə.",
+            "kannada": "ತಾಜ್ ಮಹಾಲ್ ಆಗ್ರಾದಲ್ಲಿ ಇದೆ."
+          }
+        ],
+        "speakingPractice": [
+          {
+            "english": "I have a car and a house.",
+            "kannada": "ನನಗೆ ಒಂದು ಕಾರು ಮತ್ತು ಒಂದು ಮನೆ ಇದೆ."
+          },
+          {
+            "english": "She is a teacher and he is a doctor.",
+            "kannada": "ಅವಳು ಒಬ್ಬ ಶಿಕ್ಷಕೆ ಮತ್ತು ಅವನು ಒಬ್ಬ ವೈದ್ಯ."
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "title": "Using 'a' and 'an' for Indefinite Nouns",
+        "kannadaTitle": "'a' ಮತ್ತು 'an' ಬಳಸುವುದು ಅನಿರ್ದಿಷ್ಟ ನಾಮಪದಗಳಿಗೆ",
+        "cefr": "A1",
+        "content": {
+          "objective": "ಈ ಪಾಠದಲ್ಲಿ ನೀವು ಕಲಿಯುವುದು: 'a' ಮತ್ತು 'an' ಬಳಸುವುದು ಮೊದಲ ಬಾರಿ ಉಲ್ಲೇಖಿಸಿದ ಏಕವಚನ ಗಣನೀಯ ನಾಮಪದಗಳಿಗೆ.",
+          "explanation": "Use 'a' before consonant sounds. Use 'an' before vowel sounds. Use them for singular countable nouns mentioned for the first time.",
+          "kannadaExplanation": "'a' ಬಳಸಿ ವ್ಯಂಜನ ಧ್ವನಿಗಳ ಮೊದಲು. 'an' ಬಳಸಿ ಸ್ವರ ಧ್ವನಿಗಳ ಮೊದಲು. ಮೊದಲ ಬಾರಿ ಉಲ್ಲೇಖಿಸಿದ ಏಕವಚನ ಗಣನೀಯ ನಾಮಪದಗಳಿಗೆ ಬಳಸಿ.",
+          "rules": [
+            {
+              "rule": "a + consonant sound",
+              "examples": ["a car", "a book", "a dog", "a pen", "a house"]
+            },
+            {
+              "rule": "an + vowel sound",
+              "examples": ["an apple", "an egg", "an orange", "an umbrella", "an engineer"]
+            },
+            {
+              "rule": "Note: 'an' before 'h' if silent (an hour, an honest person)",
+              "examples": ["an hour", "an honest person", "an heir"]
+            }
+          ]
+        },
+        "examples": [
+          {
+            "english": "I have a pen.",
+            "transliteration": "Ai hav ə pen.",
+            "kannada": "ನನಗೆ ಒಂದು ಪೆನ್ ಇದೆ."
+          },
+          {
+            "english": "She bought an apple.",
+            "transliteration": "Shii baat ən ap-əl.",
+            "kannada": "ಅವಳು ಒಂದು ಸೇಬು ಖರೀದಿಸಿದಳು."
+          },
+          {
+            "english": "He is a student.",
+            "transliteration": "Hii iz ə stuu-dənt.",
+            "kannada": "ಅವನು ಒಬ್ಬ ವಿದ್ಯಾರ್ಥಿ."
+          },
+          {
+            "english": "I need an umbrella.",
+            "transliteration": "Ai niid ən um-brel-ə.",
+            "kannada": "ನನಗೆ ಛತ್ರ ಬೇಕು."
+          },
+          {
+            "english": "There is a cat in the house.",
+            "transliteration": "Ðer iz ə kat in ðə hous.",
+            "kannada": "ಮನೆಯಲ್ಲಿ ಒಂದು ಬೆಕ್ಕೆ ಇದೆ."
+          },
+          {
+            "english": "I saw an elephant at the zoo.",
+            "transliteration": "Ai saa ən el-ə-fənt at ðə zuu.",
+            "kannada": "ನಾನು ಮೃಗಾಲಯದಲ್ಲಿ ಒಂದು ಆನೆ ನೋಡಿದೆ."
+          },
+          {
+            "english": "She is an engineer.",
+            "transliteration": "Shii iz ən en-jin-iir.",
+            "kannada": "ಅವಳು ಒಬ್ಬ ಇಂಜಿನಿಯರ್."
+          },
+          {
+            "english": "I want a coffee.",
+            "transliteration": "Ai want ə kaa-fii.",
+            "kannada": "ನನಗೆ ಒಂದು ಕಾಫಿ ಬೇಕು."
+          },
+          {
+            "english": "He has an idea.",
+            "transliteration": "Hii haz ən ai-dii-ə.",
+            "kannada": "ಅವನಿಗೆ ಒಂದು ಆಲೋಚನೆ ಇದೆ."
+          },
+          {
+            "english": "I met a friend at the park.",
+            "transliteration": "Ai met ə frend at ðə park.",
+            "kannada": "ನಾನು ಪಾರ್ಕ್‌ನಲ್ಲಿ ಒಬ್ಬ ಸ್ನೇಹಿತನನ್ನು ಭೇಟಿ ಮಾಡಿದೆ."
+          }
+        ],
+        "speakingPractice": [
+          {
+            "english": "I have a book and an apple.",
+            "kannada": "ನನಗೆ ಒಂದು ಪುಸ್ತಕ ಮತ್ತು ಒಂದು ಸೇಬು ಇದೆ."
+          },
+          {
+            "english": "She is a doctor and he is an engineer.",
+            "kannada": "ಅವಳು ಒಬ್ಬ ವೈದ್ಯೆ ಮತ್ತು ಅವನು ಒಬ್ಬ ಇಂಜಿನಿಯರ್."
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "title": "Using 'the' for Definite Nouns",
+        "kannadaTitle": "'the' ಬಳಸುವುದು ನಿರ್ದಿಷ್ಟ ನಾಮಪದಗಳಿಗೆ",
+        "cefr": "A1",
+        "content": {
+          "objective": "ಈ ಪಾಠದಲ್ಲಿ ನೀವು ಕಲಿಯುವುದು: 'the' ಬಳಸುವುದು ನಿರ್ದಿಷ್ಟ ಅಥವಾ ಮೊದಲು ಉಲ್ಲೇಖಿಸಿದ ನಾಮಪದಗಳಿಗೆ.",
+          "explanation": "Use 'the' for specific/definite nouns. Use 'the' for nouns mentioned before. Use 'the' for unique nouns (sun, moon, president).",
+          "kannadaExplanation": "'the' ಬಳಸಿ ನಿರ್ದಿಷ್ಟ ನಾಮಪದಗಳಿಗೆ. 'the' ಬಳಸಿ ಮೊದಲು ಉಲ್ಲೇಖಿಸಿದ ನಾಮಪದಗಳಿಗೆ. 'the' ಬಳಸಿ ಅನನ್ಯ ನಾಮಪದಗಳಿಗೆ (ಸೂರ್ಯ, ಚಂದ್ರ, ಅಧ್ಯಕ್ಷ).",
+          "rules": [
+            {
+              "rule": "Use 'the' for specific nouns",
+              "examples": ["The book on the table", "The car in the garage", "The teacher in the class"]
+            },
+            {
+              "rule": "Use 'the' for nouns mentioned before",
+              "examples": ["I saw a cat. The cat was black.", "I bought a book. The book is interesting."]
+            },
+            {
+              "rule": "Use 'the' for unique nouns",
+              "examples": ["The sun", "The moon", "The president", "The Taj Mahal"]
+            }
+          ]
+        },
+        "examples": [
+          {
+            "english": "The book is on the table.",
+            "transliteration": "Ðə buk iz on ðə tei-bəl.",
+            "kannada": "ಪುಸ್ತಕವು ಮೇಜಿನ ಮೇಲೆ ಇದೆ."
+          },
+          {
+            "english": "I saw a cat. The cat was black.",
+            "transliteration": "Ai saa ə kat. Ðə kat waz blak.",
+            "kannada": "ನಾನು ಒಂದು ಬೆಕ್ಕೆ ನೋಡಿದೆ. ಬೆಕ್ಕೆ ಕಪ್ಪೆ ಆಗಿತ್ತು."
+          },
+          {
+            "english": "The sun is bright.",
+            "transliteration": "Ðə sun iz brait.",
+            "kannada": "ಸೂರ್ಯ ಪ್ರಕಾಶಮಾನವಾಗಿದೆ."
+          },
+          {
+            "english": "The Taj Mahal is in Agra.",
+            "transliteration": "Ðə taj mə-haal iz in ag-rə.",
+            "kannada": "ತಾಜ್ ಮಹಾಲ್ ಆಗ್ರಾದಲ್ಲಿ ಇದೆ."
+          },
+          {
+            "english": "The president of India lives in Delhi.",
+            "transliteration": "Ðə prez-i-dənt əv in-dii-ə livz in del-ii.",
+            "kannada": "ಭಾರತದ ಅಧ್ಯಕ್ಷ ದೆಹಲಿಯಲ್ಲಿ ವಾಸಿಸುತ್ತಾರೆ."
+          },
+          {
+            "english": "I bought a car. The car is red.",
+            "transliteration": "Ai baat ə kaar. Ðə kaar iz red.",
+            "kannada": "ನಾನು ಒಂದು ಕಾರು ಖರೀದಿಸಿದೆ. ಕಾರು ಕೆಂಪು ಆಗಿದೆ."
+          },
+          {
+            "english": "The moon is bright at night.",
+            "transliteration": "Ðə muun iz brait at nait.",
+            "kannada": "ಚಂದ್ರ ರಾತ್ರಿಯಲ್ಲಿ ಪ್ರಕಾಶಮಾನವಾಗಿದೆ."
+          },
+          {
+            "english": "The teacher is in the classroom.",
+            "transliteration": "Ðə tii-chər iz in ðə klas-rum.",
+            "kannada": "ಶಿಕ್ಷಕ ತರಗತಿಯಲ್ಲಿ ಇದ್ದಾರೆ."
+          },
+          {
+            "english": "The river flows through the valley.",
+            "transliteration": "Ðə riv-ər flouz thruu ðə val-ii.",
+            "kannada": "ನದಿ ಕಣಿವೆಯ ಮೂಲಕ ಹರಿಯುತ್ತದೆ."
+          },
+          {
+            "english": "The capital of India is Delhi.",
+            "transliteration": "Ðə kap-i-təl əv in-dii-ə iz del-ii.",
+            "kannada": "ಭಾರತದ ರಾಜಧಾನಿ ದೆಹಲಿ."
+          }
+        ],
+        "speakingPractice": [
+          {
+            "english": "The book is on the table and the pen is in the drawer.",
+            "kannada": "ಪುಸ್ತಕವು ಮೇಜಿನ ಮೇಲೆ ಮತ್ತು ಪೆನ್ ಡ್ರಾಯರ್‌ನಲ್ಲಿ ಇದೆ."
+          },
+          {
+            "english": "The sun is bright and the moon is beautiful.",
+            "kannada": "ಸೂರ್ಯ ಪ್ರಕಾಶಮಾನವಾಗಿದೆ ಮತ್ತು ಚಂದ್ರ ಸುಂದರವಾಗಿದೆ."
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "title": "Zero Article (No Article)",
+        "kannadaTitle": "ಶೂನ್ಯ ಲೇಖನ (ಲೇಖನ ಇಲ್ಲ)",
+        "cefr": "A1",
+        "content": {
+          "objective": "ಈ ಪಾಠದಲ್ಲಿ ನೀವು ಕಲಿಯುವುದು: ಯಾವಾಗ ಲೇಖನ ಬಳಸಬೇಡಿ.",
+          "explanation": "Don't use articles with plural nouns (general), uncountable nouns, proper nouns, and abstract nouns.",
+          "kannadaExplanation": "ಬಹುವಚನ ನಾಮಪದಗಳು (ಸಾಮಾನ್ಯ), ಅಗಣನೀಯ ನಾಮಪದಗಳು, ಸಂಜ್ಞಾ ನಾಮಪದಗಳು, ಮತ್ತು ಅಮೂರ್ತ ನಾಮಪದಗಳೊಂದಿಗೆ ಲೇಖನ ಬಳಸಬೇಡಿ.",
+          "rules": [
+            {
+              "rule": "No article with plural nouns (general)",
+              "examples": ["I like cats (in general)", "Dogs are loyal", "Apples are healthy"]
+            },
+            {
+              "rule": "No article with uncountable nouns",
+              "examples": ["I like water", "She drinks milk", "He needs help"]
+            },
+            {
+              "rule": "No article with proper nouns",
+              "examples": ["Ramesh is my friend", "India is a country", "Bangalore is a city"]
+            },
+            {
+              "rule": "No article with abstract nouns",
+              "examples": ["Love is important", "Honesty is the best policy", "Education changes lives"]
+            }
+          ]
+        },
+        "examples": [
+          {
+            "english": "I like cats.",
+            "transliteration": "Ai laik kats.",
+            "kannada": "ನನಗೆ ಬೆಕ್ಕೆಗಳು ಇಷ್ಟ."
+          },
+          {
+            "english": "Water is essential for life.",
+            "transliteration": "Waa-tər iz i-sen-shəl for laif.",
+            "kannada": "ನೀರು ಜೀವನಕ್ಕೆ ಅಗತ್ಯ."
+          },
+          {
+            "english": "Ramesh is a student.",
+            "transliteration": "Ram-esh iz ə stuu-dənt.",
+            "kannada": "ರಮೇಶ್ ಒಬ್ಬ ವಿದ್ಯಾರ್ಥಿ."
+          },
+          {
+            "english": "Love is important.",
+            "transliteration": "Luv iz im-por-tənt.",
+            "kannada": "ಪ್ರೀತಿ ಮುಖ್ಯ."
+          },
+          {
+            "english": "Dogs are loyal animals.",
+            "transliteration": "Dagz ar loi-əl an-i-məlz.",
+            "kannada": "ನಾಯಿಗಳು ನಿಷ್ಠಾವಂತ ಪ್ರಾಣಿಗಳು."
+          },
+          {
+            "english": "She drinks milk every morning.",
+            "transliteration": "Shii drinks milk ev-ri mor-ning.",
+            "kannada": "ಅವಳು ಪ್ರತಿ ಬೆಳಿಗೆ ಹಾಲು ಕುಡಿಯುತ್ತಾಳೆ."
+          },
+          {
+            "english": "Honesty is the best policy.",
+            "transliteration": "On-ə-stii iz ðə best pol-ə-sii.",
+            "kannada": "ಸತ್ಯತೆ ಉತ್ತಮ ನೀತಿ."
+          },
+          {
+            "english": "Bangalore is a city in India.",
+            "transliteration": "Bang-ə-lor iz ə sit-ii in in-dii-ə.",
+            "kannada": "ಬೆಂಗಳೂರು ಭಾರತದಲ್ಲಿ ಒಂದು ನಗರ."
+          },
+          {
+            "english": "Education changes lives.",
+            "transliteration": "Ej-uu-kei-shən chein-jez laivz.",
+            "kannada": "ಶಿಕ್ಷೆ ಜೀವನಗಳನ್ನು ಬದಲಾಯಿಸುತ್ತದೆ."
+          },
+          {
+            "english": "Apples are healthy fruits.",
+            "transliteration": "Ap-əlz ar hel-thi fruuts.",
+            "kannada": "ಸೇಬುಗಳು ಆರೋಗ್ಯಕರ ಹಣ್ಣುಗಳು."
+          }
+        ],
+        "speakingPractice": [
+          {
+            "english": "I like cats and dogs.",
+            "kannada": "ನನಗೆ ಬೆಕ್ಕೆಗಳು ಮತ್ತು ನಾಯಿಗಳು ಇಷ್ಟ."
+          },
+          {
+            "english": "Water and milk are healthy drinks.",
+            "kannada": "ನೀರು ಮತ್ತು ಹಾಲು ಆರೋಗ್ಯಕರ ಪಾನೀಯಗಳು."
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "title": "Common Article Mistakes for Kannada Speakers",
+        "kannadaTitle": "ಕನ್ನಡ ಮಾತನಾಡುವವರಿಗೆ ಸಾಮಾನ್ಯ ಲೇಖನ ತಪ್ಪುಗಳು",
+        "cefr": "A1",
+        "content": {
+          "objective": "ಈ ಪಾಠದಲ್ಲಿ ನೀವು ಕಲಿಯುವುದು: ಕನ್ನಡ ಮಾತನಾಡುವವರು ಯಾವ ಲೇಖನ ತಪ್ಪುಗಳನ್ನು ಮಾಡುತ್ತಾರೆ ಮತ್ತು ಅವುಗಳನ್ನು ಹೇಗೆ ಸರಿಪಡಿಸಬೇಕು.",
+          "explanation": "Kannada speakers make specific article mistakes because Kannada has no articles. Learn to avoid them.",
+          "kannadaExplanation": "ಕನ್ನಡ ಮಾತನಾಡುವವರು ನಿರ್ದಿಷ್ಟ ಲೇಖನ ತಪ್ಪುಗಳನ್ನು ಮಾಡುತ್ತಾರೆ ಏಕೆಂದರೆ ಕನ್ನಡದಲ್ಲಿ ಲೇಖನಗಳಿಲ್ಲ. ಅವುಗಳನ್ನು ತಪ್ಪಿಸಲು ಕಲಿಯಿರಿ.",
+          "mistakes": [
+            {
+              "wrong": "She is teacher.",
+              "correct": "She is a teacher.",
+              "kannada": "ತಪ್ಪು: ಅವಳು ಶಿಕ್ಷಕೆ. ಸರಿ: ಅವಳು ಒಬ್ಬ ಶಿಕ್ಷಕೆ.",
+              "reason": "Countable singular nouns need 'a' or 'an'."
+            },
+            {
+              "wrong": "I saw movie yesterday.",
+              "correct": "I saw a movie yesterday.",
+              "kannada": "ತಪ್ಪು: ನಾನು ನಿನ್ನೆ ಚಲನಚಿತ್ರ ನೋಡಿದೆ. ಸರಿ: ನಾನು ನಿನ್ನೆ ಒಂದು ಚಲನಚಿತ್ರ ನೋಡಿದೆ.",
+              "reason": "Indefinite singular countable nouns need 'a' or 'an'."
+            },
+            {
+              "wrong": "I go to school every day.",
+              "correct": "I go to the school every day. (or: I go to school every day - both acceptable)",
+              "kannada": "ತಪ್ಪು ಅಲ್ಲ, ಆದರೆ ಸಂದರ್ಭವನ್ನು ಅವಲಂಬಿಸಿ 'the' ಬಳಸಬಹುದು.",
+              "reason": "Context matters. 'I go to school' (general) vs. 'I go to the school' (specific school)."
+            },
+            {
+              "wrong": "I am having a car.",
+              "correct": "I have a car.",
+              "kannada": "ತಪ್ಪು: ನಾನು ಒಂದು ಕಾರು ಹೊಂದುತ್ತಿದ್ದೇನೆ. ಸರಿ: ನನಗೆ ಒಂದು ಕಾರು ಇದೆ.",
+              "reason": "Stative verbs (have, know, like) don't use continuous tense."
+            },
+            {
+              "wrong": "The water is important.",
+              "correct": "Water is important.",
+              "kannada": "ತಪ್ಪು: ನೀರು ಮುಖ್ಯ. ಸರಿ: ನೀರು ಮುಖ್ಯ.",
+              "reason": "Uncountable nouns don't need 'the' when speaking generally."
+            },
+            {
+              "wrong": "I like the tea.",
+              "correct": "I like tea. (or: I like the tea - if specific tea)",
+              "kannada": "ತಪ್ಪು ಅಲ್ಲ, ಆದರೆ ಸಂದರ್ಭವನ್ನು ಅವಲಂಬಿಸಿ.",
+              "reason": "Context matters. 'I like tea' (in general) vs. 'I like the tea' (specific tea)."
+            }
+          ]
+        },
+        "examples": [
+          {
+            "english": "Correct: She is a teacher. (Not: She is teacher.)",
+            "transliteration": "Shii iz ə tii-chər.",
+            "kannada": "ಸರಿ: ಅವಳು ಒಬ್ಬ ಶಿಕ್ಷಕೆ."
+          },
+          {
+            "english": "Correct: I saw a movie. (Not: I saw movie.)",
+            "transliteration": "Ai saa ə muu-vii.",
+            "kannada": "ಸರಿ: ನಾನು ಒಂದು ಚಲನಚಿತ್ರ ನೋಡಿದೆ."
+          },
+          {
+            "english": "Correct: I have a car. (Not: I am having a car.)",
+            "transliteration": "Ai hav ə kaar.",
+            "kannada": "ಸರಿ: ನನಗೆ ಒಂದು ಕಾರು ಇದೆ."
+          },
+          {
+            "english": "Correct: Water is important. (Not: The water is important.)",
+            "transliteration": "Waa-tər iz im-por-tənt.",
+            "kannada": "ಸರಿ: ನೀರು ಮುಖ್ಯ."
+          },
+          {
+            "english": "Correct: I like tea. (Not: I like the tea.)",
+            "transliteration": "Ai laik tii.",
+            "kannada": "ಸರಿ: ನನಗೆ ಚಹಾ ಇಷ್ಟ."
+          },
+          {
+            "english": "Correct: The book is on the table.",
+            "transliteration": "Ðə buk iz on ðə tei-bəl.",
+            "kannada": "ಸರಿ: ಪುಸ್ತಕವು ಮೇಜಿನ ಮೇಲೆ ಇದೆ."
+          },
+          {
+            "english": "Correct: I need an umbrella. (Not: I need umbrella.)",
+            "transliteration": "Ai niid ən um-brel-ə.",
+            "kannada": "ಸರಿ: ನನಗೆ ಛತ್ರ ಬೇಕು."
+          },
+          {
+            "english": "Correct: She is an engineer. (Not: She is engineer.)",
+            "transliteration": "Shii iz ən en-jin-iir.",
+            "kannada": "ಸರಿ: ಅವಳು ಒಬ್ಬ ಇಂಜಿನಿಯರ್."
+          },
+          {
+            "english": "Correct: The sun is bright. (Not: Sun is bright.)",
+            "transliteration": "Ðə sun iz brait.",
+            "kannada": "ಸರಿ: ಸೂರ್ಯ ಪ್ರಕಾಶಮಾನವಾಗಿದೆ."
+          },
+          {
+            "english": "Correct: I like cats. (Not: I like the cats.)",
+            "transliteration": "Ai laik kats.",
+            "kannada": "ಸರಿ: ನನಗೆ ಬೆಕ್ಕೆಗಳು ಇಷ್ಟ."
+          }
+        ],
+        "speakingPractice": [
+          {
+            "english": "She is a doctor and he is an engineer.",
+            "kannada": "ಅವಳು ಒಬ್ಬ ವೈದ್ಯೆ ಮತ್ತು ಅವನು ಒಬ್ಬ ಇಂಜಿನಿಯರ್."
+          },
+          {
+            "english": "I have a car and a house.",
+            "kannada": "ನನಗೆ ಒಂದು ಕಾರು ಮತ್ತು ಒಂದು ಮನೆ ಇದೆ."
+          }
+        ]
+      }
+    ],
+    "practiceQuestions": [
+      {
+        "question": "Fill in the blank: I have ___ car.",
+        "options": ["a", "an", "the", "no article"],
+        "correct": "a",
+        "explanation": "ಸರಿ ಉತ್ತರ: 'a'. ಏಕೆಂದರೆ 'car' ಒಂದು ಏಕವಚನ ಗಣನೀಯ ನಾಮಪದ ಮತ್ತು ಮೊದಲ ಬಾರಿ ಉಲ್ಲೇಖಿಸಲಾಗಿದೆ."
+      },
+      {
+        "question": "Fill in the blank: She is ___ teacher.",
+        "options": ["a", "an", "the", "no article"],
+        "correct": "a",
+        "explanation": "ಸರಿ ಉತ್ತರ: 'a'. ಏಕೆಂದರೆ 'teacher' ಒಂದು ಏಕವಚನ ಗಣನೀಯ ನಾಮಪದ."
+      },
+      {
+        "question": "Fill in the blank: I need ___ umbrella.",
+        "options": ["a", "an", "the", "no article"],
+        "correct": "an",
+        "explanation": "ಸರಿ ಉತ್ತರ: 'an'. ಏಕೆಂದರೆ 'umbrella' ಸ್ವರ ಧ್ವನಿಯಿಂದ ಪ್ರಾರಂಭವಾಗುತ್ತದೆ."
+      },
+      {
+        "question": "Fill in the blank: ___ sun is bright.",
+        "options": ["a", "an", "the", "no article"],
+        "correct": "the",
+        "explanation": "ಸರಿ ಉತ್ತರ: 'the'. ಏಕೆಂದರೆ 'sun' ಒಂದು ಅನನ್ಯ ನಾಮಪದ."
+      },
+      {
+        "question": "Fill in the blank: I like ___ tea.",
+        "options": ["a", "an", "the", "no article"],
+        "correct": "no article",
+        "explanation": "ಸರಿ ಉತ್ತರ: ಲೇಖನ ಇಲ್ಲ. ಏಕೆಂದರೆ 'tea' ಅಗಣನೀಯ ನಾಮಪದ."
+      },
+      {
+        "question": "Correct the sentence: 'She is teacher.'",
+        "options": ["She is a teacher.", "She is an teacher.", "She is the teacher.", "No correction needed."],
+        "correct": "She is a teacher.",
+        "explanation": "ಸರಿ ಉತ್ತರ: 'She is a teacher.' ಏಕೆಂದರೆ 'teacher' ಒಂದು ಏಕವಚನ ಗಣನೀಯ ನಾಮಪದ."
+      },
+      {
+        "question": "Correct the sentence: 'I saw movie yesterday.'",
+        "options": ["I saw a movie yesterday.", "I saw an movie yesterday.", "I saw the movie yesterday.", "No correction needed."],
+        "correct": "I saw a movie yesterday.",
+        "explanation": "ಸರಿ ಉತ್ತರ: 'I saw a movie yesterday.' ಏಕೆಂದರೆ 'movie' ಒಂದು ಏಕವಚನ ಗಣನೀಯ ನಾಮಪದ."
+      },
+      {
+        "question": "Correct the sentence: 'Water is important.'",
+        "options": ["The water is important.", "A water is important.", "Water is important. (No correction needed)", "An water is important."],
+        "correct": "Water is important. (No correction needed)",
+        "explanation": "ಸರಿ ಉತ್ತರ: ಯಾವುದೇ ತಿದ್ದುಪಡಿ ಅಗತ್ಯವಿಲ್ಲ. 'Water' ಅಗಣನೀಯ ನಾಮಪದ."
+      },
+      {
+        "question": "Fill in the blank: I bought ___ book. ___ book is interesting.",
+        "options": ["a, the", "an, the", "the, a", "no article, no article"],
+        "correct": "a, the",
+        "explanation": "ಸರಿ ಉತ್ತರ: 'a, the'. ಮೊದಲ ಬಾರಿ 'a' (ಅನಿರ್ದಿಷ್ಟ), ಎರಡನೇ ಬಾರಿ 'the' (ನಿರ್ದಿಷ್ಟ)."
+      },
+      {
+        "question": "Correct the sentence: 'I am having a car.'",
+        "options": ["I have a car.", "I am having a car. (No correction needed)", "I am having the car.", "I am having an car."],
+        "correct": "I have a car.",
+        "explanation": "ಸರಿ ಉತ್ತರ: 'I have a car.' ಏಕೆಂದರೆ 'have' ಸ್ಥಿತಿಸೂಚಕ ಕ್ರಿಯಾಪದ ಮತ್ತು ನಿರಂತರ ಕಾಲ ಬಳಸುವುದಿಲ್ಲ."
+      }
+    ],
+    "quiz": [
+      {
+        "question": "Why do Kannada speakers struggle with articles?",
+        "options": [
+          "Kannada has no articles",
+          "Articles are too difficult",
+          "English articles are optional",
+          "Kannada speakers don't need articles"
+        ],
+        "correct": "Kannada has no articles",
+        "explanation": "ಸರಿ ಉತ್ತರ: ಕನ್ನಡದಲ್ಲಿ ಲೇಖನಗಳಿಲ್ಲ. ಇದೇ ಕನ್ನಡ ಮಾತನಾಡುವವರು ಇಂಗ್ಲಿಷ್ ಲೇಖನಗಳನ್ನು ಬಳಸಲು ಕಷ್ಟ ಪಡುತ್ತಾರೆ."
+      },
+      {
+        "question": "Which sentence is correct?",
+        "options": [
+          "She is teacher.",
+          "She is a teacher.",
+          "She is an teacher.",
+          "She is the teacher."
+        ],
+        "correct": "She is a teacher.",
+        "explanation": "ಸರಿ ಉತ್ತರ: 'She is a teacher.' ಏಕೆಂದರೆ 'teacher' ಒಂದು ಏಕವಚನ ಗಣನೀಯ ನಾಮಪದ."
+      },
+      {
+        "question": "Which sentence is correct?",
+        "options": [
+          "I need umbrella.",
+          "I need an umbrella.",
+          "I need the umbrella.",
+          "I need a umbrella."
+        ],
+        "correct": "I need an umbrella.",
+        "explanation": "ಸರಿ ಉತ್ತರ: 'I need an umbrella.' ಏಕೆಂದರೆ 'umbrella' ಸ್ವರ ಧ್ವನಿಯಿಂದ ಪ್ರಾರಂಭವಾಗುತ್ತದೆ."
+      }
+    ]
+  }
+}

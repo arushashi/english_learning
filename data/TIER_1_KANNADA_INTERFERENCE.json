@@ -1,0 +1,432 @@
+{
+  "kannada_interference_module": {
+    "title": "Kannada Interference Module: 10 Critical Lessons",
+    "description": "Address the root causes of Kannada speaker errors in English",
+    "cefr": "A1-B1",
+    "kannadaTitle": "ಕನ್ನಡ ಹಸ್ತಕ್ಷೇಪ ಮಾಡ್ಯೂಲ್: 10 ನಿರ್ಣಾಯಕ ಪಾಠಗಳು",
+    "lessons": [
+      {
+        "id": 1,
+        "title": "Lesson 1: Word Order - SOV (Kannada) vs. SVO (English)",
+        "kannadaTitle": "ಪಾಠ 1: ಪದ ಕ್ರಮ - SOV (ಕನ್ನಡ) vs. SVO (ಇಂಗ್ಲಿಷ್)",
+        "cefr": "A1",
+        "content": {
+          "objective": "ಈ ಪಾಠದಲ್ಲಿ ನೀವು ಕಲಿಯುವುದು: ಕನ್ನಡ SOV ಪದ ಕ್ರಮವನ್ನು ಇಂಗ್ಲಿಷ್ SVO ಪದ ಕ್ರಮಕ್ಕೆ ಪರಿವರ್ತಿಸುವುದು.",
+          "explanation": "Kannada uses SOV (Subject-Object-Verb) word order. English uses SVO (Subject-Verb-Object). This causes confusion for Kannada speakers.",
+          "kannadaExplanation": "ಕನ್ನಡ SOV (ಕರ್ತೃ-ಕರ್ಮ-ಕ್ರಿಯಾಪದ) ಪದ ಕ್ರಮ ಬಳಸುತ್ತದೆ. ಇಂಗ್ಲಿಷ್ SVO (ಕರ್ತೃ-ಕ್ರಿಯಾಪದ-ಕರ್ಮ) ಬಳಸುತ್ತದೆ. ಇದು ಕನ್ನಡ ಮಾತನಾಡುವವರಿಗೆ ಗೊಂದಲ ಉಂಟುಮಾಡುತ್ತದೆ.",
+          "comparison": [
+            {
+              "kannada": "ರಮೇಶ್ ಕಾರು ಚಾಲನೆ ಮಾಡುತ್ತಾನೆ. (SOV)",
+              "english": "Ramesh drives a car. (SVO)",
+              "explanation": "Kannada: Ramesh + car + drives. English: Ramesh + drives + car."
+            },
+            {
+              "kannada": "ಅವಳು ಪುಸ್ತಕ ಓದುತ್ತಾಳೆ. (SOV)",
+              "english": "She reads a book. (SVO)",
+              "explanation": "Kannada: She + book + reads. English: She + reads + book."
+            },
+            {
+              "kannada": "ನಾನು ಅವನನ್ನು ಪ್ರೀತಿ ಮಾಡುತ್ತೇನೆ. (SOV)",
+              "english": "I love him. (SVO)",
+              "explanation": "Kannada: I + him + love. English: I + love + him."
+            }
+          ]
+        },
+        "examples": [
+          {
+            "english": "Ramesh drives a car.",
+            "transliteration": "Ram-esh draivz ə kaar.",
+            "kannada": "ರಮೇಶ್ ಕಾರು ಚಾಲನೆ ಮಾಡುತ್ತಾನೆ."
+          },
+          {
+            "english": "She reads a book.",
+            "transliteration": "Shii riidz ə buk.",
+            "kannada": "ಅವಳು ಪುಸ್ತಕ ಓದುತ್ತಾಳೆ."
+          },
+          {
+            "english": "I love him.",
+            "transliteration": "Ai luv him.",
+            "kannada": "ನಾನು ಅವನನ್ನು ಪ್ರೀತಿ ಮಾಡುತ್ತೇನೆ."
+          },
+          {
+            "english": "He eats rice.",
+            "transliteration": "Hii iits ris.",
+            "kannada": "ಅವನು ಅಕ್ಕಿ ತಿನ್ನುತ್ತಾನೆ."
+          },
+          {
+            "english": "They watch a movie.",
+            "transliteration": "Dei wach ə muu-vii.",
+            "kannada": "ಅವರು ಚಲನಚಿತ್ರ ನೋಡುತ್ತಾರೆ."
+          },
+          {
+            "english": "We buy vegetables.",
+            "transliteration": "Wii bai vej-ə-təlz.",
+            "kannada": "ನಾವು ತರಕಾರಿ ಖರೀದಿಸುತ್ತೇವೆ."
+          },
+          {
+            "english": "She teaches English.",
+            "transliteration": "Shii tii-chiz ing-glish.",
+            "kannada": "ಅವಳು ಇಂಗ್ಲಿಷ್ ಕಲಿಸುತ್ತಾಳೆ."
+          },
+          {
+            "english": "He writes a letter.",
+            "transliteration": "Hii raits ə let-ər.",
+            "kannada": "ಅವನು ಪತ್ರ ಬರೆಯುತ್ತಾನೆ."
+          },
+          {
+            "english": "I drink water.",
+            "transliteration": "Ai drink waa-tər.",
+            "kannada": "ನಾನು ನೀರು ಕುಡಿಯುತ್ತೇನೆ."
+          },
+          {
+            "english": "They play football.",
+            "transliteration": "Dei plei fut-baal.",
+            "kannada": "ಅವರು ಫುಟ್‌ಬಾಲ್ ಆಡುತ್ತಾರೆ."
+          }
+        ],
+        "speakingPractice": [
+          {
+            "english": "Ramesh drives a car and she reads a book.",
+            "kannada": "ರಮೇಶ್ ಕಾರು ಚಾಲನೆ ಮಾಡುತ್ತಾನೆ ಮತ್ತು ಅವಳು ಪುಸ್ತಕ ಓದುತ್ತಾಳೆ."
+          },
+          {
+            "english": "I love him and he loves me.",
+            "kannada": "ನಾನು ಅವನನ್ನು ಪ್ರೀತಿ ಮಾಡುತ್ತೇನೆ ಮತ್ತು ಅವನು ನನ್ನನ್ನು ಪ್ರೀತಿ ಮಾಡುತ್ತಾನೆ."
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "title": "Lesson 2: Stative Verbs - No Continuous Tense",
+        "kannadaTitle": "ಪಾಠ 2: ಸ್ಥಿತಿಸೂಚಕ ಕ್ರಿಯಾಪದಗಳು - ನಿರಂತರ ಕಾಲ ಇಲ್ಲ",
+        "cefr": "A1",
+        "content": {
+          "objective": "ಈ ಪಾಠದಲ್ಲಿ ನೀವು ಕಲಿಯುವುದು: ಸ್ಥಿತಿಸೂಚಕ ಕ್ರಿಯಾಪದಗಳನ್ನು ನಿರಂತರ ಕಾಲದಲ್ಲಿ ಬಳಸಬೇಡಿ.",
+          "explanation": "Stative verbs (have, know, like, love, hate, want, need, believe, understand, see, hear, taste, smell, feel, seem, appear, be) describe states, not actions. They don't use continuous tense.",
+          "kannadaExplanation": "ಸ್ಥಿತಿಸೂಚಕ ಕ್ರಿಯಾಪದಗಳು (have, know, like, love, hate, want, need, believe, understand, see, hear, taste, smell, feel, seem, appear, be) ಸ್ಥಿತಿಯನ್ನು ವರ್ಣಿಸುತ್ತವೆ, ಕ್ರಿಯೆಯನ್ನು ಅಲ್ಲ. ಅವರು ನಿರಂತರ ಕಾಲ ಬಳಸುವುದಿಲ್ಲ.",
+          "stativeVerbs": [
+            "have", "has", "know", "like", "love", "hate", "want", "need", "believe", "understand",
+            "see", "hear", "taste", "smell", "feel", "seem", "appear", "be", "am", "is", "are"
+          ],
+          "commonMistakes": [
+            {
+              "wrong": "I am having a car.",
+              "correct": "I have a car.",
+              "reason": "Have is stative; don't use continuous."
+            },
+            {
+              "wrong": "I am knowing him.",
+              "correct": "I know him.",
+              "reason": "Know is stative; don't use continuous."
+            },
+            {
+              "wrong": "I am liking tea.",
+              "correct": "I like tea.",
+              "reason": "Like is stative; don't use continuous."
+            },
+            {
+              "wrong": "I am understanding this.",
+              "correct": "I understand this.",
+              "reason": "Understand is stative; don't use continuous."
+            }
+          ]
+        },
+        "examples": [
+          {
+            "english": "I have a car. (Not: I am having a car.)",
+            "transliteration": "Ai hav ə kaar.",
+            "kannada": "ನನಗೆ ಒಂದು ಕಾರು ಇದೆ."
+          },
+          {
+            "english": "I know him. (Not: I am knowing him.)",
+            "transliteration": "Ai nō him.",
+            "kannada": "ನಾನು ಅವನನ್ನು ತಿಳಿದಿದ್ದೇನೆ."
+          },
+          {
+            "english": "I like tea. (Not: I am liking tea.)",
+            "transliteration": "Ai laik tii.",
+            "kannada": "ನನಗೆ ಚಹಾ ಇಷ್ಟ."
+          },
+          {
+            "english": "I love her. (Not: I am loving her.)",
+            "transliteration": "Ai luv hər.",
+            "kannada": "ನಾನು ಅವಳನ್ನು ಪ್ರೀತಿ ಮಾಡುತ್ತೇನೆ."
+          },
+          {
+            "english": "I understand this. (Not: I am understanding this.)",
+            "transliteration": "Ai un-dər-stand this.",
+            "kannada": "ನಾನು ಇದನ್ನು ಅರ್ಥ ಮಾಡುತ್ತೇನೆ."
+          },
+          {
+            "english": "I see a bird. (Not: I am seeing a bird.)",
+            "transliteration": "Ai sii ə bərd.",
+            "kannada": "ನಾನು ಒಂದು ಪಕ್ಷಿಯನ್ನು ನೋಡುತ್ತೇನೆ."
+          },
+          {
+            "english": "I hear a sound. (Not: I am hearing a sound.)",
+            "transliteration": "Ai hiir ə sound.",
+            "kannada": "ನಾನು ಒಂದು ಶಬ್ದವನ್ನು ಕೇಳುತ್ತೇನೆ."
+          },
+          {
+            "english": "I want a book. (Not: I am wanting a book.)",
+            "transliteration": "Ai want ə buk.",
+            "kannada": "ನನಗೆ ಒಂದು ಪುಸ್ತಕ ಬೇಕು."
+          },
+          {
+            "english": "I believe you. (Not: I am believing you.)",
+            "transliteration": "Ai bi-liiv yuu.",
+            "kannada": "ನಾನು ನಿಮ್ಮನ್ನು ನಂಬುತ್ತೇನೆ."
+          },
+          {
+            "english": "I need help. (Not: I am needing help.)",
+            "transliteration": "Ai niid help.",
+            "kannada": "ನನಗೆ ಸಹಾಯ ಬೇಕು."
+          }
+        ],
+        "speakingPractice": [
+          {
+            "english": "I have a car and I like it.",
+            "kannada": "ನನಗೆ ಒಂದು ಕಾರು ಇದೆ ಮತ್ತು ನನಗೆ ಇದು ಇಷ್ಟ."
+          },
+          {
+            "english": "I know him and I love him.",
+            "kannada": "ನಾನು ಅವನನ್ನು ತಿಳಿದಿದ್ದೇನೆ ಮತ್ತು ನಾನು ಅವನನ್ನು ಪ್ರೀತಿ ಮಾಡುತ್ತೇನೆ."
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "title": "Lesson 3: Tag Questions - Not 'Isn't It?'",
+        "kannadaTitle": "ಪಾಠ 3: ಟ್ಯಾಗ್ ಪ್ರಶ್ನೆಗಳು - 'Isn't it?' ಅಲ್ಲ",
+        "cefr": "B1",
+        "content": {
+          "objective": "ಈ ಪಾಠದಲ್ಲಿ ನೀವು ಕಲಿಯುವುದು: ಟ್ಯಾಗ್ ಪ್ರಶ್ನೆಗಳನ್ನು ಸರಿಯಾಗಿ ರೂಪಿಸುವುದು. ಕನ್ನಡ 'ಅಲ್ವಾ' ಅನ್ನು ಇಂಗ್ಲಿಷ್‌ಗೆ ಅನುವಾದ ಮಾಡಬೇಡಿ.",
+          "explanation": "Kannada speakers overuse 'isn't it?' for all tag questions. English requires different tags based on the main verb and subject.",
+          "kannadaExplanation": "ಕನ್ನಡ ಮಾತನಾಡುವವರು ಎಲ್ಲಾ ಟ್ಯಾಗ್ ಪ್ರಶ್ನೆಗಳಿಗೆ 'ಅಲ್ವಾ' ಬಳಸುತ್ತಾರೆ. ಇಂಗ್ಲಿಷ್ ಮುಖ್ಯ ಕ್ರಿಯಾಪದ ಮತ್ತು ಕರ್ತೃಪದದ ಆಧಾರದ ಮೇಲೆ ವಿಭಿನ್ನ ಟ್ಯಾಗ್‌ಗಳ ಅಗತ್ಯವಿದೆ.",
+          "rules": [
+            {
+              "rule": "Positive statement → negative tag",
+              "examples": ["You speak English, don't you?", "She is a teacher, isn't she?", "They have a car, don't they?"]
+            },
+            {
+              "rule": "Negative statement → positive tag",
+              "examples": ["You don't speak Hindi, do you?", "She isn't a doctor, is she?", "They don't have a house, do they?"]
+            },
+            {
+              "rule": "Tag must match the subject",
+              "examples": ["I am late, aren't I?", "You are busy, aren't you?", "He is happy, isn't he?", "She is sad, isn't she?", "We are ready, aren't we?", "They are here, aren't they?"]
+            }
+          ]
+        },
+        "examples": [
+          {
+            "english": "You speak English, don't you?",
+            "transliteration": "Yuu spiik ing-glish, don't yuu?",
+            "kannada": "ನೀವು ಇಂಗ್ಲಿಷ್ ಮಾತನಾಡುತ್ತೀರಿ, ಅಲ್ವಾ?"
+          },
+          {
+            "english": "She is a teacher, isn't she?",
+            "transliteration": "Shii iz ə tii-chər, iz-ənt shii?",
+            "kannada": "ಅವಳು ಶಿಕ್ಷಕೆ, ಅಲ್ವಾ?"
+          },
+          {
+            "english": "They have a car, don't they?",
+            "transliteration": "Dei hav ə kaar, don't dei?",
+            "kannada": "ಅವರಿಗೆ ಕಾರು ಇದೆ, ಅಲ್ವಾ?"
+          },
+          {
+            "english": "You don't like coffee, do you?",
+            "transliteration": "Yuu don't laik kaa-fii, duu yuu?",
+            "kannada": "ನೀವು ಕಾಫಿ ಇಷ್ಟ ಪಡುವುದಿಲ್ಲ, ಅಲ್ವಾ?"
+          },
+          {
+            "english": "He isn't a doctor, is he?",
+            "transliteration": "Hii iz-ənt ə dok-tər, iz hii?",
+            "kannada": "ಅವನು ವೈದ್ಯ ಅಲ್ಲ, ಅಲ್ವಾ?"
+          },
+          {
+            "english": "We are ready, aren't we?",
+            "transliteration": "Wii ar red-ii, ar-ənt wii?",
+            "kannada": "ನಾವು ಸಿದ್ಧ, ಅಲ್ವಾ?"
+          },
+          {
+            "english": "I am late, aren't I?",
+            "transliteration": "Ai əm leit, ar-ənt ai?",
+            "kannada": "ನಾನು ತಡವಾಗಿ ಬಂದಿದ್ದೇನೆ, ಅಲ್ವಾ?"
+          },
+          {
+            "english": "She has finished, hasn't she?",
+            "transliteration": "Shii haz fin-isht, haz-ənt shii?",
+            "kannada": "ಅವಳು ಪೂರ್ಣಗೊಳಿಸಿದ್ದಾಳೆ, ಅಲ್ವಾ?"
+          },
+          {
+            "english": "They will come, won't they?",
+            "transliteration": "Dei wil kum, wont dei?",
+            "kannada": "ಅವರು ಬರುತ್ತಾರೆ, ಅಲ್ವಾ?"
+          },
+          {
+            "english": "It is raining, isn't it?",
+            "transliteration": "It iz rei-ning, iz-ənt it?",
+            "kannada": "ಮಳೆ ಸುರಿಯುತ್ತಿದೆ, ಅಲ್ವಾ?"
+          }
+        ],
+        "speakingPractice": [
+          {
+            "english": "You speak English, don't you? And she is a teacher, isn't she?",
+            "kannada": "ನೀವು ಇಂಗ್ಲಿಷ್ ಮಾತನಾಡುತ್ತೀರಿ, ಅಲ್ವಾ? ಮತ್ತು ಅವಳು ಶಿಕ್ಷಕೆ, ಅಲ್ವಾ?"
+          },
+          {
+            "english": "They have a car, don't they? And we are ready, aren't we?",
+            "kannada": "ಅವರಿಗೆ ಕಾರು ಇದೆ, ಅಲ್ವಾ? ಮತ್ತು ನಾವು ಸಿದ್ಧ, ಅಲ್ವಾ?"
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "title": "Lesson 4: Overuse of 'Only' and 'Itself'",
+        "kannadaTitle": "ಪಾಠ 4: 'Only' ಮತ್ತು 'Itself' ನ ಅತಿಯಾದ ಬಳಕೆ",
+        "cefr": "B1",
+        "content": {
+          "objective": "ಈ ಪಾಠದಲ್ಲಿ ನೀವು ಕಲಿಯುವುದು: 'only' ಮತ್ತು 'itself' ಸರಿಯಾಗಿ ಬಳಸುವುದು. ಕನ್ನಡ 'ಅಷ್ಟೇ' ಮತ್ತು 'ಅದೇ' ಅನ್ನು ಅನುವಾದ ಮಾಡಬೇಡಿ.",
+          "explanation": "Kannada speakers overuse 'only' and 'itself' because of direct translation from Kannada. Use them sparingly and only when necessary.",
+          "kannadaExplanation": "ಕನ್ನಡ ಮಾತನಾಡುವವರು 'only' ಮತ್ತು 'itself' ಅತಿಯಾಗಿ ಬಳಸುತ್ತಾರೆ ಏಕೆಂದರೆ ಕನ್ನಡದಿಂದ ನೇರ ಅನುವಾದ. ಅವುಗಳನ್ನು ಅಗತ್ಯವಾದಾಗ ಮಾತ್ರ ಬಳಸಿ."
+        },
+        "examples": [
+          {
+            "english": "I am just a student. (Not: I am only a student.)",
+            "transliteration": "Ai əm just ə stuu-dənt.",
+            "kannada": "ನಾನು ಕೇವಲ ಒಬ್ಬ ವಿದ್ಯಾರ್ಥಿ."
+          },
+          {
+            "english": "The book is interesting. (Not: The book itself is interesting.)",
+            "transliteration": "Ðə buk iz in-tər-ə-sting.",
+            "kannada": "ಪುಸ್ತಕವು ಆಸಕ್ತಿದಾಯಕವಾಗಿದೆ."
+          },
+          {
+            "english": "I myself did it. (Correct use of 'myself' for emphasis)",
+            "transliteration": "Ai mai-self did it.",
+            "kannada": "ನಾನು ಸ್ವತಃ ಅದನ್ನು ಮಾಡಿದೆ."
+          },
+          {
+            "english": "Only he can do it. (Correct use of 'only' for restriction)",
+            "transliteration": "Ōn-li hii kan duu it.",
+            "kannada": "ಕೇವಲ ಅವನು ಅದನ್ನು ಮಾಡಬಲ್ಲ."
+          },
+          {
+            "english": "I like tea, not coffee. (Not: I like only tea.)",
+            "transliteration": "Ai laik tii, not kaa-fii.",
+            "kannada": "ನನಗೆ ಚಹಾ ಇಷ್ಟ, ಕಾಫಿ ಅಲ್ಲ."
+          },
+          {
+            "english": "She is a teacher. (Not: She herself is a teacher.)",
+            "transliteration": "Shii iz ə tii-chər.",
+            "kannada": "ಅವಳು ಒಬ್ಬ ಶಿಕ್ಷಕೆ."
+          },
+          {
+            "english": "I will do it myself. (Correct use of 'myself')",
+            "transliteration": "Ai wil duu it mai-self.",
+            "kannada": "ನಾನು ಸ್ವತಃ ಅದನ್ನು ಮಾಡುತ್ತೇನೆ."
+          },
+          {
+            "english": "Only you can help me. (Correct use of 'only')",
+            "transliteration": "Ōn-li yuu kan help mii.",
+            "kannada": "ಕೇವಲ ನೀವು ನನಗೆ ಸಹಾಯ ಮಾಡಬಲ್ಲೀರಿ."
+          },
+          {
+            "english": "The problem is simple. (Not: The problem itself is simple.)",
+            "transliteration": "Ðə prob-ləm iz sim-pəl.",
+            "kannada": "ಸಮಸ್ಯೆ ಸರಳವಾಗಿದೆ."
+          },
+          {
+            "english": "I need only five minutes. (Correct use of 'only')",
+            "transliteration": "Ai niid ōn-li faiv min-its.",
+            "kannada": "ನನಗೆ ಕೇವಲ ಐದು ನಿಮಿಷ ಬೇಕು."
+          }
+        ],
+        "speakingPractice": [
+          {
+            "english": "I am just a student and I need only your help.",
+            "kannada": "ನಾನು ಕೇವಲ ಒಬ್ಬ ವಿದ್ಯಾರ್ಥಿ ಮತ್ತು ನನಗೆ ಕೇವಲ ನಿಮ್ಮ ಸಹಾಯ ಬೇಕು."
+          },
+          {
+            "english": "The book is interesting and I did it myself.",
+            "kannada": "ಪುಸ್ತಕವು ಆಸಕ್ತಿದಾಯಕವಾಗಿದೆ ಮತ್ತು ನಾನು ಸ್ವತಃ ಅದನ್ನು ಮಾಡಿದೆ."
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "title": "Lesson 5: Indianisms - When Acceptable, When Not",
+        "kannadaTitle": "ಪಾಠ 5: ಭಾರತೀಯತೆಗಳು - ಯಾವಾಗ ಸ್ವೀಕಾರ್ಯ, ಯಾವಾಗ ಅಲ್ಲ",
+        "cefr": "B1",
+        "content": {
+          "objective": "ಈ ಪಾಠದಲ್ಲಿ ನೀವು ಕಲಿಯುವುದು: ಭಾರತೀಯ ಇಂಗ್ಲಿಷ್ ಮತ್ತು ಪ್ರಮಾಣಿತ ಇಂಗ್ಲಿಷ್ ನಡುವಿನ ವ್ಯತ್ಯಾಸ.",
+          "explanation": "Some Indianisms are acceptable in Indian English but not in international English. Learn when to use them.",
+          "kannadaExplanation": "ಕೆಲವು ಭಾರತೀಯತೆಗಳು ಭಾರತೀಯ ಇಂಗ್ಲಿಷ್‌ನಲ್ಲಿ ಸ್ವೀಕಾರ್ಯ ಆದರೆ ಅಂತರರಾಷ್ಟ್ರೀಯ ಇಂಗ್ಲಿಷ್‌ನಲ್ಲಿ ಅಲ್ಲ. ಅವುಗಳನ್ನು ಯಾವಾಗ ಬಳಸಬೇಕು ಎಂದು ಕಲಿಯಿರಿ."
+        },
+        "examples": [
+          {
+            "english": "What is your good name? (Indian English) → What is your name? (Standard English)",
+            "transliteration": "Wut iz yur neim?",
+            "kannada": "ನಿಮ್ಮ ಹೆಸರು ಏನು?"
+          },
+          {
+            "english": "Do the needful. (Indian English) → Please do what is necessary. (Standard English)",
+            "transliteration": "Pliiz duu wut iz nes-ə-ser-ii.",
+            "kannada": "ದಯವಿಟ್ಟು ಅಗತ್ಯವಾದುದನ್ನು ಮಾಡಿ."
+          },
+          {
+            "english": "Kindly revert. (Indian English) → Please reply. (Standard English)",
+            "transliteration": "Pliiz ri-plai.",
+            "kannada": "ದಯವಿಟ್ಟು ಪ್ರತ್ಯುತ್ತರ ನೀಡಿ."
+          },
+          {
+            "english": "I am having a doubt. (Indian English) → I have a question. (Standard English)",
+            "transliteration": "Ai hav ə kwes-chən.",
+            "kannada": "ನನಗೆ ಒಂದು ಪ್ರಶ್ನೆ ಇದೆ."
+          },
+          {
+            "english": "Presently, I am in Bangalore. (Indian English) → Currently, I am in Bangalore. (Standard English)",
+            "transliteration": "Kur-ənt-li, ai əm in bang-ə-lor.",
+            "kannada": "ಪ್ರಸ್ತುತವಾಗಿ, ನಾನು ಬೆಂಗಳೂರಿನಲ್ಲಿದ್ದೇನೆ."
+          },
+          {
+            "english": "I am working in IT sector. (Indian English) → I work in the IT sector. (Standard English)",
+            "transliteration": "Ai wurk in ðə IT sek-tər.",
+            "kannada": "ನಾನು IT ವಲಯದಲ್ಲಿ ಕೆಲಸ ಮಾಡುತ್ತೇನೆ."
+          },
+          {
+            "english": "This is a good name. (Indian English) → This is a good idea. (Standard English)",
+            "transliteration": "This iz ə gud ai-dii-ə.",
+            "kannada": "ಇದು ಒಳ್ಳೆಯ ಆಲೋಚನೆ."
+          },
+          {
+            "english": "I am from Bangalore only. (Indian English) → I am from Bangalore. (Standard English)",
+            "transliteration": "Ai əm from bang-ə-lor.",
+            "kannada": "ನಾನು ಬೆಂಗಳೂರಿನಿಂದ."
+          },
+          {
+            "english": "Kindly do the needful. (Indian English) → Please do what is necessary. (Standard English)",
+            "transliteration": "Pliiz duu wut iz nes-ə-ser-ii.",
+            "kannada": "ದಯವಿಟ್ಟು ಅಗತ್ಯವಾದುದನ್ನು ಮಾಡಿ."
+          },
+          {
+            "english": "I am having a problem. (Indian English) → I have a problem. (Standard English)",
+            "transliteration": "Ai hav ə prob-ləm.",
+            "kannada": "ನನಗೆ ಒಂದು ಸಮಸ್ಯೆ ಇದೆ."
+          }
+        ],
+        "speakingPractice": [
+          {
+            "english": "What is your name? I have a question. Please reply.",
+            "kannada": "ನಿಮ್ಮ ಹೆಸರು ಏನು? ನನಗೆ ಒಂದು ಪ್ರಶ್ನೆ ಇದೆ. ದಯವಿಟ್ಟು ಪ್ರತ್ಯುತ್ತರ ನೀಡಿ."
+          },
+          {
+            "english": "I work in the IT sector and I have a good idea.",
+            "kannada": "ನಾನು IT ವಲಯದಲ್ಲಿ ಕೆಲಸ ಮಾಡುತ್ತೇನೆ ಮತ್ತು ನನಗೆ ಒಳ್ಳೆಯ ಆಲೋಚನೆ ಇದೆ."
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,274 @@
+{
+  "remaining_7_tenses": {
+    "title": "Remaining 7 Tenses (Complete 12 Tenses Module)",
+    "cefr": "A2-B2",
+    "lessons": [
+      {
+        "id": 6,
+        "title": "Past Continuous Tense",
+        "kannadaTitle": "ಭೂತ ನಿರಂತರ ಕಾಲ",
+        "cefr": "A2",
+        "content": {
+          "objective": "ಈ ಪಾಠದಲ್ಲಿ ನೀವು ಕಲಿಯುವುದು: ಭೂತಕಾಲದಲ್ಲಿ ನಿರ್ದಿಷ್ಟ ಸಮಯದಲ್ಲಿ ನಡೆಯುತ್ತಿದ್ದ ಕ್ರಿಯೆಗಳಿಗೆ ಭೂತ ನಿರಂತರ ಕಾಲ ಬಳಸುವುದು.",
+          "explanation": "Use past continuous for actions that were happening at a specific time in the past. Form: was/were + verb-ing.",
+          "structure": "was/were + verb-ing",
+          "examples": [
+            "I was reading a book when he called.",
+            "She was working in the office at 5 PM.",
+            "They were playing football when it started raining.",
+            "He was sleeping when I arrived.",
+            "We were having lunch at noon.",
+            "I was watching TV yesterday evening.",
+            "She was cooking dinner when the guests arrived.",
+            "They were studying for the exam all night.",
+            "He was writing a letter when the power went off.",
+            "It was raining heavily when we left."
+          ]
+        },
+        "examples": [
+          {"english": "I was reading a book when he called.", "transliteration": "Ai waz rii-ding ə buk when hii kald.", "kannada": "ಅವನು ಕಾಲ್ ಮಾಡಿದಾಗ ನಾನು ಪುಸ್ತಕ ಓದುತ್ತಿದ್ದೆ."},
+          {"english": "She was working in the office at 5 PM.", "transliteration": "Shii waz wur-king in ðə aw-fis at faiv pii-em.", "kannada": "ಸಾಯಂಕಾಲ 5 ಗಂಟೆಗೆ ಅವಳು ಆಫೀಸ್‌ನಲ್ಲಿ ಕೆಲಸ ಮಾಡುತ್ತಿದ್ದಳು."},
+          {"english": "They were playing football when it started raining.", "transliteration": "Dei wər plei-ing fut-baal when it star-tid rei-ning.", "kannada": "ಮಳೆ ಪ್ರಾರಂಭವಾದಾಗ ಅವರು ಫುಟ್‌ಬಾಲ್ ಆಡುತ್ತಿದ್ದಾರೆ."},
+          {"english": "He was sleeping when I arrived.", "transliteration": "Hii waz slii-ping when ai ə-raivd.", "kannada": "ನಾನು ಬಂದಾಗ ಅವನು ನಿದ್ರಿಸುತ್ತಿದ್ದಾನೆ."},
+          {"english": "We were having lunch at noon.", "transliteration": "Wii wər hav-ing lunch at nuun.", "kannada": "ನಾವು ಮಧ್ಯಾಹ್ನ ಊಟ ಮಾಡುತ್ತಿದ್ದೇವೆ."},
+          {"english": "I was watching TV yesterday evening.", "transliteration": "Ai waz wach-ing tii-vii yes-tər-dei ii-vning.", "kannada": "ನಾನು ನಿನ್ನೆ ಸಾಯಂಕಾಲ TV ನೋಡುತ್ತಿದ್ದೆ."},
+          {"english": "She was cooking dinner when the guests arrived.", "transliteration": "Shii waz kuk-ing din-ər when ðə gests ə-raivd.", "kannada": "ಅತಿಥಿಗಳು ಬಂದಾಗ ಅವಳು ರಾತ್ರಿ ಊಟ ಅಡುಕುತ್ತಿದ್ದಳು."},
+          {"english": "They were studying for the exam all night.", "transliteration": "Dei wər stud-i-ing for ðə ig-zam all nait.", "kannada": "ಅವರು ರಾತ್ರಿಯುದ್ದಕ್ಕೂ ಪರೀಕ್ಷೆಗೆ ಓದುತ್ತಿದ್ದಾರೆ."},
+          {"english": "He was writing a letter when the power went off.", "transliteration": "Hii waz rai-ting ə let-ər when ðə pau-ər went off.", "kannada": "ವಿದ್ಯುತ್ ಕಡಿತವಾದಾಗ ಅವನು ಪತ್ರ ಬರೆಯುತ್ತಿದ್ದಾನೆ."},
+          {"english": "It was raining heavily when we left.", "transliteration": "It waz rei-ning hev-i-li when wii left.", "kannada": "ನಾವು ಹೊರಟಾಗ ಭಾರೀ ಮಳೆ ಸುರಿಯುತ್ತಿದ್ದೆ."}
+        ],
+        "speakingPractice": [
+          {"english": "I was reading a book when he called and she was working in the office.", "kannada": "ಅವನು ಕಾಲ್ ಮಾಡಿದಾಗ ನಾನು ಪುಸ್ತಕ ಓದುತ್ತಿದ್ದೆ ಮತ್ತು ಅವಳು ಆಫೀಸ್‌ನಲ್ಲಿ ಕೆಲಸ ಮಾಡುತ್ತಿದ್ದಳು."}
+        ]
+      },
+      {
+        "id": 7,
+        "title": "Past Perfect Tense",
+        "kannadaTitle": "ಭೂತ ಪೂರ್ಣ ಕಾಲ",
+        "cefr": "B1",
+        "content": {
+          "objective": "ಈ ಪಾಠದಲ್ಲಿ ನೀವು ಕಲಿಯುವುದು: ಇನ್ನೊಂದು ಭೂತ ಕ್ರಿಯೆಗೆ ಮೊದಲು ಪೂರ್ಣಗೊಂಡ ಕ್ರಿಯೆಗಳಿಗೆ ಭೂತ ಪೂರ್ಣ ಕಾಲ ಬಳಸುವುದು.",
+          "explanation": "Use past perfect for actions completed before another past action. Form: had + past participle.",
+          "structure": "had + past participle",
+          "examples": [
+            "I had finished my work before he arrived.",
+            "She had lived in Bangalore for 5 years before moving to Delhi.",
+            "They had completed the project when the deadline came.",
+            "He had never been to India before that trip.",
+            "We had already eaten when they called.",
+            "I had read the book before watching the movie.",
+            "She had learned English before joining the office.",
+            "They had visited the place many times before.",
+            "He had written the letter before leaving.",
+            "We had prepared everything before the guests arrived."
+          ]
+        },
+        "examples": [
+          {"english": "I had finished my work before he arrived.", "transliteration": "Ai had fin-isht mai wurk bi-for hii ə-raivd.", "kannada": "ಅವನು ಬರುವ ಮೊದಲು ನಾನು ನನ್ನ ಕೆಲಸ ಪೂರ್ಣಗೊಳಿಸಿದ್ದೆ."},
+          {"english": "She had lived in Bangalore for 5 years before moving to Delhi.", "transliteration": "Shii had livd in bang-ə-lor for faiv yirz bi-for muv-ing tuu del-ii.", "kannada": "ದೆಹಲಿಗೆ ಹೋಗುವ ಮೊದಲು ಅವಳು 5 ವರ್ಷ ಬೆಂಗಳೂರಿನಲ್ಲಿ ವಾಸಿಸಿದ್ದಳು."},
+          {"english": "They had completed the project when the deadline came.", "transliteration": "Dei had kəm-plii-tid ðə proj-ekt when ðə ded-lain keim.", "kannada": "ಅವಧಿ ಮುಕ್ತಾಯವಾದಾಗ ಅವರು ಯೋಜನೆಯನ್ನು ಪೂರ್ಣಗೊಳಿಸಿದ್ದರು."},
+          {"english": "He had never been to India before that trip.", "transliteration": "Hii had nev-ər bin tuu in-dii-ə bi-for ðat trip.", "kannada": "ಆ ಪ್ರವಾಸದ ಮೊದಲು ಅವನು ಎಂದಿಗೂ ಭಾರತಕ್ಕೆ ಹೋಗಿಲ್ಲ."},
+          {"english": "We had already eaten when they called.", "transliteration": "Wii had al-red-ii ii-tən when dei kald.", "kannada": "ಅವರು ಕಾಲ್ ಮಾಡಿದಾಗ ನಾವು ಈಗಾಗಲೇ ಊಟ ಮಾಡಿದ್ದೇವೆ."},
+          {"english": "I had read the book before watching the movie.", "transliteration": "Ai had red ðə buk bi-for wach-ing ðə muu-vii.", "kannada": "ಚಲನಚಿತ್ರ ನೋಡುವ ಮೊದಲು ನಾನು ಪುಸ್ತಕ ಓದಿದ್ದೆ."},
+          {"english": "She had learned English before joining the office.", "transliteration": "Shii had lənd ing-glish bi-for join-ing ðə aw-fis.", "kannada": "ಆಫೀಸ್‌ಗೆ ಸೇರುವ ಮೊದಲು ಅವಳು ಇಂಗ್ಲಿಷ್ ಕಲಿತಿದ್ದಳು."},
+          {"english": "They had visited the place many times before.", "transliteration": "Dei had viz-i-tid ðə pleis men-ii taims bi-for.", "kannada": "ಅವರು ಮೊದಲು ಆ ಸ್ಥಳವನ್ನು ಹಲವು ಬಾರಿ ಭೇಟಿ ಮಾಡಿದ್ದರು."},
+          {"english": "He had written the letter before leaving.", "transliteration": "Hii had rit-ən ðə let-ər bi-for lii-ving.", "kannada": "ಹೊರಟುಹೋಗುವ ಮೊದಲು ಅವನು ಪತ್ರ ಬರೆದಿದ್ದಾನೆ."},
+          {"english": "We had prepared everything before the guests arrived.", "transliteration": "Wii had pri-perd ev-ri-thing bi-for ðə gests ə-raivd.", "kannada": "ಅತಿಥಿಗಳು ಬರುವ ಮೊದಲು ನಾವು ಎಲ್ಲವನ್ನೂ ಸಿದ್ಧಪಡಿಸಿದ್ದೇವೆ."}
+        ],
+        "speakingPractice": [
+          {"english": "I had finished my work before he arrived and she had lived in Bangalore for 5 years.", "kannada": "ಅವನು ಬರುವ ಮೊದಲು ನಾನು ನನ್ನ ಕೆಲಸ ಪೂರ್ಣಗೊಳಿಸಿದ್ದೆ ಮತ್ತು ಅವಳು 5 ವರ್ಷ ಬೆಂಗಳೂರಿನಲ್ಲಿ ವಾಸಿಸಿದ್ದಳು."}
+        ]
+      },
+      {
+        "id": 8,
+        "title": "Present Perfect Continuous Tense",
+        "kannadaTitle": "ವರ್ತಮಾನ ಪೂರ್ಣ ನಿರಂತರ ಕಾಲ",
+        "cefr": "B1",
+        "content": {
+          "objective": "ಈ ಪಾಠದಲ್ಲಿ ನೀವು ಕಲಿಯುವುದು: ಭೂತಕಾಲದಲ್ಲಿ ಪ್ರಾರಂಭವಾಗಿ ಈಗಲೂ ಮುಂದುವರೆಯುತ್ತಿರುವ ಕ್ರಿಯೆಗಳಿಗೆ ವರ್ತಮಾನ ಪೂರ್ಣ ನಿರಂತರ ಕಾಲ ಬಳಸುವುದು.",
+          "explanation": "Use present perfect continuous for actions that started in the past and continue to the present. Form: have/has been + verb-ing.",
+          "structure": "have/has been + verb-ing",
+          "examples": [
+            "I have been working here for 5 years.",
+            "She has been living in Bangalore since 2020.",
+            "They have been playing football for 2 hours.",
+            "He has been sleeping for 8 hours.",
+            "We have been studying English for 6 months.",
+            "I have been reading this book for a week.",
+            "She has been teaching at this school for 10 years.",
+            "They have been building the house for 6 months.",
+            "He has been writing the novel for 2 years.",
+            "It has been raining since morning."
+          ]
+        },
+        "examples": [
+          {"english": "I have been working here for 5 years.", "transliteration": "Ai hav bin wur-king hiir for faiv yirz.", "kannada": "ನಾನು 5 ವರ್ಷಗಳಿಂದ ಇಲ್ಲಿ ಕೆಲಸ ಮಾಡುತ್ತಿದ್ದೇನೆ."},
+          {"english": "She has been living in Bangalore since 2020.", "transliteration": "Shii haz bin liv-ing in bang-ə-lor sins 2020.", "kannada": "ಅವಳು 2020 ರಿಂದ ಬೆಂಗಳೂರಿನಲ್ಲಿ ವಾಸಿಸುತ್ತಿದ್ದಾಳೆ."},
+          {"english": "They have been playing football for 2 hours.", "transliteration": "Dei hav bin plei-ing fut-baal for 2 au-ərz.", "kannada": "ಅವರು 2 ಗಂಟೆಗಳಿಂದ ಫುಟ್‌ಬಾಲ್ ಆಡುತ್ತಿದ್ದಾರೆ."},
+          {"english": "He has been sleeping for 8 hours.", "transliteration": "Hii haz bin slii-ping for 8 au-ərz.", "kannada": "ಅವನು 8 ಗಂಟೆಗಳಿಂದ ನಿದ್ರಿಸುತ್ತಿದ್ದಾನೆ."},
+          {"english": "We have been studying English for 6 months.", "transliteration": "Wii hav bin stud-i-ing ing-glish for 6 munths.", "kannada": "ನಾವು 6 ತಿಂಗಳಿಂದ ಇಂಗ್ಲಿಷ್ ಓದುತ್ತಿದ್ದೇವೆ."},
+          {"english": "I have been reading this book for a week.", "transliteration": "Ai hav bin rii-ding this buk for ə wiik.", "kannada": "ನಾನು ಒಂದು ವಾರದಿಂದ ಈ ಪುಸ್ತಕ ಓದುತ್ತಿದ್ದೇನೆ."},
+          {"english": "She has been teaching at this school for 10 years.", "transliteration": "Shii haz bin tii-ching at this skuul for 10 yirz.", "kannada": "ಅವಳು 10 ವರ್ಷಗಳಿಂದ ಈ ಶಾಲೆಯಲ್ಲಿ ಕಲಿಸುತ್ತಿದ್ದಾಳೆ."},
+          {"english": "They have been building the house for 6 months.", "transliteration": "Dei hav bin bil-ding ðə hous for 6 munths.", "kannada": "ಅವರು 6 ತಿಂಗಳಿಂದ ಮನೆ ನಿರ್ಮಿಸುತ್ತಿದ್ದಾರೆ."},
+          {"english": "He has been writing the novel for 2 years.", "transliteration": "Hii haz bin rai-ting ðə nov-əl for 2 yirz.", "kannada": "ಅವನು 2 ವರ್ಷಗಳಿಂದ ಕಾದಂಬರಿ ಬರೆಯುತ್ತಿದ್ದಾನೆ."},
+          {"english": "It has been raining since morning.", "transliteration": "It haz bin rei-ning sins mor-ning.", "kannada": "ಬೆಳಿಗೆಯಿಂದ ಮಳೆ ಸುರಿಯುತ್ತಿದೆ."}
+        ],
+        "speakingPractice": [
+          {"english": "I have been working here for 5 years and she has been living in Bangalore since 2020.", "kannada": "ನಾನು 5 ವರ್ಷಗಳಿಂದ ಇಲ್ಲಿ ಕೆಲಸ ಮಾಡುತ್ತಿದ್ದೇನೆ ಮತ್ತು ಅವಳು 2020 ರಿಂದ ಬೆಂಗಳೂರಿನಲ್ಲಿ ವಾಸಿಸುತ್ತಿದ್ದಾಳೆ."}
+        ]
+      },
+      {
+        "id": 9,
+        "title": "Past Perfect Continuous Tense",
+        "kannadaTitle": "ಭೂತ ಪೂರ್ಣ ನಿರಂತರ ಕಾಲ",
+        "cefr": "B2",
+        "content": {
+          "objective": "ಈ ಪಾಠದಲ್ಲಿ ನೀವು ಕಲಿಯುವುದು: ಇನ್ನೊಂದು ಭೂತ ಕ್ರಿಯೆಗೆ ಮೊದಲು ಪ್ರಾರಂಭವಾಗಿ ಮುಂದುವರೆಯುತ್ತಿದ್ದ ಕ್ರಿಯೆಗಳಿಗೆ ಭೂತ ಪೂರ್ಣ ನಿರಂತರ ಕಾಲ ಬಳಸುವುದು.",
+          "explanation": "Use past perfect continuous for actions that had been continuing before another past action. Form: had been + verb-ing.",
+          "structure": "had been + verb-ing",
+          "examples": [
+            "I had been working for 8 hours when he arrived.",
+            "She had been living in Bangalore for 5 years before moving.",
+            "They had been playing football for 2 hours when it rained.",
+            "He had been sleeping for 8 hours when I woke him up.",
+            "We had been studying for 6 months before the exam.",
+            "I had been reading the book for a week before finishing it.",
+            "She had been teaching for 10 years before retiring.",
+            "They had been building the house for 6 months before completion.",
+            "He had been writing the novel for 2 years before publishing.",
+            "It had been raining for hours before stopping."
+          ]
+        },
+        "examples": [
+          {"english": "I had been working for 8 hours when he arrived.", "transliteration": "Ai had bin wur-king for 8 au-ərz when hii ə-raivd.", "kannada": "ಅವನು ಬರುವ ಮೊದಲು ನಾನು 8 ಗಂಟೆಗಳಿಂದ ಕೆಲಸ ಮಾಡುತ್ತಿದ್ದೆ."},
+          {"english": "She had been living in Bangalore for 5 years before moving.", "transliteration": "Shii had bin liv-ing in bang-ə-lor for faiv yirz bi-for muv-ing.", "kannada": "ಹೋಗುವ ಮೊದಲು ಅವಳು 5 ವರ್ಷ ಬೆಂಗಳೂರಿನಲ್ಲಿ ವಾಸಿಸುತ್ತಿದ್ದಳು."},
+          {"english": "They had been playing football for 2 hours when it rained.", "transliteration": "Dei had bin plei-ing fut-baal for 2 au-ərz when it reind.", "kannada": "ಮಳೆ ಬಂದಾಗ ಅವರು 2 ಗಂಟೆಗಳಿಂದ ಫುಟ್‌ಬಾಲ್ ಆಡುತ್ತಿದ್ದಾರೆ."},
+          {"english": "He had been sleeping for 8 hours when I woke him up.", "transliteration": "Hii had bin slii-ping for 8 au-ərz when ai wōk him up.", "kannada": "ನಾನು ಅವನನ್ನು ಎಚ್ಚರಗೊಳಿಸಿದಾಗ ಅವನು 8 ಗಂಟೆಗಳಿಂದ ನಿದ್ರಿಸುತ್ತಿದ್ದಾನೆ."},
+          {"english": "We had been studying for 6 months before the exam.", "transliteration": "Wii had bin stud-i-ing for 6 munths bi-for ðə ig-zam.", "kannada": "ಪರೀಕ್ಷೆಗೆ ಮೊದಲು ನಾವು 6 ತಿಂಗಳಿಂದ ಓದುತ್ತಿದ್ದೇವೆ."},
+          {"english": "I had been reading the book for a week before finishing it.", "transliteration": "Ai had bin rii-ding ðə buk for ə wiik bi-for fin-ish-ing it.", "kannada": "ಅದನ್ನು ಪೂರ್ಣಗೊಳಿಸುವ ಮೊದಲು ನಾನು ಒಂದು ವಾರದಿಂದ ಪುಸ್ತಕ ಓದುತ್ತಿದ್ದೆ."},
+          {"english": "She had been teaching for 10 years before retiring.", "transliteration": "Shii had bin tii-ching for 10 yirz bi-for ri-tair-ing.", "kannada": "ನಿವೃತ್ತಿ ಪಡೆಯುವ ಮೊದಲು ಅವಳು 10 ವರ್ಷ ಕಲಿಸುತ್ತಿದ್ದಳು."},
+          {"english": "They had been building the house for 6 months before completion.", "transliteration": "Dei had bin bil-ding ðə hous for 6 munths bi-for kəm-plii-shən.", "kannada": "ಪೂರ್ಣತೆಗೆ ಮೊದಲು ಅವರು 6 ತಿಂಗಳಿಂದ ಮನೆ ನಿರ್ಮಿಸುತ್ತಿದ್ದಾರೆ."},
+          {"english": "He had been writing the novel for 2 years before publishing.", "transliteration": "Hii had bin rai-ting ðə nov-əl for 2 yirz bi-for pub-lish-ing.", "kannada": "ಪ್ರಕಾಶಿಸುವ ಮೊದಲು ಅವನು 2 ವರ್ಷ ಕಾದಂಬರಿ ಬರೆಯುತ್ತಿದ್ದಾನೆ."},
+          {"english": "It had been raining for hours before stopping.", "transliteration": "It had bin rei-ning for au-ərz bi-for stop-ing.", "kannada": "ಹೆಚ್ಚಿನ ಸಮಯ ಮಳೆ ಸುರಿಯುತ್ತಿದ್ದೆ ಮೊದಲು ಸ್ಥಗಿತವಾಯಿತು."}
+        ],
+        "speakingPractice": [
+          {"english": "I had been working for 8 hours when he arrived and she had been living in Bangalore for 5 years.", "kannada": "ಅವನು ಬರುವ ಮೊದಲು ನಾನು 8 ಗಂಟೆಗಳಿಂದ ಕೆಲಸ ಮಾಡುತ್ತಿದ್ದೆ ಮತ್ತು ಅವಳು 5 ವರ್ಷ ಬೆಂಗಳೂರಿನಲ್ಲಿ ವಾಸಿಸುತ್ತಿದ್ದಳು."}
+        ]
+      },
+      {
+        "id": 10,
+        "title": "Future Continuous Tense",
+        "kannadaTitle": "ಭವಿಷ್ಯ ನಿರಂತರ ಕಾಲ",
+        "cefr": "B1",
+        "content": {
+          "objective": "ಈ ಪಾಠದಲ್ಲಿ ನೀವು ಕಲಿಯುವುದು: ಭವಿಷ್ಯತ್ತಿನ ನಿರ್ದಿಷ್ಟ ಸಮಯದಲ್ಲಿ ನಡೆಯುತ್ತಿರುವ ಕ್ರಿಯೆಗಳಿಗೆ ಭವಿಷ್ಯ ನಿರಂತರ ಕಾಲ ಬಳಸುವುದು.",
+          "explanation": "Use future continuous for actions that will be happening at a specific time in the future. Form: will be + verb-ing.",
+          "structure": "will be + verb-ing",
+          "examples": [
+            "I will be working tomorrow at 5 PM.",
+            "She will be living in Bangalore next year.",
+            "They will be playing football on Sunday.",
+            "He will be sleeping when you arrive.",
+            "We will be studying English next month.",
+            "I will be reading a book tomorrow evening.",
+            "She will be teaching at school next week.",
+            "They will be building the house next year.",
+            "He will be writing the novel for the next 2 years.",
+            "It will be raining tomorrow morning."
+          ]
+        },
+        "examples": [
+          {"english": "I will be working tomorrow at 5 PM.", "transliteration": "Ai wil bi wur-king tə-mar-o at faiv pii-em.", "kannada": "ನಾನು ನಾಳೆ ಸಾಯಂಕಾಲ 5 ಗಂಟೆಗೆ ಕೆಲಸ ಮಾಡುತ್ತಿರುತ್ತೇನೆ."},
+          {"english": "She will be living in Bangalore next year.", "transliteration": "Shii wil bi liv-ing in bang-ə-lor next yir.", "kannada": "ಅವಳು ಮುಂದಿನ ವರ್ಷ ಬೆಂಗಳೂರಿನಲ್ಲಿ ವಾಸಿಸುತ್ತಿರುತ್ತಾಳೆ."},
+          {"english": "They will be playing football on Sunday.", "transliteration": "Dei wil bi plei-ing fut-baal on sun-dei.", "kannada": "ಅವರು ಭಾನುವಾರ ಫುಟ್‌ಬಾಲ್ ಆಡುತ್ತಿರುತ್ತಾರೆ."},
+          {"english": "He will be sleeping when you arrive.", "transliteration": "Hii wil bi slii-ping when yuu ə-raiv.", "kannada": "ನೀವು ಬರುವಾಗ ಅವನು ನಿದ್ರಿಸುತ್ತಿರುತ್ತಾನೆ."},
+          {"english": "We will be studying English next month.", "transliteration": "Wii wil bi stud-i-ing ing-glish next munth.", "kannada": "ನಾವು ಮುಂದಿನ ತಿಂಗಳು ಇಂಗ್ಲಿಷ್ ಓದುತ್ತಿರುತ್ತೇವೆ."},
+          {"english": "I will be reading a book tomorrow evening.", "transliteration": "Ai wil bi rii-ding ə buk tə-mar-o ii-vning.", "kannada": "ನಾನು ನಾಳೆ ಸಾಯಂಕಾಲ ಪುಸ್ತಕ ಓದುತ್ತಿರುತ್ತೇನೆ."},
+          {"english": "She will be teaching at school next week.", "transliteration": "Shii wil bi tii-ching at skuul next wiik.", "kannada": "ಅವಳು ಮುಂದಿನ ವಾರ ಶಾಲೆಯಲ್ಲಿ ಕಲಿಸುತ್ತಿರುತ್ತಾಳೆ."},
+          {"english": "They will be building the house next year.", "transliteration": "Dei wil bi bil-ding ðə hous next yir.", "kannada": "ಅವರು ಮುಂದಿನ ವರ್ಷ ಮನೆ ನಿರ್ಮಿಸುತ್ತಿರುತ್ತಾರೆ."},
+          {"english": "He will be writing the novel for the next 2 years.", "transliteration": "Hii wil bi rai-ting ðə nov-əl for ðə next 2 yirz.", "kannada": "ಅವನು ಮುಂದಿನ 2 ವರ್ಷ ಕಾದಂಬರಿ ಬರೆಯುತ್ತಿರುತ್ತಾನೆ."},
+          {"english": "It will be raining tomorrow morning.", "transliteration": "It wil bi rei-ning tə-mar-o mor-ning.", "kannada": "ನಾಳೆ ಬೆಳಿಗೆ ಮಳೆ ಸುರಿಯುತ್ತಿರುತ್ತೆ."}
+        ],
+        "speakingPractice": [
+          {"english": "I will be working tomorrow at 5 PM and she will be living in Bangalore next year.", "kannada": "ನಾನು ನಾಳೆ ಸಾಯಂಕಾಲ 5 ಗಂಟೆಗೆ ಕೆಲಸ ಮಾಡುತ್ತಿರುತ್ತೇನೆ ಮತ್ತು ಅವಳು ಮುಂದಿನ ವರ್ಷ ಬೆಂಗಳೂರಿನಲ್ಲಿ ವಾಸಿಸುತ್ತಿರುತ್ತಾಳೆ."}
+        ]
+      },
+      {
+        "id": 11,
+        "title": "Future Perfect Tense",
+        "kannadaTitle": "ಭವಿಷ್ಯ ಪೂರ್ಣ ಕಾಲ",
+        "cefr": "B2",
+        "content": {
+          "objective": "ಈ ಪಾಠದಲ್ಲಿ ನೀವು ಕಲಿಯುವುದು: ಭವಿಷ್ಯತ್ತಿನ ನಿರ್ದಿಷ್ಟ ಸಮಯದವರೆಗೆ ಪೂರ್ಣಗೊಳ್ಳುವ ಕ್ರಿಯೆಗಳಿಗೆ ಭವಿಷ್ಯ ಪೂರ್ಣ ಕಾಲ ಬಳಸುವುದು.",
+          "explanation": "Use future perfect for actions that will be completed by a specific time in the future. Form: will have + past participle.",
+          "structure": "will have + past participle",
+          "examples": [
+            "I will have finished my work by tomorrow.",
+            "She will have lived in Bangalore for 10 years by next year.",
+            "They will have completed the project by Friday.",
+            "He will have never been to India by then.",
+            "We will have already eaten by 7 PM.",
+            "I will have read the book by next week.",
+            "She will have learned English by the end of the year.",
+            "They will have visited the place many times by then.",
+            "He will have written the novel by 2026.",
+            "We will have prepared everything by the time guests arrive."
+          ]
+        },
+        "examples": [
+          {"english": "I will have finished my work by tomorrow.", "transliteration": "Ai wil hav fin-isht mai wurk bai tə-mar-o.", "kannada": "ನಾನು ನಾಳೆಯೊಳಗೆ ನನ್ನ ಕೆಲಸ ಪೂರ್ಣಗೊಳಿಸುತ್ತೇನೆ."},
+          {"english": "She will have lived in Bangalore for 10 years by next year.", "transliteration": "Shii wil hav livd in bang-ə-lor for 10 yirz bai next yir.", "kannada": "ಅವಳು ಮುಂದಿನ ವರ್ಷದೊಳಗೆ ಬೆಂಗಳೂರಿನಲ್ಲಿ 10 ವರ್ಷ ವಾಸಿಸುತ್ತಿರುತ್ತಾಳೆ."},
+          {"english": "They will have completed the project by Friday.", "transliteration": "Dei wil hav kəm-plii-tid ðə proj-ekt bai frai-dei.", "kannada": "ಅವರು ಶುಕ್ರವಾರದೊಳಗೆ ಯೋಜನೆಯನ್ನು ಪೂರ್ಣಗೊಳಿಸುತ್ತಾರೆ."},
+          {"english": "He will have never been to India by then.", "transliteration": "Hii wil hav nev-ər bin tuu in-dii-ə bai ðen.", "kannada": "ಅವನು ಆಗಲೂ ಎಂದಿಗೂ ಭಾರತಕ್ಕೆ ಹೋಗುವುದಿಲ್ಲ."},
+          {"english": "We will have already eaten by 7 PM.", "transliteration": "Wii wil hav al-red-ii ii-tən bai 7 pii-em.", "kannada": "ನಾವು ಸಾಯಂಕಾಲ 7 ಗಂಟೆಯೊಳಗೆ ಈಗಾಗಲೇ ಊಟ ಮಾಡುತ್ತೇವೆ."},
+          {"english": "I will have read the book by next week.", "transliteration": "Ai wil hav red ðə buk bai next wiik.", "kannada": "ನಾನು ಮುಂದಿನ ವಾರದೊಳಗೆ ಪುಸ್ತಕ ಓದುತ್ತೇನೆ."},
+          {"english": "She will have learned English by the end of the year.", "transliteration": "Shii wil hav lənd ing-glish bai ðə end əv ðə yir.", "kannada": "ಅವಳು ವರ್ಷಾಂತ್ಯದೊಳಗೆ ಇಂಗ್ಲಿಷ್ ಕಲಿತಿರುತ್ತಾಳೆ."},
+          {"english": "They will have visited the place many times by then.", "transliteration": "Dei wil hav viz-i-tid ðə pleis men-ii taims bai ðen.", "kannada": "ಅವರು ಆಗಲೂ ಆ ಸ್ಥಳವನ್ನು ಹಲವು ಬಾರಿ ಭೇಟಿ ಮಾಡುತ್ತಿರುತ್ತಾರೆ."},
+          {"english": "He will have written the novel by 2026.", "transliteration": "Hii wil hav rit-ən ðə nov-əl bai 2026.", "kannada": "ಅವನು 2026 ರೊಳಗೆ ಕಾದಂಬರಿ ಬರೆದಿರುತ್ತಾನೆ."},
+          {"english": "We will have prepared everything by the time guests arrive.", "transliteration": "Wii wil hav pri-perd ev-ri-thing bai ðə taim gests ə-raiv.", "kannada": "ಅತಿಥಿಗಳು ಬರುವ ಸಮಯದೊಳಗೆ ನಾವು ಎಲ್ಲವನ್ನೂ ಸಿದ್ಧಪಡಿಸುತ್ತೇವೆ."}
+        ],
+        "speakingPractice": [
+          {"english": "I will have finished my work by tomorrow and she will have lived in Bangalore for 10 years.", "kannada": "ನಾನು ನಾಳೆಯೊಳಗೆ ನನ್ನ ಕೆಲಸ ಪೂರ್ಣಗೊಳಿಸುತ್ತೇನೆ ಮತ್ತು ಅವಳು ಬೆಂಗಳೂರಿನಲ್ಲಿ 10 ವರ್ಷ ವಾಸಿಸುತ್ತಿರುತ್ತಾಳೆ."}
+        ]
+      },
+      {
+        "id": 12,
+        "title": "Future Perfect Continuous Tense",
+        "kannadaTitle": "ಭವಿಷ್ಯ ಪೂರ್ಣ ನಿರಂತರ ಕಾಲ",
+        "cefr": "B2",
+        "content": {
+          "objective": "ಈ ಪಾಠದಲ್ಲಿ ನೀವು ಕಲಿಯುವುದು: ಭವಿಷ್ಯತ್ತಿನ ನಿರ್ದಿಷ್ಟ ಸಮಯದವರೆಗೆ ಮುಂದುವರೆಯುತ್ತಿರುವ ಕ್ರಿಯೆಗಳಿಗೆ ಭವಿಷ್ಯ ಪೂರ್ಣ ನಿರಂತರ ಕಾಲ ಬಳಸುವುದು.",
+          "explanation": "Use future perfect continuous for actions that will have been continuing until a specific time in the future. Form: will have been + verb-ing.",
+          "structure": "will have been + verb-ing",
+          "examples": [
+            "I will have been working here for 10 years by next year.",
+            "She will have been living in Bangalore for 15 years by 2030.",
+            "They will have been playing football for 2 hours by 5 PM.",
+            "He will have been sleeping for 8 hours by morning.",
+            "We will have been studying English for 1 year by next month.",
+            "I will have been reading the book for 2 weeks by next Friday.",
+            "She will have been teaching for 20 years by retirement.",
+            "They will have been building the house for 1 year by completion.",
+            "He will have been writing the novel for 3 years by publication.",
+            "It will have been raining for 24 hours by tomorrow morning."
+          ]
+        },
+        "examples": [
+          {"english": "I will have been working here for 10 years by next year.", "transliteration": "Ai wil hav bin wur-king hiir for 10 yirz bai next yir.", "kannada": "ನಾನು ಮುಂದಿನ ವರ್ಷದೊಳಗೆ ಇಲ್ಲಿ 10 ವರ್ಷ ಕೆಲಸ ಮಾಡುತ್ತಿರುತ್ತೇನೆ."},
+          {"english": "She will have been living in Bangalore for 15 years by 2030.", "transliteration": "Shii wil hav bin liv-ing in bang-ə-lor for 15 yirz bai 2030.", "kannada": "ಅವಳು 2030 ರೊಳಗೆ ಬೆಂಗಳೂರಿನಲ್ಲಿ 15 ವರ್ಷ ವಾಸಿಸುತ್ತಿರುತ್ತಾಳೆ."},
+          {"english": "They will have been playing football for 2 hours by 5 PM.", "transliteration": "Dei wil hav bin plei-ing fut-baal for 2 au-ərz bai faiv pii-em.", "kannada": "ಅವರು ಸಾಯಂಕಾಲ 5 ಗಂಟೆಯೊಳಗೆ 2 ಗಂಟೆ ಫುಟ್‌ಬಾಲ್ ಆಡುತ್ತಿರುತ್ತಾರೆ."},
+          {"english": "He will have been sleeping for 8 hours by morning.", "transliteration": "Hii wil hav bin slii-ping for 8 au-ərz bai mor-ning.", "kannada": "ಅವನು ಬೆಳಿಗೆಯೊಳಗೆ 8 ಗಂಟೆ ನಿದ್ರಿಸುತ್ತಿರುತ್ತಾನೆ."},
+          {"english": "We will have been studying English for 1 year by next month.", "transliteration": "Wii wil hav bin stud-i-ing ing-glish for 1 yir bai next munth.", "kannada": "ನಾವು ಮುಂದಿನ ತಿಂಗಳೊಳಗೆ 1 ವರ್ಷ ಇಂಗ್ಲಿಷ್ ಓದುತ್ತಿರುತ್ತೇವೆ."},
+          {"english": "I will have been reading the book for 2 weeks by next Friday.", "transliteration": "Ai wil hav bin rii-ding ðə buk for 2 wiiks bai next frai-dei.", "kannada": "ನಾನು ಮುಂದಿನ ಶುಕ್ರವಾರದೊಳಗೆ 2 ವಾರ ಪುಸ್ತಕ ಓದುತ್ತಿರುತ್ತೇನೆ."},
+          {"english": "She will have been teaching for 20 years by retirement.", "transliteration": "Shii wil hav bin tii-ching for 20 yirz bai ri-tair-mənt.", "kannada": "ಅವಳು ನಿವೃತ್ತಿಯೊಳಗೆ 20 ವರ್ಷ ಕಲಿಸುತ್ತಿರುತ್ತಾಳೆ."},
+          {"english": "They will have been building the house for 1 year by completion.", "transliteration": "Dei wil hav bin bil-ding ðə hous for 1 yir bai kəm-plii-shən.", "kannada": "ಅವರು ಪೂರ್ಣತೆಯೊಳಗೆ 1 ವರ್ಷ ಮನೆ ನಿರ್ಮಿಸುತ್ತಿರುತ್ತಾರೆ."},
+          {"english": "He will have been writing the novel for 3 years by publication.", "transliteration": "Hii wil hav bin rai-ting ðə nov-əl for 3 yirz bai pub-li-kei-shən.", "kannada": "ಅವನು ಪ್ರಕಾಶನೊಳಗೆ 3 ವರ್ಷ ಕಾದಂಬರಿ ಬರೆಯುತ್ತಿರುತ್ತಾನೆ."},
+          {"english": "It will have been raining for 24 hours by tomorrow morning.", "transliteration": "It wil hav bin rei-ning for 24 au-ərz bai tə-mar-o mor-ning.", "kannada": "ನಾಳೆ ಬೆಳಿಗೆಯೊಳಗೆ 24 ಗಂಟೆ ಮಳೆ ಸುರಿಯುತ್ತಿರುತ್ತೆ."}
+        ],
+        "speakingPractice": [
+          {"english": "I will have been working here for 10 years by next year and she will have been living in Bangalore for 15 years.", "kannada": "ನಾನು ಮುಂದಿನ ವರ್ಷದೊಳಗೆ ಇಲ್ಲಿ 10 ವರ್ಷ ಕೆಲಸ ಮಾಡುತ್ತಿರುತ್ತೇನೆ ಮತ್ತು ಅವಳು ಬೆಂಗಳೂರಿನಲ್ಲಿ 15 ವರ್ಷ ವಾಸಿಸುತ್ತಿರುತ್ತಾಳೆ."}
+        ]
+      }
+    ]
+  }
+}
