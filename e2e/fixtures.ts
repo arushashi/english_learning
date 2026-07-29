@@ -7,18 +7,28 @@ import { test as base, expect } from '@playwright/test';
 
 export const test = base.extend({
   freshUser: async ({ page }, use) => {
+    // Navigate to home first - localStorage/sessionStorage can't be
+    // accessed on about:blank (throws SecurityError in Chromium)
+    await page.goto('/');
+
     // Clear all storage
     await page.context().clearCookies();
-    await page.evaluate(() => localStorage.clear());
-    await page.evaluate(() => sessionStorage.clear());
+    await page.evaluate(() => {
+      localStorage.clear();
+      sessionStorage.clear();
+    });
 
-    // Navigate to home
-    await page.goto('/');
+    // Reload so the app re-initializes against the cleared storage
+    await page.reload();
 
     await use(page);
   },
 
   midProgressUser: async ({ page }, use) => {
+    // Navigate to home first - localStorage can't be accessed on
+    // about:blank (throws SecurityError in Chromium)
+    await page.goto('/');
+
     // Clear all storage
     await page.context().clearCookies();
     await page.evaluate(() => localStorage.clear());
@@ -48,8 +58,8 @@ export const test = base.extend({
       localStorage.setItem('progress', JSON.stringify(data));
     }, progress);
 
-    // Navigate to home
-    await page.goto('/');
+    // Reload so the app picks up the seeded progress
+    await page.reload();
 
     await use(page);
   },

@@ -12,11 +12,14 @@ import { test, expect } from './fixtures';
 test.describe('Navigation & Page Rendering', () => {
   test('should load home page and display hero section', async ({ freshUser }) => {
     await freshUser.goto('/');
-    
+
+    // App shows the Levels page by default; navigate to Home to see the hero
+    await freshUser.click('[data-page="home"]');
+
     // Check hero section
     const hero = freshUser.locator('.hero');
     await expect(hero).toBeVisible();
-    
+
     // Check hero text
     const heroTitle = freshUser.locator('.hero h1');
     await expect(heroTitle).toContainText('Learn English from Zero to Hero');
@@ -83,8 +86,9 @@ test.describe('Level Navigation & Rendering', () => {
     await freshUser.goto('/');
     await freshUser.click('[data-page="levels"]');
     
-    // Check first level card
-    const firstLevel = freshUser.locator('[data-level="0"]').first();
+    // Check first level card (there are also data-level="0" elements
+    // in the home page course overview and the quick-nav buttons)
+    const firstLevel = freshUser.locator('.level-card[data-level="0"]');
     
     // Check title
     const title = firstLevel.locator('.level-title');
@@ -188,31 +192,31 @@ test.describe('Progress Persistence', () => {
 test.describe('Progress Page', () => {
   test('should display progress statistics', async ({ midProgressUser }) => {
     await midProgressUser.click('[data-page="progress"]');
-    
+
     // Check for progress stats
-    const statsSection = midProgressUser.locator('.progress-stats');
+    const statsSection = midProgressUser.locator('.progress-overview');
     await expect(statsSection).toBeVisible();
-    
+
     // Check for specific stats
-    const levelsCompleted = midProgressUser.locator('.stat-item:has-text("Levels Completed")');
-    await expect(levelsCompleted).toBeVisible();
+    const levelsStarted = midProgressUser.locator('.progress-stat:has-text("Levels Started")');
+    await expect(levelsStarted).toBeVisible();
   });
 
   test('should display learning tips', async ({ midProgressUser }) => {
     await midProgressUser.click('[data-page="progress"]');
-    
+
     // Check for tips section
-    const tipsSection = midProgressUser.locator('.learning-tips');
+    const tipsSection = midProgressUser.locator('.achievements');
     await expect(tipsSection).toBeVisible();
   });
 
   test('should display achievement badges', async ({ midProgressUser }) => {
     await midProgressUser.click('[data-page="progress"]');
-    
+
     // Check for badges
-    const badges = midProgressUser.locator('.achievement-badge');
+    const badges = midProgressUser.locator('.achievement');
     const count = await badges.count();
-    
+
     expect(count).toBeGreaterThan(0);
   });
 });
@@ -268,7 +272,9 @@ test.describe('Kannada Text Rendering', () => {
 test.describe('Accessibility', () => {
   test('should have proper heading hierarchy', async ({ freshUser }) => {
     await freshUser.goto('/');
-    
+    // App shows the Levels page by default; navigate to Home to see the h1
+    await freshUser.click('[data-page="home"]');
+
     // Check for h1
     const h1 = freshUser.locator('h1');
     await expect(h1).toBeVisible();
@@ -323,14 +329,25 @@ test.describe('Accessibility', () => {
 // ============================================================================
 
 test.describe('Responsive Design', () => {
+  // Nav links live inside .nav-menu, which is hidden behind the hamburger
+  // toggle at widths <= 768px (see css/styles.css @media max-width: 768px).
+  async function goToHome(page) {
+    const toggle = page.locator('#navMenuToggle');
+    if (await toggle.isVisible()) {
+      await toggle.click();
+    }
+    await page.click('[data-page="home"]');
+  }
+
   test('should render correctly on mobile (375px)', async ({ page }) => {
     await page.setViewportSize({ width: 375, height: 667 });
     await page.goto('/');
-    
+    await goToHome(page);
+
     // Check that content is visible
     const hero = page.locator('.hero');
     await expect(hero).toBeVisible();
-    
+
     // Check that text is not overflowing
     const heroTitle = page.locator('.hero h1');
     const boundingBox = await heroTitle.boundingBox();
@@ -340,7 +357,8 @@ test.describe('Responsive Design', () => {
   test('should render correctly on tablet (768px)', async ({ page }) => {
     await page.setViewportSize({ width: 768, height: 1024 });
     await page.goto('/');
-    
+    await goToHome(page);
+
     const hero = page.locator('.hero');
     await expect(hero).toBeVisible();
   });
@@ -348,7 +366,8 @@ test.describe('Responsive Design', () => {
   test('should render correctly on desktop (1920px)', async ({ page }) => {
     await page.setViewportSize({ width: 1920, height: 1080 });
     await page.goto('/');
-    
+    await goToHome(page);
+
     const hero = page.locator('.hero');
     await expect(hero).toBeVisible();
   });
@@ -401,8 +420,12 @@ test.describe('Error Handling', () => {
     
     // Navigate to page
     await freshUser.goto('/');
-    
-    // Page should still load
+
+    // Page should still load (app defaults to the Levels page)
+    await expect(freshUser.locator('#levels')).toBeVisible();
+
+    // Home page content should also still be reachable
+    await freshUser.click('[data-page="home"]');
     const hero = freshUser.locator('.hero');
     await expect(hero).toBeVisible();
   });

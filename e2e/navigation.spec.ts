@@ -5,27 +5,30 @@ test.describe('Navigation Tests', () => {
     await page.goto('/');
   });
 
-  test('should load the home page successfully', async ({ page }) => {
+  test('should load the site with the Levels page shown by default', async ({ page }) => {
     await expect(page).toHaveTitle('Kannada Spoken English - Zero to Hero');
-    await expect(page.locator('.hero h1')).toContainText('Learn English from Zero to Hero');
+    // The app shows the Levels page directly on load (see js/app.js init()),
+    // not the Home page, so the level cards should be visible immediately.
+    await expect(page.locator('#levels')).toBeVisible();
+    await expect(page.locator('.level-card').first()).toBeVisible();
   });
 
   test('should navigate to Levels page', async ({ page }) => {
     await page.click('text=Levels');
     await expect(page.locator('#levels')).toBeVisible();
-    await expect(page.locator('h2')).toContainText('Learning Levels');
+    await expect(page.locator('#levels h2')).toContainText('Learning Levels');
   });
 
   test('should navigate to Practice page', async ({ page }) => {
-    await page.click('text=Practice');
+    await page.click('[data-page="practice"]');
     await expect(page.locator('#practice')).toBeVisible();
-    await expect(page.locator('h2')).toContainText('Speaking Practice');
+    await expect(page.locator('#practice h2')).toContainText('Speaking Practice');
   });
 
   test('should navigate to Progress page', async ({ page }) => {
     await page.click('text=My Progress');
     await expect(page.locator('#progress')).toBeVisible();
-    await expect(page.locator('h2')).toContainText('My Learning Progress');
+    await expect(page.locator('#progress h2')).toContainText('My Learning Progress');
   });
 
   test('should navigate back to Home page', async ({ page }) => {
@@ -36,11 +39,14 @@ test.describe('Navigation Tests', () => {
   });
 
   test('should update active nav link on navigation', async ({ page }) => {
-    const homeLink = page.locator('.nav-link[data-page="home"]');
-    const levelsLink = page.locator('.nav-link[data-page="levels"]');
-    
+    // Scope to the header nav - the footer also has a "All Levels" link
+    // with data-page="levels", so an unscoped selector matches both.
+    const homeLink = page.locator('.nav-menu .nav-link[data-page="home"]');
+    const levelsLink = page.locator('.nav-menu .nav-link[data-page="levels"]');
+
+    await homeLink.click();
     await expect(homeLink).toHaveClass(/active/);
-    
+
     await levelsLink.click();
     await expect(levelsLink).toHaveClass(/active/);
     await expect(homeLink).not.toHaveClass(/active/);
@@ -53,6 +59,7 @@ test.describe('Navigation Tests', () => {
   });
 
   test('should display course overview on home page', async ({ page }) => {
+    await page.click('text=Home');
     await expect(page.locator('.level-summary')).toHaveCount(10);
     await expect(page.locator('.feature-card')).toHaveCount(6);
   });

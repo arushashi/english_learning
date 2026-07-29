@@ -57,12 +57,16 @@ body {
 /* Mobile Menu Toggle */
 .nav-menu-toggle {
     display: none;
+    align-items: center;
+    justify-content: center;
     background: none;
     border: none;
     color: white;
     font-size: 1.5rem;
     cursor: pointer;
     padding: 0.5rem;
+    min-width: 44px;
+    min-height: 44px;
     z-index: 1000;
 }
 
@@ -141,7 +145,7 @@ body {
 /* Mobile Navigation */
 @media (max-width: 768px) {
     .nav-menu-toggle {
-        display: block;
+        display: flex;
     }
 
     .nav-menu {

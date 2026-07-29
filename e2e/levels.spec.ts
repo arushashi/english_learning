@@ -24,17 +24,17 @@ test.describe('Level System Tests', () => {
     const level0 = page.locator('.level-card[data-level="0"]');
     await level0.locator('.btn-level').click();
     
-    await expect(page.locator('h2')).toContainText('Level 0');
+    await expect(page.locator('#levels h2')).toContainText('Level 0');
     await expect(page.locator('.btn-back')).toBeVisible();
   });
 
   test('should display lesson list when level is opened', async ({ page }) => {
     await page.locator('.level-card[data-level="0"] .btn-level').click();
-    
+
     const lessonsList = page.locator('#lessonsList');
     await expect(lessonsList).toBeVisible();
     const lessonItems = page.locator('.lesson-item');
-    await expect(lessonItems).toHaveCount(10); // Level 0 has 10 lessons
+    await expect(lessonItems).toHaveCount(11); // Level 0 has 11 lessons (0-10)
   });
 
   test('should display lesson content when lesson is clicked', async ({ page }) => {
@@ -108,8 +108,8 @@ test.describe('Level System Tests', () => {
 
   test('should navigate to practice from level view', async ({ page }) => {
     await page.locator('.level-card[data-level="0"] .btn-level').click();
-    await page.locator('text=Practice Speaking').click();
-    
+    await page.locator('button:has-text("Practice Speaking")').click();
+
     await expect(page.locator('#practice')).toBeVisible();
   });
 });

@@ -4,10 +4,17 @@ class KannadaEnglishApp {
         this.currentLevel = 0;
         this.progress = this.loadProgress();
         this.currentLevelData = null; // Store current level data
+        this.originalLevelsPageHTML = null;
     }
 
     init() {
         try {
+            // Snapshot the levels page's original markup (quick-nav, filters,
+            // Kannada banner, level cards) before any navigation can replace it
+            const levelsPage = document.getElementById('levels');
+            if (levelsPage) {
+                this.originalLevelsPageHTML = levelsPage.innerHTML;
+            }
             this.setupNavigation();
             this.setupLevelSystem();
             this.setupSpeakingPractice();
@@ -202,87 +209,21 @@ class KannadaEnglishApp {
         }
     }
 
-    // Restore original levels page content
+    // Restore original levels page content (quick-nav, filters, Kannada
+    // banner, level cards) after it was replaced by a level's detail view
     restoreLevelsPage() {
         const levelsPage = document.getElementById('levels');
         if (!levelsPage) return;
 
-        const levelNames = [
-            'Absolute Foundation',
-            'Survival English',
-            'Core Grammar Foundation',
-            'Daily Life English',
-            'Past and Future Foundation',
-            'Real World Situations',
-            'Descriptive English',
-            'Workplace & Professional',
-            'Advanced Grammar',
-            'Fluency & Mastery'
-        ];
-
-        const levelDescriptions = [
-            'Learn English letters, sounds, and basic reading',
-            'Greetings, self-introduction, basic needs',
-            'Nouns, articles, pronouns, adjectives, adverbs, conjunctions, comparatives, sentence structure',
-            'Prepositions, imperatives, possessives, Wh-questions, past tense introduction',
-            'Past continuous, modals, present/past/future perfect, used to',
-            'Shopping, travel, phone, phrasal verbs, idioms, collocations',
-            'People, places, opinions, relative clauses, conditionals',
-            'Office, emails, interviews',
-            'Gerunds, tag questions, causatives, reported speech, passive voice, wishes',
-            'Advanced speaking, presentations'
-        ];
-
-        const lessonCounts = [11, 12, 25, 21, 20, 20, 18, 12, 25, 10];
-
-        let levelsGridHTML = '';
-        for (let i = 0; i < 10; i++) {
-            const progress = this.getLevelProgress(i);
-            levelsGridHTML += `
-                <div class="level-card" data-level="${i}">
-                    <div class="level-header">
-                        <span class="level-number">${i}</span>
-                        <span class="level-status unlocked">${i === 0 ? 'Start Here' : 'Available'}</span>
-                    </div>
-                    <h3>${levelNames[i]}</h3>
-                    <p>${levelDescriptions[i]}</p>
-                    <div class="level-details">
-                        <div class="detail-item">
-                            <i class="fas fa-clock"></i>
-                            <span>7 days</span>
-                        </div>
-                        <div class="detail-item">
-                            <i class="fas fa-book"></i>
-                            <span>${lessonCounts[i]} lessons</span>
-                        </div>
-                        <div class="detail-item">
-                            <i class="fas fa-microphone"></i>
-                            <span>Speaking focus</span>
-                        </div>
-                    </div>
-                    <div class="level-progress">
-                        <div class="progress-bar">
-                            <div class="progress-fill" style="width: ${progress}%"></div>
-                        </div>
-                        <span class="progress-text">${progress}% complete</span>
-                    </div>
-                    <button class="btn-level">Start Level</button>
-                </div>
-            `;
+        if (this.originalLevelsPageHTML) {
+            levelsPage.innerHTML = this.originalLevelsPageHTML;
         }
 
-        levelsPage.innerHTML = `
-            <div class="container">
-                <h2>Learning Levels</h2>
-                <p class="section-description">Choose any level to start learning. Each level builds on the previous one.</p>
-                <div class="levels-grid" id="levelsGrid">
-                    ${levelsGridHTML}
-                </div>
-            </div>
-        `;
-
-        // Re-setup level card event listeners
+        // Re-setup event listeners lost when the DOM was replaced
         this.setupLevelSystem();
+        this.setupQuickNavigation();
+        this.setupLevelFilters();
+        this.updateLevelCards();
     }
 
     // Level System

@@ -7,7 +7,7 @@ test.describe('Speaking Practice Tests', () => {
   });
 
   test('should display practice page with all sections', async ({ page }) => {
-    await expect(page.locator('h2')).toContainText('Speaking Practice');
+    await expect(page.locator('#practice h2')).toContainText('Speaking Practice');
     await expect(page.locator('.practice-card')).toHaveCount(3);
   });
 

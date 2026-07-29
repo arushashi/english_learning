@@ -9,7 +9,7 @@ test.describe('Progress Tracking Tests', () => {
 
   test('should display progress page with statistics', async ({ page }) => {
     await page.click('text=My Progress');
-    await expect(page.locator('h2')).toContainText('My Learning Progress');
+    await expect(page.locator('#progress h2')).toContainText('My Learning Progress');
     await expect(page.locator('.progress-stat')).toHaveCount(4);
   });
 
