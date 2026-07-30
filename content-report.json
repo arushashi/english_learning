@@ -1,14 +1,14 @@
 {
-  "timestamp": "2026-07-29T12:07:10.707Z",
+  "timestamp": "2026-07-30T01:19:31.411Z",
   "totalLessons": 174,
-  "totalErrors": 85,
-  "totalWarnings": 67,
+  "totalErrors": 82,
+  "totalWarnings": 68,
   "errorsByCategory": {
-    "SCHEMA": 32,
-    "SCRIPT_VALIDATION": 53
+    "SCHEMA": 27,
+    "SCRIPT_VALIDATION": 55
   },
   "warningsByCategory": {
-    "PLACEHOLDERS": 67
+    "PLACEHOLDERS": 68
   },
   "lessons": [
     {
@@ -1569,9 +1569,10 @@
       "errors": [
         {
           "level": "ERROR",
-          "category": "SCHEMA",
-          "message": "Only 6 practice questions (need >= 10)",
-          "lessonId": "14"
+          "category": "SCRIPT_VALIDATION",
+          "message": "kannadaExplanation is 38% Latin (expected Kannada)",
+          "lessonId": "14",
+          "field": "kannadaExplanation"
         }
       ],
       "warnings": [
@@ -1595,15 +1596,16 @@
       "levelKey": "level6",
       "lessonId": 15,
       "title": "Relative Clauses - Who, Which, That",
-      "errors": [
+      "errors": [],
+      "warnings": [
         {
-          "level": "ERROR",
-          "category": "SCHEMA",
-          "message": "Only 5 practice questions (need >= 10)",
-          "lessonId": "15"
+          "level": "WARNING",
+          "category": "PLACEHOLDERS",
+          "message": "Placeholder text in kannadaExplanation",
+          "lessonId": "15",
+          "field": "kannadaExplanation"
         }
-      ],
-      "warnings": []
+      ]
     },
     {
       "levelKey": "level6",
@@ -1612,9 +1614,10 @@
       "errors": [
         {
           "level": "ERROR",
-          "category": "SCHEMA",
-          "message": "Only 5 practice questions (need >= 10)",
-          "lessonId": "16"
+          "category": "SCRIPT_VALIDATION",
+          "message": "kannadaExplanation is 60% Latin (expected Kannada)",
+          "lessonId": "16",
+          "field": "kannadaExplanation"
         }
       ],
       "warnings": []
@@ -2014,9 +2017,10 @@
       "errors": [
         {
           "level": "ERROR",
-          "category": "SCHEMA",
-          "message": "Only 5 practice questions (need >= 10)",
-          "lessonId": "16"
+          "category": "SCRIPT_VALIDATION",
+          "message": "kannadaExplanation is 41% Latin (expected Kannada)",
+          "lessonId": "16",
+          "field": "kannadaExplanation"
         }
       ],
       "warnings": []
@@ -2025,21 +2029,7 @@
       "levelKey": "level8",
       "lessonId": 17,
       "title": "Tag Questions",
-      "errors": [
-        {
-          "level": "ERROR",
-          "category": "SCHEMA",
-          "message": "Only 6 practice questions (need >= 10)",
-          "lessonId": "17"
-        },
-        {
-          "level": "ERROR",
-          "category": "SCRIPT_VALIDATION",
-          "message": "kannadaExplanation is 37% Latin (expected Kannada)",
-          "lessonId": "17",
-          "field": "kannadaExplanation"
-        }
-      ],
+      "errors": [],
       "warnings": []
     },
     {
