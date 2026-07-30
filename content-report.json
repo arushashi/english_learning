@@ -1,28 +1,18 @@
 {
-  "timestamp": "2026-07-30T01:19:31.411Z",
-  "totalLessons": 174,
-  "totalErrors": 82,
-  "totalWarnings": 68,
-  "errorsByCategory": {
-    "SCHEMA": 27,
-    "SCRIPT_VALIDATION": 55
-  },
+  "timestamp": "2026-07-30T01:59:41.347Z",
+  "totalLessons": 177,
+  "totalErrors": 0,
+  "totalWarnings": 65,
+  "errorsByCategory": {},
   "warningsByCategory": {
-    "PLACEHOLDERS": 68
+    "PLACEHOLDERS": 65
   },
   "lessons": [
     {
       "levelKey": "level0",
       "lessonId": 0,
       "title": "Mindset and Tips for Learning English",
-      "errors": [
-        {
-          "level": "ERROR",
-          "category": "SCHEMA",
-          "message": "Only 3 practice questions (need >= 10)",
-          "lessonId": "0"
-        }
-      ],
+      "errors": [],
       "warnings": []
     },
     {
@@ -137,15 +127,7 @@
       "levelKey": "level1",
       "lessonId": 2,
       "title": "Self-Introduction",
-      "errors": [
-        {
-          "level": "ERROR",
-          "category": "SCRIPT_VALIDATION",
-          "message": "kannadaExplanation is 33% Latin (expected Kannada)",
-          "lessonId": "2",
-          "field": "kannadaExplanation"
-        }
-      ],
+      "errors": [],
       "warnings": []
     },
     {
@@ -262,15 +244,7 @@
       "levelKey": "level1",
       "lessonId": 10,
       "title": "Days of the Week",
-      "errors": [
-        {
-          "level": "ERROR",
-          "category": "SCRIPT_VALIDATION",
-          "message": "kannadaExplanation is 30% Latin (expected Kannada)",
-          "lessonId": "10",
-          "field": "kannadaExplanation"
-        }
-      ],
+      "errors": [],
       "warnings": []
     },
     {
@@ -291,15 +265,7 @@
       "levelKey": "level2",
       "lessonId": 1,
       "title": "Present Simple Tense - I/You/We/They",
-      "errors": [
-        {
-          "level": "ERROR",
-          "category": "SCRIPT_VALIDATION",
-          "message": "kannadaTitle is 31% Latin (expected Kannada)",
-          "lessonId": "1",
-          "field": "kannadaTitle"
-        }
-      ],
+      "errors": [],
       "warnings": []
     },
     {
@@ -313,15 +279,7 @@
       "levelKey": "level2",
       "lessonId": 3,
       "title": "Present Simple - Negative Sentences",
-      "errors": [
-        {
-          "level": "ERROR",
-          "category": "SCRIPT_VALIDATION",
-          "message": "kannadaExplanation is 34% Latin (expected Kannada)",
-          "lessonId": "3",
-          "field": "kannadaExplanation"
-        }
-      ],
+      "errors": [],
       "warnings": []
     },
     {
@@ -335,15 +293,7 @@
       "levelKey": "level2",
       "lessonId": 5,
       "title": "Question Words - What, Where, When",
-      "errors": [
-        {
-          "level": "ERROR",
-          "category": "SCRIPT_VALIDATION",
-          "message": "kannadaTitle is 35% Latin (expected Kannada)",
-          "lessonId": "5",
-          "field": "kannadaTitle"
-        }
-      ],
+      "errors": [],
       "warnings": []
     },
     {
@@ -364,15 +314,7 @@
       "levelKey": "level2",
       "lessonId": 8,
       "title": "Daily Routines - Afternoon/Evening",
-      "errors": [
-        {
-          "level": "ERROR",
-          "category": "SCRIPT_VALIDATION",
-          "message": "kannadaExplanation is 40% Latin (expected Kannada)",
-          "lessonId": "8",
-          "field": "kannadaExplanation"
-        }
-      ],
+      "errors": [],
       "warnings": []
     },
     {
@@ -400,15 +342,7 @@
       "levelKey": "level2",
       "lessonId": 12,
       "title": "Have / Has",
-      "errors": [
-        {
-          "level": "ERROR",
-          "category": "SCRIPT_VALIDATION",
-          "message": "kannadaExplanation is 35% Latin (expected Kannada)",
-          "lessonId": "12",
-          "field": "kannadaExplanation"
-        }
-      ],
+      "errors": [],
       "warnings": [
         {
           "level": "WARNING",
@@ -416,6 +350,13 @@
           "message": "Placeholder text in explanation",
           "lessonId": "12",
           "field": "explanation"
+        },
+        {
+          "level": "WARNING",
+          "category": "PLACEHOLDERS",
+          "message": "Placeholder text in kannadaExplanation",
+          "lessonId": "12",
+          "field": "kannadaExplanation"
         }
       ]
     },
@@ -423,30 +364,14 @@
       "levelKey": "level2",
       "lessonId": 13,
       "title": "Prepositions of Time",
-      "errors": [
-        {
-          "level": "ERROR",
-          "category": "SCRIPT_VALIDATION",
-          "message": "kannadaExplanation is 38% Latin (expected Kannada)",
-          "lessonId": "13",
-          "field": "kannadaExplanation"
-        }
-      ],
+      "errors": [],
       "warnings": []
     },
     {
       "levelKey": "level2",
       "lessonId": 14,
       "title": "Prepositions of Place",
-      "errors": [
-        {
-          "level": "ERROR",
-          "category": "SCRIPT_VALIDATION",
-          "message": "kannadaExplanation is 38% Latin (expected Kannada)",
-          "lessonId": "14",
-          "field": "kannadaExplanation"
-        }
-      ],
+      "errors": [],
       "warnings": []
     },
     {
@@ -537,15 +462,7 @@
       "levelKey": "level3",
       "lessonId": 2,
       "title": "Present Continuous - Negative",
-      "errors": [
-        {
-          "level": "ERROR",
-          "category": "SCRIPT_VALIDATION",
-          "message": "kannadaExplanation is 32% Latin (expected Kannada)",
-          "lessonId": "2",
-          "field": "kannadaExplanation"
-        }
-      ],
+      "errors": [],
       "warnings": []
     },
     {
@@ -566,15 +483,7 @@
       "levelKey": "level3",
       "lessonId": 5,
       "title": "Describing Family",
-      "errors": [
-        {
-          "level": "ERROR",
-          "category": "SCRIPT_VALIDATION",
-          "message": "kannadaExplanation is 39% Latin (expected Kannada)",
-          "lessonId": "5",
-          "field": "kannadaExplanation"
-        }
-      ],
+      "errors": [],
       "warnings": []
     },
     {
@@ -588,15 +497,7 @@
       "levelKey": "level3",
       "lessonId": 7,
       "title": "Household Items",
-      "errors": [
-        {
-          "level": "ERROR",
-          "category": "SCRIPT_VALIDATION",
-          "message": "kannadaExplanation is 31% Latin (expected Kannada)",
-          "lessonId": "7",
-          "field": "kannadaExplanation"
-        }
-      ],
+      "errors": [],
       "warnings": []
     },
     {
@@ -647,15 +548,7 @@
       "levelKey": "level3",
       "lessonId": 11,
       "title": "Present Simple vs Present Continuous",
-      "errors": [
-        {
-          "level": "ERROR",
-          "category": "SCRIPT_VALIDATION",
-          "message": "kannadaExplanation is 31% Latin (expected Kannada)",
-          "lessonId": "11",
-          "field": "kannadaExplanation"
-        }
-      ],
+      "errors": [],
       "warnings": []
     },
     {
@@ -669,98 +562,49 @@
       "levelKey": "level3",
       "lessonId": 13,
       "title": "Prepositions of Place",
-      "errors": [
-        {
-          "level": "ERROR",
-          "category": "SCHEMA",
-          "message": "Only 8 practice questions (need >= 10)",
-          "lessonId": "13"
-        }
-      ],
+      "errors": [],
       "warnings": []
     },
     {
       "levelKey": "level3",
       "lessonId": 14,
       "title": "Prepositions of Time",
-      "errors": [
-        {
-          "level": "ERROR",
-          "category": "SCHEMA",
-          "message": "Only 8 practice questions (need >= 10)",
-          "lessonId": "14"
-        }
-      ],
+      "errors": [],
       "warnings": []
     },
     {
       "levelKey": "level3",
       "lessonId": 15,
       "title": "Prepositions of Movement",
-      "errors": [
-        {
-          "level": "ERROR",
-          "category": "SCHEMA",
-          "message": "Only 5 practice questions (need >= 10)",
-          "lessonId": "15"
-        }
-      ],
+      "errors": [],
       "warnings": []
     },
     {
       "levelKey": "level3",
       "lessonId": 16,
       "title": "Imperatives - Commands",
-      "errors": [
-        {
-          "level": "ERROR",
-          "category": "SCHEMA",
-          "message": "Only 5 practice questions (need >= 10)",
-          "lessonId": "16"
-        }
-      ],
+      "errors": [],
       "warnings": []
     },
     {
       "levelKey": "level3",
       "lessonId": 17,
       "title": "Possessives",
-      "errors": [
-        {
-          "level": "ERROR",
-          "category": "SCHEMA",
-          "message": "Only 5 practice questions (need >= 10)",
-          "lessonId": "17"
-        }
-      ],
+      "errors": [],
       "warnings": []
     },
     {
       "levelKey": "level3",
       "lessonId": 18,
       "title": "Wh- Questions Complete",
-      "errors": [
-        {
-          "level": "ERROR",
-          "category": "SCHEMA",
-          "message": "Only 8 practice questions (need >= 10)",
-          "lessonId": "18"
-        }
-      ],
+      "errors": [],
       "warnings": []
     },
     {
       "levelKey": "level3",
       "lessonId": 19,
       "title": "Simple Past - Regular Verbs",
-      "errors": [
-        {
-          "level": "ERROR",
-          "category": "SCHEMA",
-          "message": "Only 8 practice questions (need >= 10)",
-          "lessonId": "19"
-        }
-      ],
+      "errors": [],
       "warnings": []
     },
     {
@@ -830,15 +674,7 @@
       "levelKey": "level4",
       "lessonId": 8,
       "title": "Time Expressions - Future",
-      "errors": [
-        {
-          "level": "ERROR",
-          "category": "SCRIPT_VALIDATION",
-          "message": "kannadaExplanation is 32% Latin (expected Kannada)",
-          "lessonId": "8",
-          "field": "kannadaExplanation"
-        }
-      ],
+      "errors": [],
       "warnings": []
     },
     {
@@ -859,119 +695,49 @@
       "levelKey": "level4",
       "lessonId": 11,
       "title": "Past Continuous Tense",
-      "errors": [
-        {
-          "level": "ERROR",
-          "category": "SCHEMA",
-          "message": "Only 8 practice questions (need >= 10)",
-          "lessonId": "11"
-        }
-      ],
+      "errors": [],
       "warnings": []
     },
     {
       "levelKey": "level4",
       "lessonId": 12,
       "title": "Modals - Can, Could, May, Might",
-      "errors": [
-        {
-          "level": "ERROR",
-          "category": "SCHEMA",
-          "message": "Only 8 practice questions (need >= 10)",
-          "lessonId": "12"
-        },
-        {
-          "level": "ERROR",
-          "category": "SCRIPT_VALIDATION",
-          "message": "kannadaTitle is 48% Latin (expected Kannada)",
-          "lessonId": "12",
-          "field": "kannadaTitle"
-        }
-      ],
+      "errors": [],
       "warnings": []
     },
     {
       "levelKey": "level4",
       "lessonId": 13,
       "title": "Modals - Must, Should, Have to",
-      "errors": [
-        {
-          "level": "ERROR",
-          "category": "SCHEMA",
-          "message": "Only 6 practice questions (need >= 10)",
-          "lessonId": "13"
-        },
-        {
-          "level": "ERROR",
-          "category": "SCRIPT_VALIDATION",
-          "message": "kannadaTitle is 50% Latin (expected Kannada)",
-          "lessonId": "13",
-          "field": "kannadaTitle"
-        }
-      ],
+      "errors": [],
       "warnings": []
     },
     {
       "levelKey": "level4",
       "lessonId": 14,
       "title": "Present Perfect Tense",
-      "errors": [
-        {
-          "level": "ERROR",
-          "category": "SCHEMA",
-          "message": "Only 8 practice questions (need >= 10)",
-          "lessonId": "14"
-        }
-      ],
+      "errors": [],
       "warnings": []
     },
     {
       "levelKey": "level4",
       "lessonId": 15,
       "title": "Present Perfect vs Past Simple",
-      "errors": [
-        {
-          "level": "ERROR",
-          "category": "SCHEMA",
-          "message": "Only 8 practice questions (need >= 10)",
-          "lessonId": "15"
-        }
-      ],
+      "errors": [],
       "warnings": []
     },
     {
       "levelKey": "level4",
       "lessonId": 16,
       "title": "Future Continuous Tense",
-      "errors": [
-        {
-          "level": "ERROR",
-          "category": "SCHEMA",
-          "message": "Only 5 practice questions (need >= 10)",
-          "lessonId": "16"
-        }
-      ],
+      "errors": [],
       "warnings": []
     },
     {
       "levelKey": "level4",
       "lessonId": 17,
       "title": "Used to and Would",
-      "errors": [
-        {
-          "level": "ERROR",
-          "category": "SCHEMA",
-          "message": "Only 5 practice questions (need >= 10)",
-          "lessonId": "17"
-        },
-        {
-          "level": "ERROR",
-          "category": "SCRIPT_VALIDATION",
-          "message": "kannadaTitle is 58% Latin (expected Kannada)",
-          "lessonId": "17",
-          "field": "kannadaTitle"
-        }
-      ],
+      "errors": [],
       "warnings": [
         {
           "level": "WARNING",
@@ -993,28 +759,14 @@
       "levelKey": "level4",
       "lessonId": 18,
       "title": "Past Perfect Tense",
-      "errors": [
-        {
-          "level": "ERROR",
-          "category": "SCHEMA",
-          "message": "Only 6 practice questions (need >= 10)",
-          "lessonId": "18"
-        }
-      ],
+      "errors": [],
       "warnings": []
     },
     {
       "levelKey": "level4",
       "lessonId": 19,
       "title": "Future Perfect Tense",
-      "errors": [
-        {
-          "level": "ERROR",
-          "category": "SCHEMA",
-          "message": "Only 6 practice questions (need >= 10)",
-          "lessonId": "19"
-        }
-      ],
+      "errors": [],
       "warnings": []
     },
     {
@@ -1025,33 +777,38 @@
       "warnings": []
     },
     {
+      "levelKey": "level4",
+      "lessonId": 21,
+      "title": "Present Perfect Continuous Tense",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "levelKey": "level4",
+      "lessonId": 22,
+      "title": "Past Perfect Continuous Tense",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "levelKey": "level4",
+      "lessonId": 23,
+      "title": "Future Perfect Continuous Tense",
+      "errors": [],
+      "warnings": []
+    },
+    {
       "levelKey": "level5",
       "lessonId": 1,
       "title": "Shopping Vocabulary",
-      "errors": [
-        {
-          "level": "ERROR",
-          "category": "SCRIPT_VALIDATION",
-          "message": "kannadaExplanation is 31% Latin (expected Kannada)",
-          "lessonId": "1",
-          "field": "kannadaExplanation"
-        }
-      ],
+      "errors": [],
       "warnings": []
     },
     {
       "levelKey": "level5",
       "lessonId": 2,
       "title": "Shopping Conversations",
-      "errors": [
-        {
-          "level": "ERROR",
-          "category": "SCRIPT_VALIDATION",
-          "message": "kannadaExplanation is 43% Latin (expected Kannada)",
-          "lessonId": "2",
-          "field": "kannadaExplanation"
-        }
-      ],
+      "errors": [],
       "warnings": [
         {
           "level": "WARNING",
@@ -1066,15 +823,7 @@
       "levelKey": "level5",
       "lessonId": 3,
       "title": "Phone Conversations",
-      "errors": [
-        {
-          "level": "ERROR",
-          "category": "SCRIPT_VALIDATION",
-          "message": "kannadaExplanation is 42% Latin (expected Kannada)",
-          "lessonId": "3",
-          "field": "kannadaExplanation"
-        }
-      ],
+      "errors": [],
       "warnings": [
         {
           "level": "WARNING",
@@ -1082,13 +831,6 @@
           "message": "Placeholder text in explanation",
           "lessonId": "3",
           "field": "explanation"
-        },
-        {
-          "level": "WARNING",
-          "category": "PLACEHOLDERS",
-          "message": "Placeholder text in kannadaExplanation",
-          "lessonId": "3",
-          "field": "kannadaExplanation"
         }
       ]
     },
@@ -1096,15 +838,7 @@
       "levelKey": "level5",
       "lessonId": 4,
       "title": "Restaurant Vocabulary",
-      "errors": [
-        {
-          "level": "ERROR",
-          "category": "SCRIPT_VALIDATION",
-          "message": "kannadaExplanation is 41% Latin (expected Kannada)",
-          "lessonId": "4",
-          "field": "kannadaExplanation"
-        }
-      ],
+      "errors": [],
       "warnings": []
     },
     {
@@ -1133,15 +867,7 @@
       "levelKey": "level5",
       "lessonId": 6,
       "title": "Travel Vocabulary",
-      "errors": [
-        {
-          "level": "ERROR",
-          "category": "SCRIPT_VALIDATION",
-          "message": "kannadaExplanation is 38% Latin (expected Kannada)",
-          "lessonId": "6",
-          "field": "kannadaExplanation"
-        }
-      ],
+      "errors": [],
       "warnings": []
     },
     {
@@ -1177,45 +903,21 @@
       "levelKey": "level5",
       "lessonId": 9,
       "title": "Banking Vocabulary",
-      "errors": [
-        {
-          "level": "ERROR",
-          "category": "SCRIPT_VALIDATION",
-          "message": "kannadaExplanation is 38% Latin (expected Kannada)",
-          "lessonId": "9",
-          "field": "kannadaExplanation"
-        }
-      ],
+      "errors": [],
       "warnings": []
     },
     {
       "levelKey": "level5",
       "lessonId": 10,
       "title": "Medical Situations",
-      "errors": [
-        {
-          "level": "ERROR",
-          "category": "SCRIPT_VALIDATION",
-          "message": "kannadaExplanation is 35% Latin (expected Kannada)",
-          "lessonId": "10",
-          "field": "kannadaExplanation"
-        }
-      ],
+      "errors": [],
       "warnings": []
     },
     {
       "levelKey": "level5",
       "lessonId": 11,
       "title": "Hotel Check-in",
-      "errors": [
-        {
-          "level": "ERROR",
-          "category": "SCRIPT_VALIDATION",
-          "message": "kannadaExplanation is 35% Latin (expected Kannada)",
-          "lessonId": "11",
-          "field": "kannadaExplanation"
-        }
-      ],
+      "errors": [],
       "warnings": []
     },
     {
@@ -1244,30 +946,14 @@
       "levelKey": "level5",
       "lessonId": 13,
       "title": "Post Office",
-      "errors": [
-        {
-          "level": "ERROR",
-          "category": "SCRIPT_VALIDATION",
-          "message": "kannadaExplanation is 37% Latin (expected Kannada)",
-          "lessonId": "13",
-          "field": "kannadaExplanation"
-        }
-      ],
+      "errors": [],
       "warnings": []
     },
     {
       "levelKey": "level5",
       "lessonId": 14,
       "title": "At the Airport",
-      "errors": [
-        {
-          "level": "ERROR",
-          "category": "SCRIPT_VALIDATION",
-          "message": "kannadaExplanation is 50% Latin (expected Kannada)",
-          "lessonId": "14",
-          "field": "kannadaExplanation"
-        }
-      ],
+      "errors": [],
       "warnings": []
     },
     {
@@ -1281,56 +967,28 @@
       "levelKey": "level5",
       "lessonId": 16,
       "title": "Phrasal Verbs - Common",
-      "errors": [
-        {
-          "level": "ERROR",
-          "category": "SCHEMA",
-          "message": "Only 6 practice questions (need >= 10)",
-          "lessonId": "16"
-        }
-      ],
+      "errors": [],
       "warnings": []
     },
     {
       "levelKey": "level5",
       "lessonId": 17,
       "title": "Common Idioms",
-      "errors": [
-        {
-          "level": "ERROR",
-          "category": "SCHEMA",
-          "message": "Only 6 practice questions (need >= 10)",
-          "lessonId": "17"
-        }
-      ],
+      "errors": [],
       "warnings": []
     },
     {
       "levelKey": "level5",
       "lessonId": 18,
       "title": "Collocations",
-      "errors": [
-        {
-          "level": "ERROR",
-          "category": "SCHEMA",
-          "message": "Only 6 practice questions (need >= 10)",
-          "lessonId": "18"
-        }
-      ],
+      "errors": [],
       "warnings": []
     },
     {
       "levelKey": "level5",
       "lessonId": 19,
       "title": "Formal vs Informal English",
-      "errors": [
-        {
-          "level": "ERROR",
-          "category": "SCHEMA",
-          "message": "Only 6 practice questions (need >= 10)",
-          "lessonId": "19"
-        }
-      ],
+      "errors": [],
       "warnings": [
         {
           "level": "WARNING",
@@ -1352,15 +1010,7 @@
       "levelKey": "level6",
       "lessonId": 1,
       "title": "Describing People",
-      "errors": [
-        {
-          "level": "ERROR",
-          "category": "SCRIPT_VALIDATION",
-          "message": "kannadaExplanation is 32% Latin (expected Kannada)",
-          "lessonId": "1",
-          "field": "kannadaExplanation"
-        }
-      ],
+      "errors": [],
       "warnings": []
     },
     {
@@ -1374,15 +1024,7 @@
       "levelKey": "level6",
       "lessonId": 3,
       "title": "Describing Places",
-      "errors": [
-        {
-          "level": "ERROR",
-          "category": "SCRIPT_VALIDATION",
-          "message": "kannadaExplanation is 45% Latin (expected Kannada)",
-          "lessonId": "3",
-          "field": "kannadaExplanation"
-        }
-      ],
+      "errors": [],
       "warnings": []
     },
     {
@@ -1440,15 +1082,7 @@
       "levelKey": "level6",
       "lessonId": 7,
       "title": "Telling Past Stories",
-      "errors": [
-        {
-          "level": "ERROR",
-          "category": "SCRIPT_VALIDATION",
-          "message": "kannadaExplanation is 49% Latin (expected Kannada)",
-          "lessonId": "7",
-          "field": "kannadaExplanation"
-        }
-      ],
+      "errors": [],
       "warnings": [
         {
           "level": "WARNING",
@@ -1470,30 +1104,14 @@
       "levelKey": "level6",
       "lessonId": 8,
       "title": "Comparing Things",
-      "errors": [
-        {
-          "level": "ERROR",
-          "category": "SCRIPT_VALIDATION",
-          "message": "kannadaExplanation is 56% Latin (expected Kannada)",
-          "lessonId": "8",
-          "field": "kannadaExplanation"
-        }
-      ],
+      "errors": [],
       "warnings": []
     },
     {
       "levelKey": "level6",
       "lessonId": 9,
       "title": "Describing Experiences",
-      "errors": [
-        {
-          "level": "ERROR",
-          "category": "SCRIPT_VALIDATION",
-          "message": "kannadaExplanation is 30% Latin (expected Kannada)",
-          "lessonId": "9",
-          "field": "kannadaExplanation"
-        }
-      ],
+      "errors": [],
       "warnings": [
         {
           "level": "WARNING",
@@ -1515,30 +1133,14 @@
       "levelKey": "level6",
       "lessonId": 10,
       "title": "Giving Reasons",
-      "errors": [
-        {
-          "level": "ERROR",
-          "category": "SCRIPT_VALIDATION",
-          "message": "kannadaExplanation is 32% Latin (expected Kannada)",
-          "lessonId": "10",
-          "field": "kannadaExplanation"
-        }
-      ],
+      "errors": [],
       "warnings": []
     },
     {
       "levelKey": "level6",
       "lessonId": 11,
       "title": "Describing Feelings",
-      "errors": [
-        {
-          "level": "ERROR",
-          "category": "SCRIPT_VALIDATION",
-          "message": "kannadaExplanation is 37% Latin (expected Kannada)",
-          "lessonId": "11",
-          "field": "kannadaExplanation"
-        }
-      ],
+      "errors": [],
       "warnings": []
     },
     {
@@ -1552,29 +1154,14 @@
       "levelKey": "level6",
       "lessonId": 13,
       "title": "Linking Words - Addition and Contrast",
-      "errors": [
-        {
-          "level": "ERROR",
-          "category": "SCHEMA",
-          "message": "Only 6 practice questions (need >= 10)",
-          "lessonId": "13"
-        }
-      ],
+      "errors": [],
       "warnings": []
     },
     {
       "levelKey": "level6",
       "lessonId": 14,
       "title": "Expressing Emotions",
-      "errors": [
-        {
-          "level": "ERROR",
-          "category": "SCRIPT_VALIDATION",
-          "message": "kannadaExplanation is 38% Latin (expected Kannada)",
-          "lessonId": "14",
-          "field": "kannadaExplanation"
-        }
-      ],
+      "errors": [],
       "warnings": [
         {
           "level": "WARNING",
@@ -1582,13 +1169,6 @@
           "message": "Placeholder text in explanation",
           "lessonId": "14",
           "field": "explanation"
-        },
-        {
-          "level": "WARNING",
-          "category": "PLACEHOLDERS",
-          "message": "Placeholder text in kannadaExplanation",
-          "lessonId": "14",
-          "field": "kannadaExplanation"
         }
       ]
     },
@@ -1611,15 +1191,7 @@
       "levelKey": "level6",
       "lessonId": 16,
       "title": "Conditional Sentences - Type 0 and 1",
-      "errors": [
-        {
-          "level": "ERROR",
-          "category": "SCRIPT_VALIDATION",
-          "message": "kannadaExplanation is 60% Latin (expected Kannada)",
-          "lessonId": "16",
-          "field": "kannadaExplanation"
-        }
-      ],
+      "errors": [],
       "warnings": []
     },
     {
@@ -1647,15 +1219,7 @@
       "levelKey": "level7",
       "lessonId": 2,
       "title": "Job Titles and Roles",
-      "errors": [
-        {
-          "level": "ERROR",
-          "category": "SCRIPT_VALIDATION",
-          "message": "kannadaExplanation is 34% Latin (expected Kannada)",
-          "lessonId": "2",
-          "field": "kannadaExplanation"
-        }
-      ],
+      "errors": [],
       "warnings": [
         {
           "level": "WARNING",
@@ -1663,13 +1227,6 @@
           "message": "Placeholder text in explanation",
           "lessonId": "2",
           "field": "explanation"
-        },
-        {
-          "level": "WARNING",
-          "category": "PLACEHOLDERS",
-          "message": "Placeholder text in kannadaExplanation",
-          "lessonId": "2",
-          "field": "kannadaExplanation"
         }
       ]
     },
@@ -1736,14 +1293,7 @@
       "levelKey": "level7",
       "lessonId": 7,
       "title": "Meeting Vocabulary",
-      "errors": [
-        {
-          "level": "ERROR",
-          "category": "SCHEMA",
-          "message": "Only 4 practice questions (need >= 10)",
-          "lessonId": "7"
-        }
-      ],
+      "errors": [],
       "warnings": [
         {
           "level": "WARNING",
@@ -1758,14 +1308,7 @@
       "levelKey": "level7",
       "lessonId": 8,
       "title": "Participating in Meetings",
-      "errors": [
-        {
-          "level": "ERROR",
-          "category": "SCHEMA",
-          "message": "Only 4 practice questions (need >= 10)",
-          "lessonId": "8"
-        }
-      ],
+      "errors": [],
       "warnings": [
         {
           "level": "WARNING",
@@ -1787,30 +1330,14 @@
       "levelKey": "level7",
       "lessonId": 9,
       "title": "Professional Greetings",
-      "errors": [
-        {
-          "level": "ERROR",
-          "category": "SCRIPT_VALIDATION",
-          "message": "kannadaExplanation is 45% Latin (expected Kannada)",
-          "lessonId": "9",
-          "field": "kannadaExplanation"
-        }
-      ],
+      "errors": [],
       "warnings": []
     },
     {
       "levelKey": "level7",
       "lessonId": 10,
       "title": "Giving and Receiving Feedback",
-      "errors": [
-        {
-          "level": "ERROR",
-          "category": "SCRIPT_VALIDATION",
-          "message": "kannadaExplanation is 32% Latin (expected Kannada)",
-          "lessonId": "10",
-          "field": "kannadaExplanation"
-        }
-      ],
+      "errors": [],
       "warnings": [
         {
           "level": "WARNING",
@@ -1832,15 +1359,7 @@
       "levelKey": "level7",
       "lessonId": 11,
       "title": "Salary and Benefits",
-      "errors": [
-        {
-          "level": "ERROR",
-          "category": "SCRIPT_VALIDATION",
-          "message": "kannadaExplanation is 43% Latin (expected Kannada)",
-          "lessonId": "11",
-          "field": "kannadaExplanation"
-        }
-      ],
+      "errors": [],
       "warnings": []
     },
     {
@@ -1861,30 +1380,14 @@
       "levelKey": "level8",
       "lessonId": 2,
       "title": "Passive Voice - Past",
-      "errors": [
-        {
-          "level": "ERROR",
-          "category": "SCRIPT_VALIDATION",
-          "message": "kannadaExplanation is 36% Latin (expected Kannada)",
-          "lessonId": "2",
-          "field": "kannadaExplanation"
-        }
-      ],
+      "errors": [],
       "warnings": []
     },
     {
       "levelKey": "level8",
       "lessonId": 3,
       "title": "Present Perfect Tense",
-      "errors": [
-        {
-          "level": "ERROR",
-          "category": "SCRIPT_VALIDATION",
-          "message": "kannadaExplanation is 47% Latin (expected Kannada)",
-          "lessonId": "3",
-          "field": "kannadaExplanation"
-        }
-      ],
+      "errors": [],
       "warnings": []
     },
     {
@@ -1898,15 +1401,7 @@
       "levelKey": "level8",
       "lessonId": 5,
       "title": "Past Perfect Tense",
-      "errors": [
-        {
-          "level": "ERROR",
-          "category": "SCRIPT_VALIDATION",
-          "message": "kannadaExplanation is 32% Latin (expected Kannada)",
-          "lessonId": "5",
-          "field": "kannadaExplanation"
-        }
-      ],
+      "errors": [],
       "warnings": []
     },
     {
@@ -1963,15 +1458,7 @@
       "levelKey": "level8",
       "lessonId": 11,
       "title": "Reported Speech",
-      "errors": [
-        {
-          "level": "ERROR",
-          "category": "SCRIPT_VALIDATION",
-          "message": "kannadaExplanation is 50% Latin (expected Kannada)",
-          "lessonId": "11",
-          "field": "kannadaExplanation"
-        }
-      ],
+      "errors": [],
       "warnings": []
     },
     {
@@ -1985,15 +1472,7 @@
       "levelKey": "level8",
       "lessonId": 13,
       "title": "Modals of Probability",
-      "errors": [
-        {
-          "level": "ERROR",
-          "category": "SCRIPT_VALIDATION",
-          "message": "kannadaExplanation is 40% Latin (expected Kannada)",
-          "lessonId": "13",
-          "field": "kannadaExplanation"
-        }
-      ],
+      "errors": [],
       "warnings": []
     },
     {
@@ -2014,15 +1493,7 @@
       "levelKey": "level8",
       "lessonId": 16,
       "title": "Gerunds and Infinitives",
-      "errors": [
-        {
-          "level": "ERROR",
-          "category": "SCRIPT_VALIDATION",
-          "message": "kannadaExplanation is 41% Latin (expected Kannada)",
-          "lessonId": "16",
-          "field": "kannadaExplanation"
-        }
-      ],
+      "errors": [],
       "warnings": []
     },
     {
@@ -2036,14 +1507,7 @@
       "levelKey": "level8",
       "lessonId": 18,
       "title": "Causative Structures",
-      "errors": [
-        {
-          "level": "ERROR",
-          "category": "SCHEMA",
-          "message": "Only 5 practice questions (need >= 10)",
-          "lessonId": "18"
-        }
-      ],
+      "errors": [],
       "warnings": []
     },
     {
@@ -2057,66 +1521,21 @@
       "levelKey": "level8",
       "lessonId": 20,
       "title": "Active vs Passive Voice - All Tenses",
-      "errors": [
-        {
-          "level": "ERROR",
-          "category": "SCRIPT_VALIDATION",
-          "message": "kannadaExplanation is 31% Latin (expected Kannada)",
-          "lessonId": "20",
-          "field": "kannadaExplanation"
-        }
-      ],
+      "errors": [],
       "warnings": []
     },
     {
       "levelKey": "level8",
       "lessonId": 21,
       "title": "Subject-Verb Agreement Advanced",
-      "errors": [
-        {
-          "level": "ERROR",
-          "category": "SCRIPT_VALIDATION",
-          "message": "kannadaExplanation is 40% Latin (expected Kannada)",
-          "lessonId": "21",
-          "field": "kannadaExplanation"
-        }
-      ],
-      "warnings": [
-        {
-          "level": "WARNING",
-          "category": "PLACEHOLDERS",
-          "message": "Placeholder text in kannadaExplanation",
-          "lessonId": "21",
-          "field": "kannadaExplanation"
-        }
-      ]
+      "errors": [],
+      "warnings": []
     },
     {
       "levelKey": "level8",
       "lessonId": 22,
       "title": "Wish and If only",
-      "errors": [
-        {
-          "level": "ERROR",
-          "category": "SCHEMA",
-          "message": "Only 5 practice questions (need >= 10)",
-          "lessonId": "22"
-        },
-        {
-          "level": "ERROR",
-          "category": "SCRIPT_VALIDATION",
-          "message": "kannadaTitle is 56% Latin (expected Kannada)",
-          "lessonId": "22",
-          "field": "kannadaTitle"
-        },
-        {
-          "level": "ERROR",
-          "category": "SCRIPT_VALIDATION",
-          "message": "kannadaExplanation is 33% Latin (expected Kannada)",
-          "lessonId": "22",
-          "field": "kannadaExplanation"
-        }
-      ],
+      "errors": [],
       "warnings": []
     },
     {
@@ -2130,14 +1549,7 @@
       "levelKey": "level8",
       "lessonId": 24,
       "title": "Common Kannada-English Errors",
-      "errors": [
-        {
-          "level": "ERROR",
-          "category": "SCHEMA",
-          "message": "Only 6 practice questions (need >= 10)",
-          "lessonId": "24"
-        }
-      ],
+      "errors": [],
       "warnings": []
     },
     {
@@ -2195,15 +1607,7 @@
       "levelKey": "level9",
       "lessonId": 3,
       "title": "Participating in Discussions",
-      "errors": [
-        {
-          "level": "ERROR",
-          "category": "SCRIPT_VALIDATION",
-          "message": "kannadaExplanation is 42% Latin (expected Kannada)",
-          "lessonId": "3",
-          "field": "kannadaExplanation"
-        }
-      ],
+      "errors": [],
       "warnings": [
         {
           "level": "WARNING",
@@ -2225,15 +1629,7 @@
       "levelKey": "level9",
       "lessonId": 4,
       "title": "Expressing Complex Ideas",
-      "errors": [
-        {
-          "level": "ERROR",
-          "category": "SCRIPT_VALIDATION",
-          "message": "kannadaExplanation is 35% Latin (expected Kannada)",
-          "lessonId": "4",
-          "field": "kannadaExplanation"
-        }
-      ],
+      "errors": [],
       "warnings": [
         {
           "level": "WARNING",
@@ -2248,15 +1644,7 @@
       "levelKey": "level9",
       "lessonId": 5,
       "title": "Debate Skills",
-      "errors": [
-        {
-          "level": "ERROR",
-          "category": "SCRIPT_VALIDATION",
-          "message": "kannadaExplanation is 43% Latin (expected Kannada)",
-          "lessonId": "5",
-          "field": "kannadaExplanation"
-        }
-      ],
+      "errors": [],
       "warnings": [
         {
           "level": "WARNING",
@@ -2278,15 +1666,7 @@
       "levelKey": "level9",
       "lessonId": 6,
       "title": "Negotiation Skills",
-      "errors": [
-        {
-          "level": "ERROR",
-          "category": "SCRIPT_VALIDATION",
-          "message": "kannadaExplanation is 47% Latin (expected Kannada)",
-          "lessonId": "6",
-          "field": "kannadaExplanation"
-        }
-      ],
+      "errors": [],
       "warnings": [
         {
           "level": "WARNING",
@@ -2337,15 +1717,7 @@
       "levelKey": "level9",
       "lessonId": 9,
       "title": "Current Affairs",
-      "errors": [
-        {
-          "level": "ERROR",
-          "category": "SCRIPT_VALIDATION",
-          "message": "kannadaExplanation is 47% Latin (expected Kannada)",
-          "lessonId": "9",
-          "field": "kannadaExplanation"
-        }
-      ],
+      "errors": [],
       "warnings": [
         {
           "level": "WARNING",
@@ -2380,10 +1752,6 @@
       "Quiz sanity",
       "CEFR levels"
     ],
-    "failedChecks": [
-      "Schema",
-      "Script validation",
-      "Quiz sanity"
-    ]
+    "failedChecks": []
   }
 }

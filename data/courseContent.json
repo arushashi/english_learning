@@ -182,6 +182,76 @@
               "Practice once a week"
             ],
             "correct": 1
+          },
+          {
+            "question": "According to the lesson, how should you feel about making mistakes while learning English?",
+            "options": [
+              "You should be afraid and avoid speaking",
+              "Mistakes help you learn, so don't be afraid",
+              "Mistakes mean you should give up",
+              "Only children are allowed to make mistakes"
+            ],
+            "correct": 1
+          },
+          {
+            "question": "Which of these does the lesson suggest listening to in order to improve your English?",
+            "options": [
+              "Only grammar textbooks",
+              "Nothing outside class",
+              "Songs, movies, and news",
+              "Only exam papers"
+            ],
+            "correct": 2
+          },
+          {
+            "question": "What does the lesson advise about how you should think while learning English?",
+            "options": [
+              "Think in English instead of translating from Kannada",
+              "Always translate every sentence from Kannada first",
+              "Think only in Kannada and never in English",
+              "Avoid thinking about English altogether"
+            ],
+            "correct": 0
+          },
+          {
+            "question": "What should you read around you, according to the lesson, to build your English skills?",
+            "options": [
+              "Only long novels",
+              "Only academic journals",
+              "Nothing until you finish the course",
+              "English signs, menus, and labels"
+            ],
+            "correct": 3
+          },
+          {
+            "question": "What does the lesson say is the key to learning English well?",
+            "options": [
+              "Studying intensely once a month",
+              "Using the app daily and being consistent",
+              "Memorizing grammar rules without practice",
+              "Watching movies without practicing"
+            ],
+            "correct": 1
+          },
+          {
+            "question": "What does the lesson recommend you do every single day, even if only for a short time?",
+            "options": [
+              "Write a long essay",
+              "Take a formal exam",
+              "Practice speaking, even for just 10 minutes",
+              "Memorize a dictionary"
+            ],
+            "correct": 2
+          },
+          {
+            "question": "What is the overall message of this lesson about learning English effectively?",
+            "options": [
+              "Practice consistently every day and don't be afraid of mistakes",
+              "English cannot be learned by Kannada speakers",
+              "You should only focus on grammar rules",
+              "Speaking practice is not important"
+            ],
+            "correct": 0
           }
         ],
         "quiz": {
@@ -3583,7 +3653,7 @@
         "kannadaTitle": "ಸ್ವಪರಿಚಯ",
         "content": {
           "explanation": "Self-introduction is one of the first things you need in English. Template: 'My name is [name]. I am from [place]. I live in [city]. I work at/I study at [place]. I speak Kannada and English.' Key phrases: 'Nice to meet you', 'Pleased to meet you'. For family: 'I have [number] brothers/sisters.' For hobbies: 'I like [activity].'",
-          "kannadaExplanation": "ಸ್ವಯಂ ಪರಿಚಯ ಇಂಗ್ಲಿಷ್‌ನಲ್ಲಿ ಮೊದಲ ಅಗತ್ಯ. ಮಾದರಿ: 'My name is [ಹೆಸರು]. I am from [ಊರು]. I live in [ನಗರ]. I work at [ಕಚೇರಿ].' 'Nice to meet you' = ಭೇಟಿಯಾಗಿ ಸಂತೋಷ. 'Myself Ramesh' ತಪ್ಪು! 'My name is Ramesh' ಸರಿ.",
+          "kannadaExplanation": "ಇಂಗ್ಲಿಷ್‌ನಲ್ಲಿ ಸ್ವಯಂ ಪರಿಚಯ ಮಾಡಿಕೊಳ್ಳುವುದು ಬಹಳ ಅಗತ್ಯವಾದ ಮೊದಲ ಕೌಶಲ. ಮಾದರಿ ವಾಕ್ಯ ರಚನೆ ಹೀಗಿದೆ: ಮೊದಲು ನಿಮ್ಮ ಹೆಸರನ್ನು ಹೇಳಿ, ನಂತರ ನೀವು ಯಾವ ಊರಿನವರು ಎಂದು ಹೇಳಿ, ನಂತರ ನೀವು ಯಾವ ನಗರದಲ್ಲಿ ವಾಸಿಸುತ್ತೀರಿ ಎಂದು ಹೇಳಿ, ಮತ್ತು ಕೊನೆಗೆ ನೀವು ಎಲ್ಲಿ ಕೆಲಸ ಮಾಡುತ್ತೀರಿ ಅಥವಾ ಎಲ್ಲಿ ಓದುತ್ತೀರಿ ಎಂದು ಹೇಳಿ. ಇದರ ಜೊತೆಗೆ ನೀವು ಕನ್ನಡ ಮತ್ತು ಇಂಗ್ಲಿಷ್ ಎರಡೂ ಭಾಷೆಗಳನ್ನು ಮಾತನಾಡುತ್ತೀರಿ ಎಂದೂ ಸೇರಿಸಬಹುದು. ಯಾರನ್ನಾದರೂ ಮೊದಲ ಬಾರಿ ಭೇಟಿಯಾದಾಗ ಶಿಷ್ಟಾಚಾರಕ್ಕಾಗಿ 'ಭೇಟಿಯಾಗಿ ಸಂತೋಷ' ಎಂಬ ಅರ್ಥದ ವಾಕ್ಯ ಬಳಸಿ. ಕುಟುಂಬದ ಬಗ್ಗೆ ಹೇಳುವಾಗ 'ನನಗೆ ಇಂತಿಷ್ಟು ಜನ ಅಣ್ಣ-ತಮ್ಮಂದಿರು/ಅಕ್ಕ-ತಂಗಿಯರು ಇದ್ದಾರೆ' ಎಂಬ ರಚನೆ ಬಳಸಿ. ಹವ್ಯಾಸಗಳ ಬಗ್ಗೆ ಹೇಳುವಾಗ 'ನನಗೆ ಇಂತಹ ಚಟುವಟಿಕೆ ಇಷ್ಟ' ಎಂಬ ರಚನೆ ಬಳಸಿ. ಗಮನಿಸಿ: ಹೆಸರು ಹೇಳುವಾಗ ನೇರ ಕನ್ನಡ ಶೈಲಿಯಲ್ಲಿ 'ಮೈಸೆಲ್ಫ್ ರಮೇಶ್' ಎಂದು ಹೇಳುವುದು ತಪ್ಪು ಇಂಗ್ಲಿಷ್ ಪ್ರಯೋಗ; ಸರಿಯಾದ ವಿಧಾನದಲ್ಲಿ, ಅಂದರೆ 'ನನ್ನ ಹೆಸರು ರಮೇಶ್' ಎಂಬ ಅರ್ಥ ಬರುವಂತೆ ಹೆಸರನ್ನು ಹೇಳಬೇಕು.",
           "patterns": [
             {
               "pattern": "My name is...",
@@ -6005,7 +6075,7 @@
         "kannadaTitle": "ವಾರದ ದಿನಗಳು",
         "content": {
           "explanation": "Days of the week: Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, Sunday. Always capitalized! Preposition: 'on' + day ('on Monday', 'on Friday'). Useful phrases: 'What day is it today?' 'Today is Wednesday.' 'I work on weekdays.' 'I rest on weekends.' Months: January through December (12 months). Preposition: 'in' + month ('in January').",
-          "kannadaExplanation": "ವಾರದ ದಿನಗಳು: Monday (ಸೋಮವಾರ), Tuesday (ಮಂಗಳವಾರ), Wednesday (ಬುಧವಾರ), Thursday (ಗುರುವಾರ), Friday (ಶುಕ್ರವಾರ), Saturday (ಶನಿವಾರ), Sunday (ಭಾನುವಾರ). ಯಾವಾಗಲೂ ದೊಡ್ಡ ಅಕ್ಷರದಿಂದ! ದಿನಕ್ಕೆ 'on' ಬಳಸಿ: on Monday.",
+          "kannadaExplanation": "ವಾರದ ದಿನಗಳ ಇಂಗ್ಲಿಷ್ ಹೆಸರುಗಳು ಹೀಗಿವೆ: ಸೋಮವಾರಕ್ಕೆ ಮಂಡೇ, ಮಂಗಳವಾರಕ್ಕೆ ಟ್ಯೂಸ್‌ಡೇ, ಬುಧವಾರಕ್ಕೆ ವೆನ್ಸ್‌ಡೇ, ಗುರುವಾರಕ್ಕೆ ಥರ್ಸ್‌ಡೇ, ಶುಕ್ರವಾರಕ್ಕೆ ಫ್ರೈಡೇ, ಶನಿವಾರಕ್ಕೆ ಸ್ಯಾಟರ್ಡೇ ಮತ್ತು ಭಾನುವಾರಕ್ಕೆ ಸಂಡೇ ಎನ್ನುತ್ತಾರೆ. ಈ ಎಲ್ಲಾ ದಿನಗಳ ಹೆಸರುಗಳನ್ನು ಇಂಗ್ಲಿಷ್‌ನಲ್ಲಿ ಬರೆಯುವಾಗ ಯಾವಾಗಲೂ ಮೊದಲ ಅಕ್ಷರವನ್ನು ದೊಡ್ಡ ಅಕ್ಷರದಲ್ಲಿ (ಕ್ಯಾಪಿಟಲ್) ಬರೆಯಬೇಕು! ಒಂದು ನಿರ್ದಿಷ್ಟ ದಿನದಂದು ಎಂದು ಹೇಳುವಾಗ ಆ ದಿನದ ಹೆಸರಿನ ಮುಂದೆ 'ಆನ್' ಎಂಬ ಪೂರ್ವಪದವನ್ನು ಬಳಸಬೇಕು; ಉದಾಹರಣೆಗೆ, ಸೋಮವಾರದಂದು ಎಂದು ಹೇಳಲು 'ಆನ್ ಮಂಡೇ' ಎಂದೂ, ಶುಕ್ರವಾರದಂದು ಎಂದು ಹೇಳಲು 'ಆನ್ ಫ್ರೈಡೇ' ಎಂದೂ ಹೇಳುತ್ತಾರೆ.",
           "days": [
             {
               "english": "Monday",
@@ -6981,7 +7051,7 @@
       {
         "id": 1,
         "title": "Present Simple Tense - I/You/We/They",
-        "kannadaTitle": "ಪ್ರಸ್ತುತ ಸರಳ ಕಾಲ - I/You/We/They",
+        "kannadaTitle": "ಪ್ರಸ್ತುತ ಸರಳ ಕಾಲ - ನಾನು/ನೀನು/ನಾವು/ಅವರು",
         "content": {
           "explanation": "Present Simple for I/you/we/they uses the base form of the verb (no changes). 'I work at Infosys.' 'You live in Bengaluru.' 'We speak Kannada.' 'They play cricket.' Use for: facts, habits, routines, permanent situations. Negative: I/you/we/they + don't + base verb. 'I don't work on Sundays.'",
           "kannadaExplanation": "ಸರಳ ವರ್ತಮಾನ ಕಾಲ I/you/we/they ಗೆ ಮೂಲ ಕ್ರಿಯಾಪದ ಬಳಸಿ (ಬದಲಾವಣೆ ಇಲ್ಲ). 'I work' = ನಾನು ಕೆಲಸ ಮಾಡುತ್ತೇನೆ. ಸತ್ಯಗಳು, ಅಭ್ಯಾಸಗಳು, ದಿನಚರಿಗೆ ಬಳಸಿ. ನಕಾರಾತ್ಮಕ: don't + base verb.",
@@ -7607,7 +7677,7 @@
         "kannadaTitle": "ಪ್ರಸ್ತುತ ಸರಳ - ನಕಾರಾತ್ಮಕ ವಾಕ್ಯಗಳು",
         "content": {
           "explanation": "Negative sentences in present simple: I/you/we/they + do not (don't) + base verb. 'I don't eat meat.' He/she/it + does not (doesn't) + base verb. 'She doesn't drink coffee.' Important: After don't/doesn't, use the BASE form! 'She doesn't work' (NOT 'doesn't works'). Double negative is wrong: 'I don't have nothing' → 'I don't have anything.'",
-          "kannadaExplanation": "ನಕಾರಾತ್ಮಕ ವಾಕ್ಯಗಳು: I/you/we/they + don't + ಮೂಲ ಕ್ರಿಯಾಪದ. He/she/it + doesn't + ಮೂಲ ಕ್ರಿಯಾಪದ. ಮುಖ್ಯ: don't/doesn't ನಂತರ ಮೂಲ ರೂಪ! 'doesn't work' ಸರಿ, 'doesn't works' ತಪ್ಪು.",
+          "kannadaExplanation": "ನಕಾರಾತ್ಮಕ ವಾಕ್ಯಗಳಲ್ಲಿ: ನಾನು/ನೀನು/ನಾವು/ಅವರು ಎಂಬ ಕರ್ತೃಗಳ ನಂತರ 'ಡೋಂಟ್' (ಮಾಡುವುದಿಲ್ಲ ಎಂಬ ಅರ್ಥ) + ಕ್ರಿಯಾಪದದ ಮೂಲ ರೂಪ ಬಳಸಿ. ಅವನು/ಅವಳು/ಅದು ಎಂಬ ಕರ್ತೃಗಳ ನಂತರ 'ಡಸಂಟ್' + ಕ್ರಿಯಾಪದದ ಮೂಲ ರೂಪ ಬಳಸಿ. ಉದಾಹರಣೆಗೆ, ನಾನು ಮಾಂಸ ತಿನ್ನುವುದಿಲ್ಲ ಎಂದು ಹೇಳಲು 'ಐ ಡೋಂಟ್ ಈಟ್ ಮೀಟ್' ಎನ್ನುತ್ತೇವೆ, ಮತ್ತು ಅವಳು ಕಾಫಿ ಕುಡಿಯುವುದಿಲ್ಲ ಎಂದು ಹೇಳಲು 'ಶಿ ಡಸಂಟ್ ಡ್ರಿಂಕ್ ಕಾಫಿ' ಎನ್ನುತ್ತೇವೆ. ಮುಖ್ಯ ನಿಯಮ: 'ಡಸಂಟ್' ಬಳಸಿದ ನಂತರ ಕ್ರಿಯಾಪದಕ್ಕೆ ಎಂದಿಗೂ 's' ಸೇರಿಸಬಾರದು, ಯಾವಾಗಲೂ ಮೂಲ ರೂಪವನ್ನೇ ಬಳಸಬೇಕು. ಎರಡು ನಕಾರಾತ್ಮಕ ಪದಗಳನ್ನು ಒಂದೇ ವಾಕ್ಯದಲ್ಲಿ ಬಳಸುವುದು ತಪ್ಪು ಎಂಬುದನ್ನೂ ನೆನಪಿಡಿ.",
           "patterns": [
             {
               "pattern": "I do not / I don't",
@@ -8198,7 +8268,7 @@
       {
         "id": 5,
         "title": "Question Words - What, Where, When",
-        "kannadaTitle": "ಪ್ರಶ್ನಾರ್ಥಕ ಪದಗಳು - What, Where, When",
+        "kannadaTitle": "ಪ್ರಶ್ನಾರ್ಥಕ ಪದಗಳು - ಏನು, ಎಲ್ಲಿ, ಯಾವಾಗ",
         "content": {
           "explanation": "WH-question words: What (ಏನು) — 'What is your name?' Where (ಎಲ್ಲಿ) — 'Where do you live?' When (ಯಾವಾಗ) — 'When does the bus come?' Structure: WH-word + do/does + subject + base verb? 'What do you eat for breakfast?' 'Where does she work?' 'When do they open?'",
           "kannadaExplanation": "WH-ಪ್ರಶ್ನಾ ಪದಗಳು: What=ಏನು, Where=ಎಲ್ಲಿ, When=ಯಾವಾಗ. ರಚನೆ: WH-ಪದ + do/does + ಕರ್ತೃ + ಮೂಲ ಕ್ರಿಯಾಪದ? 'What do you eat?' = ನೀವು ಏನು ತಿನ್ನುತ್ತೀರಿ?",
@@ -9102,7 +9172,7 @@
         "kannadaTitle": "ದೈನಂದಿನ ಕಾರ್ಯಗಳು - ಮಧ್ಯಾಹ್ನ/ಸಾಯಂಕಾಲ",
         "content": {
           "explanation": "Describe your afternoon and evening routine. Common activities: have lunch, take a nap, do homework, go for a walk, watch TV, have dinner, read a book, go to bed. Time expressions: in the afternoon, in the evening, at night, at [time]. 'I have lunch at 1 PM. In the evening, I go for a walk in the park.'",
-          "kannadaExplanation": "ಮಧ್ಯಾಹ್ನ ಮತ್ತು ಸಂಜೆ ದಿನಚರಿ. ಚಟುವಟಿಕೆಗಳು: have lunch (ಊಟ), take a nap (ಮಲಗು), go for a walk (ವಾಕ್), watch TV (ಟಿವಿ ನೋಡು), have dinner (ರಾತ್ರಿ ಊಟ), go to bed (ಮಲಗು). ಸಮಯ: in the afternoon, in the evening, at night.",
+          "kannadaExplanation": "ಮಧ್ಯಾಹ್ನ ಮತ್ತು ಸಂಜೆಯ ದಿನಚರಿಯನ್ನು ವಿವರಿಸಿ. ಸಾಮಾನ್ಯ ಚಟುವಟಿಕೆಗಳು: ಊಟ ಮಾಡುವುದು, ಸ್ವಲ್ಪ ನಿದ್ರೆ ಮಾಡುವುದು, ಮನೆಕೆಲಸ ಮಾಡುವುದು, ವಾಕಿಂಗ್‌ಗೆ ಹೋಗುವುದು, ಟಿವಿ ನೋಡುವುದು, ರಾತ್ರಿ ಊಟ ಮಾಡುವುದು, ಪುಸ್ತಕ ಓದುವುದು, ಮಲಗಲು ಹೋಗುವುದು. ಸಮಯ ಸೂಚಿಸಲು ಬಳಸುವ ಪದಗಳು: ಮಧ್ಯಾಹ್ನ, ಸಂಜೆ, ರಾತ್ರಿ, ಮತ್ತು ನಿರ್ದಿಷ್ಟ ಸಮಯದಲ್ಲಿ. ಉದಾಹರಣೆಗೆ: 'ನಾನು ಮಧ್ಯಾಹ್ನ ಒಂದು ಗಂಟೆಗೆ ಊಟ ಮಾಡುತ್ತೇನೆ. ಸಂಜೆ, ನಾನು ಉದ್ಯಾನವನದಲ್ಲಿ ವಾಕಿಂಗ್‌ಗೆ ಹೋಗುತ್ತೇನೆ.'",
           "vocabulary": [
             {
               "english": "eat lunch",
@@ -10298,7 +10368,7 @@
         "kannadaTitle": "ಹೊಂದಿದೆ / ಹೊಂದಿದ್ದಾರೆ",
         "content": {
           "explanation": "'Have' is used for possession, relationships, meals, and experiences. I/you/we/they → have. He/she/it → has. 'I have a phone.' 'She has two children.' 'We have lunch at 1 PM.' 'He has a headache.' Negative: don't have / doesn't have. 'I don't have a car.' Questions: 'Do you have...?' 'Does she have...?'",
-          "kannadaExplanation": "'Have/has' ಒಡೆತನ, ಸಂಬಂಧ, ಊಟ, ಅನುಭವಕ್ಕೆ ಬಳಸಿ. I/you/we/they → have. He/she/it → has. 'I have a phone' = ನನ್ನ ಬಳಿ ಫೋನ್ ಇದೆ. 'She has two children' = ಅವಳಿಗೆ ಇಬ್ಬರು ಮಕ್ಕಳಿದ್ದಾರೆ. 'I am having' ಅಲ್ಲ, 'I have' ಬಳಸಿ!",
+          "kannadaExplanation": "'ಹ್ಯಾವ್/ಹ್ಯಾಸ್' ಪದಗಳನ್ನು ಒಡೆತನ, ಸಂಬಂಧ, ಊಟ ಮತ್ತು ಅನುಭವಗಳನ್ನು ಹೇಳಲು ಬಳಸಲಾಗುತ್ತದೆ. ನಾನು/ನೀನು/ನಾವು/ಅವರು ಎಂಬ ಕರ್ತೃಗಳಿಗೆ 'ಹ್ಯಾವ್' ಬಳಸಿ, ಅವನು/ಅವಳು/ಅದು ಎಂಬ ಕರ್ತೃಗಳಿಗೆ 'ಹ್ಯಾಸ್' ಬಳಸಿ. ಉದಾಹರಣೆಗೆ, ನನ್ನ ಬಳಿ ಫೋನ್ ಇದೆ ಎಂದು ಹೇಳಲು 'ಐ ಹ್ಯಾವ್ ಎ ಫೋನ್' ಎನ್ನುತ್ತೇವೆ, ಮತ್ತು ಅವಳಿಗೆ ಇಬ್ಬರು ಮಕ್ಕಳಿದ್ದಾರೆ ಎಂದು ಹೇಳಲು 'ಶಿ ಹ್ಯಾಸ್ ಟು ಚಿಲ್ಡ್ರನ್' ಎನ್ನುತ್ತೇವೆ. ನಕಾರಾತ್ಮಕಕ್ಕೆ 'ಡೋಂಟ್ ಹ್ಯಾವ್' ಅಥವಾ 'ಡಸಂಟ್ ಹ್ಯಾವ್' ಬಳಸಿ, ಉದಾಹರಣೆಗೆ ನನ್ನ ಬಳಿ ಕಾರು ಇಲ್ಲ. ಪ್ರಶ್ನೆ ಕೇಳಲು 'ಡು ಯು ಹ್ಯಾವ್...?' ಅಥವಾ 'ಡಸ್ ಶಿ ಹ್ಯಾವ್...?' ಎಂದು ಕೇಳಿ. ಗಮನಿಸಿ: 'ಐ ಆಮ್ ಹ್ಯಾವಿಂಗ್' ಎಂದು ಹೇಳಬಾರದು, ಬದಲಿಗೆ ಯಾವಾಗಲೂ 'ಐ ಹ್ಯಾವ್' ಎಂದೇ ಹೇಳಬೇಕು.",
           "patterns": [
             {
               "pattern": "I have / You have / We have / They have",
@@ -10597,7 +10667,7 @@
         "kannadaTitle": "ಕಾಲದ ಉಪಸರ್ಗಗಳು",
         "content": {
           "explanation": "Prepositions of time: at (specific time) — 'at 9 AM', 'at noon', 'at midnight', 'at night'. in (longer periods) — 'in January', 'in 2024', 'in the morning/afternoon/evening', 'in summer'. on (days/dates) — 'on Monday', 'on 15th August', 'on my birthday', 'on weekends'. No preposition: today, tomorrow, yesterday, every day, last week, next month.",
-          "kannadaExplanation": "ಸಮಯದ ಪೂರ್ವಪ್ರತ್ಯಯ: at=ನಿಖರ ಸಮಯ ('at 9 AM'). in=ದೀರ್ಘ ಅವಧಿ ('in January', 'in the morning'). on=ದಿನ/ದಿನಾಂಕ ('on Monday', 'on 15th August'). today, tomorrow, yesterday ಗೆ ಪೂರ್ವಪ್ರತ್ಯಯ ಬೇಡ.",
+          "kannadaExplanation": "ಸಮಯದ ಪೂರ್ವಪ್ರತ್ಯಯಗಳು: 'ಅಟ್' ಅನ್ನು ನಿಖರವಾದ ಸಮಯಕ್ಕೆ ಬಳಸಿ, ಉದಾಹರಣೆಗೆ ಬೆಳಿಗ್ಗೆ ಒಂಬತ್ತು ಗಂಟೆಗೆ, ಮಧ್ಯಾಹ್ನ ಸರಿಯಾಗಿ, ಮಧ್ಯರಾತ್ರಿ, ಅಥವಾ ರಾತ್ರಿ ಸಮಯ ಹೇಳುವಾಗ. 'ಇನ್' ಅನ್ನು ದೀರ್ಘ ಅವಧಿಗಳಿಗೆ ಬಳಸಿ, ಉದಾಹರಣೆಗೆ ತಿಂಗಳು, ವರ್ಷ, ಬೆಳಿಗ್ಗೆ/ಮಧ್ಯಾಹ್ನ/ಸಂಜೆ ಎಂಬ ಸಮಯದ ಭಾಗಗಳಿಗೆ, ಅಥವಾ ಋತುಗಳಿಗೆ. 'ಆನ್' ಅನ್ನು ವಾರದ ದಿನಗಳಿಗೆ ಮತ್ತು ದಿನಾಂಕಗಳಿಗೆ ಬಳಸಿ, ಉದಾಹರಣೆಗೆ ಸೋಮವಾರ, ಆಗಸ್ಟ್ ಹದಿನೈದನೇ ದಿನ, ಹುಟ್ಟುಹಬ್ಬ, ಅಥವಾ ವಾರಾಂತ್ಯ. ಇಂದು, ನಾಳೆ, ನಿನ್ನೆ, ಪ್ರತಿದಿನ, ಕಳೆದ ವಾರ, ಮುಂದಿನ ತಿಂಗಳು ಎಂಬಂತಹ ಪದಗಳ ಮುಂದೆ ಯಾವುದೇ ಪೂರ್ವಪ್ರತ್ಯಯ ಬಳಸುವ ಅಗತ್ಯವಿಲ್ಲ.",
           "patterns": [
             {
               "pattern": "in",
@@ -10895,7 +10965,7 @@
         "kannadaTitle": "ಸ್ಥಳದ ಉಪಸರ್ಗಗಳು",
         "content": {
           "explanation": "Prepositions of place: in (inside) — 'in the box', 'in Bengaluru', 'in the room'. on (surface) — 'on the table', 'on the wall', 'on MG Road'. at (specific point) — 'at the bus stop', 'at home', 'at work'. Others: under (below), behind (back), next to (beside), between (middle), in front of, opposite (across from).",
-          "kannadaExplanation": "ಸ್ಥಳದ ಪೂರ್ವಪ್ರತ್ಯಯ: in=ಒಳಗೆ ('in the box', 'in Bengaluru'). on=ಮೇಲ್ಮೈ ('on the table'). at=ನಿರ್ದಿಷ್ಟ ಸ್ಥಳ ('at the bus stop'). ಇತರ: under=ಕೆಳಗೆ, behind=ಹಿಂದೆ, next to=ಪಕ್ಕ, between=ಮಧ್ಯೆ.",
+          "kannadaExplanation": "ಸ್ಥಳದ ಪೂರ್ವಪ್ರತ್ಯಯಗಳು: 'ಇನ್' ಅನ್ನು ಯಾವುದೋ ಒಂದರ ಒಳಗೆ ಇರುವುದನ್ನು ಸೂಚಿಸಲು ಬಳಸಿ, ಉದಾಹರಣೆಗೆ ಪೆಟ್ಟಿಗೆಯ ಒಳಗೆ, ಬೆಂಗಳೂರಿನಲ್ಲಿ, ಕೋಣೆಯ ಒಳಗೆ. 'ಆನ್' ಅನ್ನು ಯಾವುದೋ ಮೇಲ್ಮೈಯ ಮೇಲೆ ಇರುವುದನ್ನು ಸೂಚಿಸಲು ಬಳಸಿ, ಉದಾಹರಣೆಗೆ ಮೇಜಿನ ಮೇಲೆ, ಗೋಡೆಯ ಮೇಲೆ, ಎಂ.ಜಿ. ರಸ್ತೆಯ ಮೇಲೆ. 'ಅಟ್' ಅನ್ನು ನಿರ್ದಿಷ್ಟವಾದ ಸ್ಥಳಕ್ಕೆ ಬಳಸಿ, ಉದಾಹರಣೆಗೆ ಬಸ್ ನಿಲ್ದಾಣದಲ್ಲಿ, ಮನೆಯಲ್ಲಿ, ಕೆಲಸದ ಸ್ಥಳದಲ್ಲಿ. ಇತರ ಪ್ರಮುಖ ಪದಗಳು: ಕೆಳಗೆ, ಹಿಂದೆ, ಪಕ್ಕದಲ್ಲಿ, ಮಧ್ಯೆ, ಮುಂದೆ, ಎದುರಿಗೆ.",
           "patterns": [
             {
               "pattern": "in",
@@ -14852,7 +14922,7 @@
         "kannadaTitle": "ಪ್ರಸ್ತುತ ನಿರಂತರ - ನಕಾರಾತ್ಮಕ",
         "content": {
           "explanation": "Present Continuous Negative: am not / isn't / aren't + verb-ing. 'I am not working today.' 'She isn't cooking.' 'They aren't playing.' Contractions: is not → isn't, are not → aren't. Use for: things NOT happening right now, temporary situations that are not true.",
-          "kannadaExplanation": "ಪ್ರಸ್ತುತ ನಿರಂತರ ನಕಾರಾತ್ಮಕ: am not / isn't / aren't + verb-ing. 'I am not working' = ನಾನು ಕೆಲಸ ಮಾಡುತ್ತಿಲ್ಲ. 'She isn't cooking' = ಅವಳು ಅಡುಗೆ ಮಾಡುತ್ತಿಲ್ಲ.",
+          "kannadaExplanation": "ಪ್ರಸ್ತುತ ನಿರಂತರ ಕಾಲದ ನಕಾರಾತ್ಮಕ ರೂಪ ಮಾಡಲು ಕ್ರಿಯಾಪದದ ing ರೂಪದ ಮುಂದೆ 'am not', 'isn't' ಅಥವಾ 'aren't' ಸೇರಿಸುತ್ತೇವೆ. ಉದಾಹರಣೆಗೆ, ನಾನು ಇಂದು ಕೆಲಸ ಮಾಡುತ್ತಿಲ್ಲ, ಅವಳು ಅಡುಗೆ ಮಾಡುತ್ತಿಲ್ಲ, ಅವರು ಆಡುತ್ತಿಲ್ಲ ಎಂದು ಹೇಳಬಹುದು. is not ಪದವನ್ನು ಸಂಕ್ಷಿಪ್ತಗೊಳಿಸಿದರೆ isn't ಆಗುತ್ತದೆ, are not ಪದವನ್ನು ಸಂಕ್ಷಿಪ್ತಗೊಳಿಸಿದರೆ aren't ಆಗುತ್ತದೆ. ಈ ರಚನೆಯನ್ನು ಈಗ ನಡೆಯುತ್ತಿಲ್ಲದ ಕೆಲಸಗಳಿಗೆ ಮತ್ತು ಸತ್ಯವಲ್ಲದ ತಾತ್ಕಾಲಿಕ ಸ್ಥಿತಿಗಳಿಗೆ ಬಳಸುತ್ತೇವೆ.",
           "patterns": [
             {
               "pattern": "I am not + verb-ing",
@@ -15755,7 +15825,7 @@
         "kannadaTitle": "ಕುಟುಂಬವನ್ನು ವಿವರಿಸುವುದು",
         "content": {
           "explanation": "Describing family uses adjectives and present simple. 'My father is kind and hardworking.' 'My mother is caring.' Adjectives for people: kind (ದಯಾಳು), strict (ಕಟ್ಟುನಿಟ್ಟಿನ), caring (ಕಾಳಜಿಯುಳ್ಳ), funny (ತಮಾಷೆ), quiet (ಮೌನ), talkative (ಮಾತುಗಾರ), hardworking (ಕಷ್ಟಪಡುವ), friendly (ಸ್ನೇಹಪರ), patient (ತಾಳ್ಮೆಯ).",
-          "kannadaExplanation": "ಕುಟುಂಬವನ್ನು ವಿಶೇಷಣಗಳಿಂದ ವಿವರಿಸಿ. 'My father is kind' = ನನ್ನ ತಂದೆ ದಯಾಳು. ವ್ಯಕ್ತಿತ್ವ ವಿಶೇಷಣಗಳು: kind, strict, caring, funny, quiet, hardworking, friendly.",
+          "kannadaExplanation": "ಕುಟುಂಬದ ಸದಸ್ಯರನ್ನು ವಿವರಿಸಲು ವಿಶೇಷಣಗಳನ್ನು ಮತ್ತು ಸರಳ ವರ್ತಮಾನ ಕಾಲವನ್ನು ಬಳಸುತ್ತೇವೆ. ಉದಾಹರಣೆಗೆ, ನನ್ನ ತಂದೆ ದಯಾಳು ಮತ್ತು ಕಷ್ಟಪಡುವವರು; ನನ್ನ ತಾಯಿ ಕಾಳಜಿಯುಳ್ಳವರು ಎಂದು ಹೇಳಬಹುದು. ವ್ಯಕ್ತಿತ್ವ ವಿಶೇಷಣಗಳು: ದಯಾಳು, ಕಟ್ಟುನಿಟ್ಟಿನ, ಕಾಳಜಿಯುಳ್ಳ, ತಮಾಷೆಯ, ಮೌನ, ಮಾತುಗಾರ, ಕಷ್ಟಪಡುವ, ಸ್ನೇಹಪರ, ತಾಳ್ಮೆಯ. ಈ ಪದಗಳನ್ನು is/are ಜೊತೆ ಬಳಸಿ ವ್ಯಕ್ತಿಯ ಗುಣಗಳನ್ನು ವಿವರಿಸಬಹುದು.",
           "patterns": [
             {
               "pattern": "My father is a...",
@@ -16353,7 +16423,7 @@
         "kannadaTitle": "ಗೃಹೋಪಯೋಗಿ ವಸ್ತುಗಳು",
         "content": {
           "explanation": "Household items vocabulary: furniture — table (ಮೇಜು), chair (ಕುರ್ಚಿ), bed (ಹಾಸಿಗೆ), sofa (ಸೋಫಾ), cupboard/almirah (ಕಪಾಟು), shelf (ಶೆಲ್ಫ್). Kitchen — stove (ಒಲೆ), fridge (ಫ್ರಿಡ್ಜ್), utensils (ಪಾತ್ರೆ), plate (ತಟ್ಟೆ), glass (ಲೋಟ). Electronics — fan (ಫ್ಯಾನ್), TV, washing machine. Use with prepositions: 'on the table', 'in the cupboard', 'under the bed'.",
-          "kannadaExplanation": "ಮನೆ ವಸ್ತುಗಳ ಪದಗಳು: ಪೀಠೋಪಕರಣ — table=ಮೇಜು, chair=ಕುರ್ಚಿ, bed=ಹಾಸಿಗೆ, cupboard=ಕಪಾಟು. ಅಡುಗೆಮನೆ — stove=ಒಲೆ, fridge=ಫ್ರಿಡ್ಜ್, plate=ತಟ್ಟೆ. ಪೂರ್ವಪ್ರತ್ಯಯಗಳೊಂದಿಗೆ: 'on the table', 'in the cupboard'.",
+          "kannadaExplanation": "ಮನೆಯ ವಸ್ತುಗಳ ಪದಗಳನ್ನು ಕಲಿಯೋಣ. ಪೀಠೋಪಕರಣಗಳು: ಮೇಜು, ಕುರ್ಚಿ, ಹಾಸಿಗೆ, ಸೋಫಾ, ಕಪಾಟು, ಶೆಲ್ಫ್. ಅಡುಗೆಮನೆಯ ವಸ್ತುಗಳು: ಒಲೆ, ಫ್ರಿಡ್ಜ್, ಪಾತ್ರೆಗಳು, ತಟ್ಟೆ, ಲೋಟ. ವಿದ್ಯುತ್ ಉಪಕರಣಗಳು: ಫ್ಯಾನ್, ದೂರದರ್ಶನ, ಬಟ್ಟೆ ಒಗೆಯುವ ಯಂತ್ರ. ಈ ವಸ್ತುಗಳ ಸ್ಥಳ ಹೇಳಲು ಪೂರ್ವಸರ್ಗಗಳನ್ನು ಬಳಸುತ್ತೇವೆ: ಮೇಜಿನ ಮೇಲೆ, ಕಪಾಟಿನ ಒಳಗೆ, ಹಾಸಿಗೆಯ ಕೆಳಗೆ.",
           "vocabulary": [
             {
               "english": "table",
@@ -17535,7 +17605,7 @@
         "kannadaTitle": "ವರ್ತಮಾನ ಕಾಲ vs ವರ್ತಮಾನ ನಿರಂತರ ಕಾಲ",
         "content": {
           "explanation": "Present Simple vs Present Continuous — knowing when to use each is critical! Present Simple: habits, routines, facts, permanent situations. 'I drink coffee every morning.' Present Continuous: happening now, temporary, changing. 'I am drinking tea today (unusual).' Stative verbs (know, like, want, have, believe, understand) DON'T use continuous!",
-          "kannadaExplanation": "ಸರಳ ವರ್ತಮಾನ vs ನಿರಂತರ ವರ್ತಮಾನ. ಸರಳ: ಅಭ್ಯಾಸ, ಸತ್ಯ, ಶಾಶ್ವತ ('I drink coffee every morning'). ನಿರಂತರ: ಈಗ, ತಾತ್ಕಾಲಿಕ ('I am drinking tea today'). ಮುಖ್ಯ: ಸ್ಥಿತಿ ಕ್ರಿಯಾಪದಗಳು (know, like, want) continuous ರೂಪದಲ್ಲಿ ಬಳಸಬಾರದು!",
+          "kannadaExplanation": "ಸರಳ ವರ್ತಮಾನ ಮತ್ತು ನಿರಂತರ ವರ್ತಮಾನ ಕಾಲಗಳ ನಡುವಿನ ವ್ಯತ್ಯಾಸ ತಿಳಿಯುವುದು ಬಹಳ ಮುಖ್ಯ. ಸರಳ ವರ್ತಮಾನವನ್ನು ಅಭ್ಯಾಸಗಳಿಗೆ, ದಿನಚರಿಗಳಿಗೆ, ಸತ್ಯಗಳಿಗೆ ಮತ್ತು ಶಾಶ್ವತ ಸ್ಥಿತಿಗಳಿಗೆ ಬಳಸುತ್ತೇವೆ; ಉದಾಹರಣೆಗೆ, ನಾನು ಪ್ರತಿದಿನ ಬೆಳಿಗ್ಗೆ ಕಾಫಿ ಕುಡಿಯುತ್ತೇನೆ. ನಿರಂತರ ವರ್ತಮಾನವನ್ನು ಈಗ ನಡೆಯುತ್ತಿರುವ ಅಥವಾ ತಾತ್ಕಾಲಿಕ, ಬದಲಾಗುತ್ತಿರುವ ಸಂಗತಿಗಳಿಗೆ ಬಳಸುತ್ತೇವೆ; ಉದಾಹರಣೆಗೆ, ನಾನು ಇಂದು ಚಹಾ ಕುಡಿಯುತ್ತಿದ್ದೇನೆ (ಇದು ಸಾಮಾನ್ಯವಲ್ಲ). ಮುಖ್ಯ ಗಮನಿಸಿ: ತಿಳಿವಳಿಕೆ, ಇಷ್ಟ, ಬಯಕೆ, ಹೊಂದಿರುವಿಕೆ ಮುಂತಾದ ಸ್ಥಿತಿ ಸೂಚಿಸುವ ಕ್ರಿಯಾಪದಗಳನ್ನು ನಿರಂತರ ರೂಪದಲ್ಲಿ ಬಳಸುವುದಿಲ್ಲ.",
           "rules": [
             "Present Simple: Habits, routines, facts (I work every day)",
             "Present Continuous: Happening now, temporary (I am working now)",
@@ -18248,6 +18318,26 @@
               "under"
             ],
             "correct": 2
+          },
+          {
+            "question": "The keys are ___ the drawer.",
+            "options": [
+              "on",
+              "in",
+              "at",
+              "between"
+            ],
+            "correct": 1
+          },
+          {
+            "question": "The cat is sleeping ___ the bed.",
+            "options": [
+              "between",
+              "on",
+              "under",
+              "behind"
+            ],
+            "correct": 2
           }
         ],
         "quiz": {
@@ -18535,6 +18625,26 @@
               "at, during"
             ],
             "correct": 3
+          },
+          {
+            "question": "We usually meet ___ 5 PM.",
+            "options": [
+              "on",
+              "in",
+              "at",
+              "for"
+            ],
+            "correct": 2
+          },
+          {
+            "question": "My birthday is ___ 15th August.",
+            "options": [
+              "at",
+              "on",
+              "in",
+              "by"
+            ],
+            "correct": 1
           }
         ],
         "quiz": {
@@ -18783,6 +18893,56 @@
               "into"
             ],
             "correct": 2
+          },
+          {
+            "question": "She walked ___ the room and sat down.",
+            "options": [
+              "out of",
+              "into",
+              "across",
+              "along"
+            ],
+            "correct": 1
+          },
+          {
+            "question": "He came ___ the house quickly when he heard the noise.",
+            "options": [
+              "into",
+              "through",
+              "out of",
+              "up"
+            ],
+            "correct": 2
+          },
+          {
+            "question": "They drove ___ the tunnel to reach the other side.",
+            "options": [
+              "across",
+              "through",
+              "along",
+              "to"
+            ],
+            "correct": 1
+          },
+          {
+            "question": "We walked ___ the road carefully to reach the shop.",
+            "options": [
+              "through",
+              "into",
+              "across",
+              "down"
+            ],
+            "correct": 2
+          },
+          {
+            "question": "The children climbed ___ the stairs to their room.",
+            "options": [
+              "down",
+              "along",
+              "across",
+              "up"
+            ],
+            "correct": 3
           }
         ],
         "quiz": {
@@ -19040,6 +19200,56 @@
               "He sat down"
             ],
             "correct": 2
+          },
+          {
+            "question": "Which sentence is an imperative (command)?",
+            "options": [
+              "He sits down.",
+              "Sit down.",
+              "Sitting down.",
+              "Sits down."
+            ],
+            "correct": 1
+          },
+          {
+            "question": "Choose the correct negative imperative for 'run'.",
+            "options": [
+              "Not run.",
+              "Runs not.",
+              "Don't run.",
+              "Doesn't run."
+            ],
+            "correct": 2
+          },
+          {
+            "question": "Which word makes a command more polite?",
+            "options": [
+              "Please",
+              "Don't",
+              "Never",
+              "Always"
+            ],
+            "correct": 0
+          },
+          {
+            "question": "Imperative sentences are commonly used for:",
+            "options": [
+              "asking questions",
+              "giving directions and instructions",
+              "describing the past",
+              "making comparisons"
+            ],
+            "correct": 1
+          },
+          {
+            "question": "In imperative sentences, the subject 'you' is:",
+            "options": [
+              "always spoken",
+              "never used in English",
+              "understood but not spoken",
+              "replaced by 'I'"
+            ],
+            "correct": 2
           }
         ],
         "quiz": {
@@ -19286,6 +19496,56 @@
               "me",
               "mine",
               "I"
+            ],
+            "correct": 2
+          },
+          {
+            "question": "Choose the correct possessive form for a car belonging to Ramesh.",
+            "options": [
+              "Rameshs car",
+              "Ramesh's car",
+              "Ramesh' car",
+              "Rameshes car"
+            ],
+            "correct": 1
+          },
+          {
+            "question": "Which possessive form is correct for bags belonging to several students (plural noun ending in s)?",
+            "options": [
+              "the students's bags",
+              "the student's bags",
+              "the students' bags",
+              "the studentss bags"
+            ],
+            "correct": 2
+          },
+          {
+            "question": "Which of these is a possessive pronoun (not a possessive adjective)?",
+            "options": [
+              "my",
+              "hers",
+              "its",
+              "their"
+            ],
+            "correct": 1
+          },
+          {
+            "question": "Which question word asks about ownership?",
+            "options": [
+              "What",
+              "Whose",
+              "Who",
+              "Which"
+            ],
+            "correct": 1
+          },
+          {
+            "question": "Choose the correct possessive adjective: '___ book is on the table.' (the book belongs to me)",
+            "options": [
+              "Mine",
+              "I",
+              "My",
+              "Me"
             ],
             "correct": 2
           }
@@ -19566,6 +19826,26 @@
               "How"
             ],
             "correct": 3
+          },
+          {
+            "question": "Which WH-word asks about a reason?",
+            "options": [
+              "What",
+              "Why",
+              "Where",
+              "Who"
+            ],
+            "correct": 1
+          },
+          {
+            "question": "Choose the correct question word for asking about the quantity of an uncountable noun like water.",
+            "options": [
+              "How many",
+              "How much",
+              "How long",
+              "How often"
+            ],
+            "correct": 1
           }
         ],
         "quiz": {
@@ -19851,6 +20131,26 @@
               "Did she work?",
               "Did she works?",
               "She did worked?"
+            ],
+            "correct": 1
+          },
+          {
+            "question": "What is the correct simple past tense of 'study'?",
+            "options": [
+              "studyed",
+              "studied",
+              "studies",
+              "studing"
+            ],
+            "correct": 1
+          },
+          {
+            "question": "Which verb doubles its final consonant when forming the simple past (CVC pattern)?",
+            "options": [
+              "work",
+              "stop",
+              "play",
+              "cook"
             ],
             "correct": 1
           }
@@ -22649,7 +22949,7 @@
         "kannadaTitle": "ಕಾಲ ವ್ಯಕ್ತಪಡಿಕೆ - ಭವಿಷ್ಯತ್",
         "content": {
           "explanation": "Time expressions for the future: tomorrow, next week, next month, next year, in two days, soon, later, in the future, this weekend, this evening, tonight. 'I will call you tomorrow.' 'We are going to Goa next month.' 'The meeting is on Friday.' Days/dates for fixed events. 'In' for months/years: 'in January', 'in 2025'.",
-          "kannadaExplanation": "ಭವಿಷ್ಯ ಕಾಲದ ಸಮಯ ಅಭಿವ್ಯಕ್ತಿಗಳು: tomorrow=ನಾಳೆ, next week=ಮುಂದಿನ ವಾರ, soon=ಶೀಘ್ರ, later=ನಂತರ. 'I will call you tomorrow' = ನಾಳೆ ಕರೆ ಮಾಡುತ್ತೇನೆ.",
+          "kannadaExplanation": "ಭವಿಷ್ಯ ಕಾಲದ ಸಮಯ ಸೂಚಕ ಪದಗಳು: ನಾಳೆ, ಮುಂದಿನ ವಾರ, ಮುಂದಿನ ತಿಂಗಳು, ಮುಂದಿನ ವರ್ಷ, ಎರಡು ದಿನಗಳಲ್ಲಿ, ಶೀಘ್ರದಲ್ಲಿ, ನಂತರ, ಭವಿಷ್ಯದಲ್ಲಿ, ಈ ವಾರಾಂತ್ಯ, ಈ ಸಂಜೆ, ಇಂದು ರಾತ್ರಿ ಮುಂತಾದವು. ಉದಾಹರಣೆಗೆ, 'ನಾನು ನಿನಗೆ ನಾಳೆ ಕರೆ ಮಾಡುತ್ತೇನೆ' ಮತ್ತು 'ನಾವು ಮುಂದಿನ ತಿಂಗಳು ಗೋವಾಗೆ ಹೋಗುತ್ತಿದ್ದೇವೆ' ಎಂಬಂತಹ ವಾಕ್ಯಗಳಲ್ಲಿ ಇವನ್ನು ಬಳಸುತ್ತೇವೆ. ನಿಗದಿತ ಘಟನೆಗಳಿಗೆ ದಿನ ಅಥವಾ ದಿನಾಂಕಗಳನ್ನು ಬಳಸಿ - 'ಸಭೆ ಶುಕ್ರವಾರ ಇದೆ.' ತಿಂಗಳು ಮತ್ತು ವರ್ಷಗಳಿಗೆ ಇಂಗ್ಲಿಷಿನ 'ಇನ್' ಪೂರ್ವಪದಕ್ಕೆ ಸಮಾನವಾಗಿ ಕನ್ನಡದಲ್ಲಿ 'ಜನವರಿಯಲ್ಲಿ', '೨೦೨೫ರಲ್ಲಿ' ಎಂದು ಹೇಳಲಾಗುತ್ತದೆ.",
           "vocabulary": [
             {
               "english": "tomorrow",
@@ -23641,6 +23941,26 @@
               "Are"
             ],
             "correct": 1
+          },
+          {
+            "question": "Which sentence correctly uses the Past Continuous tense?",
+            "options": [
+              "I was work at 9 PM yesterday.",
+              "I was working at 9 PM yesterday.",
+              "I working was at 9 PM yesterday.",
+              "I am working at 9 PM yesterday."
+            ],
+            "correct": 1
+          },
+          {
+            "question": "Choose the correct sentence describing two simultaneous past actions.",
+            "options": [
+              "She was cooking while he was watching TV.",
+              "She cooked while he watches TV.",
+              "She is cooking while he was watching TV.",
+              "She cook while he watch TV."
+            ],
+            "correct": 0
           }
         ],
         "quiz": {
@@ -23766,7 +24086,7 @@
       {
         "id": 12,
         "title": "Modals - Can, Could, May, Might",
-        "kannadaTitle": "ಮಾದರಿಗಳು - Can, Could, May, Might",
+        "kannadaTitle": "ಮಾದರಿ ಕ್ರಿಯಾಪದಗಳು - ಸಾಮರ್ಥ್ಯ, ಅನುಮತಿ ಮತ್ತು ಸಾಧ್ಯತೆ",
         "content": {
           "explanation": "Modals are special verbs that add meaning: ability (can/could), permission (may/can), possibility (might/could), obligation (must/have to), advice (should). Key rules: No -s for third person ('She can swim', NOT 'She cans'). No 'to' after modals ('I can swim', NOT 'I can to swim'). Negative: modal + not ('cannot', 'should not'). Questions: modal + subject ('Can you help?').",
           "kannadaExplanation": "ಮೊಡಲ್ ಕ್ರಿಯಾಪದಗಳು ವಿಶೇಷ ಅರ್ಥ ಸೇರಿಸುತ್ತವೆ: ಸಾಮರ್ಥ್ಯ (can/could), ಅನುಮತಿ (may/can), ಸಾಧ್ಯತೆ (might/could), ಕಡ್ಡಾಯ (must/have to), ಸಲಹೆ (should). ಮುಖ್ಯ ನಿಯಮ: ಮೂರನೇ ವ್ಯಕ್ತಿಗೆ -s ಇಲ್ಲ. 'to' ಬೇಡ. ಕನ್ನಡದಲ್ಲಿ 'ಬಹುದು/ಬೇಕು/ಆಗಬೇಕು' ಇದೇ ರೀತಿ ಕೆಲಸ ಮಾಡುತ್ತವೆ.",
@@ -23919,6 +24239,26 @@
               "can"
             ],
             "correct": 1
+          },
+          {
+            "question": "Which sentence correctly follows the modal verb rule about third person forms?",
+            "options": [
+              "She cans swim well.",
+              "She can swims well.",
+              "She can swim well.",
+              "She can to swim well."
+            ],
+            "correct": 2
+          },
+          {
+            "question": "Which sentence is grammatically correct?",
+            "options": [
+              "Can you help me?",
+              "I can to help you.",
+              "You can helps me.",
+              "Can to you help me?"
+            ],
+            "correct": 0
           }
         ],
         "quiz": {
@@ -24044,7 +24384,7 @@
       {
         "id": 13,
         "title": "Modals - Must, Should, Have to",
-        "kannadaTitle": "ಮಾದರಿಗಳು - Must, Should, Have to",
+        "kannadaTitle": "ಮಾದರಿ ಕ್ರಿಯಾಪದಗಳು - ಕಡ್ಡಾಯ ಮತ್ತು ಸಲಹೆ",
         "content": {
           "explanation": "Must, should, and have to all express obligation or necessity, but with different strengths. 'Must' = very strong obligation, personal feeling ('I must study harder'). 'Have to' = external obligation, rules ('You have to wear a helmet — it's the law'). 'Should' = advice, recommendation ('You should see a doctor'). Negative differences: 'mustn't' = prohibited (DON'T do it!), 'don't have to' = not necessary (you can if you want).",
           "kannadaExplanation": "Must, should, have to ಎಲ್ಲವೂ ಕಡ್ಡಾಯ/ಅಗತ್ಯ ಸೂಚಿಸುತ್ತವೆ, ಆದರೆ ಬೇರೆ ಬೇರೆ ತೀವ್ರತೆ. 'Must' = ಬಲವಾದ ಕಡ್ಡಾಯ. 'Have to' = ಹೊರಗಿನ ನಿಯಮ. 'Should' = ಸಲಹೆ. ನಕಾರಾತ್ಮಕ: 'mustn't' = ಮಾಡಬಾರದು (ನಿಷೇಧ). 'don't have to' = ಮಾಡಬೇಕಾಗಿಲ್ಲ (ಐಚ್ಛಿಕ).",
@@ -24186,6 +24526,46 @@
               "can"
             ],
             "correct": 2
+          },
+          {
+            "question": "Which word best expresses a strong, personal sense of obligation, as in 'I ___ study harder'?",
+            "options": [
+              "should",
+              "must",
+              "have to",
+              "might"
+            ],
+            "correct": 1
+          },
+          {
+            "question": "'You have to wear a helmet — it's the law.' This shows obligation coming from:",
+            "options": [
+              "a personal feeling",
+              "friendly advice",
+              "an external rule",
+              "a mere possibility"
+            ],
+            "correct": 2
+          },
+          {
+            "question": "Which sentence gives advice rather than a strict rule?",
+            "options": [
+              "You should see a doctor.",
+              "You must see a doctor.",
+              "You have to see a doctor.",
+              "You mustn't see a doctor."
+            ],
+            "correct": 0
+          },
+          {
+            "question": "What does 'You don't have to come to the party' mean?",
+            "options": [
+              "You must come.",
+              "It is forbidden to come.",
+              "You should never come.",
+              "Coming is optional, not necessary."
+            ],
+            "correct": 3
           }
         ],
         "quiz": {
@@ -24464,6 +24844,26 @@
               "Why"
             ],
             "correct": 1
+          },
+          {
+            "question": "Which sentence uses the Present Perfect correctly to describe a life experience?",
+            "options": [
+              "I visit Hampi.",
+              "I have visited Hampi.",
+              "I visited Hampi yesterday.",
+              "I am visiting Hampi."
+            ],
+            "correct": 1
+          },
+          {
+            "question": "'I have lost my keys' implies that:",
+            "options": [
+              "I lost them and then found them again.",
+              "I will lose them soon.",
+              "I still don't have them now.",
+              "I lost them long ago and it doesn't matter now."
+            ],
+            "correct": 2
           }
         ],
         "quiz": {
@@ -24742,6 +25142,26 @@
               "'have lost' = happened long ago"
             ],
             "correct": 1
+          },
+          {
+            "question": "Which sentence is correct, given that 'last year' is a specific finished past time?",
+            "options": [
+              "I have gone to Hampi last year.",
+              "I went to Hampi last year.",
+              "I have been to Hampi last year.",
+              "I go to Hampi last year."
+            ],
+            "correct": 1
+          },
+          {
+            "question": "Which signal word usually pairs with Present Perfect rather than Past Simple?",
+            "options": [
+              "yesterday",
+              "ago",
+              "already",
+              "in 2020"
+            ],
+            "correct": 2
           }
         ],
         "quiz": {
@@ -24990,6 +25410,56 @@
               "am having"
             ],
             "correct": 2
+          },
+          {
+            "question": "What is the correct structure of the Future Continuous tense?",
+            "options": [
+              "will + verb-ing",
+              "will be + verb-ing",
+              "will have + verb-ing",
+              "is + verb-ing"
+            ],
+            "correct": 1
+          },
+          {
+            "question": "Which sentence correctly describes an action in progress at a specific future time?",
+            "options": [
+              "This time tomorrow, I travel to Mysuru.",
+              "This time tomorrow, I will travel to Mysuru.",
+              "This time tomorrow, I will be traveling to Mysuru.",
+              "This time tomorrow, I am traveling to Mysuru."
+            ],
+            "correct": 2
+          },
+          {
+            "question": "Which is a polite way to ask about someone's future plans using Future Continuous?",
+            "options": [
+              "Will you be coming to the meeting?",
+              "Do you come to the meeting?",
+              "Are you coming to the meeting?",
+              "Will you come to the meeting?"
+            ],
+            "correct": 0
+          },
+          {
+            "question": "Choose the sentence that correctly shows two parallel future actions.",
+            "options": [
+              "While I was cooking, she was cleaning.",
+              "While I will cook, she cleaned.",
+              "While I cook, she cleans.",
+              "While I am cooking, she will be cleaning."
+            ],
+            "correct": 3
+          },
+          {
+            "question": "The Future Continuous tense is best used for:",
+            "options": [
+              "actions completed before a future time",
+              "habitual past actions",
+              "actions that happened in the past",
+              "actions in progress at a specific future time"
+            ],
+            "correct": 3
           }
         ],
         "quiz": {
@@ -25115,7 +25585,7 @@
       {
         "id": 17,
         "title": "Used to and Would",
-        "kannadaTitle": "Used to ಮತ್ತು Would",
+        "kannadaTitle": "ಹಿಂದಿನ ಅಭ್ಯಾಸ ಮತ್ತು ಪುನರಾವರ್ತಿತ ಕ್ರಿಯೆಗಳ ರೂಪಗಳು",
         "content": {
           "explanation": "'Used to' describes past habits or states that are NO LONGER true. 'I used to live in Hubli (but now I live in Bengaluru).' Form: used to + base verb. Negative: didn't use to (note: no 'd'). Question: Did you use to...? 'Would' can also describe repeated past actions (but NOT past states). 'Every summer, we would visit our grandparents in the village.'",
           "kannadaExplanation": "'Used to' ಈಗ ಇಲ್ಲದ ಹಳೆಯ ಅಭ್ಯಾಸ/ಸ್ಥಿತಿಯನ್ನು ವಿವರಿಸುತ್ತದೆ. 'ನಾನು ಹುಬ್ಬಳ್ಳಿಯಲ್ಲಿ ವಾಸಿಸುತ್ತಿದ್ದೆ (ಆದರೆ ಈಗ ಬೆಂಗಳೂರಿನಲ್ಲಿ).' 'Would' ಪುನರಾವರ್ತಿತ ಭೂತಕಾಲ ಕ್ರಿಯೆಗಳಿಗೆ ಬಳಸಬಹುದು (ಸ್ಥಿತಿಗೆ ಅಲ್ಲ). ಕನ್ನಡ: '...ಉತ್ತಿದ್ದೆ/...ಇದ್ದೆ' ಈ ಅರ್ಥ ಕೊಡುತ್ತದೆ.",
@@ -25238,6 +25708,56 @@
               "Had, use to"
             ],
             "correct": 1
+          },
+          {
+            "question": "Which sentence correctly uses 'used to' for a past habit that is no longer true?",
+            "options": [
+              "I use to live in Hubli.",
+              "I used to live in Hubli.",
+              "I am used to live in Hubli.",
+              "I used to living in Hubli."
+            ],
+            "correct": 1
+          },
+          {
+            "question": "What is the correct negative form of 'used to'?",
+            "options": [
+              "didn't used to",
+              "doesn't use to",
+              "didn't use to",
+              "not used to"
+            ],
+            "correct": 2
+          },
+          {
+            "question": "What is the correct question form?",
+            "options": [
+              "Do you used to play cricket?",
+              "Were you use to play cricket?",
+              "Did you used to play cricket?",
+              "Did you use to play cricket?"
+            ],
+            "correct": 3
+          },
+          {
+            "question": "Which sentence correctly uses 'would' for a repeated past action?",
+            "options": [
+              "Every summer, we would visit our grandparents.",
+              "Every summer, we would be young.",
+              "Every summer, we would have a big house.",
+              "Every summer, we would like sweets."
+            ],
+            "correct": 0
+          },
+          {
+            "question": "Why is 'would' NOT correct in 'I would live in Hubli' when describing a past state?",
+            "options": [
+              "'Would' is only for the future.",
+              "'Would' needs 'to' after it.",
+              "'Would' cannot be used with places.",
+              "'Would' describes repeated actions, not states."
+            ],
+            "correct": 3
           }
         ],
         "quiz": {
@@ -25496,6 +26016,46 @@
               "finishes"
             ],
             "correct": 1
+          },
+          {
+            "question": "What is the correct structure of the Past Perfect tense?",
+            "options": [
+              "was + verb-ing",
+              "will have + past participle",
+              "have + past participle",
+              "had + past participle"
+            ],
+            "correct": 3
+          },
+          {
+            "question": "Which sentence correctly shows an action completed before another past action?",
+            "options": [
+              "When I reached the station, the train has left.",
+              "When I reached the station, the train had already left.",
+              "When I reached the station, the train left.",
+              "When I reach the station, the train had left."
+            ],
+            "correct": 1
+          },
+          {
+            "question": "Past Perfect is often described as:",
+            "options": [
+              "the past of the past",
+              "the future of the past",
+              "the present of the past",
+              "the past of the future"
+            ],
+            "correct": 0
+          },
+          {
+            "question": "Which sentence correctly uses Past Perfect with 'before'?",
+            "options": [
+              "She has finished cooking before the guests arrived.",
+              "She will have finished cooking before the guests arrived.",
+              "She had finished cooking before the guests arrived.",
+              "She finished cooking before the guests arrived."
+            ],
+            "correct": 2
           }
         ],
         "quiz": {
@@ -25754,6 +26314,46 @@
               "Have, read"
             ],
             "correct": 1
+          },
+          {
+            "question": "What is the correct structure of the Future Perfect tense?",
+            "options": [
+              "will + past participle",
+              "will have + past participle",
+              "will be + verb-ing",
+              "had + past participle"
+            ],
+            "correct": 1
+          },
+          {
+            "question": "Which sentence correctly uses Future Perfect with a deadline?",
+            "options": [
+              "By 5 PM, I finish the work.",
+              "By 5 PM, I will finish the work.",
+              "By 5 PM, I will have finished the work.",
+              "By 5 PM, I have finished the work."
+            ],
+            "correct": 2
+          },
+          {
+            "question": "The Future Perfect tense is mainly used for:",
+            "options": [
+              "actions happening right now",
+              "habitual actions in the past",
+              "actions in progress in the past",
+              "actions completed before a specific future time"
+            ],
+            "correct": 3
+          },
+          {
+            "question": "Which sentence correctly uses Future Perfect?",
+            "options": [
+              "By the time you arrive, we will have eaten dinner.",
+              "By the time you arrive, we eat dinner.",
+              "By the time you arrive, we ate dinner.",
+              "By the time you arrive, we are eating dinner."
+            ],
+            "correct": 0
           }
         ],
         "quiz": {
@@ -27084,7 +27684,7 @@
         "kannadaTitle": "ಶಾಪಿಂಗ್ ಶಬ್ದಕೋಶ",
         "content": {
           "explanation": "Shopping vocabulary: price (ಬೆಲೆ), discount (ರಿಯಾಯಿತಿ), bill/receipt (ಬಿಲ್), size (ಗಾತ್ರ), color (ಬಣ್ಣ), try on (ಹಾಕಿ ನೋಡು), expensive (ದುಬಾರಿ), cheap (ಅಗ್ಗ), change (ಚಿಲ್ಲರೆ). Key phrases: 'How much is this?', 'Can I try this on?', 'Do you have this in a larger size?', 'Is there any discount?', 'I'll take this one.'",
-          "kannadaExplanation": "ಶಾಪಿಂಗ್ ಪದಗಳು: price=ಬೆಲೆ, discount=ರಿಯಾಯಿತಿ, bill=ಬಿಲ್, size=ಗಾತ್ರ, color=ಬಣ್ಣ. ಮುಖ್ಯ ನುಡಿಗಟ್ಟುಗಳು: 'How much is this?' = ಇದರ ಬೆಲೆ ಎಷ್ಟು?, 'Is there any discount?' = ರಿಯಾಯಿತಿ ಇದೆಯೇ?",
+          "kannadaExplanation": "ಶಾಪಿಂಗ್ ಪದಗಳು: ಬೆಲೆ, ರಿಯಾಯಿತಿ, ಬಿಲ್ ಅಥವಾ ರಶೀದಿ, ಗಾತ್ರ, ಬಣ್ಣ, ಹಾಕಿ ನೋಡುವುದು, ದುಬಾರಿ, ಅಗ್ಗ, ಚಿಲ್ಲರೆ ಮುಂತಾದ ಪದಗಳನ್ನು ಅಂಗಡಿಯಲ್ಲಿ ಬಳಸುತ್ತೇವೆ. ಮುಖ್ಯ ನುಡಿಗಟ್ಟುಗಳು: ಇದರ ಬೆಲೆ ಎಷ್ಟು ಎಂದು ಕೇಳುವುದು, ಇದನ್ನು ಹಾಕಿ ನೋಡಬಹುದೇ ಎಂದು ಕೇಳುವುದು, ದೊಡ್ಡ ಗಾತ್ರದಲ್ಲಿ ಇದೆಯೇ ಎಂದು ಕೇಳುವುದು, ರಿಯಾಯಿತಿ ಇದೆಯೇ ಎಂದು ಕೇಳುವುದು, ಮತ್ತು ನಾನು ಇದನ್ನೇ ತೆಗೆದುಕೊಳ್ಳುತ್ತೇನೆ ಎಂದು ಹೇಳುವುದು ಇವೆಲ್ಲಾ ಇಂಗ್ಲಿಷ್‌ನಲ್ಲಿ ಹೇಗೆ ಹೇಳಬೇಕು ಎಂಬುದನ್ನು ಈ ಪಾಠ ಕಲಿಸುತ್ತದೆ.",
           "vocabulary": [
             {
               "english": "shop",
@@ -27378,7 +27978,7 @@
         "kannadaTitle": "ಶಾಪಿಂಗ್ ಸಂಭಾಷಣೆಗಳು",
         "content": {
           "explanation": "Shopping conversation patterns: Asking price: 'How much is this?' / 'What's the price of...?' Bargaining: 'Can you give me a discount?' / 'That's too expensive.' Deciding: 'I'll take this one.' / 'I'll think about it.' Paying: 'Can I pay by card/UPI?' / 'Do you have change?' Returning: 'I'd like to return/exchange this.'",
-          "kannadaExplanation": "ಶಾಪಿಂಗ್ ಸಂಭಾಷಣೆ: ಬೆಲೆ ಕೇಳುವುದು: 'How much is this?' ಚೌಕಾಶಿ: 'Can you give me a discount?' ನಿರ್ಧಾರ: 'I'll take this one.' ಪಾವತಿ: 'Can I pay by UPI?' ವಾಪಸ್: 'I'd like to return this.'",
+          "kannadaExplanation": "ಶಾಪಿಂಗ್ ಸಂಭಾಷಣೆಯ ಮಾದರಿಗಳು: ಬೆಲೆ ಕೇಳುವುದು ಹೇಗೆ, ಚೌಕಾಶಿ ಮಾಡಿ ರಿಯಾಯಿತಿ ಕೇಳುವುದು ಹೇಗೆ, ಇದು ತುಂಬಾ ದುಬಾರಿ ಎಂದು ಹೇಳುವುದು ಹೇಗೆ, ಒಂದು ವಸ್ತುವನ್ನು ಆಯ್ಕೆಮಾಡುವುದು ಅಥವಾ ಸ್ವಲ್ಪ ಯೋಚಿಸುತ್ತೇನೆ ಎಂದು ಹೇಳುವುದು ಹೇಗೆ, ಕಾರ್ಡ್ ಅಥವಾ ಯುಪಿಐ ಮೂಲಕ ಪಾವತಿಸಬಹುದೇ ಮತ್ತು ಚಿಲ್ಲರೆ ಇದೆಯೇ ಎಂದು ಕೇಳುವುದು ಹೇಗೆ, ಹಾಗೂ ವಸ್ತುವನ್ನು ಹಿಂತಿರುಗಿಸುವ ಅಥವಾ ಬದಲಾಯಿಸುವ ಬಗ್ಗೆ ಕೇಳುವುದು ಹೇಗೆ ಎಂಬುದನ್ನು ಈ ಪಾಠದಲ್ಲಿ ಕಲಿಯುತ್ತೀರಿ.",
           "patterns": [
             {
               "pattern": "How much is this?",
@@ -27662,7 +28262,7 @@
         "kannadaTitle": "ದೂರವಾಣಿ ಸಂಭಾಷಣೆಗಳು",
         "content": {
           "explanation": "Phone conversation skills: Answering: 'Hello, this is [name] speaking.' Asking for someone: 'Can I speak to...?' 'Is [name] there?' Can't hear: 'Sorry, could you speak louder?' 'You're breaking up.' Wrong number: 'Sorry, you have the wrong number.' Taking a message: 'Can I take a message?' 'Please ask him to call me back.'",
-          "kannadaExplanation": "ಫೋನ್ ಸಂಭಾಷಣೆ: ಉತ್ತರ: 'Hello, this is [ಹೆಸರು] speaking.' ಕೇಳುವುದು: 'Can I speak to...?' ಕೇಳಿಸಲಿಲ್ಲ: 'Could you speak louder?' ತಪ್ಪು ನಂಬರ್: 'Sorry, wrong number.' ಸಂದೇಶ: 'Can I take a message?'",
+          "kannadaExplanation": "ದೂರವಾಣಿ ಸಂಭಾಷಣೆಯ ಕೌಶಲಗಳು: ಫೋನ್ ಎತ್ತಿದಾಗ ತಮ್ಮ ಹೆಸರು ಹೇಳಿ ಮಾತನಾಡುವುದು ಹೇಗೆ, ಬೇರೊಬ್ಬರೊಂದಿಗೆ ಮಾತನಾಡಬೇಕೆಂದು ಕೇಳುವುದು ಹೇಗೆ, ಸರಿಯಾಗಿ ಕೇಳಿಸದಿದ್ದಾಗ ಜೋರಾಗಿ ಮಾತನಾಡಿ ಎಂದು ಕೇಳುವುದು ಅಥವಾ ಫೋನ್ ಸಂಪರ್ಕ ಸರಿಯಿಲ್ಲ ಎಂದು ಹೇಳುವುದು ಹೇಗೆ, ತಪ್ಪು ನಂಬರ್ ಆದಾಗ ಹೇಳುವುದು ಹೇಗೆ, ಮತ್ತು ಸಂದೇಶ ತೆಗೆದುಕೊಳ್ಳುವುದು ಅಥವಾ ಹಿಂದಿರುಗಿ ಕರೆ ಮಾಡಲು ಹೇಳುವುದು ಹೇಗೆ ಎಂಬುದನ್ನು ಈ ಪಾಠ ಕಲಿಸುತ್ತದೆ.",
           "patterns": [
             {
               "pattern": "Hello, this is...",
@@ -27946,7 +28546,7 @@
         "kannadaTitle": "ರೆಸ್ಟೋರೆಂಟ್ ಶಬ್ದಕೋಶ",
         "content": {
           "explanation": "Restaurant vocabulary: menu (ಮೆನು), waiter (ವೇಟರ್), bill/check (ಬಿಲ್), tip (ಟಿಪ್), reservation (ಮುಂಗಡ ಕಾಯ್ದಿರಿಸುವಿಕೆ), appetizer/starter (ಸ್ಟಾರ್ಟರ್), main course (ಮುಖ್ಯ ಊಟ), dessert (ಸಿಹಿ), beverage (ಪಾನೀಯ). Types: veg/non-veg, spicy/mild, sweet/sour, hot/cold.",
-          "kannadaExplanation": "ರೆಸ್ಟೋರೆಂಟ್ ಪದಗಳು: menu=ಮೆನು, waiter=ವೇಟರ್, bill=ಬಿಲ್, tip=ಟಿಪ್, reservation=ಬುಕ್ಕಿಂಗ್, starter=ಸ್ಟಾರ್ಟರ್, main course=ಮುಖ್ಯ ಊಟ, dessert=ಸಿಹಿ. ವಿಧ: veg/non-veg, spicy/mild.",
+          "kannadaExplanation": "ರೆಸ್ಟೋರೆಂಟ್ ಪದಗಳು: ಮೆನು, ವೇಟರ್, ಬಿಲ್, ಟಿಪ್ಸ್, ಮುಂಗಡ ಕಾಯ್ದಿರಿಸುವಿಕೆ, ಸ್ಟಾರ್ಟರ್ ಅಥವಾ ಮೊದಲ ತಿಂಡಿ, ಮುಖ್ಯ ಊಟ, ಸಿಹಿ ತಿಂಡಿ, ಪಾನೀಯ ಮುಂತಾದ ಪದಗಳನ್ನು ಈ ಪಾಠದಲ್ಲಿ ಕಲಿಯುತ್ತೀರಿ. ಇದಲ್ಲದೆ ಸಸ್ಯಾಹಾರ/ಮಾಂಸಾಹಾರ, ಖಾರ/ಸೌಮ್ಯ, ಸಿಹಿ/ಹುಳಿ, ಬಿಸಿ/ತಣ್ಣಗೆ ಎಂಬ ಆಹಾರದ ಬಗೆಗಳನ್ನೂ ಇಂಗ್ಲಿಷ್‌ನಲ್ಲಿ ಹೇಗೆ ಹೇಳುವುದು ಎಂದು ಕಲಿಸುತ್ತದೆ.",
           "vocabulary": [
             {
               "english": "restaurant",
@@ -28513,7 +29113,7 @@
         "kannadaTitle": "ಪ್ರಯಾಣ ಶಬ್ದಕೋಶ",
         "content": {
           "explanation": "Travel vocabulary: ticket (ಟಿಕೆಟ್), platform (ಪ್ಲಾಟ್‌ಫಾರ್ಮ್), departure (ಹೊರಡುವಿಕೆ), arrival (ಬರುವಿಕೆ), delay (ವಿಳಂಬ), luggage/baggage (ಸಾಮಾನು), boarding pass (ಬೋರ್ಡಿಂಗ್ ಪಾಸ್), seat (ಸೀಟ್), aisle/window (ಓಣಿ/ಕಿಟಕಿ). Phrases: 'What time does the train leave?' 'Is there a direct bus to Mysuru?' 'How long is the journey?'",
-          "kannadaExplanation": "ಪ್ರಯಾಣ ಪದಗಳು: ticket=ಟಿಕೆಟ್, platform=ಪ್ಲಾಟ್‌ಫಾರ್ಮ್, departure=ಹೊರಡುವಿಕೆ, arrival=ಬರುವಿಕೆ, delay=ವಿಳಂಬ, luggage=ಸಾಮಾನು. 'What time does the train leave?' = ರೈಲು ಯಾವಾಗ ಹೊರಡುತ್ತದೆ?",
+          "kannadaExplanation": "ಪ್ರಯಾಣ ಪದಗಳು: ಟಿಕೆಟ್, ಪ್ಲಾಟ್‌ಫಾರ್ಮ್, ಹೊರಡುವಿಕೆ, ಬರುವಿಕೆ, ವಿಳಂಬ, ಸಾಮಾನು, ಬೋರ್ಡಿಂಗ್ ಪಾಸ್, ಸೀಟು, ಓಣಿ ಸೀಟು/ಕಿಟಕಿ ಸೀಟು ಮುಂತಾದ ಪದಗಳನ್ನು ಕಲಿಯುತ್ತೀರಿ. ರೈಲು ಯಾವಾಗ ಹೊರಡುತ್ತದೆ ಎಂದು ಕೇಳುವುದು, ಮೈಸೂರಿಗೆ ನೇರ ಬಸ್ ಇದೆಯೇ ಎಂದು ಕೇಳುವುದು, ಮತ್ತು ಪ್ರಯಾಣದ ಅವಧಿ ಎಷ್ಟು ಎಂದು ಕೇಳುವುದು ಹೇಗೆ ಎಂಬುದನ್ನೂ ಇಲ್ಲಿ ಕಲಿಸಲಾಗಿದೆ.",
           "vocabulary": [
             {
               "english": "ticket",
@@ -29364,7 +29964,7 @@
         "kannadaTitle": "ಬ್ಯಾಂಕಿಂಗ್ ಶಬ್ದಕೋಶ",
         "content": {
           "explanation": "Banking vocabulary: account (ಖಾತೆ), savings account (ಉಳಿತಾಯ ಖಾತೆ), current account, deposit (ಠೇವಣಿ), withdraw (ಹಿಂದೆ ತೆಗೆ), balance (ಬ್ಯಾಲೆನ್ಸ್), ATM, cheque (ಚೆಕ್), loan (ಸಾಲ), interest (ಬಡ್ಡಿ), transfer (ವರ್ಗಾವಣೆ), passbook (ಪಾಸ್‌ಬುಕ್), UPI, net banking.",
-          "kannadaExplanation": "ಬ್ಯಾಂಕ್ ಪದಗಳು: account=ಖಾತೆ, deposit=ಠೇವಣಿ, withdraw=ಹಿಂದೆ ತೆಗೆ, balance=ಬ್ಯಾಲೆನ್ಸ್, loan=ಸಾಲ, interest=ಬಡ್ಡಿ, transfer=ವರ್ಗಾವಣೆ. UPI/net banking ಆಧುನಿಕ ಬ್ಯಾಂಕಿಂಗ್.",
+          "kannadaExplanation": "ಬ್ಯಾಂಕಿಂಗ್ ಪದಗಳು: ಖಾತೆ, ಉಳಿತಾಯ ಖಾತೆ, ಚಾಲ್ತಿ ಖಾತೆ, ಠೇವಣಿ, ಹಣ ಹಿಂಪಡೆಯುವಿಕೆ, ಬಾಕಿ ಮೊತ್ತ, ಎಟಿಎಂ, ಚೆಕ್, ಸಾಲ, ಬಡ್ಡಿ, ವರ್ಗಾವಣೆ, ಪಾಸ್‌ಬುಕ್, ಯುಪಿಐ ಮತ್ತು ನೆಟ್ ಬ್ಯಾಂಕಿಂಗ್ ಮುಂತಾದ ಆಧುನಿಕ ಬ್ಯಾಂಕಿಂಗ್ ಪದಗಳನ್ನು ಈ ಪಾಠದಲ್ಲಿ ಕಲಿಯುತ್ತೀರಿ.",
           "vocabulary": [
             {
               "english": "bank",
@@ -29654,7 +30254,7 @@
         "kannadaTitle": "ವೈದ್ಯಕೀಯ ಪರಿಸ್ಥಿತಿಗಳು",
         "content": {
           "explanation": "Medical situations: Describing symptoms: 'I have a headache/fever/cold/cough.' 'My stomach hurts.' 'I feel dizzy.' At the doctor: 'What seems to be the problem?' 'How long have you had this?' 'Take this medicine twice a day.' At the pharmacy: 'I need medicine for fever.' Body parts: head, chest, stomach, back, throat, ear, eye.",
-          "kannadaExplanation": "ವೈದ್ಯಕೀಯ ಸಂದರ್ಭ: ಲಕ್ಷಣ: 'I have a headache' = ತಲೆನೋವು ಇದೆ. 'My stomach hurts' = ಹೊಟ್ಟೆ ನೋವು. ವೈದ್ಯರ ಬಳಿ: 'How long have you had this?' = ಎಷ್ಟು ದಿನದಿಂದ? ಔಷಧಿ: 'Take this medicine twice a day' = ದಿನಕ್ಕೆ ಎರಡು ಬಾರಿ.",
+          "kannadaExplanation": "ವೈದ್ಯಕೀಯ ಸಂದರ್ಭಗಳು: ತಲೆನೋವು, ಜ್ವರ, ಶೀತ, ಕೆಮ್ಮು ಇದೆ ಎಂದು ಹೇಳುವುದು, ಹೊಟ್ಟೆ ನೋವು ಇದೆ ಅಥವಾ ತಲೆ ಸುತ್ತುತ್ತಿದೆ ಎಂದು ಹೇಳುವುದು ಹೇಗೆ ಎಂಬುದನ್ನು ಕಲಿಯುತ್ತೀರಿ. ವೈದ್ಯರ ಬಳಿ ಸಮಸ್ಯೆ ಏನೆಂದು ಕೇಳಿದಾಗ ಉತ್ತರಿಸುವುದು, ಎಷ್ಟು ದಿನದಿಂದ ಈ ಸಮಸ್ಯೆ ಇದೆ ಎಂದು ಹೇಳುವುದು, ಮತ್ತು ದಿನಕ್ಕೆ ಎರಡು ಬಾರಿ ಈ ಔಷಧಿ ತೆಗೆದುಕೊಳ್ಳಿ ಎಂಬ ಸೂಚನೆ ಅರ್ಥಮಾಡಿಕೊಳ್ಳುವುದನ್ನೂ ಕಲಿಸುತ್ತದೆ. ಔಷಧಿ ಅಂಗಡಿಯಲ್ಲಿ ಜ್ವರಕ್ಕೆ ಔಷಧಿ ಬೇಕು ಎಂದು ಕೇಳುವುದು ಹೇಗೆ ಎಂಬುದೂ ಸೇರಿದೆ. ತಲೆ, ಎದೆ, ಹೊಟ್ಟೆ, ಬೆನ್ನು, ಗಂಟಲು, ಕಿವಿ, ಕಣ್ಣು ಮುಂತಾದ ದೇಹದ ಭಾಗಗಳ ಪದಗಳನ್ನೂ ಈ ಪಾಠದಲ್ಲಿ ಕಲಿಯುತ್ತೀರಿ.",
           "patterns": [
             {
               "pattern": "I have a...",
@@ -29932,7 +30532,7 @@
         "kannadaTitle": "ಹೋಟೆಲ್ ಚೆಕ್-ಇನ್",
         "content": {
           "explanation": "Hotel check-in: 'I have a reservation under [name].' 'I'd like to check in.' 'Can I see a room first?' 'What time is checkout?' 'Is breakfast included?' 'Can I get an extra pillow?' 'Where is the Wi-Fi password?' Check-out: 'I'd like to check out.' 'Can I have the bill?' Complaints: 'The AC is not working.' 'The room is noisy.'",
-          "kannadaExplanation": "ಹೋಟೆಲ್ ಚೆಕ್-ಇನ್: 'I have a reservation' = ನನ್ನ ಹೆಸರಿನಲ್ಲಿ ಬುಕ್ಕಿಂಗ್ ಇದೆ. 'What time is checkout?' = ಚೆಕ್‌ಔಟ್ ಯಾವಾಗ? 'Is breakfast included?' = ತಿಂಡಿ ಸೇರಿದೆಯೇ? ದೂರು: 'The AC is not working' = AC ಕೆಲಸ ಮಾಡುತ್ತಿಲ್ಲ.",
+          "kannadaExplanation": "ಹೋಟೆಲ್ ಚೆಕ್-ಇನ್: ತಮ್ಮ ಹೆಸರಿನಲ್ಲಿ ಬುಕ್ಕಿಂಗ್ ಇದೆ ಎಂದು ಹೇಳುವುದು, ಚೆಕ್-ಇನ್ ಮಾಡಬೇಕೆಂದು ಹೇಳುವುದು, ಮೊದಲು ಕೋಣೆ ನೋಡಬಹುದೇ ಎಂದು ಕೇಳುವುದು, ಚೆಕ್‌ಔಟ್ ಸಮಯ ಯಾವಾಗ ಎಂದು ಕೇಳುವುದು, ತಿಂಡಿ ಸೇರಿದೆಯೇ ಎಂದು ಕೇಳುವುದು, ಹೆಚ್ಚುವರಿ ದಿಂಬು ಬೇಕೆಂದು ಕೇಳುವುದು, ಮತ್ತು ವೈಫೈ ಪಾಸ್‌ವರ್ಡ್ ಎಲ್ಲಿದೆ ಎಂದು ಕೇಳುವುದು ಹೇಗೆ ಎಂಬುದನ್ನು ಕಲಿಯುತ್ತೀರಿ. ಚೆಕ್-ಔಟ್ ಮಾಡುವಾಗ ಬಿಲ್ ಕೇಳುವುದು, ಮತ್ತು ಎಸಿ ಕೆಲಸ ಮಾಡುತ್ತಿಲ್ಲ ಅಥವಾ ಕೋಣೆಯಲ್ಲಿ ಗದ್ದಲ ಇದೆ ಎಂಬ ದೂರು ಹೇಳುವುದು ಹೇಗೆ ಎಂಬುದನ್ನೂ ಈ ಪಾಠ ಕಲಿಸುತ್ತದೆ.",
           "patterns": [
             {
               "pattern": "I have a reservation",
@@ -30486,7 +31086,7 @@
         "kannadaTitle": "ಅಂಚೆ ಕಚೇರಿ",
         "content": {
           "explanation": "Post office vocabulary: letter (ಪತ್ರ), parcel (ಪಾರ್ಸಲ್), stamp (ಸ್ಟ್ಯಾಂಪ್), envelope (ಲಕೋಟೆ), address (ವಿಳಾಸ), pin code (ಪಿನ್ ಕೋಡ್), speed post (ಸ್ಪೀಡ್ ಪೋಸ್ಟ್), registered post (ನೋಂದಾಯಿತ ಅಂಚೆ), tracking number (ಟ್ರ್ಯಾಕಿಂಗ್ ನಂಬರ್). Phrases: 'I want to send a parcel to Mysuru.' 'How much is the postage?' 'How long will it take?'",
-          "kannadaExplanation": "ಅಂಚೆ ಕಚೇರಿ ಪದಗಳು: letter=ಪತ್ರ, parcel=ಪಾರ್ಸಲ್, stamp=ಸ್ಟ್ಯಾಂಪ್, envelope=ಲಕೋಟೆ, speed post=ಸ್ಪೀಡ್ ಪೋಸ್ಟ್. 'I want to send a parcel' = ಪಾರ್ಸಲ್ ಕಳುಹಿಸಬೇಕು. 'How much is the postage?' = ಅಂಚೆ ಎಷ್ಟು?",
+          "kannadaExplanation": "ಅಂಚೆ ಕಚೇರಿ ಪದಗಳು: ಪತ್ರ, ಪಾರ್ಸಲ್, ಅಂಚೆ ಚೀಟಿ, ಲಕೋಟೆ, ವಿಳಾಸ, ಪಿನ್ ಕೋಡ್, ಸ್ಪೀಡ್ ಪೋಸ್ಟ್, ನೋಂದಾಯಿತ ಅಂಚೆ, ಟ್ರ್ಯಾಕಿಂಗ್ ನಂಬರ್ ಮುಂತಾದ ಪದಗಳನ್ನು ಕಲಿಯುತ್ತೀರಿ. ಮೈಸೂರಿಗೆ ಪಾರ್ಸಲ್ ಕಳುಹಿಸಬೇಕು ಎಂದು ಹೇಳುವುದು, ಅಂಚೆ ಶುಲ್ಕ ಎಷ್ಟು ಎಂದು ಕೇಳುವುದು, ಮತ್ತು ತಲುಪಲು ಎಷ್ಟು ದಿನ ಬೇಕು ಎಂದು ಕೇಳುವುದು ಹೇಗೆ ಎಂಬುದನ್ನೂ ಈ ಪಾಠ ಕಲಿಸುತ್ತದೆ.",
           "vocabulary": [
             {
               "english": "post office",
@@ -30772,7 +31372,7 @@
         "kannadaTitle": "ವಿಮಾನ ನಿಲ್ದಾಣದಲ್ಲಿ",
         "content": {
           "explanation": "Airport vocabulary: check-in counter, boarding pass, gate, security check, immigration, customs, departure, arrival, baggage claim, carry-on, hand luggage, passport, visa. Phrases: 'Where is the check-in counter for Air India?' 'Window or aisle seat?' 'What is the gate number?' 'My luggage is missing.'",
-          "kannadaExplanation": "ವಿಮಾನ ನಿಲ್ದಾಣ ಪದಗಳು: check-in counter, boarding pass, gate, security check, baggage claim, passport. 'Where is the check-in counter?' = ಚೆಕ್-ಇನ್ ಕೌಂಟರ್ ಎಲ್ಲಿ? 'My luggage is missing' = ನನ್ನ ಸಾಮಾನು ಕಾಣುತ್ತಿಲ್ಲ.",
+          "kannadaExplanation": "ವಿಮಾನ ನಿಲ್ದಾಣದ ಪದಗಳು: ಚೆಕ್-ಇನ್ ಕೌಂಟರ್, ಬೋರ್ಡಿಂಗ್ ಪಾಸ್, ಗೇಟ್, ಭದ್ರತಾ ತಪಾಸಣೆ, ವಲಸೆ ತಪಾಸಣೆ, ಕಸ್ಟಮ್ಸ್, ಹೊರಡುವಿಕೆ, ಬರುವಿಕೆ, ಸಾಮಾನು ಪಡೆಯುವ ಸ್ಥಳ, ಕೈಚೀಲ, ಪಾಸ್‌ಪೋರ್ಟ್, ವೀಸಾ ಮುಂತಾದ ಪದಗಳನ್ನು ಕಲಿಯುತ್ತೀರಿ. ಚೆಕ್-ಇನ್ ಕೌಂಟರ್ ಎಲ್ಲಿದೆ ಎಂದು ಕೇಳುವುದು, ಕಿಟಕಿ ಸೀಟು ಬೇಕೋ ಓಣಿ ಸೀಟು ಬೇಕೋ ಎಂದು ಕೇಳುವುದು, ಗೇಟ್ ಸಂಖ್ಯೆ ಎಷ್ಟು ಎಂದು ಕೇಳುವುದು, ಮತ್ತು ತಮ್ಮ ಸಾಮಾನು ಕಾಣೆಯಾಗಿದೆ ಎಂದು ಹೇಳುವುದು ಹೇಗೆ ಎಂಬುದನ್ನೂ ಈ ಪಾಠ ಕಲಿಸುತ್ತದೆ.",
           "patterns": [
             {
               "pattern": "Where is the...?",
@@ -31454,6 +32054,46 @@
               "take in"
             ],
             "correct": 0
+          },
+          {
+            "question": "What does the phrasal verb 'give up' mean?",
+            "options": [
+              "Start something new",
+              "Stop trying",
+              "Discover something",
+              "Postpone something"
+            ],
+            "correct": 1
+          },
+          {
+            "question": "Choose the correct meaning of 'look after'.",
+            "options": [
+              "Take care of",
+              "Discover something by searching",
+              "Postpone to a later time",
+              "Switch off a device"
+            ],
+            "correct": 0
+          },
+          {
+            "question": "We are going to ___ the meeting until next week because the manager is on leave.",
+            "options": [
+              "pick up",
+              "get along",
+              "put off",
+              "run out of"
+            ],
+            "correct": 2
+          },
+          {
+            "question": "What does 'run out of' mean, as in 'We ran out of milk'?",
+            "options": [
+              "Discover something suddenly",
+              "Have a good relationship with someone",
+              "Collect something from a place",
+              "Have no more of something left"
+            ],
+            "correct": 3
           }
         ],
         "quiz": {
@@ -31712,6 +32352,46 @@
               "Start a new day"
             ],
             "correct": 2
+          },
+          {
+            "question": "What does the idiom 'piece of cake' mean?",
+            "options": [
+              "Very difficult",
+              "Very easy",
+              "Very expensive",
+              "Very tasty"
+            ],
+            "correct": 1
+          },
+          {
+            "question": "If someone says 'That new phone cost me an arm and a leg', what do they mean?",
+            "options": [
+              "It was very cheap",
+              "It caused an injury",
+              "It was very expensive",
+              "It arrived very quickly"
+            ],
+            "correct": 2
+          },
+          {
+            "question": "What does the idiom 'hit the nail on the head' mean?",
+            "options": [
+              "Say exactly the right thing",
+              "Make a careless mistake",
+              "Hurt yourself accidentally",
+              "Build something with tools"
+            ],
+            "correct": 0
+          },
+          {
+            "question": "At the start of an awkward meeting, a manager tells a joke to 'break the ice'. What does this idiom mean?",
+            "options": [
+              "To destroy something made of ice",
+              "To end a friendship suddenly",
+              "To make someone feel angry",
+              "To start a conversation and ease tension in a new or awkward situation"
+            ],
+            "correct": 3
           }
         ],
         "quiz": {
@@ -31988,6 +32668,46 @@
               "Take"
             ],
             "correct": 3
+          },
+          {
+            "question": "Which sentence uses the correct collocation?",
+            "options": [
+              "I did a mistake in the report.",
+              "I made a mistake in the report.",
+              "I took a mistake in the report.",
+              "I had a mistake in the report."
+            ],
+            "correct": 1
+          },
+          {
+            "question": "Which phrase correctly describes rain falling very hard?",
+            "options": [
+              "Strong rain",
+              "Big rain",
+              "Heavy rain",
+              "Large rain"
+            ],
+            "correct": 2
+          },
+          {
+            "question": "Which verb correctly collocates with 'a photo'?",
+            "options": [
+              "take a photo",
+              "do a photo",
+              "make a photo",
+              "have a photo"
+            ],
+            "correct": 0
+          },
+          {
+            "question": "Which sentence uses the correct collocation for a daily chore?",
+            "options": [
+              "I need to make my homework tonight.",
+              "I need to take my homework tonight.",
+              "I need to have my homework tonight.",
+              "I need to do my homework tonight."
+            ],
+            "correct": 3
           }
         ],
         "quiz": {
@@ -32246,6 +32966,46 @@
               "File send now"
             ],
             "correct": 2
+          },
+          {
+            "question": "Which sentence is an example of formal English?",
+            "options": [
+              "Gimme a hand with this.",
+              "Can you help me?",
+              "Help me out!",
+              "Could you please assist me with this?"
+            ],
+            "correct": 3
+          },
+          {
+            "question": "Which sentence is an example of informal English, suitable for talking to a close friend?",
+            "options": [
+              "I would like to request a meeting with you.",
+              "Could you kindly arrange a meeting at your convenience?",
+              "I want to meet you.",
+              "I am writing to request a meeting."
+            ],
+            "correct": 2
+          },
+          {
+            "question": "In which situation should you generally use formal English?",
+            "options": [
+              "In a job interview",
+              "While chatting with close friends",
+              "While talking casually with family",
+              "While texting a close friend"
+            ],
+            "correct": 0
+          },
+          {
+            "question": "Why does the Indian English phrase 'Kindly revert back at the earliest' sound unusual to many international English speakers?",
+            "options": [
+              "Because it is too casual for a workplace email",
+              "Because it sounds unnecessarily formal and old-fashioned for the situation",
+              "Because it is considered rude",
+              "Because it is grammatically impossible to understand"
+            ],
+            "correct": 1
           }
         ],
         "quiz": {
@@ -32713,7 +33473,7 @@
         "kannadaTitle": "ಜನರನ್ನು ವಿವರಿಸುವುದು",
         "content": {
           "explanation": "Describing people involves physical appearance and personality. Physical: tall/short, thin/fat (polite: slim/heavy), fair/dark (use carefully!), young/old. Hair: long/short, straight/curly, black/brown. Eyes: big/small. Face: round/oval. Clothes: 'She is wearing a blue saree.' Use 'look like' for appearance: 'She looks like her mother.'",
-          "kannadaExplanation": "ವ್ಯಕ್ತಿಗಳನ್ನು ವಿವರಿಸುವುದು ಭೌತಿಕ ರೂಪ ಮತ್ತು ವ್ಯಕ್ತಿತ್ವ ಒಳಗೊಂಡಿದೆ. ಎತ್ತರ: tall/short. ದೇಹ: slim/heavy. ಕೂದಲು: long/short, straight/curly. 'She is wearing' = ಅವಳು ಧರಿಸಿದ್ದಾಳೆ. 'She looks like her mother' = ಅವಳು ತಾಯಿಯಂತೆ ಕಾಣಿಸುತ್ತಾಳೆ.",
+          "kannadaExplanation": "ವ್ಯಕ್ತಿಗಳನ್ನು ವಿವರಿಸುವಾಗ ದೈಹಿಕ ರೂಪ ಮತ್ತು ಸ್ವಭಾವ ಎರಡನ್ನೂ ಹೇಳಬಹುದು. ಎತ್ತರ ಹೇಳಲು ಎತ್ತರದ ಅಥವಾ ಕುಳ್ಳಗಿನ ಎಂಬ ಪದಗಳನ್ನು ಬಳಸಿ. ಮೈಕಟ್ಟಿಗೆ ತೆಳ್ಳಗಿನ ಅಥವಾ ದಪ್ಪಗಿನ ಎನ್ನಬಹುದು (ಸಭ್ಯವಾಗಿ ಹೇಳಬೇಕಾದರೆ ತೆಳ್ಳಗಿನ ಅಥವಾ ಗಟ್ಟಿಮುಟ್ಟಾದ ಎಂಬ ಪದ ಬಳಸಿ). ಮೈಬಣ್ಣಕ್ಕೆ ಬೆಳ್ಳಗಿನ ಅಥವಾ ಕಪ್ಪಗಿನ ಎನ್ನಬಹುದು, ಆದರೆ ಇದನ್ನು ಬಹಳ ಎಚ್ಚರಿಕೆಯಿಂದ ಬಳಸಬೇಕು! ವಯಸ್ಸಿಗೆ ಚಿಕ್ಕವರು ಅಥವಾ ಹಿರಿಯರು ಎನ್ನಿ. ಕೂದಲನ್ನು ಉದ್ದ ಅಥವಾ ಚಿಕ್ಕ, ನೇರ ಅಥವಾ ಗುಂಗುರು, ಕಪ್ಪು ಅಥವಾ ಕಂದು ಬಣ್ಣ ಎಂದು ವಿವರಿಸಿ. ಕಣ್ಣುಗಳು ದೊಡ್ಡವು ಅಥವಾ ಚಿಕ್ಕವು ಆಗಿರಬಹುದು, ಮುಖ ದುಂಡಗಿನ ಅಥವಾ ಉದ್ದನೆಯ ಆಕಾರದಲ್ಲಿ ಇರಬಹುದು. ಬಟ್ಟೆಯ ಬಗ್ಗೆ ಹೇಳುವಾಗ 'ಅವಳು ನೀಲಿ ಸೀರೆ ಧರಿಸಿದ್ದಾಳೆ' ಎಂಬಂತೆ ಹೇಳಿ. ಇನ್ನೊಬ್ಬರ ಹೋಲಿಕೆ ಹೇಳಲು 'ಅವಳು ತನ್ನ ತಾಯಿಯಂತೆ ಕಾಣಿಸುತ್ತಾಳೆ' ಎಂಬಂತೆ 'ಕಾಣಿಸು' ಎಂಬ ಪದ ಬಳಸಿ.",
           "vocabulary": [
             {
               "english": "tall",
@@ -33313,7 +34073,7 @@
         "kannadaTitle": "ಸ್ಥಳಗಳನ್ನು ವಿವರಿಸುವುದು",
         "content": {
           "explanation": "Describing places: Use adjectives: beautiful, crowded, peaceful, noisy, modern, ancient, clean, dirty, huge, tiny. Structure: 'It is a [adjective] [place].' 'Bengaluru is a modern, crowded city.' 'Coorg is a beautiful, peaceful hill station.' Compare: 'Mysuru is quieter than Bengaluru.' Superlative: 'Bengaluru is the biggest city in Karnataka.'",
-          "kannadaExplanation": "ಸ್ಥಳಗಳ ವಿವರಣೆ: ವಿಶೇಷಣಗಳು: beautiful=ಸುಂದರ, crowded=ಜನನಿಬಿಡ, peaceful=ಶಾಂತಿಯುತ, modern=ಆಧುನಿಕ, ancient=ಪ್ರಾಚೀನ. ಹೋಲಿಕೆ: 'Mysuru is quieter than Bengaluru.' ಅತ್ಯುತ್ತಮ: 'Bengaluru is the biggest city.'",
+          "kannadaExplanation": "ಸ್ಥಳಗಳನ್ನು ವಿವರಿಸುವಾಗ ವಿಶೇಷಣಗಳನ್ನು ಬಳಸಿ: ಸುಂದರ, ಜನನಿಬಿಡ, ಶಾಂತಿಯುತ, ಗದ್ದಲದ, ಆಧುನಿಕ, ಪ್ರಾಚೀನ, ಸ್ವಚ್ಛ, ಕೊಳಕಾದ, ಬೃಹತ್, ಪುಟ್ಟ. ವಾಕ್ಯ ರಚನೆ 'ಇದು ಒಂದು [ವಿಶೇಷಣ] [ಸ್ಥಳ]' ಎಂಬಂತಿರಲಿ - ಉದಾಹರಣೆಗೆ 'ಬೆಂಗಳೂರು ಒಂದು ಆಧುನಿಕ, ಜನನಿಬಿಡ ನಗರ' ಅಥವಾ 'ಕೊಡಗು ಒಂದು ಸುಂದರ, ಶಾಂತಿಯುತ ಗಿರಿಧಾಮ' ಎಂದು ಹೇಳಬಹುದು. ಎರಡು ಸ್ಥಳಗಳ ಹೋಲಿಕೆ ಮಾಡಲು: 'ಮೈಸೂರು ಬೆಂಗಳೂರಿಗಿಂತ ಶಾಂತವಾಗಿದೆ' ಎಂದು ಹೇಳಬಹುದು. ಅತ್ಯುತ್ತಮ ಹೋಲಿಕೆ ಮಾಡಲು: 'ಬೆಂಗಳೂರು ಕರ್ನಾಟಕದ ಅತಿ ದೊಡ್ಡ ನಗರ' ಎಂದು ಹೇಳಿ.",
           "vocabulary": [
             {
               "english": "big",
@@ -34498,7 +35258,7 @@
         "kannadaTitle": "ಭೂತಕಾಲದ ಕಥೆಗಳನ್ನು ಹೇಳುವುದು",
         "content": {
           "explanation": "Telling past stories: Use past simple for main events, past continuous for background. 'I was walking to the bus stop when it started raining.' 'While she was cooking, the phone rang.' Sequencing: 'First...then...after that...finally.' Adding details: 'Suddenly...', 'Unfortunately...', 'Luckily...'. Practice telling stories about holidays, funny incidents, memorable days.",
-          "kannadaExplanation": "ಕಥೆ ಹೇಳುವುದು: ಮುಖ್ಯ ಘಟನೆಗಳಿಗೆ past simple, ಹಿನ್ನೆಲೆಗೆ past continuous. 'I was walking...when it started raining.' ಕ್ರಮ: 'First...then...after that...finally.' ವಿವರ: 'Suddenly...', 'Luckily...'",
+          "kannadaExplanation": "ಹಿಂದಿನ ಕಥೆಗಳನ್ನು ಹೇಳುವಾಗ ಮುಖ್ಯ ಘಟನೆಗಳಿಗೆ ಸರಳ ಭೂತಕಾಲ ಬಳಸಿ, ಹಿನ್ನೆಲೆ ಘಟನೆಗಳಿಗೆ ನಡೆಯುತ್ತಿದ್ದ ಭೂತಕಾಲ ಬಳಸಿ. ಉದಾಹರಣೆಗೆ 'ನಾನು ಬಸ್ ನಿಲ್ದಾಣಕ್ಕೆ ನಡೆಯುತ್ತಿದ್ದಾಗ ಮಳೆ ಶುರುವಾಯಿತು' ಅಥವಾ 'ಅವಳು ಅಡುಗೆ ಮಾಡುತ್ತಿದ್ದಾಗ ಫೋನ್ ರಿಂಗಣಿಸಿತು' ಎಂಬಂತೆ ಹೇಳಬಹುದು. ಘಟನೆಗಳ ಕ್ರಮ ಹೇಳಲು 'ಮೊದಲು...ನಂತರ...ಆಮೇಲೆ...ಕೊನೆಗೆ' ಎಂಬ ಪದಗಳನ್ನು ಬಳಸಿ. ಹೆಚ್ಚಿನ ವಿವರಗಳಿಗಾಗಿ 'ಇದ್ದಕ್ಕಿದ್ದಂತೆ', 'ದುರದೃಷ್ಟವಶಾತ್', 'ಅದೃಷ್ಟವಶಾತ್' ಎಂಬ ಪದಗಳನ್ನು ಬಳಸಬಹುದು. ರಜಾ ದಿನಗಳು, ತಮಾಷೆಯ ಘಟನೆಗಳು ಅಥವಾ ಮರೆಯಲಾಗದ ದಿನಗಳ ಬಗ್ಗೆ ಕಥೆ ಹೇಳುವ ಅಭ್ಯಾಸ ಮಾಡಿ.",
           "patterns": [
             {
               "pattern": "Last year/week/yesterday...",
@@ -34783,7 +35543,7 @@
         "kannadaTitle": "ವಸ್ತುಗಳನ್ನು ಹೋಲಿಸುವುದು",
         "content": {
           "explanation": "Comparing things: Comparatives (-er/more): 'Mysuru is smaller than Bengaluru.' 'This phone is more expensive than that one.' Superlatives (-est/most): 'Bengaluru is the biggest city in Karnataka.' 'This is the most delicious biryani I've ever had.' Rules: short adj → -er/-est; long adj → more/most. Irregular: good→better→best, bad→worse→worst.",
-          "kannadaExplanation": "ಹೋಲಿಕೆ: ತುಲನಾತ್ಮಕ (-er/more): 'Mysuru is smaller than Bengaluru.' ಅತ್ಯುತ್ತಮ (-est/most): 'Bengaluru is the biggest.' ಅನಿಯಮಿತ: good→better→best, bad→worse→worst.",
+          "kannadaExplanation": "ವಸ್ತುಗಳನ್ನು ಹೋಲಿಸುವಾಗ ತುಲನಾತ್ಮಕ ರೂಪ (-er ಅಥವಾ more ಸೇರಿಸಿ) ಬಳಸಿ: 'ಮೈಸೂರು ಬೆಂಗಳೂರಿಗಿಂತ ಚಿಕ್ಕದು' ಅಥವಾ 'ಈ ಫೋನ್ ಆ ಫೋನ್‌ಗಿಂತ ದುಬಾರಿ' ಎಂಬಂತೆ. ಅತ್ಯುತ್ತಮ ರೂಪ (-est ಅಥವಾ most ಸೇರಿಸಿ) ಬಳಸಿ: 'ಬೆಂಗಳೂರು ಕರ್ನಾಟಕದ ಅತಿ ದೊಡ್ಡ ನಗರ' ಅಥವಾ 'ಇದು ನಾನು ತಿಂದ ಅತ್ಯಂತ ರುಚಿಯಾದ ಬಿರಿಯಾನಿ' ಎಂಬಂತೆ. ನಿಯಮ: ಚಿಕ್ಕ ವಿಶೇಷಣಗಳಿಗೆ -er/-est ಸೇರಿಸಿ, ಉದ್ದದ ವಿಶೇಷಣಗಳಿಗೆ more/most ಬಳಸಿ. ಅನಿಯಮಿತ ಪದಗಳು: ಒಳ್ಳೆಯದು (good) → ಉತ್ತಮವಾದದ್ದು (better) → ಅತ್ಯುತ್ತಮವಾದದ್ದು (best); ಕೆಟ್ಟದು (bad) → ಇನ್ನೂ ಕೆಟ್ಟದು (worse) → ಅತ್ಯಂತ ಕೆಟ್ಟದು (worst).",
           "patterns": [
             {
               "pattern": "adjective + er than",
@@ -35078,7 +35838,7 @@
         "kannadaTitle": "ಅನುಭವಗಳನ್ನು ವಿವರಿಸುವುದು",
         "content": {
           "explanation": "Describing experiences with 'have you ever...?': 'Have you ever been to Goa?' 'I have visited Hampi three times.' 'I have never eaten sushi.' Use present perfect for life experiences (no specific time). Past simple for specific times: 'I went to Goa last year.' (NOT 'I have gone to Goa last year.')",
-          "kannadaExplanation": "ಅನುಭವ ವಿವರಿಸುವುದು: 'Have you ever...?' = ಎಂದಾದರೂ...ಮಾಡಿದ್ದೀರಾ? 'I have visited Hampi' = ಹಂಪಿಗೆ ಹೋಗಿದ್ದೇನೆ. 'I have never eaten sushi' = ಎಂದೂ ಸುಶಿ ತಿಂದಿಲ್ಲ. ನಿರ್ದಿಷ್ಟ ಸಮಯಕ್ಕೆ past simple ಬಳಸಿ.",
+          "kannadaExplanation": "ಅನುಭವಗಳನ್ನು ವಿವರಿಸಲು 'ಎಂದಾದರೂ ...ಮಾಡಿದ್ದೀರಾ?' ಎಂಬ ಪ್ರಶ್ನಾ ರಚನೆ ಬಳಸಿ - ಉದಾಹರಣೆಗೆ 'ನೀವು ಎಂದಾದರೂ ಗೋವಾಕ್ಕೆ ಹೋಗಿದ್ದೀರಾ?' ಎಂದು ಕೇಳಬಹುದು. ಜೀವನದ ಅನುಭವಗಳನ್ನು ಹೇಳಲು ಪೂರ್ಣ ವರ್ತಮಾನ ಕಾಲ ಬಳಸಿ, ನಿರ್ದಿಷ್ಟ ಸಮಯ ಹೇಳದೆ: 'ನಾನು ಹಂಪಿಗೆ ಮೂರು ಬಾರಿ ಭೇಟಿ ನೀಡಿದ್ದೇನೆ' ಅಥವಾ 'ನಾನು ಎಂದೂ ಸುಶಿ ತಿಂದಿಲ್ಲ' ಎಂಬಂತೆ. ಆದರೆ ನಿರ್ದಿಷ್ಟ ಸಮಯ ಹೇಳುವಾಗ ಸರಳ ಭೂತಕಾಲ ಬಳಸಿ: 'ನಾನು ಕಳೆದ ವರ್ಷ ಗೋವಾಕ್ಕೆ ಹೋಗಿದ್ದೆ' ಎಂದು ಹೇಳಬೇಕು, ಪೂರ್ಣ ವರ್ತಮಾನ ಕಾಲ ಬಳಸಬಾರದು.",
           "patterns": [
             {
               "pattern": "I have never...",
@@ -35363,7 +36123,7 @@
         "kannadaTitle": "ಕಾರಣಗಳನ್ನು ನೀಡುವುದು",
         "content": {
           "explanation": "Giving reasons with because/so/therefore/that's why: 'I'm learning English because I need it for my job.' 'It was raining, so we stayed home.' 'She worked hard, therefore she got promoted.' 'The bus was late, that's why I missed the meeting.' Because answers WHY. So/therefore/that's why introduce the RESULT.",
-          "kannadaExplanation": "ಕಾರಣ ನೀಡುವುದು: because=ಏಕೆಂದರೆ, so=ಆದ್ದರಿಂದ, therefore=ಆದ್ದರಿಂದ, that's why=ಅದಕ್ಕೆ. because ಕಾರಣ ಹೇಳುತ್ತದೆ. so/therefore ಫಲಿತಾಂಶ ಹೇಳುತ್ತದೆ.",
+          "kannadaExplanation": "ಕಾರಣ ಹೇಳಲು 'because' (ಏಕೆಂದರೆ), ಫಲಿತಾಂಶ ಹೇಳಲು 'so' ಮತ್ತು 'therefore' (ಆದ್ದರಿಂದ) ಹಾಗೂ 'that's why' (ಅದಕ್ಕೇ) ಎಂಬ ಪದಗಳನ್ನು ಬಳಸಿ. ಉದಾಹರಣೆಗೆ, 'ನನಗೆ ಕೆಲಸಕ್ಕೆ ಬೇಕಾಗಿರುವುದರಿಂದ ನಾನು ಇಂಗ್ಲಿಷ್ ಕಲಿಯುತ್ತಿದ್ದೇನೆ' ಎಂಬಲ್ಲಿ ಕಾರಣ ಹೇಳಲಾಗಿದೆ. 'ಮಳೆ ಬರುತ್ತಿತ್ತು, ಆದ್ದರಿಂದ ನಾವು ಮನೆಯಲ್ಲೇ ಉಳಿದೆವು' ಮತ್ತು 'ಅವಳು ಶ್ರಮಪಟ್ಟು ಕೆಲಸ ಮಾಡಿದಳು, ಆದ್ದರಿಂದ ಅವಳಿಗೆ ಬಡ್ತಿ ಸಿಕ್ಕಿತು' ಎಂಬಲ್ಲಿ ಫಲಿತಾಂಶ ಹೇಳಲಾಗಿದೆ. 'ಬಸ್ ತಡವಾಗಿ ಬಂತು, ಅದಕ್ಕೇ ನಾನು ಸಭೆ ತಪ್ಪಿಸಿಕೊಂಡೆ' ಎಂಬಲ್ಲೂ ಅದೇ ರೀತಿ. ಸಂಕ್ಷಿಪ್ತವಾಗಿ ಹೇಳುವುದಾದರೆ, ಕಾರಣ ಸೂಚಿಸುವ ಪದ 'ಏಕೆ' ಎಂಬ ಪ್ರಶ್ನೆಗೆ ಉತ್ತರ ನೀಡುತ್ತದೆ, ಫಲಿತಾಂಶ ಸೂಚಿಸುವ ಪದಗಳು ಪರಿಣಾಮವನ್ನು ಹೇಳುತ್ತವೆ.",
           "patterns": [
             {
               "pattern": "because...",
@@ -35649,7 +36409,7 @@
         "kannadaTitle": "ಭಾವನೆಗಳನ್ನು ವಿವರಿಸುವುದು",
         "content": {
           "explanation": "Describing feelings and emotions: happy (ಸಂತೋಷ), sad (ದುಃಖ), angry (ಕೋಪ), scared/afraid (ಭಯ), nervous (ಆತಂಕ), excited (ಉತ್ಸಾಹ), tired (ಸುಸ್ತು), bored (ಬೇಸರ), surprised (ಆಶ್ಚರ್ಯ), disappointed (ನಿರಾಸೆ), proud (ಹೆಮ್ಮೆ), embarrassed (ಮುಜುಗರ). 'I feel happy when I speak English well.' 'She was disappointed with the result.'",
-          "kannadaExplanation": "ಭಾವನೆಗಳು: happy=ಸಂತೋಷ, sad=ದುಃಖ, angry=ಕೋಪ, nervous=ಆತಂಕ, excited=ಉತ್ಸಾಹ, tired=ಸುಸ್ತು, proud=ಹೆಮ್ಮೆ. 'I feel happy' = ಸಂತೋಷವಾಗಿದೆ. 'She was disappointed' = ಅವಳಿಗೆ ನಿರಾಸೆಯಾಯಿತು.",
+          "kannadaExplanation": "ಭಾವನೆಗಳನ್ನು ಮತ್ತು ಮನಸ್ಥಿತಿಯನ್ನು ವಿವರಿಸಲು ಈ ಪದಗಳನ್ನು ಬಳಸಿ: ಸಂತೋಷ, ದುಃಖ, ಕೋಪ, ಭಯ, ಆತಂಕ, ಉತ್ಸಾಹ, ಸುಸ್ತು, ಬೇಸರ, ಆಶ್ಚರ್ಯ, ನಿರಾಸೆ, ಹೆಮ್ಮೆ, ಮುಜುಗರ. ಉದಾಹರಣೆಗೆ, 'ನಾನು ಇಂಗ್ಲಿಷ್ ಚೆನ್ನಾಗಿ ಮಾತನಾಡಿದಾಗ ನನಗೆ ಸಂತೋಷವಾಗುತ್ತದೆ' ಅಥವಾ 'ಫಲಿತಾಂಶದಿಂದ ಅವಳಿಗೆ ನಿರಾಸೆಯಾಯಿತು' ಎಂಬಂತೆ ಹೇಳಬಹುದು.",
           "vocabulary": [
             {
               "english": "happy",
@@ -36352,6 +37112,46 @@
               "Nevertheless"
             ],
             "correct": 3
+          },
+          {
+            "question": "Which of these is an addition linking word, used to add extra information?",
+            "options": [
+              "Also",
+              "However",
+              "Nevertheless",
+              "Although"
+            ],
+            "correct": 0
+          },
+          {
+            "question": "Which of these is a contrast linking word, used to show a difference between two ideas?",
+            "options": [
+              "Furthermore",
+              "Besides",
+              "In addition",
+              "On the other hand"
+            ],
+            "correct": 3
+          },
+          {
+            "question": "Fill in the blank to add an extra positive point: 'The hotel was expensive. ___, the service was excellent.'",
+            "options": [
+              "However",
+              "Despite",
+              "Moreover",
+              "Although"
+            ],
+            "correct": 2
+          },
+          {
+            "question": "Fill in the blank to show an unexpected contrast: 'It was raining heavily. ___, we decided to go for a walk.'",
+            "options": [
+              "Furthermore",
+              "Nevertheless",
+              "In addition",
+              "Besides"
+            ],
+            "correct": 1
           }
         ],
         "quiz": {
@@ -36480,7 +37280,7 @@
         "kannadaTitle": "ಭಾವನೆಗಳನ್ನು ವ್ಯಕ್ತಪಡಿಸುವುದು",
         "content": {
           "explanation": "Expressing emotions goes beyond simple words like 'happy' or 'sad' — fluent speakers use varied phrases and intensifiers to show how they really feel. Strong positive emotions: 'I'm thrilled about...', 'I'm over the moon!', 'I'm really proud of...'. Strong negative emotions: 'I'm frustrated with...', 'I feel overwhelmed by...', 'That really upset me.'. Showing empathy for others: 'That must have been hard for you.', 'I can imagine how you felt.', 'I'm so sorry to hear that.'. Use intensifiers like 'really', 'so', 'absolutely', 'completely' to strengthen the emotion.",
-          "kannadaExplanation": "ಭಾವನೆಗಳನ್ನು ವ್ಯಕ್ತಪಡಿಸುವುದು ಕೇವಲ 'happy'/'sad' ಗಿಂತ ಹೆಚ್ಚು. ಬಲವಾದ ಧನಾತ್ಮಕ ಭಾವನೆ: 'I'm thrilled...', 'I'm over the moon!'. ಬಲವಾದ ಋಣಾತ್ಮಕ: 'I'm frustrated...', 'I feel overwhelmed'. ಸಹಾನುಭೂತಿ: 'That must have been hard for you.' ತೀವ್ರತೆಗಾಗಿ 'really', 'so', 'absolutely' ಬಳಸಿ.",
+          "kannadaExplanation": "ಭಾವನೆಗಳನ್ನು ವ್ಯಕ್ತಪಡಿಸುವುದು ಕೇವಲ 'ಸಂತೋಷ' ಅಥವಾ 'ದುಃಖ' ಎಂಬಂತಹ ಸರಳ ಪದಗಳಿಗಿಂತ ಹೆಚ್ಚಿನದು - ನಿರರ್ಗಳವಾಗಿ ಮಾತನಾಡುವವರು ತಮಗೆ ನಿಜವಾಗಿ ಹೇಗೆ ಅನಿಸುತ್ತದೆ ಎಂಬುದನ್ನು ತೋರಿಸಲು ವೈವಿಧ್ಯಮಯ ವಾಕ್ಯಗಳು ಮತ್ತು ಒತ್ತು ನೀಡುವ ಪದಗಳನ್ನು ಬಳಸುತ್ತಾರೆ. ಬಲವಾದ ಧನಾತ್ಮಕ ಭಾವನೆಗಳಿಗೆ: 'ನನಗೆ ತುಂಬಾ ಖುಷಿಯಾಗಿದೆ', 'ನಾನು ಆಕಾಶಕ್ಕೆ ಏರಿದಷ್ಟು ಸಂತೋಷದಲ್ಲಿದ್ದೇನೆ', 'ನನಗೆ ನಿಜವಾಗಿಯೂ ಹೆಮ್ಮೆಯಾಗುತ್ತದೆ' ಎಂಬಂತಹ ವಾಕ್ಯಗಳನ್ನು ಬಳಸಿ. ಬಲವಾದ ಋಣಾತ್ಮಕ ಭಾವನೆಗಳಿಗೆ: 'ನನಗೆ ಬೇಸರ ಮತ್ತು ಕಿರಿಕಿರಿಯಾಗಿದೆ', 'ನನಗೆ ತುಂಬಾ ಒತ್ತಡವೆನಿಸುತ್ತಿದೆ', 'ಅದು ನನಗೆ ನಿಜವಾಗಿಯೂ ಬೇಸರ ತಂದಿತು' ಎಂಬಂತಹ ವಾಕ್ಯಗಳನ್ನು ಬಳಸಿ. ಇತರರ ಬಗ್ಗೆ ಅನುಕಂಪ ತೋರಿಸಲು: 'ಅದು ನಿಮಗೆ ತುಂಬಾ ಕಷ್ಟವಾಗಿರಬೇಕು', 'ನಿಮಗೆ ಹೇಗೆ ಅನಿಸಿರಬಹುದು ಎಂದು ನಾನು ಊಹಿಸಬಲ್ಲೆ', 'ಅದನ್ನು ಕೇಳಿ ನನಗೆ ತುಂಬಾ ಬೇಸರವಾಯಿತು' ಎಂಬಂತಹ ವಾಕ್ಯಗಳನ್ನು ಬಳಸಿ. ಭಾವನೆಯನ್ನು ಇನ್ನಷ್ಟು ಒತ್ತು ಕೊಟ್ಟು ಹೇಳಲು 'ನಿಜವಾಗಿಯೂ', 'ತುಂಬಾ', 'ಸಂಪೂರ್ಣವಾಗಿ' ಎಂಬಂತಹ ಪದಗಳನ್ನು ಬಳಸಿ.",
           "patterns": [
             {
               "pattern": "If + present simple, will + base verb (1st conditional)",
@@ -37056,7 +37856,7 @@
         "kannadaTitle": "ಷರತ್ತು ವಾಕ್ಯಗಳು - ಪ್ರಕಾರ 0 ಮತ್ತು 1",
         "content": {
           "explanation": "Zero Conditional describes general truths and facts that are always true: If + present simple, present simple. 'If you heat water to 100°C, it boils.' First Conditional describes real, possible future situations: If + present simple, will + base verb. 'If it rains tomorrow, I will take an umbrella.' Zero conditional = always true (facts, habits). First conditional = a real possibility in the future, with a likely result.",
-          "kannadaExplanation": "Zero Conditional ಸಾಮಾನ್ಯ ಸತ್ಯಗಳಿಗೆ: If + present simple, present simple. 'If you heat water to 100°C, it boils.' First Conditional ನಿಜವಾದ ಭವಿಷ್ಯದ ಸಾಧ್ಯತೆಗೆ: If + present simple, will + base verb. 'If it rains tomorrow, I will take an umbrella.'",
+          "kannadaExplanation": "ಶೂನ್ಯ ಷರತ್ತು (Zero Conditional) ಯಾವಾಗಲೂ ನಿಜವಾಗಿರುವ ಸಾಮಾನ್ಯ ಸತ್ಯಗಳನ್ನು ಹೇಳಲು ಬಳಸಲಾಗುತ್ತದೆ: 'If + ವರ್ತಮಾನ ಕಾಲ, ವರ್ತಮಾನ ಕಾಲ' ಎಂಬ ರಚನೆ ಬಳಸಿ. ಉದಾಹರಣೆಗೆ, 'ನೀರನ್ನು 100 ಡಿಗ್ರಿ ಸೆಲ್ಸಿಯಸ್‌ಗೆ ಕಾಯಿಸಿದರೆ, ಅದು ಕುದಿಯುತ್ತದೆ' ಎಂಬಂತೆ. ಮೊದಲ ಷರತ್ತು (First Conditional) ನಿಜವಾದ, ಸಾಧ್ಯವಿರುವ ಭವಿಷ್ಯದ ಪರಿಸ್ಥಿತಿಗಳನ್ನು ಹೇಳಲು ಬಳಸಲಾಗುತ್ತದೆ: 'If + ವರ್ತಮಾನ ಕಾಲ, will + ಮೂಲ ಕ್ರಿಯಾಪದ' ಎಂಬ ರಚನೆ ಬಳಸಿ. ಉದಾಹರಣೆಗೆ, 'ನಾಳೆ ಮಳೆ ಬಂದರೆ, ನಾನು ಛತ್ರಿ ತೆಗೆದುಕೊಳ್ಳುತ್ತೇನೆ' ಎಂಬಂತೆ. ಸಂಕ್ಷಿಪ್ತವಾಗಿ ಹೇಳುವುದಾದರೆ, ಶೂನ್ಯ ಷರತ್ತು ಯಾವಾಗಲೂ ನಿಜವಾದ ಸಂಗತಿಗಳು ಮತ್ತು ಅಭ್ಯಾಸಗಳಿಗೆ, ಮೊದಲ ಷರತ್ತು ಭವಿಷ್ಯದಲ್ಲಿ ನಿಜವಾದ ಸಾಧ್ಯತೆ ಮತ್ತು ಅದರ ಸಂಭವನೀಯ ಫಲಿತಾಂಶಕ್ಕೆ ಬಳಕೆಯಾಗುತ್ತದೆ.",
           "patterns": [
             {
               "pattern": "Object + is/are + past participle (present passive)",
@@ -38281,7 +39081,7 @@
         "kannadaTitle": "ಹುದ್ದುಗಳು ಮತ್ತು ಪಾತ್ರಗಳು",
         "content": {
           "explanation": "Job titles: software developer/engineer (ಸಾಫ್ಟ್‌ವೇರ್ ಇಂಜಿನಿಯರ್), manager (ಮ್ಯಾನೇಜರ್), accountant (ಲೆಕ್ಕಪರಿಶೋಧಕ), teacher (ಶಿಕ್ಷಕ), doctor (ವೈದ್ಯ), driver (ಚಾಲಕ), nurse (ನರ್ಸ್), mechanic (ಮೆಕ್ಯಾನಿಕ್), shopkeeper (ಅಂಗಡಿಯವ), farmer (ರೈತ). Roles: 'She is responsible for...', 'His duties include...', 'I am in charge of...'",
-          "kannadaExplanation": "ಉದ್ಯೋಗ ಶೀರ್ಷಿಕೆಗಳು: developer=ಡೆವಲಪರ್, manager=ಮ್ಯಾನೇಜರ್, accountant=ಲೆಕ್ಕಪರಿಶೋಧಕ, teacher=ಶಿಕ್ಷಕ. ಪಾತ್ರಗಳು: 'She is responsible for...' = ಅವಳ ಜವಾಬ್ದಾರಿ...",
+          "kannadaExplanation": "ಉದ್ಯೋಗ ಶೀರ್ಷಿಕೆ ಎಂದರೆ ಒಬ್ಬ ವ್ಯಕ್ತಿಯ ಹುದ್ದೆಯ ಹೆಸರು. ಉದಾಹರಣೆಗೆ ತಂತ್ರಾಂಶ ಅಭಿಯಂತರ, ವ್ಯವಸ್ಥಾಪಕ, ಲೆಕ್ಕಪರಿಶೋಧಕ, ಶಿಕ್ಷಕ, ವೈದ್ಯ, ಚಾಲಕ, ದಾದಿ, ದುರಸ್ತಿಗಾರ, ಅಂಗಡಿಯವರು ಮತ್ತು ರೈತ ಮುಂತಾದ ಹುದ್ದೆಗಳಿವೆ. ಒಬ್ಬರ ಕೆಲಸದ ಪಾತ್ರ ಅಥವಾ ಜವಾಬ್ದಾರಿಯನ್ನು ವಿವರಿಸಲು ಈ ರೀತಿಯ ವಾಕ್ಯ ರಚನೆಗಳನ್ನು ಬಳಸಬಹುದು: 'ಅವಳು ಇದಕ್ಕೆ ಜವಾಬ್ದಾರಳಾಗಿದ್ದಾಳೆ' ಎಂದು ಹೇಳಿ ಆಕೆಯ ಕರ್ತವ್ಯವನ್ನು ತಿಳಿಸಬಹುದು, 'ಅವನ ಕರ್ತವ್ಯಗಳಲ್ಲಿ ಇವು ಸೇರಿವೆ' ಎಂದು ಹೇಳಿ ಹೊಣೆಗಾರಿಕೆಗಳ ಪಟ್ಟಿ ನೀಡಬಹುದು, ಮತ್ತು 'ನಾನು ಇದರ ಉಸ್ತುವಾರಿ ವಹಿಸಿದ್ದೇನೆ' ಎಂದು ಹೇಳಿ ತಮ್ಮ ಜವಾಬ್ದಾರಿ ಪ್ರದೇಶ ತಿಳಿಸಬಹುದು. ಈ ಮಾತಿನ ಶೈಲಿಗಳನ್ನು ಕೆಲಸದ ಸ್ಥಳದಲ್ಲಿ ತಮ್ಮ ಹುದ್ದೆ ಮತ್ತು ಜವಾಬ್ದಾರಿಗಳನ್ನು ಪರಿಚಯಿಸಲು ಬಳಸಲಾಗುತ್ತದೆ.",
           "vocabulary": [
             {
               "english": "engineer",
@@ -39896,6 +40696,66 @@
               "Let's discuss more"
             ],
             "correct": 2
+          },
+          {
+            "question": "In meeting vocabulary, what does 'agenda' mean?",
+            "options": [
+              "A list of topics to be discussed",
+              "A written record of a meeting",
+              "The person who leads a meeting",
+              "People attending the meeting"
+            ],
+            "correct": 0
+          },
+          {
+            "question": "What are 'minutes' in the context of a meeting?",
+            "options": [
+              "A list of topics to discuss",
+              "People present at the meeting",
+              "A written record of what happened in a meeting",
+              "Tasks assigned after the meeting"
+            ],
+            "correct": 2
+          },
+          {
+            "question": "Who is the 'chairperson' in a meeting?",
+            "options": [
+              "A task assigned to someone",
+              "The person who leads the meeting",
+              "The written record of the meeting",
+              "The list of discussion topics"
+            ],
+            "correct": 1
+          },
+          {
+            "question": "What does the word 'attendees' refer to?",
+            "options": [
+              "The written minutes of a meeting",
+              "Tasks given during a meeting",
+              "The meeting leader",
+              "People who are present at a meeting"
+            ],
+            "correct": 3
+          },
+          {
+            "question": "What are 'action items' in a meeting?",
+            "options": [
+              "Tasks assigned to people during a meeting",
+              "The agenda for the next meeting",
+              "The person taking notes",
+              "A phrase used to end a meeting"
+            ],
+            "correct": 0
+          },
+          {
+            "question": "Which phrase would you use to end a meeting?",
+            "options": [
+              "Any questions?",
+              "Let's wrap up",
+              "Moving on to the next item",
+              "Let's get started"
+            ],
+            "correct": 1
           }
         ],
         "quiz": {
@@ -40124,6 +40984,66 @@
               "Obviously we must..."
             ],
             "correct": 1
+          },
+          {
+            "question": "Which phrase is used to politely disagree in a meeting?",
+            "options": [
+              "I agree with that",
+              "I see your point, but...",
+              "Could you explain that further?",
+              "In my opinion..."
+            ],
+            "correct": 1
+          },
+          {
+            "question": "Which phrase is used to ask for clarification during a meeting?",
+            "options": [
+              "That's a good point",
+              "I'm not sure I agree",
+              "What do you mean by...?",
+              "I think we should..."
+            ],
+            "correct": 2
+          },
+          {
+            "question": "Which phrase is used to give your own opinion in a meeting?",
+            "options": [
+              "In my opinion...",
+              "Sorry to interrupt, but...",
+              "Could you explain that further?",
+              "I agree with that"
+            ],
+            "correct": 0
+          },
+          {
+            "question": "Which phrase is used to politely interrupt someone in a meeting?",
+            "options": [
+              "That's a good point",
+              "I think we should...",
+              "I'm not sure I agree",
+              "May I add something?"
+            ],
+            "correct": 3
+          },
+          {
+            "question": "Which phrase shows agreement with someone's idea?",
+            "options": [
+              "I'm not sure I agree",
+              "That's a good point",
+              "What do you mean by...?",
+              "Sorry to interrupt, but..."
+            ],
+            "correct": 1
+          },
+          {
+            "question": "What is a polite way to interrupt during a meeting?",
+            "options": [
+              "Sorry to interrupt, but...",
+              "I agree with that",
+              "In my opinion...",
+              "Could you explain that further?"
+            ],
+            "correct": 0
           }
         ],
         "quiz": {
@@ -40242,7 +41162,7 @@
         "kannadaTitle": "ವೃತ್ತಿಪರ ಅಭಿವಾದನೆಗಳು",
         "content": {
           "explanation": "Professional greetings go beyond basic hi/hello. First meeting: 'It's a pleasure to meet you.' Follow-up: 'Good to see you again.' Starting a meeting: 'Thank you all for coming.' Ending: 'Thank you for your time.' On the phone: 'Good morning, [name] speaking.' Email: 'Dear Mr./Ms. [name]'. Avoid: 'Myself Ramesh' (say 'I am Ramesh').",
-          "kannadaExplanation": "ವೃತ್ತಿಪರ ಶುಭಾಶಯ: ಮೊದಲ ಭೇಟಿ: 'It's a pleasure to meet you.' ಮೀಟಿಂಗ್ ಆರಂಭ: 'Thank you all for coming.' ಮುಕ್ತಾಯ: 'Thank you for your time.' 'Myself Ramesh' ಬಳಸಬೇಡಿ, 'I am Ramesh' ಬಳಸಿ.",
+          "kannadaExplanation": "ವೃತ್ತಿಪರ ವಾತಾವರಣದಲ್ಲಿ ಬಳಸುವ ಶುಭಾಶಯಗಳು ಸಾಮಾನ್ಯ ವಂದನೆಗಿಂತ ಹೆಚ್ಚು ಔಪಚಾರಿಕವಾಗಿರುತ್ತವೆ. ಯಾರನ್ನಾದರೂ ಮೊದಲ ಬಾರಿ ಭೇಟಿಯಾದಾಗ 'ನಿಮ್ಮನ್ನು ಭೇಟಿಯಾಗಿದ್ದು ಸಂತೋಷ' ಎಂಬ ಅರ್ಥದ ಮಾತು ಹೇಳಬೇಕು. ಮತ್ತೆ ಭೇಟಿಯಾದಾಗ 'ಮತ್ತೆ ನಿಮ್ಮನ್ನು ಕಂಡಿದ್ದು ಒಳ್ಳೆಯದು' ಎಂದು ಹೇಳಬಹುದು. ಸಭೆ ಆರಂಭಿಸುವಾಗ 'ಬಂದದ್ದಕ್ಕೆ ಎಲ್ಲರಿಗೂ ಧನ್ಯವಾದಗಳು' ಎಂದೂ, ಸಭೆ ಮುಗಿಸುವಾಗ 'ನಿಮ್ಮ ಸಮಯಕ್ಕಾಗಿ ಧನ್ಯವಾದಗಳು' ಎಂದೂ ಹೇಳುತ್ತಾರೆ. ದೂರವಾಣಿಯಲ್ಲಿ ಮಾತನಾಡುವಾಗ ಮೊದಲು ಶುಭೋದಯ ಹೇಳಿ ನಂತರ ತಮ್ಮ ಹೆಸರು ತಿಳಿಸಬೇಕು. ಇಮೇಲ್‌ನಲ್ಲಿ ಬರೆಯುವಾಗ 'ಪ್ರಿಯ ಶ್ರೀ ಅಥವಾ ಶ್ರೀಮತಿ [ಹೆಸರು]' ಎಂದು ಆರಂಭಿಸಬೇಕು. ತಮ್ಮನ್ನು ಪರಿಚಯಿಸುವಾಗ 'ಮೈಸೆಲ್ಫ್ ರಮೇಶ್' ಎಂಬ ತಪ್ಪಾದ ಪ್ರಯೋಗ ಬಳಸಬಾರದು; ಬದಲಿಗೆ 'ನಾನು ರಮೇಶ್' ಎಂಬ ಸರಿಯಾದ ವಾಕ್ಯ ಬಳಸಬೇಕು.",
           "patterns": [
             {
               "pattern": "Good morning/afternoon/evening",
@@ -40528,7 +41448,7 @@
         "kannadaTitle": "ಪ್ರತಿಕ್ರಿಯೆ ನೀಡುವುದು ಮತ್ತು ಸ್ವೀಕರಿಸುವುದು",
         "content": {
           "explanation": "Giving feedback: Positive: 'Great work!', 'Well done!', 'I really liked...', 'You did an excellent job on...' Constructive: 'I think you could improve...', 'Have you considered...?', 'One suggestion would be...', 'It would be better if...' Receiving: 'Thank you for the feedback.', 'I'll work on that.', 'I appreciate your suggestion.' Use the sandwich method: positive → suggestion → positive.",
-          "kannadaExplanation": "ಪ್ರತಿಕ್ರಿಯೆ ನೀಡುವುದು: ಧನಾತ್ಮಕ: 'Great work!', 'Well done!' ಸಲಹೆ: 'I think you could improve...' ಸ್ವೀಕರಿಸುವುದು: 'Thank you for the feedback.' ಸ್ಯಾಂಡ್‌ವಿಚ್ ವಿಧಾನ: ಧನಾತ್ಮಕ → ಸಲಹೆ → ಧನಾತ್ಮಕ.",
+          "kannadaExplanation": "ಪ್ರತಿಕ್ರಿಯೆ ನೀಡುವುದು ಮತ್ತು ಸ್ವೀಕರಿಸುವುದು ಕೆಲಸದ ಸ್ಥಳದಲ್ಲಿ ಬಹಳ ಮುಖ್ಯವಾದ ಕೌಶಲ್ಯ. ಧನಾತ್ಮಕ ಪ್ರತಿಕ್ರಿಯೆ ನೀಡುವಾಗ 'ಅತ್ಯುತ್ತಮ ಕೆಲಸ!', 'ಚೆನ್ನಾಗಿ ಮಾಡಿದ್ದೀರಿ!', 'ನನಗೆ ಇದು ತುಂಬಾ ಇಷ್ಟವಾಯಿತು' ಎಂಬಂತಹ ಮಾತುಗಳನ್ನು ಬಳಸಬಹುದು. ಸುಧಾರಣೆಗೆ ಸಲಹೆ ನೀಡುವಾಗ 'ನೀವು ಇದನ್ನು ಇನ್ನಷ್ಟು ಉತ್ತಮಗೊಳಿಸಬಹುದು ಎಂದು ನಾನು ಭಾವಿಸುತ್ತೇನೆ', 'ಇದನ್ನು ಬೇರೊಂದು ರೀತಿಯಲ್ಲಿ ಮಾಡಿದರೆ ಹೇಗೆ?', 'ಒಂದು ಸಲಹೆ ಎಂದರೆ...' ಎಂಬಂತಹ ಸೌಮ್ಯ ಮಾತುಗಳನ್ನು ಬಳಸಬೇಕು. ಪ್ರತಿಕ್ರಿಯೆ ಸ್ವೀಕರಿಸುವಾಗ 'ಪ್ರತಿಕ್ರಿಯೆಗಾಗಿ ಧನ್ಯವಾದಗಳು', 'ನಾನು ಅದರ ಬಗ್ಗೆ ಕೆಲಸ ಮಾಡುತ್ತೇನೆ', 'ನಿಮ್ಮ ಸಲಹೆಯನ್ನು ಮೆಚ್ಚುತ್ತೇನೆ' ಎಂದು ಹೇಳಬಹುದು. ಇದಕ್ಕೆ 'ಸ್ಯಾಂಡ್‌ವಿಚ್ ವಿಧಾನ' ಎಂಬ ತಂತ್ರವನ್ನು ಬಳಸುತ್ತಾರೆ: ಮೊದಲು ಧನಾತ್ಮಕ ಮಾತು, ನಂತರ ಸುಧಾರಣೆಯ ಸಲಹೆ, ಕೊನೆಯಲ್ಲಿ ಮತ್ತೆ ಧನಾತ್ಮಕ ಮಾತು ಹೇಳುವುದು.",
           "patterns": [
             {
               "pattern": "I appreciate your feedback",
@@ -40814,7 +41734,7 @@
         "kannadaTitle": "ಸಂಬಳ ಮತ್ತು ಸೌಲಭ್ಯಗಳು",
         "content": {
           "explanation": "Salary and benefits vocabulary: salary (ಸಂಬಳ), wages (ಕೂಲಿ), package/CTC (ಒಟ್ಟು ಪ್ಯಾಕೇಜ್), increment/raise (ಸಂಬಳ ಹೆಚ್ಚಳ), bonus (ಬೋನಸ್), Provident Fund/PF (ಭವಿಷ್ಯ ನಿಧಿ), insurance (ವಿಮೆ), leave (ರಜೆ), notice period (ನೋಟಿಸ್ ಅವಧಿ). Asking: 'What is the salary range for this position?' Negotiating: 'I was expecting a higher package.'",
-          "kannadaExplanation": "ಸಂಬಳ ಮತ್ತು ಸೌಲಭ್ಯ: salary=ಸಂಬಳ, package/CTC=ಒಟ್ಟು ಪ್ಯಾಕೇಜ್, increment=ಹೆಚ್ಚಳ, bonus=ಬೋನಸ್, PF=ಭವಿಷ್ಯ ನಿಧಿ, insurance=ವಿಮೆ. ಕೇಳುವುದು: 'What is the salary range?' ಮಾತುಕತೆ: 'I was expecting a higher package.'",
+          "kannadaExplanation": "ಸಂಬಳ ಮತ್ತು ಸೌಲಭ್ಯಗಳಿಗೆ ಸಂಬಂಧಿಸಿದ ಪದಗಳು ಕೆಲಸದ ಸ್ಥಳದಲ್ಲಿ ಬಹಳ ಮುಖ್ಯ. ಸಂಬಳ ಎಂದರೆ ಪ್ರತಿ ತಿಂಗಳ ವೇತನ, ಕೂಲಿ ಎಂದರೆ ದಿನಗೂಲಿ ಆಧಾರಿತ ಪಾವತಿ, ಒಟ್ಟು ಪ್ಯಾಕೇಜ್ ಎಂದರೆ ಎಲ್ಲಾ ಸೌಲಭ್ಯಗಳೂ ಸೇರಿದ ಒಟ್ಟು ವೇತನ, ಸಂಬಳ ಹೆಚ್ಚಳ ಎಂದರೆ ವಾರ್ಷಿಕ ಸಂಬಳ ಏರಿಕೆ, ಬೋನಸ್ ಎಂದರೆ ಹೆಚ್ಚುವರಿ ಪಾವತಿ, ಭವಿಷ್ಯ ನಿಧಿ ಎಂದರೆ ನಿವೃತ್ತಿಗಾಗಿ ಕೂಡಿಡುವ ಹಣ. ಇದಲ್ಲದೆ ವಿಮೆ, ರಜೆ ಮತ್ತು ನೋಟಿಸ್ ಅವಧಿ ಎಂಬ ಪದಗಳೂ ಪ್ರಮುಖ; ನೋಟಿಸ್ ಅವಧಿ ಎಂದರೆ ಕೆಲಸ ಬಿಡುವ ಮೊದಲು ಕೊಡಬೇಕಾದ ಸೂಚನಾ ಅವಧಿ. ಸಂಬಳದ ಬಗ್ಗೆ ಕೇಳುವಾಗ 'ಈ ಹುದ್ದೆಗೆ ಸಂಬಳದ ವ್ಯಾಪ್ತಿ ಎಷ್ಟು?' ಎಂದು ಕೇಳಬಹುದು. ಸಂಬಳದ ಬಗ್ಗೆ ಮಾತುಕತೆ ನಡೆಸುವಾಗ 'ನಾನು ಇನ್ನೂ ಹೆಚ್ಚಿನ ಪ್ಯಾಕೇಜ್ ನಿರೀಕ್ಷಿಸಿದ್ದೆ' ಎಂದು ಹೇಳಬಹುದು.",
           "vocabulary": [
             {
               "english": "salary",
@@ -41721,7 +42641,7 @@
         "kannadaTitle": "ಕರ್ಮಣಿ ಪ್ರಯೋಗ - ಭೂತ",
         "content": {
           "explanation": "Passive voice (past): was/were + past participle. Active: 'Someone stole my phone.' Passive: 'My phone was stolen.' 'This temple was built 500 years ago.' 'The roads were repaired last month.' 'The Mysore Palace was built by the Wadiyar dynasty.' Use 'by' for the doer (agent): 'The book was written by Kuvempu.'",
-          "kannadaExplanation": "ಕರ್ಮಣಿ ಪ್ರಯೋಗ (ಭೂತ): was/were + past participle. 'My phone was stolen' = ನನ್ನ ಫೋನ್ ಕಳುವಾಯಿತು. 'This temple was built 500 years ago' = ಈ ದೇವಸ್ಥಾನ 500 ವರ್ಷ ಹಿಂದೆ ನಿರ್ಮಿಸಲಾಯಿತು.",
+          "kannadaExplanation": "ಕರ್ಮಣಿ ಪ್ರಯೋಗ (ಭೂತಕಾಲ): ಕ್ರಿಯಾಪದದ ಭೂತಕೃದಂತ ರೂಪದ ಜೊತೆ 'ವಾಸ್/ವರ್' ಎಂಬ ಸಹಾಯಕ ಪದ ಸೇರಿಸಿ ಈ ಪ್ರಯೋಗ ರಚಿಸಲಾಗುತ್ತದೆ. ಕರ್ತರಿ ವಾಕ್ಯದಲ್ಲಿ ಕ್ರಿಯೆ ಮಾಡಿದವರ ಮೇಲೆ ಒತ್ತು ಇದ್ದರೆ, ಕರ್ಮಣಿ ವಾಕ್ಯದಲ್ಲಿ ಕ್ರಿಯೆಗೆ ಒಳಗಾದ ವಸ್ತು ಅಥವಾ ವ್ಯಕ್ತಿಯ ಮೇಲೆ ಒತ್ತು ಇರುತ್ತದೆ. ಉದಾಹರಣೆಗೆ, 'ಯಾರೋ ನನ್ನ ಫೋನ್ ಕದ್ದರು' ಎಂಬ ಕರ್ತರಿ ವಾಕ್ಯವನ್ನು 'ನನ್ನ ಫೋನ್ ಕಳುವಾಯಿತು' ಎಂದು ಕರ್ಮಣಿ ರೂಪಕ್ಕೆ ಬದಲಿಸಬಹುದು. ಅದೇ ರೀತಿ, 'ಈ ದೇವಾಲಯವನ್ನು 500 ವರ್ಷಗಳ ಹಿಂದೆ ನಿರ್ಮಿಸಲಾಯಿತು' ಮತ್ತು 'ಕಳೆದ ತಿಂಗಳು ರಸ್ತೆಗಳನ್ನು ದುರಸ್ತಿ ಮಾಡಲಾಯಿತು' ಎಂಬಂತಹ ವಾಕ್ಯಗಳಲ್ಲಿ ಕ್ರಿಯೆ ಯಾರಿಂದ ನಡೆಯಿತು ಎಂಬುದಕ್ಕಿಂತ ಏನಾಯಿತು ಎಂಬುದೇ ಮುಖ್ಯ. ಕ್ರಿಯೆ ಮಾಡಿದವರನ್ನು ಹೇಳಬೇಕಾದರೆ 'ಇಂದ' ಎಂಬ ಪ್ರತ್ಯಯ ಬಳಸಲಾಗುತ್ತದೆ: 'ಈ ಪುಸ್ತಕವನ್ನು ಕುವೆಂಪು ಅವರು ಬರೆದರು' ಎಂಬುದನ್ನು 'ಈ ಪುಸ್ತಕವನ್ನು ಕುವೆಂಪು ಅವರಿಂದ ಬರೆಯಲಾಯಿತು' ಎಂದು ಬದಲಿಸಬಹುದು.",
           "patterns": [
             {
               "pattern": "was/were + past participle",
@@ -42000,7 +42920,7 @@
         "kannadaTitle": "ವರ್ತಮಾನ ಪೂರ್ಣ ಕಾಲ",
         "content": {
           "explanation": "Present Perfect Tense: have/has + past participle. For: experiences ('I have visited Hampi'), unfinished time ('I have eaten three meals today'), recent past with 'just' ('She has just left'), with for/since ('I have lived here for 5 years / since 2019'). NOT for specific past time! 'I have gone yesterday' ✗ → 'I went yesterday' ✓",
-          "kannadaExplanation": "ಪೂರ್ಣ ವರ್ತಮಾನ: have/has + past participle. ಅನುಭವ: 'I have visited Hampi.' ಇತ್ತೀಚಿನ: 'She has just left.' for/since: 'I have lived here for 5 years.' ನಿರ್ದಿಷ್ಟ ಸಮಯಕ್ಕೆ ಬಳಸಬೇಡಿ!",
+          "kannadaExplanation": "ಪೂರ್ಣ ವರ್ತಮಾನ ಕಾಲ: 'ಹ್ಯಾವ್/ಹ್ಯಾಸ್' ಎಂಬ ಸಹಾಯಕ ಪದದ ಜೊತೆ ಮುಖ್ಯ ಕ್ರಿಯಾಪದದ ಭೂತಕೃದಂತ ರೂಪ ಸೇರಿಸಿ ಈ ಕಾಲ ರಚಿಸಲಾಗುತ್ತದೆ. ಇದನ್ನು ನಾಲ್ಕು ಸಂದರ್ಭಗಳಲ್ಲಿ ಬಳಸಲಾಗುತ್ತದೆ: (೧) ಜೀವನದ ಅನುಭವ ಹೇಳಲು - 'ನಾನು ಹಂಪಿಗೆ ಭೇಟಿ ನೀಡಿದ್ದೇನೆ' ಎಂಬಂತೆ, ಇಲ್ಲಿ ಯಾವಾಗ ಎಂಬುದು ಮುಖ್ಯವಲ್ಲ. (೨) ಇನ್ನೂ ಮುಗಿಯದ ಸಮಯದ ಬಗ್ಗೆ ಹೇಳಲು - 'ಇವತ್ತು ನಾನು ಮೂರು ಹೊತ್ತು ಊಟ ಮಾಡಿದ್ದೇನೆ' ಎಂಬಂತೆ, ಏಕೆಂದರೆ ಇಂದಿನ ದಿನ ಇನ್ನೂ ಮುಗಿದಿಲ್ಲ. (೩) ಇತ್ತೀಚೆಗೆ ನಡೆದ ಕ್ರಿಯೆ ಸೂಚಿಸಲು 'ಜಸ್ಟ್' ಎಂಬ ಪದದ ಜೊತೆ - 'ಅವಳು ಈಗಷ್ಟೇ ಹೊರಟುಹೋದಳು' ಎಂಬಂತೆ. (೪) 'ಫಾರ್/ಸಿನ್ಸ್' ಪದಗಳ ಜೊತೆ ಎಷ್ಟು ಕಾಲದಿಂದ ಎಂಬುದನ್ನು ಹೇಳಲು - 'ನಾನು ಐದು ವರ್ಷಗಳಿಂದ, ಅಂದರೆ 2019ರಿಂದ, ಇಲ್ಲಿ ವಾಸಿಸುತ್ತಿದ್ದೇನೆ' ಎಂಬಂತೆ. ಗಮನಿಸಿ: ನಿರ್ದಿಷ್ಟವಾದ ಭೂತಕಾಲದ ಸಮಯವನ್ನು ಹೇಳುವಾಗ ಈ ಕಾಲವನ್ನು ಬಳಸಬಾರದು - 'ನಾನು ನಿನ್ನೆ ಹೋಗಿದ್ದೇನೆ' ಎನ್ನುವುದು ತಪ್ಪು, ಬದಲಿಗೆ 'ನಾನು ನಿನ್ನೆ ಹೋದೆ' ಎಂದು ಸರಳ ಭೂತಕಾಲ ಬಳಸಬೇಕು.",
           "patterns": [
             {
               "pattern": "have/has + past participle",
@@ -42551,7 +43471,7 @@
         "kannadaTitle": "ಭೂತ ಪೂರ್ಣ ಕಾಲ",
         "content": {
           "explanation": "Past Perfect: had + past participle. For actions completed BEFORE another past action. 'By the time I arrived, the meeting had already started.' 'She had finished cooking before the guests came.' Signal words: by the time, before, after, already, when. Compare: Past Simple (she arrived) vs Past Perfect (she had already left when he arrived).",
-          "kannadaExplanation": "ಪೂರ್ಣ ಭೂತ: had + past participle. ಇನ್ನೊಂದು ಭೂತ ಕ್ರಿಯೆಗಿಂತ ಮೊದಲು ಮುಗಿದ ಕ್ರಿಯೆ. 'By the time I arrived, the meeting had started' = ನಾನು ಬಂದಾಗ ಮೀಟಿಂಗ್ ಈಗಾಗಲೇ ಪ್ರಾರಂಭವಾಗಿತ್ತು.",
+          "kannadaExplanation": "ಪೂರ್ಣ ಭೂತಕಾಲ: 'ಹ್ಯಾಡ್' ಎಂಬ ಸಹಾಯಕ ಪದದ ಜೊತೆ ಮುಖ್ಯ ಕ್ರಿಯಾಪದದ ಭೂತಕೃದಂತ ರೂಪ ಸೇರಿಸಿ ಈ ಕಾಲ ರಚಿಸಲಾಗುತ್ತದೆ. ಎರಡು ಭೂತಕಾಲದ ಕ್ರಿಯೆಗಳ ಪೈಕಿ, ಮೊದಲು ನಡೆದ ಕ್ರಿಯೆಗೆ ಈ ಕಾಲವನ್ನು ಬಳಸಲಾಗುತ್ತದೆ. ಉದಾಹರಣೆಗೆ, 'ನಾನು ಬರುವ ಹೊತ್ತಿಗೆ ಸಭೆ ಈಗಾಗಲೇ ಪ್ರಾರಂಭವಾಗಿತ್ತು' ಎಂಬ ವಾಕ್ಯದಲ್ಲಿ, ಸಭೆ ಪ್ರಾರಂಭವಾಗಿದ್ದು ಬರುವ ಕ್ರಿಯೆಗಿಂತ ಮೊದಲು ನಡೆಯಿತು. ಅದೇ ರೀತಿ, 'ಅತಿಥಿಗಳು ಬರುವ ಮೊದಲೇ ಅವಳು ಅಡುಗೆ ಮುಗಿಸಿದ್ದಳು' ಎಂಬಲ್ಲಿ ಅಡುಗೆ ಮುಗಿಸಿದ್ದು ಮೊದಲ ಕ್ರಿಯೆ. ಈ ಕಾಲ ಬಳಸಲು ಸೂಚಿಸುವ ಪದಗಳು: 'ಬೈ ದ ಟೈಮ್, ಬಿಫೋರ್, ಆಫ್ಟರ್, ಆಲ್ರೆಡಿ, ವೆನ್'. ಸರಳ ಭೂತಕಾಲ ಮತ್ತು ಪೂರ್ಣ ಭೂತಕಾಲದ ವ್ಯತ್ಯಾಸ ಗಮನಿಸಿ: 'ಅವಳು ಬಂದಳು' (ಸರಳ ಭೂತ) ಮತ್ತು 'ಅವನು ಬರುವ ಹೊತ್ತಿಗೆ ಅವಳು ಈಗಾಗಲೇ ಹೊರಟುಹೋಗಿದ್ದಳು' (ಪೂರ್ಣ ಭೂತ) ಎಂಬ ಎರಡು ವಾಕ್ಯಗಳನ್ನು ಹೋಲಿಸಿ.",
           "patterns": [
             {
               "pattern": "had + past participle",
@@ -44220,7 +45140,7 @@
         "kannadaTitle": "ವರದಿಗೊಳಿಸಿದ ಮಾತು",
         "content": {
           "explanation": "Reported Speech: Changing direct speech to indirect. He said, 'I am busy.' → He said (that) he was busy. Changes: am/is→was, are→were, will→would, can→could, present→past. Pronouns change: I→he/she, my→his/her. Time: today→that day, tomorrow→the next day, yesterday→the day before. Questions: She asked, 'Where do you live?' → She asked where I lived.",
-          "kannadaExplanation": "ವರದಿ ಮಾತು: ನೇರ → ಪರೋಕ್ಷ. He said 'I am busy' → He said he was busy. ಬದಲಾವಣೆ: am→was, will→would. ಸರ್ವನಾಮ: I→he/she. ಸಮಯ: today→that day. ಪ್ರಶ್ನೆ: She asked 'Where do you live?' → She asked where I lived.",
+          "kannadaExplanation": "ವರದಿ ಮಾತು ಎಂದರೆ ಯಾರೋ ಹೇಳಿದ ಮಾತನ್ನು ನೇರ ಉಲ್ಲೇಖದಿಂದ ಪರೋಕ್ಷ ರೂಪಕ್ಕೆ ಬದಲಿಸುವುದು. ಉದಾಹರಣೆಗೆ, ಅವನು 'ನಾನು ಬ್ಯುಸಿ ಇದ್ದೇನೆ' ಎಂದು ಹೇಳಿದನು ಎಂಬ ನೇರ ವಾಕ್ಯವನ್ನು, ಅವನು ತಾನು ಬ್ಯುಸಿ ಇದ್ದೆ ಎಂದು ಹೇಳಿದನು ಎಂಬಂತೆ ಪರೋಕ್ಷ ರೂಪಕ್ಕೆ ಬದಲಿಸಲಾಗುತ್ತದೆ. ಇಲ್ಲಿ ಗಮನಿಸಬೇಕಾದ ಮುಖ್ಯ ಬದಲಾವಣೆಗಳು: ವರ್ತಮಾನ ಕಾಲದ ಕ್ರಿಯಾಪದಗಳು ಭೂತಕಾಲಕ್ಕೆ ಬದಲಾಗುತ್ತವೆ, 'ವಿಲ್' ಎಂಬುದು 'ವುಡ್' ಆಗುತ್ತದೆ, 'ಕ್ಯಾನ್' ಎಂಬುದು 'ಕುಡ್' ಆಗುತ್ತದೆ. ಸರ್ವನಾಮಗಳೂ ಬದಲಾಗುತ್ತವೆ - 'ನಾನು' ಎಂಬುದು ಮಾತನಾಡುವವರ ದೃಷ್ಟಿಯಿಂದ 'ಅವನು/ಅವಳು' ಆಗಬಹುದು, 'ನನ್ನ' ಎಂಬುದು 'ಅವನ/ಅವಳ' ಆಗುತ್ತದೆ. ಸಮಯ ಸೂಚಕ ಪದಗಳೂ ಬದಲಾಗುತ್ತವೆ: 'ಇಂದು' ಎಂಬುದು 'ಆ ದಿನ' ಆಗುತ್ತದೆ, 'ನಾಳೆ' ಎಂಬುದು 'ಮರುದಿನ' ಆಗುತ್ತದೆ, 'ನಿನ್ನೆ' ಎಂಬುದು 'ಹಿಂದಿನ ದಿನ' ಆಗುತ್ತದೆ. ಪ್ರಶ್ನೆಗಳನ್ನು ವರದಿ ಮಾಡುವಾಗ, 'ನೀನು ಎಲ್ಲಿ ವಾಸಿಸುತ್ತೀಯ?' ಎಂದು ಅವಳು ಕೇಳಿದಳು ಎಂಬುದು, ನಾನು ಎಲ್ಲಿ ವಾಸಿಸುತ್ತೇನೆ ಎಂದು ಅವಳು ಕೇಳಿದಳು ಎಂಬಂತೆ ಸಾಮಾನ್ಯ ವಾಕ್ಯ ರಚನೆಗೆ ಬದಲಾಗುತ್ತದೆ, ಪ್ರಶ್ನಾರ್ಥಕ ಪದ ಸರಣಿ ಬದಲಾಗದೆ ಉಳಿಯುತ್ತದೆ.",
           "patterns": [
             {
               "pattern": "He said that...",
@@ -44791,7 +45711,7 @@
         "kannadaTitle": "ಸಂಭವನೀಯತೆಯ ಮಾದರಿಗಳು",
         "content": {
           "explanation": "Modals of probability: Must (95% sure): 'She must be at home, her car is outside.' Can't (95% sure NOT): 'He can't be 60, he looks so young!' Might/May/Could (50%): 'It might rain today.' 'She may come tomorrow.' 'He could be stuck in traffic.' Must have + pp (past certainty): 'He must have left early.' Can't have + pp: 'She can't have finished already!'",
-          "kannadaExplanation": "ಸಂಭವನೀಯತೆ ಸಹಾಯಕ ಕ್ರಿಯಾಪದ: must (95% ಖಚಿತ): 'She must be at home.' can't (95% ಅಲ್ಲ): 'He can't be 60.' might/may (50%): 'It might rain.' ಭೂತ: must have + pp, can't have + pp.",
+          "kannadaExplanation": "ಸಂಭವನೀಯತೆ ಸೂಚಿಸುವ ಸಹಾಯಕ ಕ್ರಿಯಾಪದಗಳು ಯಾವುದೋ ಸಂಗತಿ ಎಷ್ಟು ಖಚಿತ ಎಂಬುದನ್ನು ತಿಳಿಸುತ್ತವೆ. 'ಮಸ್ಟ್' ಎಂಬ ಪದ ಸುಮಾರು 95% ಖಚಿತತೆ ಸೂಚಿಸುತ್ತದೆ - 'ಅವಳು ಮನೆಯಲ್ಲಿ ಇರಲೇಬೇಕು, ಅವಳ ಕಾರು ಹೊರಗಡೆ ಇದೆ' ಎಂಬಂತೆ. 'ಕ್ಯಾಂಟ್' ಎಂಬ ಪದ 95% ಖಚಿತವಾಗಿ ಇಲ್ಲ ಎಂಬುದನ್ನು ಸೂಚಿಸುತ್ತದೆ - 'ಅವನಿಗೆ 60 ವರ್ಷ ಆಗಿರಲಿಕ್ಕೇ ಇಲ್ಲ, ಎಷ್ಟು ಚಿಕ್ಕವನಂತೆ ಕಾಣುತ್ತಾನೆ!' ಎಂಬಂತೆ. 'ಮೈಟ್/ಮೇ/ಕುಡ್' ಎಂಬ ಪದಗಳು ಸುಮಾರು 50% ಸಾಧ್ಯತೆ ಸೂಚಿಸುತ್ತವೆ - 'ಇವತ್ತು ಮಳೆ ಬರಬಹುದು', 'ಅವಳು ನಾಳೆ ಬರಬಹುದು', 'ಅವನು ಟ್ರಾಫಿಕ್‌ನಲ್ಲಿ ಸಿಕ್ಕಿಹಾಕಿಕೊಂಡಿರಬಹುದು' ಎಂಬಂತೆ. ಭೂತಕಾಲದ ಬಗ್ಗೆ ಊಹೆ ಮಾಡುವಾಗ, 'ಮಸ್ಟ್ ಹ್ಯಾವ್ + ಕ್ರಿಯಾಪದದ ಭೂತಕೃದಂತ ರೂಪ' ಬಳಸಿ ಖಚಿತ ಊಹೆ ಸೂಚಿಸಬಹುದು - 'ಅವನು ಬೇಗ ಹೊರಟಿರಲೇಬೇಕು' ಎಂಬಂತೆ. 'ಕ್ಯಾಂಟ್ ಹ್ಯಾವ್ + ಭೂತಕೃದಂತ ರೂಪ' ಬಳಸಿ ಆಗಿರಲು ಸಾಧ್ಯವೇ ಇಲ್ಲ ಎಂಬುದನ್ನು ಸೂಚಿಸಬಹುದು - 'ಅವಳು ಇಷ್ಟು ಬೇಗ ಮುಗಿಸಿರಲಿಕ್ಕೇ ಇಲ್ಲ!' ಎಂಬಂತೆ.",
           "patterns": [
             {
               "pattern": "must be",
@@ -45645,7 +46565,7 @@
         "kannadaTitle": "ಜೆರಂಡ್ ಮತ್ತು ಇನ್ಫಿನಿಟಿವ್",
         "content": {
           "explanation": "Gerunds (-ing form used as a noun) and Infinitives (to + base verb) come after certain verbs — and you must learn which verb takes which. Verbs followed by gerund: enjoy, finish, avoid, suggest, keep, mind, practice, consider ('I enjoy reading', 'She finished cooking'). Verbs followed by infinitive: want, decide, hope, plan, promise, agree, refuse ('I want to travel', 'They decided to leave'). Some verbs can take either with a similar meaning: start, begin, like, love. A few verbs change meaning depending on gerund vs infinitive: 'stop to smoke' (pause in order to smoke) vs 'stop smoking' (quit the habit).",
-          "kannadaExplanation": "Gerund (-ing ರೂಪ, ನಾಮಪದವಾಗಿ) ಮತ್ತು Infinitive (to + ಕ್ರಿಯಾಪದ) ಕೆಲವು ಕ್ರಿಯಾಪದಗಳ ನಂತರ ಬರುತ್ತವೆ. Gerund ತೆಗೆದುಕೊಳ್ಳುವ ಕ್ರಿಯಾಪದ: enjoy, finish, avoid, suggest, keep, practice. Infinitive ತೆಗೆದುಕೊಳ್ಳುವ ಕ್ರಿಯಾಪದ: want, decide, hope, plan, promise, agree. ಕೆಲವು ಅರ್ಥ ಬದಲಾಗುತ್ತದೆ: 'stop to smoke' vs 'stop smoking'.",
+          "kannadaExplanation": "ಜೆರಂಡ್ (ಕ್ರಿಯಾಪದದ -ing ರೂಪ ನಾಮಪದವಾಗಿ ಬಳಕೆ) ಮತ್ತು ಇನ್ಫಿನಿಟಿವ್ (to + ಮೂಲ ಕ್ರಿಯಾಪದ ರೂಪ) ಕೆಲವು ಕ್ರಿಯಾಪದಗಳ ನಂತರ ಬರುತ್ತವೆ, ಮತ್ತು ಯಾವ ಕ್ರಿಯಾಪದದ ನಂತರ ಯಾವುದು ಬರುತ್ತದೆ ಎಂಬುದನ್ನು ಕಂಠಪಾಠ ಮಾಡಬೇಕಾಗುತ್ತದೆ. ಜೆರಂಡ್ ರೂಪ ತೆಗೆದುಕೊಳ್ಳುವ ಕ್ರಿಯಾಪದಗಳಿಗೆ ಉದಾಹರಣೆ: ಎಂಜಾಯ್, ಫಿನಿಷ್, ಅವಾಯ್ಡ್, ಸಜೆಸ್ಟ್, ಕೀಪ್, ಮೈಂಡ್, ಪ್ರ್ಯಾಕ್ಟೀಸ್, ಕನ್ಸಿಡರ್ ('ನಾನು ಓದುವುದನ್ನು ಇಷ್ಟಪಡುತ್ತೇನೆ', 'ಅವಳು ಅಡುಗೆ ಮಾಡುವುದನ್ನು ಮುಗಿಸಿದಳು' ಎಂಬಂತೆ). ಇನ್ಫಿನಿಟಿವ್ ರೂಪ ತೆಗೆದುಕೊಳ್ಳುವ ಕ್ರಿಯಾಪದಗಳಿಗೆ ಉದಾಹರಣೆ: ವಾಂಟ್, ಡಿಸೈಡ್, ಹೋಪ್, ಪ್ಲಾನ್, ಪ್ರಾಮಿಸ್, ಅಗ್ರೀ, ರಿಫ್ಯೂಸ್ ('ನನಗೆ ಪ್ರಯಾಣಿಸಬೇಕೆಂದಿದೆ', 'ಅವರು ಹೊರಡಲು ನಿರ್ಧರಿಸಿದರು' ಎಂಬಂತೆ). ಕೆಲವು ಕ್ರಿಯಾಪದಗಳು ಎರಡೂ ರೂಪವನ್ನೂ ಸ್ವೀಕರಿಸುತ್ತವೆ, ಅರ್ಥದಲ್ಲಿ ಹೆಚ್ಚಿನ ವ್ಯತ್ಯಾಸವಿಲ್ಲದೆ: ಸ್ಟಾರ್ಟ್, ಬಿಗಿನ್, ಲೈಕ್, ಲವ್. ಇನ್ನು ಕೆಲವು ಕ್ರಿಯಾಪದಗಳಲ್ಲಿ ಜೆರಂಡ್ ಬಳಸಿದಾಗ ಮತ್ತು ಇನ್ಫಿನಿಟಿವ್ ಬಳಸಿದಾಗ ಅರ್ಥವೇ ಬದಲಾಗುತ್ತದೆ: 'ಸಿಗರೇಟ್ ಸೇದಲು ನಿಲ್ಲಿಸಿದನು' (ಬೇರೊಂದು ಕೆಲಸ ನಿಲ್ಲಿಸಿ ಸಿಗರೇಟ್ ಸೇದಲು ಎಂಬ ಅರ್ಥ) ಮತ್ತು 'ಸಿಗರೇಟ್ ಸೇದುವುದನ್ನು ನಿಲ್ಲಿಸಿದನು' (ಅಭ್ಯಾಸವನ್ನೇ ಬಿಟ್ಟನು ಎಂಬ ಅರ್ಥ) ಇವೆರಡರ ವ್ಯತ್ಯಾಸ ಗಮನಿಸಿ.",
           "patterns": [
             {
               "pattern": "If + had + V3, would have + V3 (3rd conditional)",
@@ -46350,6 +47270,56 @@
               "had, to"
             ],
             "correct": 2
+          },
+          {
+            "question": "Complete the causative sentence: The manager ___ the staff work overtime last week.",
+            "options": [
+              "made",
+              "let",
+              "got",
+              "had to"
+            ],
+            "correct": 0
+          },
+          {
+            "question": "Complete the causative sentence: Her father ___ her stay out late, so she was very happy.",
+            "options": [
+              "made",
+              "let",
+              "got",
+              "had"
+            ],
+            "correct": 1
+          },
+          {
+            "question": "Which option correctly completes: 'After much persuasion, I finally ___ him to apologize.'",
+            "options": [
+              "made",
+              "let",
+              "got",
+              "had"
+            ],
+            "correct": 2
+          },
+          {
+            "question": "Which sentence means the teacher forced the students to write an essay?",
+            "options": [
+              "The teacher let the students write an essay.",
+              "The teacher got the students to write an essay.",
+              "The teacher had the students write an essay.",
+              "The teacher made the students write an essay."
+            ],
+            "correct": 3
+          },
+          {
+            "question": "Which sentence correctly uses the 'get something done' structure to mean a barber cut your hair?",
+            "options": [
+              "I get my hair cutting.",
+              "I got my hair cut.",
+              "I got cut my hair.",
+              "I have got my hair to cut."
+            ],
+            "correct": 1
           }
         ],
         "quiz": {
@@ -46777,7 +47747,7 @@
         "kannadaTitle": "ಕರ್ತರಿ vs ಕರ್ಮವಾಚ್ಯ - ಎಲ್ಲಾ ಕಾಲ",
         "content": {
           "explanation": "Active vs Passive Voice across all tenses: Present Simple: 'They clean the office.' → 'The office is cleaned.' Past Simple: 'She wrote the report.' → 'The report was written.' Present Perfect: 'They have finished it.' → 'It has been finished.' Future: 'They will announce the results.' → 'The results will be announced.' Present Continuous: 'They are building a bridge.' → 'A bridge is being built.'",
-          "kannadaExplanation": "ಕರ್ತರಿ vs ಕರ್ಮಣಿ ಎಲ್ಲ ಕಾಲಗಳಲ್ಲಿ: ಸರಳ ವರ್ತಮಾನ: is/are + pp. ಸರಳ ಭೂತ: was/were + pp. ಪೂರ್ಣ ವರ್ತಮಾನ: has/have been + pp. ಭವಿಷ್ಯ: will be + pp. ನಿರಂತರ: is/are being + pp.",
+          "kannadaExplanation": "ಕರ್ತರಿ ಮತ್ತು ಕರ್ಮಣಿ ಪ್ರಯೋಗಗಳ ನಡುವಿನ ವ್ಯತ್ಯಾಸವನ್ನು ಎಲ್ಲಾ ಕಾಲಗಳಲ್ಲಿ ಗಮನಿಸೋಣ. ಸರಳ ವರ್ತಮಾನ ಕಾಲದಲ್ಲಿ, 'ಅವರು ಕಚೇರಿಯನ್ನು ಸ್ವಚ್ಛಗೊಳಿಸುತ್ತಾರೆ' ಎಂಬ ಕರ್ತರಿ ವಾಕ್ಯ 'ಕಚೇರಿಯನ್ನು ಸ್ವಚ್ಛಗೊಳಿಸಲಾಗುತ್ತದೆ' ಎಂಬ ಕರ್ಮಣಿ ವಾಕ್ಯವಾಗುತ್ತದೆ. ಸರಳ ಭೂತಕಾಲದಲ್ಲಿ, 'ಅವಳು ವರದಿ ಬರೆದಳು' ಎಂಬುದು 'ವರದಿ ಬರೆಯಲಾಯಿತು' ಆಗುತ್ತದೆ. ಪೂರ್ಣ ವರ್ತಮಾನ ಕಾಲದಲ್ಲಿ, 'ಅವರು ಅದನ್ನು ಮುಗಿಸಿದ್ದಾರೆ' ಎಂಬುದು 'ಅದನ್ನು ಮುಗಿಸಲಾಗಿದೆ' ಆಗುತ್ತದೆ. ಭವಿಷ್ಯ ಕಾಲದಲ್ಲಿ, 'ಅವರು ಫಲಿತಾಂಶ ಪ್ರಕಟಿಸುತ್ತಾರೆ' ಎಂಬುದು 'ಫಲಿತಾಂಶ ಪ್ರಕಟಿಸಲಾಗುವುದು' ಆಗುತ್ತದೆ. ಪ್ರಸ್ತುತ ನಿರಂತರ ಕಾಲದಲ್ಲಿ, 'ಅವರು ಸೇತುವೆ ಕಟ್ಟುತ್ತಿದ್ದಾರೆ' ಎಂಬುದು 'ಸೇತುವೆ ಕಟ್ಟಲಾಗುತ್ತಿದೆ' ಆಗುತ್ತದೆ. ಪ್ರತಿ ಕಾಲದಲ್ಲೂ ಕರ್ಮಣಿ ರೂಪ ರಚಿಸಲು ಆ ಕಾಲದ 'ಬಿ' ಕ್ರಿಯಾಪದ ರೂಪ (ಇಸ್/ಆರ್, ವಾಸ್/ವರ್, ಹ್ಯಾಸ್/ಹ್ಯಾವ್ ಬೀನ್, ವಿಲ್ ಬೀ, ಇಸ್/ಆರ್ ಬೀಯಿಂಗ್) ಮತ್ತು ಮುಖ್ಯ ಕ್ರಿಯಾಪದದ ಭೂತಕೃದಂತ ರೂಪ ಬಳಸಲಾಗುತ್ತದೆ.",
           "patterns": [
             {
               "pattern": "Present passive",
@@ -47075,7 +48045,7 @@
         "kannadaTitle": "ವಿಷಯ-ಕ್ರಿಯೆ ಒಪ್ಪಂದ ಸುಧಾರಿತ",
         "content": {
           "explanation": "Advanced Subject-Verb Agreement: Tricky cases — Collective nouns: 'The team is winning.' (single unit). 'The team are arguing among themselves.' (individuals, British English). Each/Every + singular: 'Every student has a book.' Neither/Either + singular: 'Neither option is good.' One of + plural noun + singular verb: 'One of my friends is a doctor.' There is/are depends on the noun after: 'There are many people.'",
-          "kannadaExplanation": "ಕಷ್ಟ ಕರ್ತೃ-ಕ್ರಿಯಾಪದ ಒಪ್ಪಂದ: ಸಾಮೂಹಿಕ ನಾಮಪದ: 'The team is...' Each/Every + ಏಕವಚನ. Neither/Either + ಏಕವಚನ. 'One of my friends is...' (is, are ಅಲ್ಲ). 'There are many people.' (people = ಬಹುವಚನ).",
+          "kannadaExplanation": "ಸುಧಾರಿತ ಕರ್ತೃ-ಕ್ರಿಯಾಪದ ಒಪ್ಪಂದದಲ್ಲಿ ಕೆಲವು ಕಠಿಣ ಸಂದರ್ಭಗಳಿವೆ. ಸಮೂಹ ಸೂಚಕ ನಾಮಪದಗಳು ಒಂದೇ ಘಟಕವಾಗಿ ಕಂಡರೆ ಏಕವಚನ ಕ್ರಿಯಾಪದ ಬಳಸಲಾಗುತ್ತದೆ - 'ತಂಡ ಗೆಲ್ಲುತ್ತಿದೆ' ಎಂಬಂತೆ; ಆದರೆ ಸದಸ್ಯರನ್ನು ಪ್ರತ್ಯೇಕ ವ್ಯಕ್ತಿಗಳಾಗಿ ನೋಡಿದಾಗ ಬಹುವಚನ ಬಳಸಬಹುದು (ಬ್ರಿಟಿಷ್ ಇಂಗ್ಲಿಷ್‌ನಲ್ಲಿ) - 'ತಂಡದವರು ತಮ್ಮೊಳಗೇ ಜಗಳವಾಡುತ್ತಿದ್ದಾರೆ' ಎಂಬಂತೆ. 'ಪ್ರತಿಯೊಂದು/ಪ್ರತಿಯೊಬ್ಬ' ಎಂಬ ಪದಗಳ ನಂತರ ಯಾವಾಗಲೂ ಏಕವಚನ ಕ್ರಿಯಾಪದ ಬರುತ್ತದೆ - 'ಪ್ರತಿಯೊಬ್ಬ ವಿದ್ಯಾರ್ಥಿಗೂ ಒಂದು ಪುಸ್ತಕ ಇದೆ' ಎಂಬಂತೆ. ಹಾಗೆಯೇ 'ಇವೆರಡರಲ್ಲಿ ಒಂದೂ ಇಲ್ಲ/ಇವೆರಡರಲ್ಲಿ ಯಾವುದಾದರೂ' ಎಂಬ ಪದಗಳ ನಂತರವೂ ಏಕವಚನ ಬರುತ್ತದೆ - 'ಎರಡೂ ಆಯ್ಕೆಗಳಲ್ಲಿ ಯಾವುದೂ ಚೆನ್ನಾಗಿಲ್ಲ' ಎಂಬಂತೆ. 'ನನ್ನ ಸ್ನೇಹಿತರಲ್ಲಿ ಒಬ್ಬರು' ಎಂಬಂತಹ ರಚನೆಗಳಲ್ಲಿ, ಮಧ್ಯದಲ್ಲಿ ಬಹುವಚನ ನಾಮಪದ ಇದ್ದರೂ ಕ್ರಿಯಾಪದ ಏಕವಚನದಲ್ಲೇ ಇರುತ್ತದೆ - 'ನನ್ನ ಸ್ನೇಹಿತರಲ್ಲಿ ಒಬ್ಬರು ವೈದ್ಯರಾಗಿದ್ದಾರೆ' ಎಂಬಂತೆ. 'ಇದೆ/ಇವೆ' ಎಂಬ ರಚನೆಯಲ್ಲಿ ಅದರ ನಂತರ ಬರುವ ನಾಮಪದವನ್ನು ಆಧರಿಸಿ ಏಕವಚನ ಅಥವಾ ಬಹುವಚನ ಆಯ್ಕೆ ಮಾಡಲಾಗುತ್ತದೆ - 'ಅನೇಕ ಜನರಿದ್ದಾರೆ' ಎಂಬಂತೆ, ಇಲ್ಲಿ 'ಜನರು' ಬಹುವಚನವಾದ್ದರಿಂದ ಬಹುವಚನ ಕ್ರಿಯಾಪದ ಬಳಸಲಾಗಿದೆ.",
           "patterns": [
             {
               "pattern": "Collective nouns",
@@ -47371,10 +48341,10 @@
       {
         "id": 22,
         "title": "Wish and If only",
-        "kannadaTitle": "Wish ಮತ್ತು If only",
+        "kannadaTitle": "ವಿಶ್ ಮತ್ತು ಇಫ್ ಓನ್ಲಿ",
         "content": {
           "explanation": "'Wish' and 'If only' express regrets and desires for things to be different. Present wish (things you want different NOW): 'I wish I had a car' (but I don't). Past wish/regret: 'I wish I had studied harder' (but I didn't). Future wish: 'I wish you would stop making noise.' 'If only' is stronger/more emotional: 'If only I could speak English fluently!' Same grammar as 'wish'.",
-          "kannadaExplanation": "'Wish' ಮತ್ತು 'If only' ವಿಷಾದ ಮತ್ತು ಆಸೆಗಳನ್ನು ವ್ಯಕ್ತಪಡಿಸುತ್ತವೆ. ವರ್ತಮಾನ: 'I wish I had a car' (ಆದರೆ ಇಲ್ಲ). ಭೂತಕಾಲ: 'I wish I had studied harder' (ಆದರೆ ಓದಲಿಲ್ಲ). 'If only' ಹೆಚ್ಚು ಭಾವನಾತ್ಮಕ: 'If only I could speak English!' ವ್ಯಾಕರಣ 'wish' ನಂತೆಯೇ.",
+          "kannadaExplanation": "'ವಿಶ್' ಮತ್ತು 'ಇಫ್ ಓನ್ಲಿ' ಎಂಬ ಪದಗಳನ್ನು ಬಳಸಿ ವಿಷಾದ ಮತ್ತು ಈಡೇರದ ಆಸೆಗಳನ್ನು ವ್ಯಕ್ತಪಡಿಸಲಾಗುತ್ತದೆ. ವರ್ತಮಾನದ ಆಸೆ (ಈಗ ಬೇರೆ ರೀತಿ ಇರಬೇಕೆಂಬ ಬಯಕೆ) ಹೇಳುವಾಗ ಭೂತಕಾಲದ ರೂಪ ಬಳಸಲಾಗುತ್ತದೆ - 'ನನಗೊಂದು ಕಾರು ಇದ್ದಿದ್ದರೆ ಚೆನ್ನಾಗಿತ್ತು' ಎಂಬಂತೆ (ಆದರೆ ವಾಸ್ತವದಲ್ಲಿ ಕಾರು ಇಲ್ಲ). ಭೂತಕಾಲದ ವಿಷಾದ ಹೇಳುವಾಗ ಪೂರ್ಣ ಭೂತಕಾಲದ ರೂಪ ಬಳಸಲಾಗುತ್ತದೆ - 'ನಾನು ಚೆನ್ನಾಗಿ ಓದಿದ್ದಿದ್ದರೆ ಚೆನ್ನಾಗಿತ್ತು' ಎಂಬಂತೆ (ಆದರೆ ವಾಸ್ತವದಲ್ಲಿ ಚೆನ್ನಾಗಿ ಓದಲಿಲ್ಲ). ಭವಿಷ್ಯದ ಬಗ್ಗೆ ಬೇಸರ ಅಥವಾ ಬೇಡಿಕೆ ಹೇಳುವಾಗ - 'ನೀನು ಗದ್ದಲ ಮಾಡುವುದನ್ನು ನಿಲ್ಲಿಸಿದರೆ ಚೆನ್ನಾಗಿತ್ತು' ಎಂಬಂತೆ. 'ಇಫ್ ಓನ್ಲಿ' ಎಂಬುದು 'ವಿಶ್' ಗಿಂತ ಹೆಚ್ಚು ಭಾವನಾತ್ಮಕ ಮತ್ತು ಬಲವಾದ ಅಭಿವ್ಯಕ್ತಿ - 'ನನಗೆ ಇಂಗ್ಲಿಷ್ ನಿರರ್ಗಳವಾಗಿ ಮಾತನಾಡಲು ಬಂದಿದ್ದರೆ ಎಷ್ಟು ಚೆನ್ನಾಗಿರುತ್ತಿತ್ತು!' ಎಂಬಂತೆ. ಇದರ ವ್ಯಾಕರಣ ರಚನೆ 'ವಿಶ್' ನಂತೆಯೇ ಇರುತ್ತದೆ.",
           "patterns": [
             {
               "pattern": "wish + past simple (present wish)",
@@ -47494,6 +48464,56 @@
               "would"
             ],
             "correct": 1
+          },
+          {
+            "question": "Complete: I wish I ___ a car. (I don't have one now.)",
+            "options": [
+              "have",
+              "had",
+              "having",
+              "will have"
+            ],
+            "correct": 1
+          },
+          {
+            "question": "Complete: I wish I ___ harder for the exam last year. (I didn't study hard.)",
+            "options": [
+              "study",
+              "studied",
+              "had studied",
+              "have studied"
+            ],
+            "correct": 2
+          },
+          {
+            "question": "Complete: I wish you ___ stop making so much noise. (a complaint about the future/ongoing habit)",
+            "options": [
+              "would",
+              "will",
+              "do",
+              "did"
+            ],
+            "correct": 0
+          },
+          {
+            "question": "Which sentence expresses a stronger, more emotional regret about not being able to speak English fluently?",
+            "options": [
+              "I wish I speak English fluently.",
+              "I wish I can speak English fluently.",
+              "I hope I could speak English fluently.",
+              "If only I could speak English fluently!"
+            ],
+            "correct": 3
+          },
+          {
+            "question": "Choose the correctly formed 'wish' sentence for a present unreal situation (you don't have a bigger house now).",
+            "options": [
+              "I wish I have a bigger house.",
+              "I wish I will have a bigger house.",
+              "I wish I had a bigger house.",
+              "I wish I would have a bigger house."
+            ],
+            "correct": 2
           }
         ],
         "quiz": {
@@ -48059,6 +49079,46 @@
               "Please give me the information"
             ],
             "correct": 1
+          },
+          {
+            "question": "Choose the sentence that correctly uses an article (a common gap for Kannada speakers, whose language has no articles).",
+            "options": [
+              "I am going to market.",
+              "I going to market.",
+              "I am going to the market.",
+              "I am going to a market for buy vegetables."
+            ],
+            "correct": 2
+          },
+          {
+            "question": "Which sentence correctly avoids the common error of using present continuous for a permanent state (a car belonging to you)?",
+            "options": [
+              "I am having two brothers.",
+              "I have two brothers.",
+              "I am have two brothers.",
+              "I having two brothers."
+            ],
+            "correct": 1
+          },
+          {
+            "question": "Choose the sentence with correct English word order, avoiding the Subject-Object-Verb order transferred from Kannada.",
+            "options": [
+              "I rice eat every day.",
+              "Rice I every day eat.",
+              "Every day rice eat I.",
+              "I eat rice every day."
+            ],
+            "correct": 3
+          },
+          {
+            "question": "Which sentence correctly uses plural marking with '-s' (a common gap for Kannada speakers)?",
+            "options": [
+              "She bought three books yesterday.",
+              "She bought three book yesterday.",
+              "She bought three book's yesterday.",
+              "She bought three the books yesterday."
+            ],
+            "correct": 0
           }
         ],
         "quiz": {
@@ -49104,7 +50164,7 @@
         "kannadaTitle": "ಚರ್ಚೆಗಳಲ್ಲಿ ಭಾಗವಹಿಸುವುದು",
         "content": {
           "explanation": "Participating in discussions: Join: 'Can I add something here?' 'I'd like to make a point.' Interrupt politely: 'Sorry to interrupt, but...' 'If I may...' Ask for clarification: 'Could you elaborate on that?' 'What exactly do you mean by...?' Build on ideas: 'Building on what you said...' 'That's a great point, and I'd also add...'",
-          "kannadaExplanation": "ಚರ್ಚೆಯಲ್ಲಿ ಭಾಗವಹಿಸುವುದು: ಸೇರುವುದು: 'Can I add something?' ಅಡ್ಡಿ: 'Sorry to interrupt, but...' ಸ್ಪಷ್ಟೀಕರಣ: 'Could you elaborate?' ವಿಸ್ತರಿಸುವುದು: 'Building on what you said...'",
+          "kannadaExplanation": "ಚರ್ಚೆಯಲ್ಲಿ ಭಾಗವಹಿಸುವುದು ಎಂದರೆ ಇತರರ ಮಾತನ್ನು ಗೌರವಿಸುತ್ತಾ ನಿಮ್ಮ ಅಭಿಪ್ರಾಯವನ್ನೂ ಸ್ಪಷ್ಟವಾಗಿ ಹಂಚಿಕೊಳ್ಳುವುದು. ಚರ್ಚೆಗೆ ಸೇರುವಾಗ 'Can I add something here?' (ನಾನು ಇಲ್ಲಿ ಏನಾದರೂ ಸೇರಿಸಬಹುದೇ?) ಎಂದು ಕೇಳಬಹುದು. ಯಾರಾದರೂ ಮಾತನಾಡುತ್ತಿರುವಾಗ ವಿನಯದಿಂದ ಮಧ್ಯಪ್ರವೇಶಿಸಲು 'Sorry to interrupt, but...' (ಅಡ್ಡಿಪಡಿಸಿದ್ದಕ್ಕೆ ಕ್ಷಮಿಸಿ, ಆದರೆ...) ಎಂಬಂತಹ ಪದಗುಚ್ಛ ಬಳಸಿ ನಂತರ ನಿಮ್ಮ ಮಾತು ಮುಂದುವರಿಸಿ. ಇನ್ನೊಬ್ಬರ ಮಾತು ಸರಿಯಾಗಿ ಅರ್ಥವಾಗದಿದ್ದಾಗ ಸ್ಪಷ್ಟೀಕರಣ ಕೇಳಲು 'Could you elaborate on that?' (ಅದನ್ನು ಸ್ವಲ್ಪ ವಿವರಿಸುತ್ತೀರಾ?) ಎಂದು ಕೇಳಬಹುದು. ಬೇರೆಯವರ ಆಲೋಚನೆಯ ಆಧಾರದ ಮೇಲೆ ನಿಮ್ಮದೇ ಆದ ಅಂಶ ಸೇರಿಸಲು 'Building on what you said...' (ನೀವು ಹೇಳಿದ್ದರ ಆಧಾರದ ಮೇಲೆ...) ಎಂದು ಪ್ರಾರಂಭಿಸಿ ಮಾತು ಮುಂದುವರಿಸಬಹುದು. ಈ ರೀತಿಯ ಪದಗುಚ್ಛಗಳು ಚರ್ಚೆಯನ್ನು ಸಭ್ಯವಾಗಿಯೂ ಪರಿಣಾಮಕಾರಿಯಾಗಿಯೂ ಮುಂದುವರಿಸಲು ಸಹಾಯ ಮಾಡುತ್ತವೆ.",
           "patterns": [
             {
               "pattern": "I would like to add...",
@@ -49388,7 +50448,7 @@
         "kannadaTitle": "ಸಂಕೀರ್ಣ ಆಲೋಚನೆಗಳನ್ನು ವ್ಯಕ್ತಪಡಿಸುವುದು",
         "content": {
           "explanation": "Expressing complex ideas: Use linking words to connect ideas. Cause/effect: 'due to', 'as a result', 'consequently'. Contrast: 'however', 'on the other hand', 'although'. Addition: 'furthermore', 'moreover', 'in addition'. Example: 'for instance', 'such as'. Conclusion: 'in conclusion', 'overall', 'to sum up'.",
-          "kannadaExplanation": "ಸಂಕೀರ್ಣ ಆಲೋಚನೆ ವ್ಯಕ್ತಪಡಿಸುವುದು: ಸಂಪರ್ಕ ಪದಗಳು. ಕಾರಣ/ಪರಿಣಾಮ: 'due to', 'as a result'. ವೈರುಧ್ಯ: 'however', 'although'. ಸೇರ್ಪಡೆ: 'furthermore', 'moreover'. ಉದಾಹರಣೆ: 'for instance'. ತೀರ್ಮಾನ: 'in conclusion'.",
+          "kannadaExplanation": "ಸಂಕೀರ್ಣ ಆಲೋಚನೆಗಳನ್ನು ವ್ಯಕ್ತಪಡಿಸುವಾಗ ವಾಕ್ಯಗಳನ್ನು ಪರಸ್ಪರ ಸಂಪರ್ಕಿಸುವ ಪದಗಳನ್ನು ಬಳಸುವುದರಿಂದ ಮಾತು ಹೆಚ್ಚು ಸ್ಪಷ್ಟ ಮತ್ತು ತಾರ್ಕಿಕವಾಗಿ ಕೇಳಿಸುತ್ತದೆ. ಕಾರಣ ಮತ್ತು ಪರಿಣಾಮ ಸೂಚಿಸಲು 'due to' (ಕಾರಣದಿಂದ), 'as a result' (ಪರಿಣಾಮವಾಗಿ), 'consequently' (ಆದ್ದರಿಂದ) ಎಂಬ ಪದಗಳನ್ನು ಬಳಸಿ. ವ್ಯತಿರಿಕ್ತ ಅಥವಾ ವಿರುದ್ಧವಾದ ಅಂಶ ಹೇಳಲು 'however' (ಆದಾಗ್ಯೂ), 'on the other hand' (ಮತ್ತೊಂದೆಡೆ), 'although' (ಆದರೂ) ಬಳಸಬಹುದು. ಹೆಚ್ಚುವರಿ ಅಂಶ ಸೇರಿಸಲು 'furthermore', 'moreover' (ಅಲ್ಲದೆ, ಇದಲ್ಲದೆ) ಬಳಸಿ. ಉದಾಹರಣೆ ಕೊಡಲು 'for instance', 'such as' (ಉದಾಹರಣೆಗೆ) ಬಳಸಿ. ಕೊನೆಗೆ ವಿಷಯ ಮುಕ್ತಾಯಗೊಳಿಸಲು 'in conclusion', 'to sum up' (ಸಂಕ್ಷಿಪ್ತವಾಗಿ ಹೇಳುವುದಾದರೆ) ಎಂಬ ಪದಗುಚ್ಛಗಳನ್ನು ಬಳಸಬಹುದು. ಈ ಸಂಪರ್ಕ ಪದಗಳು ನಿಮ್ಮ ವಾಕ್ಯಗಳ ನಡುವಿನ ಸಂಬಂಧವನ್ನು ಕೇಳುಗರಿಗೆ ಸ್ಪಷ್ಟಪಡಿಸುತ್ತವೆ.",
           "patterns": [
             {
               "pattern": "First, second, finally",
@@ -49672,7 +50732,7 @@
         "kannadaTitle": "ರ್ಚಾ ಕೌಶಲ್ಯಗಳು",
         "content": {
           "explanation": "Debate skills: State your position: 'I believe that...' Support: 'My main argument is...' Evidence: 'Studies show...', 'According to...' Counter: 'Some people argue that..., however...' Refute: 'While that may be true, the evidence suggests...' Conclude: 'Therefore, I maintain that...' Stay respectful!",
-          "kannadaExplanation": "ವಾದ ಕೌಶಲ: ನಿಲುವು: 'I believe that...' ಬೆಂಬಲ: 'My main argument is...' ಸಾಕ್ಷ್ಯ: 'Studies show...' ಎದುರು: 'Some people argue..., however...' ತೀರ್ಮಾನ: 'Therefore, I maintain that...' ಗೌರವ ಕಾಪಾಡಿ!",
+          "kannadaExplanation": "ವಾದ ಕೌಶಲಗಳನ್ನು ಬಳಸುವಾಗ ಈ ಹಂತಗಳನ್ನು ಅನುಸರಿಸಿ: ಮೊದಲು ನಿಮ್ಮ ನಿಲುವನ್ನು ಸ್ಪಷ್ಟವಾಗಿ ತಿಳಿಸಲು 'I believe that...' (ನಾನು ನಂಬುತ್ತೇನೆ...) ಎಂದು ಪ್ರಾರಂಭಿಸಿ. ನಂತರ ನಿಮ್ಮ ಮುಖ್ಯ ವಾದವನ್ನು 'My main argument is...' (ನನ್ನ ಮುಖ್ಯ ವಾದವೆಂದರೆ...) ಎಂದು ಮಂಡಿಸಿ. ಅದಕ್ಕೆ ಪುರಾವೆ ನೀಡಲು 'Studies show...' (ಅಧ್ಯಯನಗಳು ತೋರಿಸುತ್ತವೆ...) ಅಥವಾ 'According to...' (ಪ್ರಕಾರ...) ಬಳಸಿ. ಎದುರಾಳಿಯ ವಾದವನ್ನು ಉಲ್ಲೇಖಿಸಿ ಆದರೆ ವಿರೋಧಿಸಲು 'Some people argue that..., however...' (ಕೆಲವರು ಹೀಗೆ ವಾದಿಸುತ್ತಾರೆ..., ಆದರೆ...) ಎಂದು ಹೇಳಿ. ಆ ವಾದವನ್ನು ಖಂಡಿಸಲು 'While that may be true, the evidence suggests...' (ಅದು ನಿಜವಿರಬಹುದು, ಆದರೆ ಪುರಾವೆ ಸೂಚಿಸುವುದೇನೆಂದರೆ...) ಎಂದು ಹೇಳಿ. ಕೊನೆಯದಾಗಿ ನಿಮ್ಮ ನಿಲುವನ್ನು ದೃಢಪಡಿಸಲು 'Therefore, I maintain that...' (ಆದ್ದರಿಂದ, ನಾನು ಪ್ರತಿಪಾದಿಸುತ್ತೇನೆ...) ಎಂದು ಮುಕ್ತಾಯಗೊಳಿಸಿ. ಇಡೀ ಚರ್ಚೆಯುದ್ದಕ್ಕೂ ಗೌರವಯುತವಾಗಿ ಮತ್ತು ಶಾಂತವಾಗಿ ಇರಿ!",
           "patterns": [
             {
               "pattern": "I strongly believe that...",
@@ -49956,7 +51016,7 @@
         "kannadaTitle": "ಮಾತುಕತೆ ಕೌಶಲ್ಯಗಳು",
         "content": {
           "explanation": "Negotiation skills: Opening: 'I'd like to discuss...' Proposing: 'What if we...?' 'How about...?' Bargaining: 'If you can offer X, we can agree to Y.' Compromising: 'I understand your position. Let's find a middle ground.' Accepting: 'That sounds fair.' 'We have a deal.' Declining: 'I appreciate the offer, but...' 'That doesn't work for us.'",
-          "kannadaExplanation": "ಮಾತುಕತೆ ಕೌಶಲ: ಆರಂಭ: 'I'd like to discuss...' ಪ್ರಸ್ತಾಪ: 'What if we...?' ಚೌಕಾಶಿ: 'If you can offer X, we can agree to Y.' ರಾಜಿ: 'Let's find a middle ground.' ಒಪ್ಪಿಗೆ: 'That sounds fair.' ನಿರಾಕರಣೆ: 'That doesn't work for us.'",
+          "kannadaExplanation": "ಮಾತುಕತೆ (ಚೌಕಾಶಿ) ಕೌಶಲಗಳಲ್ಲಿ ಈ ಹಂತಗಳು ಮುಖ್ಯ: ಚರ್ಚೆ ಆರಂಭಿಸಲು 'I'd like to discuss...' ಎಂದು ಹೇಳಿ, ಅಂದರೆ ನೀವು ಚರ್ಚಿಸಲು ಬಯಸುತ್ತೀರಿ ಎಂದು ತಿಳಿಸುವುದು. ಪ್ರಸ್ತಾಪ ಮಂಡಿಸಲು 'What if we...?' ಅಥವಾ 'How about...?' ಎಂದು ಕೇಳಿ, ಅಂದರೆ ನಾವು ಹೀಗೆ ಮಾಡಿದರೆ ಹೇಗೆ ಎಂದು ಸಲಹೆ ನೀಡುವುದು. ಚೌಕಾಶಿ ಮಾಡುವಾಗ 'ನೀವು ಒಂದನ್ನು ಕೊಟ್ಟರೆ, ನಾವು ಇನ್ನೊಂದಕ್ಕೆ ಒಪ್ಪುತ್ತೇವೆ' ಎಂಬಂತೆ ಷರತ್ತು ಇಡಬಹುದು. ಎರಡೂ ಕಡೆಗೆ ಒಪ್ಪುವಂತಹ ಪರಿಹಾರಕ್ಕಾಗಿ ನಿಮ್ಮ ಎದುರಿನವರ ನಿಲುವು ಅರ್ಥ ಮಾಡಿಕೊಂಡು ಮಧ್ಯಮ ಮಾರ್ಗ ಹುಡುಕುತ್ತೇವೆ ಎಂದು ರಾಜಿ ಮಾಡಿಕೊಳ್ಳಬಹುದು. ಒಪ್ಪಂದ ಒಪ್ಪಿಕೊಳ್ಳಲು 'That sounds fair' ಅಥವಾ 'We have a deal' ಎಂದು ಹೇಳಿ, ಅಂದರೆ ಅದು ನ್ಯಾಯಯುತವಾಗಿದೆ ಅಥವಾ ಒಪ್ಪಂದ ಆಯಿತು ಎಂದು ಸೂಚಿಸುವುದು. ಪ್ರಸ್ತಾಪವನ್ನು ವಿನಯದಿಂದ ನಿರಾಕರಿಸಬೇಕಾದರೆ ಮೊದಲು ಪ್ರಸ್ತಾಪಕ್ಕೆ ಧನ್ಯವಾದ ಹೇಳಿ ನಂತರ ಅದು ನಿಮಗೆ ಸರಿಹೊಂದುವುದಿಲ್ಲ ಎಂದು ಸ್ಪಷ್ಟವಾಗಿ ಆದರೆ ಸಭ್ಯವಾಗಿ ತಿಳಿಸಿ.",
           "patterns": [
             {
               "pattern": "I propose that...",
@@ -50816,7 +51876,7 @@
         "kannadaTitle": "ಪ್ರಸ್ತುತ ವಿದ್ಯಮಾನಗಳು",
         "content": {
           "explanation": "Discussing current affairs: Use present perfect for recent news: 'India has launched a new satellite.' Use passive for reports: 'A new policy has been announced.' Express views: 'I think...', 'In my opinion...' Vocabulary: government (ಸರ್ಕಾರ), economy (ಆರ್ಥಿಕತೆ), election (ಚುನಾವಣೆ), environment (ಪರಿಸರ), technology (ತಂತ್ರಜ್ಞಾನ), climate change (ಹವಾಮಾನ ಬದಲಾವಣೆ).",
-          "kannadaExplanation": "ಪ್ರಚಲಿತ ವಿಷಯ ಚರ್ಚೆ: ಇತ್ತೀಚಿನ ಸುದ್ದಿಗೆ present perfect: 'India has launched...' ವರದಿಗೆ passive: 'A policy has been announced.' ಪದಗಳು: government=ಸರ್ಕಾರ, economy=ಆರ್ಥಿಕತೆ, environment=ಪರಿಸರ.",
+          "kannadaExplanation": "ಪ್ರಚಲಿತ ವಿದ್ಯಮಾನಗಳ ಬಗ್ಗೆ ಮಾತನಾಡುವಾಗ ಇತ್ತೀಚಿನ ಸುದ್ದಿಗಳನ್ನು ಹೇಳಲು present perfect ಕಾಲ (has/have + ಕ್ರಿಯಾಪದದ ಮೂರನೇ ರೂಪ) ಬಳಸಿ, ಉದಾಹರಣೆಗೆ 'India has launched a new satellite' (ಭಾರತ ಹೊಸ ಉಪಗ್ರಹವನ್ನು ಉಡಾವಣೆ ಮಾಡಿದೆ) ಎಂಬಂತೆ. ವರದಿಗಳನ್ನು ತಿಳಿಸುವಾಗ ಕರ್ಮಣಿ ಪ್ರಯೋಗ (passive voice) ಬಳಸಿ, ಉದಾಹರಣೆಗೆ 'A new policy has been announced' (ಹೊಸ ನೀತಿಯನ್ನು ಘೋಷಿಸಲಾಗಿದೆ) ಎಂಬಂತೆ. ನಿಮ್ಮ ಅಭಿಪ್ರಾಯ ಹೇಳಲು 'I think...' (ನಾನು ಭಾವಿಸುತ್ತೇನೆ...) ಅಥವಾ 'In my opinion...' (ನನ್ನ ಅಭಿಪ್ರಾಯದಲ್ಲಿ...) ಎಂದು ಪ್ರಾರಂಭಿಸಬಹುದು. ಈ ವಿಷಯದ ಪ್ರಮುಖ ಪದಗಳು: ಸರ್ಕಾರ, ಆರ್ಥಿಕತೆ, ಚುನಾವಣೆ, ಪರಿಸರ, ತಂತ್ರಜ್ಞಾನ, ಮತ್ತು ಹವಾಮಾನ ಬದಲಾವಣೆ.",
           "vocabulary": [
             {
               "english": "news",
