@@ -267,15 +267,15 @@ class KannadaEnglishApp {
         }
         const lessonsCount = {
             0: 11,
-            1: 12,
+            1: 17,
             2: 25,
             3: 21,
             4: 23,
-            5: 20,
-            6: 18,
-            7: 12,
+            5: 25,
+            6: 23,
+            7: 17,
             8: 25,
-            9: 10
+            9: 13
         };
         return lessonsCount[level] || 10;
     }

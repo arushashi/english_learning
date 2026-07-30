@@ -1,11 +1,11 @@
 {
-  "timestamp": "2026-07-30T01:59:41.347Z",
-  "totalLessons": 177,
+  "timestamp": "2026-07-30T08:52:25.622Z",
+  "totalLessons": 200,
   "totalErrors": 0,
-  "totalWarnings": 65,
+  "totalWarnings": 83,
   "errorsByCategory": {},
   "warningsByCategory": {
-    "PLACEHOLDERS": 65
+    "PLACEHOLDERS": 83
   },
   "lessons": [
     {
@@ -260,6 +260,64 @@
       "title": "Level 1 Test",
       "errors": [],
       "warnings": []
+    },
+    {
+      "levelKey": "level1",
+      "lessonId": 13,
+      "title": "Food and Drink Vocabulary",
+      "errors": [],
+      "warnings": [
+        {
+          "level": "WARNING",
+          "category": "PLACEHOLDERS",
+          "message": "Placeholder text in explanation",
+          "lessonId": "13",
+          "field": "explanation"
+        }
+      ]
+    },
+    {
+      "levelKey": "level1",
+      "lessonId": 14,
+      "title": "Body Parts and Health Vocabulary",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "levelKey": "level1",
+      "lessonId": 15,
+      "title": "Money and Finance Vocabulary",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "levelKey": "level1",
+      "lessonId": 16,
+      "title": "Weather and Seasons Vocabulary",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "levelKey": "level1",
+      "lessonId": 17,
+      "title": "Colours Vocabulary",
+      "errors": [],
+      "warnings": [
+        {
+          "level": "WARNING",
+          "category": "PLACEHOLDERS",
+          "message": "Placeholder text in explanation",
+          "lessonId": "17",
+          "field": "explanation"
+        },
+        {
+          "level": "WARNING",
+          "category": "PLACEHOLDERS",
+          "message": "Placeholder text in kannadaExplanation",
+          "lessonId": "17",
+          "field": "kannadaExplanation"
+        }
+      ]
     },
     {
       "levelKey": "level2",
@@ -1007,6 +1065,65 @@
       "warnings": []
     },
     {
+      "levelKey": "level5",
+      "lessonId": 21,
+      "title": "Numbers, Dates, Time and Money in Depth",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "levelKey": "level5",
+      "lessonId": 22,
+      "title": "At the Government Office",
+      "errors": [],
+      "warnings": [
+        {
+          "level": "WARNING",
+          "category": "PLACEHOLDERS",
+          "message": "Placeholder text in explanation",
+          "lessonId": "22",
+          "field": "explanation"
+        }
+      ]
+    },
+    {
+      "levelKey": "level5",
+      "lessonId": 23,
+      "title": "Customer Support & BPO English",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "levelKey": "level5",
+      "lessonId": 24,
+      "title": "Classroom English",
+      "errors": [],
+      "warnings": [
+        {
+          "level": "WARNING",
+          "category": "PLACEHOLDERS",
+          "message": "Placeholder text in explanation",
+          "lessonId": "24",
+          "field": "explanation"
+        }
+      ]
+    },
+    {
+      "levelKey": "level5",
+      "lessonId": 25,
+      "title": "Common English Proverbs",
+      "errors": [],
+      "warnings": [
+        {
+          "level": "WARNING",
+          "category": "PLACEHOLDERS",
+          "message": "Placeholder text in explanation",
+          "lessonId": "25",
+          "field": "explanation"
+        }
+      ]
+    },
+    {
       "levelKey": "level6",
       "lessonId": 1,
       "title": "Describing People",
@@ -1209,6 +1326,73 @@
       "warnings": []
     },
     {
+      "levelKey": "level6",
+      "lessonId": 19,
+      "title": "Word Formation - Prefixes and Suffixes",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "levelKey": "level6",
+      "lessonId": 20,
+      "title": "Synonyms and Antonyms",
+      "errors": [],
+      "warnings": [
+        {
+          "level": "WARNING",
+          "category": "PLACEHOLDERS",
+          "message": "Placeholder text in explanation",
+          "lessonId": "20",
+          "field": "explanation"
+        }
+      ]
+    },
+    {
+      "levelKey": "level6",
+      "lessonId": 21,
+      "title": "Homophones and Homonyms",
+      "errors": [],
+      "warnings": [
+        {
+          "level": "WARNING",
+          "category": "PLACEHOLDERS",
+          "message": "Placeholder text in explanation",
+          "lessonId": "21",
+          "field": "explanation"
+        }
+      ]
+    },
+    {
+      "levelKey": "level6",
+      "lessonId": 22,
+      "title": "Reading Skills - Skimming, Scanning & Inference",
+      "errors": [],
+      "warnings": [
+        {
+          "level": "WARNING",
+          "category": "PLACEHOLDERS",
+          "message": "Placeholder text in explanation",
+          "lessonId": "22",
+          "field": "explanation"
+        }
+      ]
+    },
+    {
+      "levelKey": "level6",
+      "lessonId": 23,
+      "title": "Graded Reading and Critical Analysis",
+      "errors": [],
+      "warnings": [
+        {
+          "level": "WARNING",
+          "category": "PLACEHOLDERS",
+          "message": "Placeholder text in explanation",
+          "lessonId": "23",
+          "field": "explanation"
+        }
+      ]
+    },
+    {
       "levelKey": "level7",
       "lessonId": 1,
       "title": "Office Vocabulary",
@@ -1368,6 +1552,95 @@
       "title": "Level 7 Test",
       "errors": [],
       "warnings": []
+    },
+    {
+      "levelKey": "level7",
+      "lessonId": 13,
+      "title": "Paragraph Writing",
+      "errors": [],
+      "warnings": [
+        {
+          "level": "WARNING",
+          "category": "PLACEHOLDERS",
+          "message": "Placeholder text in explanation",
+          "lessonId": "13",
+          "field": "explanation"
+        },
+        {
+          "level": "WARNING",
+          "category": "PLACEHOLDERS",
+          "message": "Placeholder text in kannadaExplanation",
+          "lessonId": "13",
+          "field": "kannadaExplanation"
+        }
+      ]
+    },
+    {
+      "levelKey": "level7",
+      "lessonId": 14,
+      "title": "Formal Letter and Email Writing",
+      "errors": [],
+      "warnings": [
+        {
+          "level": "WARNING",
+          "category": "PLACEHOLDERS",
+          "message": "Placeholder text in explanation",
+          "lessonId": "14",
+          "field": "explanation"
+        }
+      ]
+    },
+    {
+      "levelKey": "level7",
+      "lessonId": 15,
+      "title": "Essay Writing",
+      "errors": [],
+      "warnings": [
+        {
+          "level": "WARNING",
+          "category": "PLACEHOLDERS",
+          "message": "Placeholder text in explanation",
+          "lessonId": "15",
+          "field": "explanation"
+        }
+      ]
+    },
+    {
+      "levelKey": "level7",
+      "lessonId": 16,
+      "title": "Application & Resume Writing",
+      "errors": [],
+      "warnings": [
+        {
+          "level": "WARNING",
+          "category": "PLACEHOLDERS",
+          "message": "Placeholder text in explanation",
+          "lessonId": "16",
+          "field": "explanation"
+        },
+        {
+          "level": "WARNING",
+          "category": "PLACEHOLDERS",
+          "message": "Placeholder text in kannadaExplanation",
+          "lessonId": "16",
+          "field": "kannadaExplanation"
+        }
+      ]
+    },
+    {
+      "levelKey": "level7",
+      "lessonId": 17,
+      "title": "Report & Summary Writing",
+      "errors": [],
+      "warnings": [
+        {
+          "level": "WARNING",
+          "category": "PLACEHOLDERS",
+          "message": "Placeholder text in explanation",
+          "lessonId": "17",
+          "field": "explanation"
+        }
+      ]
     },
     {
       "levelKey": "level8",
@@ -1739,6 +2012,35 @@
       "levelKey": "level9",
       "lessonId": 10,
       "title": "Level 9 Final Test",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "levelKey": "level9",
+      "lessonId": 11,
+      "title": "Contractions & Spoken Reductions",
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "levelKey": "level9",
+      "lessonId": 12,
+      "title": "Register & Politeness",
+      "errors": [],
+      "warnings": [
+        {
+          "level": "WARNING",
+          "category": "PLACEHOLDERS",
+          "message": "Placeholder text in explanation",
+          "lessonId": "12",
+          "field": "explanation"
+        }
+      ]
+    },
+    {
+      "levelKey": "level9",
+      "lessonId": 13,
+      "title": "British vs. American English",
       "errors": [],
       "warnings": []
     }
