@@ -268,7 +268,7 @@ class KannadaEnglishApp {
         const lessonsCount = {
             0: 11,
             1: 17,
-            2: 25,
+            2: 26,
             3: 21,
             4: 23,
             5: 25,
