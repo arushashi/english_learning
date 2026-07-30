@@ -26157,6 +26157,867 @@
           }
         ],
         "cefr": "B1"
+      },
+      {
+        "id": 21,
+        "title": "Present Perfect Continuous Tense",
+        "kannadaTitle": "ವರ್ತಮಾನ ಪರಿಪೂರ್ಣ ಮುಂದುವರಿಕೆ ಕಾಲ",
+        "content": {
+          "explanation": "Present Perfect Continuous describes an action that STARTED in the past and is STILL CONTINUING now, emphasizing duration. Form: have/has + been + verb-ing. 'I have been working here for five years.' Use 'for' with a duration ('for two hours') and 'since' with a starting point ('since 2020'). Compare with Present Perfect: Present Perfect Continuous emphasizes the ongoing activity itself, not just the result.",
+          "kannadaExplanation": "ವರ್ತಮಾನ ಪರಿಪೂರ್ಣ ಮುಂದುವರಿಕೆ ಕಾಲ ಹಿಂದೆ ಆರಂಭವಾಗಿ ಈಗಲೂ ಮುಂದುವರಿಯುತ್ತಿರುವ ಕ್ರಿಯೆಯನ್ನು ವಿವರಿಸುತ್ತದೆ. ರಚನೆ: have/has + been + V-ing. 'ನಾನು ಇಲ್ಲಿ ಐದು ವರ್ಷಗಳಿಂದ ಕೆಲಸ ಮಾಡುತ್ತಿದ್ದೇನೆ.' ಅವಧಿಗೆ 'for' ಮತ್ತು ಆರಂಭದ ಸಮಯಕ್ಕೆ 'since' ಬಳಸಿ.",
+          "patterns": [
+            {
+              "pattern": "Subject + have/has + been + verb-ing + for/since",
+              "kannada": "ಕರ್ತೃ + have/has + been + V-ing + for/since",
+              "examples": [
+                "I have been learning English for six months",
+                "She has been waiting since morning",
+                "They have been living in Bengaluru for ten years"
+              ]
+            },
+            {
+              "pattern": "How long + have/has + subject + been + verb-ing?",
+              "kannada": "How long + have/has + ಕರ್ತೃ + been + V-ing?",
+              "examples": [
+                "How long have you been studying here?",
+                "How long has she been working at this company?"
+              ]
+            }
+          ],
+          "objectives": [
+            "Form present perfect continuous using have/has + been + V-ing",
+            "Use 'for' with duration and 'since' with a starting point",
+            "Distinguish present perfect continuous from present perfect",
+            "Ask and answer 'how long' questions about ongoing actions"
+          ]
+        },
+        "speakingPractice": [
+          {
+            "english": "I have been learning English for six months now.",
+            "kannada": "ನಾನು ಈಗ ಆರು ತಿಂಗಳಿನಿಂದ ಇಂಗ್ಲಿಷ್ ಕಲಿಯುತ್ತಿದ್ದೇನೆ.",
+            "transliteration": "ai haev been larning inglish for siks manths nau"
+          },
+          {
+            "english": "She has been waiting for the bus since eight o'clock.",
+            "kannada": "ಅವಳು ಎಂಟು ಗಂಟೆಯಿಂದ ಬಸ್‌ಗಾಗಿ ಕಾಯುತ್ತಿದ್ದಾಳೆ.",
+            "transliteration": "shee haez been veyting for dha bas sins eyt aklaak"
+          },
+          {
+            "english": "How long have you been working at this company?",
+            "kannada": "ಈ ಕಂಪನಿಯಲ್ಲಿ ಎಷ್ಟು ದಿನಗಳಿಂದ ಕೆಲಸ ಮಾಡುತ್ತಿದ್ದೀರಿ?",
+            "transliteration": "hau laang haev yoo been varking aet dhis kampani?"
+          },
+          {
+            "english": "It has been raining since last night.",
+            "kannada": "ನಿನ್ನೆ ರಾತ್ರಿಯಿಂದ ಮಳೆ ಬರುತ್ತಿದೆ.",
+            "transliteration": "it haez been reyning sins laast nait"
+          },
+          {
+            "english": "They have been living in Bengaluru for ten years.",
+            "kannada": "ಅವರು ಹತ್ತು ವರ್ಷಗಳಿಂದ ಬೆಂಗಳೂರಿನಲ್ಲಿ ವಾಸಿಸುತ್ತಿದ್ದಾರೆ.",
+            "transliteration": "dhey haev been living in bengaloor for ten yiars"
+          },
+          {
+            "english": "My eyes are tired because I have been reading all day.",
+            "kannada": "ನಾನು ದಿನವಿಡೀ ಓದುತ್ತಿರುವುದರಿಂದ ನನ್ನ ಕಣ್ಣುಗಳು ಆಯಾಸಗೊಂಡಿವೆ.",
+            "transliteration": "mai aiz aar taiard bikaaz ai haev been reeding aal dey"
+          }
+        ],
+        "practiceQuestions": [
+          {
+            "question": "\"I ___ English for six months.\" Choose the correct present perfect continuous form.",
+            "options": [
+              "have been learning",
+              "am learning",
+              "learned",
+              "will learn"
+            ],
+            "correct": 0
+          },
+          {
+            "question": "Which word is used with a starting point in time?",
+            "options": [
+              "since",
+              "for",
+              "ago",
+              "during"
+            ],
+            "correct": 0
+          },
+          {
+            "question": "Which word is used with a duration/length of time?",
+            "options": [
+              "for",
+              "since",
+              "at",
+              "on"
+            ],
+            "correct": 0
+          },
+          {
+            "question": "\"She ___ since eight o'clock.\" Choose the correct form.",
+            "options": [
+              "has been waiting",
+              "is waiting",
+              "waited",
+              "will wait"
+            ],
+            "correct": 0
+          },
+          {
+            "question": "\"How long ___ you been working here?\" Choose the correct auxiliary.",
+            "options": [
+              "have",
+              "has",
+              "did",
+              "do"
+            ],
+            "correct": 0
+          },
+          {
+            "question": "\"It ___ raining since last night.\" Choose the correct form.",
+            "options": [
+              "has been",
+              "is",
+              "was",
+              "will be"
+            ],
+            "correct": 0
+          },
+          {
+            "question": "Present perfect continuous emphasizes:",
+            "options": [
+              "The ongoing duration of an action",
+              "A single completed event only",
+              "A future plan",
+              "A general fact"
+            ],
+            "correct": 0
+          },
+          {
+            "question": "\"They ___ in Bengaluru for ten years.\" Choose the correct form.",
+            "options": [
+              "have been living",
+              "are living",
+              "lived",
+              "will live"
+            ],
+            "correct": 0
+          },
+          {
+            "question": "Which sentence correctly uses 'since'?",
+            "options": [
+              "I have been working since 2020.",
+              "I have been working since five years.",
+              "I have been working for 2020.",
+              "I have been working since two hours."
+            ],
+            "correct": 0
+          },
+          {
+            "question": "\"My eyes are tired because I ___ all day.\" Choose the correct form.",
+            "options": [
+              "have been reading",
+              "read",
+              "am reading",
+              "will read"
+            ],
+            "correct": 0
+          }
+        ],
+        "quiz": {
+          "title": "Present Perfect Continuous Tense Quiz",
+          "description": "Test your understanding of Present Perfect Continuous Tense",
+          "questions": [
+            {
+              "question": "\"He ___ for a job for three months.\" Choose the correct form.",
+              "options": [
+                "has been looking",
+                "is looking",
+                "looked",
+                "will look"
+              ],
+              "correct": 0
+            },
+            {
+              "question": "Which time word pairs with 'for'?",
+              "options": [
+                "two hours",
+                "2020",
+                "morning",
+                "birth"
+              ],
+              "correct": 0
+            },
+            {
+              "question": "\"We ___ this project since January.\" Choose the correct form.",
+              "options": [
+                "have been working on",
+                "are working on",
+                "worked on",
+                "will work on"
+              ],
+              "correct": 0
+            },
+            {
+              "question": "\"How long ___ she been studying medicine?\" Choose the correct auxiliary.",
+              "options": [
+                "has",
+                "have",
+                "did",
+                "is"
+              ],
+              "correct": 0
+            },
+            {
+              "question": "Present perfect continuous is formed with:",
+              "options": [
+                "have/has + been + V-ing",
+                "have/has + V3",
+                "am/is/are + V-ing",
+                "will + V1"
+              ],
+              "correct": 0
+            }
+          ],
+          "passingScore": 70
+        },
+        "commonMistakes": [
+          {
+            "mistake": "\"I am learning English since six months.\"",
+            "correction": "\"I have been learning English for six months.\"",
+            "explanation": "Present continuous ('am learning') doesn't work with 'since'/'for' duration phrases; use present perfect continuous ('have been learning') to describe an action continuing from the past to now."
+          },
+          {
+            "mistake": "\"I have been living here since ten years.\"",
+            "correction": "\"I have been living here for ten years.\"",
+            "explanation": "'Since' is used with a starting point (a specific time/date), while 'for' is used with a duration/length of time; 'ten years' is a duration, so it needs 'for'."
+          },
+          {
+            "mistake": "\"She has been waiting from morning.\"",
+            "correction": "\"She has been waiting since morning.\"",
+            "explanation": "English uses 'since' (not 'from') to mark the starting point of an ongoing action — a common word-choice slip influenced by direct translation."
+          },
+          {
+            "mistake": "\"How long you have been working here?\"",
+            "correction": "\"How long have you been working here?\"",
+            "explanation": "Questions require subject-auxiliary inversion; 'have' must come before the subject 'you', not after."
+          },
+          {
+            "mistake": "\"I have been study English for two years.\"",
+            "correction": "\"I have been studying English for two years.\"",
+            "explanation": "After 'been', the main verb must take the -ing form ('studying'), not the base form ('study')."
+          }
+        ],
+        "practice": [
+          {
+            "english": "We have been planning this trip since last month.",
+            "kannada": "ನಾವು ಕಳೆದ ತಿಂಗಳಿನಿಂದ ಈ ಪ್ರವಾಸವನ್ನು ಯೋಜಿಸುತ್ತಿದ್ದೇವೆ."
+          },
+          {
+            "english": "He has been practicing cricket every day for a year.",
+            "kannada": "ಅವನು ಒಂದು ವರ್ಷದಿಂದ ಪ್ರತಿದಿನ ಕ್ರಿಕೆಟ್ ಅಭ್ಯಾಸ ಮಾಡುತ್ತಿದ್ದಾನೆ."
+          },
+          {
+            "english": "I've been trying to reach you all morning.",
+            "kannada": "ಬೆಳಗ್ಗಿನಿಂದ ನಾನು ನಿಮ್ಮನ್ನು ಸಂಪರ್ಕಿಸಲು ಪ್ರಯತ್ನಿಸುತ್ತಿದ್ದೇನೆ."
+          },
+          {
+            "english": "The children have been playing outside since school got over.",
+            "kannada": "ಶಾಲೆ ಮುಗಿದಾಗಿನಿಂದ ಮಕ್ಕಳು ಹೊರಗಡೆ ಆಡುತ್ತಿದ್ದಾರೆ."
+          },
+          {
+            "english": "She has been feeling unwell for the past few days.",
+            "kannada": "ಅವಳಿಗೆ ಕಳೆದ ಕೆಲವು ದಿನಗಳಿಂದ ಆರೋಗ್ಯ ಸರಿಯಿಲ್ಲ."
+          },
+          {
+            "english": "Prices have been rising steadily for the last few years.",
+            "kannada": "ಕಳೆದ ಕೆಲವು ವರ್ಷಗಳಿಂದ ಬೆಲೆಗಳು ಸ್ಥಿರವಾಗಿ ಏರುತ್ತಿವೆ."
+          },
+          {
+            "english": "I have been thinking about changing my job.",
+            "kannada": "ನಾನು ನನ್ನ ಉದ್ಯೋಗ ಬದಲಾಯಿಸುವ ಬಗ್ಗೆ ಯೋಚಿಸುತ್ತಿದ್ದೇನೆ."
+          },
+          {
+            "english": "They have been renovating their house for three months.",
+            "kannada": "ಅವರು ಮೂರು ತಿಂಗಳಿನಿಂದ ತಮ್ಮ ಮನೆಯನ್ನು ನವೀಕರಿಸುತ್ತಿದ್ದಾರೆ."
+          }
+        ],
+        "cefr": "B1"
+      },
+      {
+        "id": 22,
+        "title": "Past Perfect Continuous Tense",
+        "kannadaTitle": "ಭೂತ ಪರಿಪೂರ್ಣ ಮುಂದುವರಿಕೆ ಕಾಲ",
+        "content": {
+          "explanation": "Past Perfect Continuous describes an action that WAS CONTINUING for some time before another past event happened. Form: had + been + verb-ing. 'I had been waiting for an hour when the bus finally arrived.' It emphasizes the duration of an activity that was in progress up until a point in the past, or that caused a later past result.",
+          "kannadaExplanation": "ಭೂತ ಪರಿಪೂರ್ಣ ಮುಂದುವರಿಕೆ ಕಾಲ ಇನ್ನೊಂದು ಭೂತ ಘಟನೆಗಿಂತ ಮೊದಲು ಸ್ವಲ್ಪ ಸಮಯ ಮುಂದುವರಿಯುತ್ತಿದ್ದ ಕ್ರಿಯೆಯನ್ನು ವಿವರಿಸುತ್ತದೆ. ರಚನೆ: had + been + V-ing. 'ಬಸ್ ಬರುವ ಮೊದಲು ನಾನು ಒಂದು ಗಂಟೆಯಿಂದ ಕಾಯುತ್ತಿದ್ದೆ.' ಚಟುವಟಿಕೆಯ ಅವಧಿಯನ್ನು ಒತ್ತಿಹೇಳುತ್ತದೆ.",
+          "patterns": [
+            {
+              "pattern": "Subject + had + been + verb-ing + (for/since) + when/before + past simple event",
+              "kannada": "ಕರ್ತೃ + had + been + V-ing + when/before + ಭೂತಕಾಲ ಘಟನೆ",
+              "examples": [
+                "I had been waiting for an hour when the bus arrived",
+                "She had been working there for five years before she resigned",
+                "They had been playing for two hours before it started raining"
+              ]
+            },
+            {
+              "pattern": "By the time + past simple, subject + had + been + verb-ing",
+              "kannada": "By the time + ಭೂತಕಾಲ, ಕರ್ತೃ + had + been + V-ing",
+              "examples": [
+                "By the time help arrived, he had been struggling for hours",
+                "By the time I woke up, it had been snowing all night"
+              ]
+            }
+          ],
+          "objectives": [
+            "Form past perfect continuous using had + been + V-ing",
+            "Use it to show an ongoing action before another past event",
+            "Distinguish past perfect continuous from past perfect and past continuous",
+            "Combine two past events showing duration and sequence"
+          ]
+        },
+        "speakingPractice": [
+          {
+            "english": "I had been waiting for an hour when the bus finally arrived.",
+            "kannada": "ಬಸ್ ಕೊನೆಗೂ ಬಂದಾಗ ನಾನು ಒಂದು ಗಂಟೆಯಿಂದ ಕಾಯುತ್ತಿದ್ದೆ.",
+            "transliteration": "ai haed been veyting for aen auar ven dha bas fainali araivd"
+          },
+          {
+            "english": "She had been working there for five years before she resigned.",
+            "kannada": "ರಾಜೀನಾಮೆ ನೀಡುವ ಮೊದಲು ಅವಳು ಐದು ವರ್ಷಗಳಿಂದ ಅಲ್ಲಿ ಕೆಲಸ ಮಾಡುತ್ತಿದ್ದಳು.",
+            "transliteration": "shee haed been varking dher for faiv yiars bifor shee riziignd"
+          },
+          {
+            "english": "By the time I woke up, it had been raining all night.",
+            "kannada": "ನಾನು ಎಚ್ಚರಗೊಳ್ಳುವ ಹೊತ್ತಿಗೆ, ರಾತ್ರಿಯಿಡೀ ಮಳೆ ಬಂದಿತ್ತು.",
+            "transliteration": "bai dha taim ai vok ap, it haed been reyning aal nait"
+          },
+          {
+            "english": "They had been playing for two hours before it started raining.",
+            "kannada": "ಮಳೆ ಪ್ರಾರಂಭವಾಗುವ ಮೊದಲು ಅವರು ಎರಡು ಗಂಟೆ ಆಡುತ್ತಿದ್ದರು.",
+            "transliteration": "dhey haed been pleying for too auars bifor it staartid reyning"
+          },
+          {
+            "english": "He was tired because he had been running for a long time.",
+            "kannada": "ಬಹಳ ಹೊತ್ತು ಓಡುತ್ತಿದ್ದುದರಿಂದ ಅವನು ಆಯಾಸಗೊಂಡಿದ್ದ.",
+            "transliteration": "hee vaz taiard bikaaz hee haed been raning for a laang taim"
+          },
+          {
+            "english": "How long had you been studying before the exam started?",
+            "kannada": "ಪರೀಕ್ಷೆ ಪ್ರಾರಂಭವಾಗುವ ಮೊದಲು ನೀವು ಎಷ್ಟು ಹೊತ್ತು ಓದುತ್ತಿದ್ದಿರಿ?",
+            "transliteration": "hau laang haed yoo been stadying bifor dhi igzaam staartid?"
+          }
+        ],
+        "practiceQuestions": [
+          {
+            "question": "\"I ___ for an hour when the bus arrived.\" Choose the correct form.",
+            "options": [
+              "had been waiting",
+              "was waiting",
+              "have been waiting",
+              "waited"
+            ],
+            "correct": 0
+          },
+          {
+            "question": "Past perfect continuous is formed with:",
+            "options": [
+              "had + been + V-ing",
+              "have/has + been + V-ing",
+              "was/were + V-ing",
+              "had + V3"
+            ],
+            "correct": 0
+          },
+          {
+            "question": "\"She ___ there for five years before she resigned.\" Choose the correct form.",
+            "options": [
+              "had been working",
+              "has been working",
+              "was working",
+              "worked"
+            ],
+            "correct": 0
+          },
+          {
+            "question": "\"By the time I woke up, it ___ all night.\" Choose the correct form.",
+            "options": [
+              "had been raining",
+              "was raining",
+              "has been raining",
+              "rains"
+            ],
+            "correct": 0
+          },
+          {
+            "question": "Past perfect continuous is used to show:",
+            "options": [
+              "An action continuing up to a point in the past, before another past event",
+              "A future plan",
+              "A general truth",
+              "An action happening right now"
+            ],
+            "correct": 0
+          },
+          {
+            "question": "\"They ___ for two hours before it started raining.\" Choose the correct form.",
+            "options": [
+              "had been playing",
+              "were playing",
+              "have played",
+              "played"
+            ],
+            "correct": 0
+          },
+          {
+            "question": "\"He was tired because he ___ for a long time.\" Choose the correct form.",
+            "options": [
+              "had been running",
+              "was running",
+              "has run",
+              "runs"
+            ],
+            "correct": 0
+          },
+          {
+            "question": "\"How long ___ you been studying before the exam?\" Choose the correct auxiliary.",
+            "options": [
+              "had",
+              "have",
+              "has",
+              "did"
+            ],
+            "correct": 0
+          },
+          {
+            "question": "Which sentence correctly uses past perfect continuous?",
+            "options": [
+              "She had been cooking when the guests arrived.",
+              "She had cooking when the guests arrived.",
+              "She has been cooking when the guests arrived.",
+              "She was been cooking when the guests arrived."
+            ],
+            "correct": 0
+          },
+          {
+            "question": "Past perfect continuous always relates an ongoing past action to:",
+            "options": [
+              "A later, more recent past event",
+              "The present moment",
+              "A future event",
+              "No other event at all"
+            ],
+            "correct": 0
+          }
+        ],
+        "quiz": {
+          "title": "Past Perfect Continuous Tense Quiz",
+          "description": "Test your understanding of Past Perfect Continuous Tense",
+          "questions": [
+            {
+              "question": "\"We ___ for the movie to start when the lights went out.\" Choose the correct form.",
+              "options": [
+                "had been waiting",
+                "were waiting",
+                "have waited",
+                "waited"
+              ],
+              "correct": 0
+            },
+            {
+              "question": "\"He ___ football for an hour before he got injured.\" Choose the correct form.",
+              "options": [
+                "had been playing",
+                "was playing",
+                "has played",
+                "plays"
+              ],
+              "correct": 0
+            },
+            {
+              "question": "Which auxiliary is used in past perfect continuous?",
+              "options": [
+                "had been",
+                "have been",
+                "was/were",
+                "will have been"
+              ],
+              "correct": 0
+            },
+            {
+              "question": "\"By the time she called, I ___ for an hour.\" Choose the correct form.",
+              "options": [
+                "had been sleeping",
+                "was sleeping",
+                "have slept",
+                "slept"
+              ],
+              "correct": 0
+            },
+            {
+              "question": "Past perfect continuous emphasizes:",
+              "options": [
+                "The duration of an action before another past event",
+                "A single instant action",
+                "A future prediction",
+                "A permanent fact"
+              ],
+              "correct": 0
+            }
+          ],
+          "passingScore": 70
+        },
+        "commonMistakes": [
+          {
+            "mistake": "\"I was waiting for an hour when the bus arrived.\"",
+            "correction": "\"I had been waiting for an hour when the bus arrived.\"",
+            "explanation": "When emphasizing the duration of an action BEFORE another past event, use past perfect continuous ('had been waiting'), not simple past continuous."
+          },
+          {
+            "mistake": "\"She had been work there for five years.\"",
+            "correction": "\"She had been working there for five years.\"",
+            "explanation": "After 'been' in this tense, the main verb must take the -ing form ('working'), not the base form ('work')."
+          },
+          {
+            "mistake": "\"By the time I woke up, it has been raining all night.\"",
+            "correction": "\"By the time I woke up, it had been raining all night.\"",
+            "explanation": "When describing a past action's duration before another past event, use 'had been' (past perfect continuous), not 'has been' (present perfect continuous)."
+          },
+          {
+            "mistake": "\"How long you had been studying?\"",
+            "correction": "\"How long had you been studying?\"",
+            "explanation": "Questions require the auxiliary 'had' to come before the subject 'you' — subject-auxiliary inversion is needed to form a question."
+          },
+          {
+            "mistake": "\"He was tired because he running for a long time.\"",
+            "correction": "\"He was tired because he had been running for a long time.\"",
+            "explanation": "The auxiliary 'had been' cannot be dropped; without it, the sentence is grammatically incomplete."
+          }
+        ],
+        "practice": [
+          {
+            "english": "I had been feeling unwell for days before I finally saw a doctor.",
+            "kannada": "ವೈದ್ಯರನ್ನು ಭೇಟಿಯಾಗುವ ಮೊದಲು ನಾನು ಹಲವು ದಿನಗಳಿಂದ ಅಸ್ವಸ್ಥನಾಗಿದ್ದೆ."
+          },
+          {
+            "english": "The company had been losing money for months before it finally closed.",
+            "kannada": "ಮುಚ್ಚುವ ಮೊದಲು ಕಂಪನಿ ಹಲವು ತಿಂಗಳಿನಿಂದ ನಷ್ಟ ಅನುಭವಿಸುತ್ತಿತ್ತು."
+          },
+          {
+            "english": "We had been driving for six hours when we stopped for food.",
+            "kannada": "ಆಹಾರಕ್ಕಾಗಿ ನಿಲ್ಲಿಸುವ ಮೊದಲು ನಾವು ಆರು ಗಂಟೆ ಡ್ರೈವ್ ಮಾಡುತ್ತಿದ್ದೆವು."
+          },
+          {
+            "english": "She had been dreaming of this trip for years before it finally happened.",
+            "kannada": "ಇದು ಸಂಭವಿಸುವ ಮೊದಲು ಅವಳು ವರ್ಷಗಳಿಂದ ಈ ಪ್ರವಾಸದ ಬಗ್ಗೆ ಕನಸು ಕಾಣುತ್ತಿದ್ದಳು."
+          },
+          {
+            "english": "They had been arguing for a while before I walked in.",
+            "kannada": "ನಾನು ಒಳಗೆ ಬರುವ ಮೊದಲು ಅವರು ಸ್ವಲ್ಪ ಹೊತ್ತಿನಿಂದ ಜಗಳವಾಡುತ್ತಿದ್ದರು."
+          },
+          {
+            "english": "The children had been sleeping for hours when we got home.",
+            "kannada": "ನಾವು ಮನೆಗೆ ಬಂದಾಗ ಮಕ್ಕಳು ಗಂಟೆಗಳಿಂದ ಮಲಗಿದ್ದರು."
+          },
+          {
+            "english": "He had been saving money for a new bike before he changed his mind.",
+            "kannada": "ಮನಸ್ಸು ಬದಲಾಯಿಸುವ ಮೊದಲು ಅವನು ಹೊಸ ಬೈಕ್‌ಗಾಗಿ ಹಣ ಉಳಿಸುತ್ತಿದ್ದ."
+          },
+          {
+            "english": "I had been living abroad for three years before I moved back home.",
+            "kannada": "ಮನೆಗೆ ಹಿಂದಿರುಗುವ ಮೊದಲು ನಾನು ಮೂರು ವರ್ಷ ವಿದೇಶದಲ್ಲಿ ವಾಸಿಸುತ್ತಿದ್ದೆ."
+          }
+        ],
+        "cefr": "B2"
+      },
+      {
+        "id": 23,
+        "title": "Future Perfect Continuous Tense",
+        "kannadaTitle": "ಭವಿಷ್ಯ ಪರಿಪೂರ್ಣ ಮುಂದುವರಿಕೆ ಕಾಲ",
+        "content": {
+          "explanation": "Future Perfect Continuous describes an action that WILL CONTINUE up to a specific point in the future, emphasizing its duration. Form: will have been + verb-ing. 'By next year, I will have been working here for ten years.' It's used to talk about how long something will have been happening by a certain future moment.",
+          "kannadaExplanation": "ಭವಿಷ್ಯ ಪರಿಪೂರ್ಣ ಮುಂದುವರಿಕೆ ಕಾಲ ಭವಿಷ್ಯದ ನಿರ್ದಿಷ್ಟ ಸಮಯದವರೆಗೆ ಮುಂದುವರಿಯುವ ಕ್ರಿಯೆಯನ್ನು ವಿವರಿಸುತ್ತದೆ. ರಚನೆ: will have been + V-ing. 'ಮುಂದಿನ ವರ್ಷ, ನಾನು ಇಲ್ಲಿ ಹತ್ತು ವರ್ಷಗಳಿಂದ ಕೆಲಸ ಮಾಡುತ್ತಿರುತ್ತೇನೆ.' ಭವಿಷ್ಯದ ಒಂದು ಕ್ಷಣದವರೆಗೆ ಎಷ್ಟು ಸಮಯದಿಂದ ಸಂಭವಿಸುತ್ತಿರುತ್ತದೆ ಎಂದು ಹೇಳಲು ಬಳಸಿ.",
+          "patterns": [
+            {
+              "pattern": "By + future time, subject + will have been + verb-ing + for",
+              "kannada": "By + ಭವಿಷ್ಯ ಸಮಯ, ಕರ್ತೃ + will have been + V-ing + for",
+              "examples": [
+                "By next year, I will have been working here for ten years",
+                "By the time she retires, she will have been teaching for thirty years",
+                "By June, we will have been living in this house for a decade"
+              ]
+            },
+            {
+              "pattern": "By the time + present simple, subject + will have been + verb-ing",
+              "kannada": "By the time + ಸರಳ ವರ್ತಮಾನ, ಕರ್ತೃ + will have been + V-ing",
+              "examples": [
+                "By the time you arrive, I will have been cooking for two hours",
+                "By the time the movie ends, we will have been sitting here for four hours"
+              ]
+            }
+          ],
+          "objectives": [
+            "Form future perfect continuous using will have been + V-ing",
+            "Use it to describe an action's duration up to a future point",
+            "Distinguish future perfect continuous from future perfect",
+            "Talk about milestones and anniversaries using this tense"
+          ]
+        },
+        "speakingPractice": [
+          {
+            "english": "By next year, I will have been working here for ten years.",
+            "kannada": "ಮುಂದಿನ ವರ್ಷದ ಹೊತ್ತಿಗೆ, ನಾನು ಇಲ್ಲಿ ಹತ್ತು ವರ್ಷಗಳಿಂದ ಕೆಲಸ ಮಾಡುತ್ತಿರುತ್ತೇನೆ.",
+            "transliteration": "bai nekst yiar, ai vil haev been varking hiar for ten yiars"
+          },
+          {
+            "english": "By the time she retires, she will have been teaching for thirty years.",
+            "kannada": "ಅವಳು ನಿವೃತ್ತಳಾಗುವ ಹೊತ್ತಿಗೆ, ಅವಳು ಮೂವತ್ತು ವರ್ಷಗಳಿಂದ ಬೋಧಿಸುತ್ತಿರುತ್ತಾಳೆ.",
+            "transliteration": "bai dha taim shee ritairz, shee vil haev been teeching for thirti yiars"
+          },
+          {
+            "english": "By June, we will have been living in this house for a decade.",
+            "kannada": "ಜೂನ್ ಹೊತ್ತಿಗೆ, ನಾವು ಈ ಮನೆಯಲ್ಲಿ ಒಂದು ದಶಕದಿಂದ ವಾಸಿಸುತ್ತಿರುತ್ತೇವೆ.",
+            "transliteration": "bai joon, vee vil haev been living in dhis haus for a dekeyd"
+          },
+          {
+            "english": "By the time you arrive, I will have been cooking for two hours.",
+            "kannada": "ನೀವು ಬರುವ ಹೊತ್ತಿಗೆ, ನಾನು ಎರಡು ಗಂಟೆಯಿಂದ ಅಡುಗೆ ಮಾಡುತ್ತಿರುತ್ತೇನೆ.",
+            "transliteration": "bai dha taim yoo araiv, ai vil haev been kuking for too auars"
+          },
+          {
+            "english": "Next month, he will have been running his own business for five years.",
+            "kannada": "ಮುಂದಿನ ತಿಂಗಳು, ಅವನು ಐದು ವರ್ಷಗಳಿಂದ ತನ್ನ ಸ್ವಂತ ವ್ಯಾಪಾರ ನಡೆಸುತ್ತಿರುತ್ತಾನೆ.",
+            "transliteration": "nekst manth, hee vil haev been raning hiz on biznes for faiv yiars"
+          },
+          {
+            "english": "By the time the movie ends, we will have been sitting here for four hours.",
+            "kannada": "ಸಿನಿಮಾ ಮುಗಿಯುವ ಹೊತ್ತಿಗೆ, ನಾವು ಇಲ್ಲಿ ನಾಲ್ಕು ಗಂಟೆಯಿಂದ ಕುಳಿತಿರುತ್ತೇವೆ.",
+            "transliteration": "bai dha taim dha moovi endz, vee vil haev been siting hiar for for auars"
+          }
+        ],
+        "practiceQuestions": [
+          {
+            "question": "\"By next year, I ___ here for ten years.\" Choose the correct form.",
+            "options": [
+              "will have been working",
+              "have been working",
+              "am working",
+              "worked"
+            ],
+            "correct": 0
+          },
+          {
+            "question": "Future perfect continuous is formed with:",
+            "options": [
+              "will have been + V-ing",
+              "will have + V3",
+              "will be + V-ing",
+              "have been + V-ing"
+            ],
+            "correct": 0
+          },
+          {
+            "question": "\"By the time she retires, she ___ for thirty years.\" Choose the correct form.",
+            "options": [
+              "will have been teaching",
+              "has been teaching",
+              "is teaching",
+              "taught"
+            ],
+            "correct": 0
+          },
+          {
+            "question": "\"By June, we ___ in this house for a decade.\" Choose the correct form.",
+            "options": [
+              "will have been living",
+              "have been living",
+              "are living",
+              "lived"
+            ],
+            "correct": 0
+          },
+          {
+            "question": "Future perfect continuous is used to describe:",
+            "options": [
+              "The duration of an action up to a specific point in the future",
+              "A completed action in the past",
+              "A general habit",
+              "A single future event"
+            ],
+            "correct": 0
+          },
+          {
+            "question": "\"By the time you arrive, I ___ for two hours.\" Choose the correct form.",
+            "options": [
+              "will have been cooking",
+              "am cooking",
+              "cooked",
+              "have cooked"
+            ],
+            "correct": 0
+          },
+          {
+            "question": "\"Next month, he ___ his own business for five years.\" Choose the correct form.",
+            "options": [
+              "will have been running",
+              "is running",
+              "has run",
+              "runs"
+            ],
+            "correct": 0
+          },
+          {
+            "question": "Which of these is the future perfect continuous form of 'study'?",
+            "options": [
+              "will have been studying",
+              "will have studied",
+              "will be studying",
+              "will study"
+            ],
+            "correct": 0
+          },
+          {
+            "question": "This tense is often used with which future time phrase?",
+            "options": [
+              "By the time...",
+              "Yesterday...",
+              "Last week...",
+              "A moment ago..."
+            ],
+            "correct": 0
+          },
+          {
+            "question": "\"By the time the movie ends, we ___ here for four hours.\" Choose the correct form.",
+            "options": [
+              "will have been sitting",
+              "are sitting",
+              "sat",
+              "have sat"
+            ],
+            "correct": 0
+          }
+        ],
+        "quiz": {
+          "title": "Future Perfect Continuous Tense Quiz",
+          "description": "Test your understanding of Future Perfect Continuous Tense",
+          "questions": [
+            {
+              "question": "\"By 2030, they ___ in this city for twenty years.\" Choose the correct form.",
+              "options": [
+                "will have been living",
+                "have lived",
+                "are living",
+                "lived"
+              ],
+              "correct": 0
+            },
+            {
+              "question": "\"By the time we land, we ___ for twelve hours.\" Choose the correct form.",
+              "options": [
+                "will have been flying",
+                "are flying",
+                "flew",
+                "have flown"
+              ],
+              "correct": 0
+            },
+            {
+              "question": "Which auxiliary combination forms future perfect continuous?",
+              "options": [
+                "will have been",
+                "will have",
+                "will be",
+                "have been"
+              ],
+              "correct": 0
+            },
+            {
+              "question": "\"By December, she ___ this course for a full year.\" Choose the correct form.",
+              "options": [
+                "will have been taking",
+                "takes",
+                "took",
+                "has taken"
+              ],
+              "correct": 0
+            },
+            {
+              "question": "Future perfect continuous is most useful for talking about:",
+              "options": [
+                "Milestones and anniversaries of ongoing actions",
+                "Things that happened yesterday",
+                "Facts that are always true",
+                "Commands and requests"
+              ],
+              "correct": 0
+            }
+          ],
+          "passingScore": 70
+        },
+        "commonMistakes": [
+          {
+            "mistake": "\"By next year, I will work here for ten years.\"",
+            "correction": "\"By next year, I will have been working here for ten years.\"",
+            "explanation": "Simple future ('will work') doesn't express duration up to a future point; use future perfect continuous ('will have been working') to emphasize how long the action will have lasted."
+          },
+          {
+            "mistake": "\"By the time she retires, she will teaching for thirty years.\"",
+            "correction": "\"By the time she retires, she will have been teaching for thirty years.\"",
+            "explanation": "The auxiliary 'have been' cannot be dropped from this tense — the full structure is 'will have been + V-ing'."
+          },
+          {
+            "mistake": "\"By June, we will have living in this house for a decade.\"",
+            "correction": "\"By June, we will have been living in this house for a decade.\"",
+            "explanation": "'Been' is a required part of the structure ('will have been + V-ing'); omitting it turns the sentence into an incomplete future perfect."
+          },
+          {
+            "mistake": "\"By the time you arrive, I will have cook for two hours.\"",
+            "correction": "\"By the time you arrive, I will have been cooking for two hours.\"",
+            "explanation": "The main verb must be in -ing form ('cooking'), and 'been' must be included, to correctly form future perfect continuous."
+          },
+          {
+            "mistake": "\"Next month he will running his business for five years.\"",
+            "correction": "\"Next month, he will have been running his business for five years.\"",
+            "explanation": "Missing the full auxiliary chain 'will have been' before the -ing verb makes the sentence grammatically incomplete."
+          }
+        ],
+        "practice": [
+          {
+            "english": "By the time I finish this course, I will have been studying English for two years.",
+            "kannada": "ಈ ಕೋರ್ಸ್ ಮುಗಿಸುವ ಹೊತ್ತಿಗೆ, ನಾನು ಎರಡು ವರ್ಷಗಳಿಂದ ಇಂಗ್ಲಿಷ್ ಕಲಿಯುತ್ತಿರುತ್ತೇನೆ."
+          },
+          {
+            "english": "By this time next week, we will have been planning the event for a month.",
+            "kannada": "ಮುಂದಿನ ವಾರ ಇದೇ ಸಮಯಕ್ಕೆ, ನಾವು ಒಂದು ತಿಂಗಳಿನಿಂದ ಕಾರ್ಯಕ್ರಮ ಯೋಜಿಸುತ್ತಿರುತ್ತೇವೆ."
+          },
+          {
+            "english": "By the end of this year, she will have been running her business for five years.",
+            "kannada": "ಈ ವರ್ಷದ ಅಂತ್ಯದ ಹೊತ್ತಿಗೆ, ಅವಳು ಐದು ವರ್ಷಗಳಿಂದ ತನ್ನ ವ್ಯಾಪಾರ ನಡೆಸುತ್ತಿರುತ್ತಾಳೆ."
+          },
+          {
+            "english": "By midnight, they will have been driving for fifteen hours straight.",
+            "kannada": "ಮಧ್ಯರಾತ್ರಿಯ ಹೊತ್ತಿಗೆ, ಅವರು ಸತತ ಹದಿನೈದು ಗಂಟೆ ಡ್ರೈವ್ ಮಾಡುತ್ತಿರುತ್ತಾರೆ."
+          },
+          {
+            "english": "By the time the results come out, we will have been waiting for a whole week.",
+            "kannada": "ಫಲಿತಾಂಶ ಬರುವ ಹೊತ್ತಿಗೆ, ನಾವು ಒಂದು ಪೂರ್ಣ ವಾರದಿಂದ ಕಾಯುತ್ತಿರುತ್ತೇವೆ."
+          },
+          {
+            "english": "By 2030, scientists will have been researching this disease for decades.",
+            "kannada": "2030ರ ಹೊತ್ತಿಗೆ, ವಿಜ್ಞಾನಿಗಳು ದಶಕಗಳಿಂದ ಈ ರೋಗದ ಬಗ್ಗೆ ಸಂಶೋಧನೆ ನಡೆಸುತ್ತಿರುತ್ತಾರೆ."
+          },
+          {
+            "english": "By the time he turns thirty, he will have been working for twelve years.",
+            "kannada": "ಅವನಿಗೆ ಮೂವತ್ತು ವರ್ಷ ತುಂಬುವ ಹೊತ್ತಿಗೆ, ಅವನು ಹನ್ನೆರಡು ವರ್ಷಗಳಿಂದ ಕೆಲಸ ಮಾಡುತ್ತಿರುತ್ತಾನೆ."
+          },
+          {
+            "english": "By next month, I will have been saving for this trip for a whole year.",
+            "kannada": "ಮುಂದಿನ ತಿಂಗಳ ಹೊತ್ತಿಗೆ, ನಾನು ಈ ಪ್ರವಾಸಕ್ಕಾಗಿ ಒಂದು ಪೂರ್ಣ ವರ್ಷದಿಂದ ಉಳಿತಾಯ ಮಾಡುತ್ತಿರುತ್ತೇನೆ."
+          }
+        ],
+        "cefr": "B2"
       }
     ],
     "masteryTest": {
