@@ -1,0 +1,1275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Kubernetes Learning Guide — Concepts, Definitions &amp; Commands</title>
+<meta name="description" content="A beginner-friendly Kubernetes reference: plain-language definitions, analogies, and kubectl command examples for every core concept." />
+<link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+
+<header class="topbar">
+  <button id="menuToggle" class="icon-btn menu-toggle" aria-label="Toggle menu">☰</button>
+  <div class="brand">
+    <svg class="logo" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path d="M12 2L3 6v6c0 5.2 3.6 9.4 9 10 5.4-.6 9-4.8 9-10V6l-9-4z" fill="#326ce5"/>
+      <path d="M12 6l-4.5 2.6v5.2L12 16.4l4.5-2.6V8.6L12 6z" fill="white" opacity="0.9"/>
+    </svg>
+    <span>Kubernetes Learning Guide</span>
+  </div>
+  <span class="tagline">Concepts · Definitions · Commands · Examples</span>
+  <div class="search-wrap">
+    <input id="searchInput" type="text" placeholder="Search concepts, e.g. 'pod', 'service', 'rbac'..." />
+  </div>
+  <button id="themeToggle" class="icon-btn" aria-label="Toggle theme">🌙</button>
+</header>
+
+<div class="overlay" id="overlay"></div>
+
+<div class="layout">
+  <aside class="sidebar" id="sidebar">
+    <nav>
+      <h4>Start Here</h4>
+      <ul>
+        <li><a href="#overview"><span class="dot"></span>What is Kubernetes?</a></li>
+        <li><a href="#control-plane"><span class="dot"></span>Control Plane</a></li>
+        <li><a href="#node-components"><span class="dot"></span>Node Components</a></li>
+      </ul>
+
+      <h4>Workloads</h4>
+      <ul>
+        <li><a href="#pod"><span class="dot"></span>Pod</a></li>
+        <li><a href="#replicaset"><span class="dot"></span>ReplicaSet</a></li>
+        <li><a href="#deployment"><span class="dot"></span>Deployment</a></li>
+        <li><a href="#statefulset"><span class="dot"></span>StatefulSet</a></li>
+        <li><a href="#daemonset"><span class="dot"></span>DaemonSet</a></li>
+        <li><a href="#job"><span class="dot"></span>Job</a></li>
+        <li><a href="#cronjob"><span class="dot"></span>CronJob</a></li>
+      </ul>
+
+      <h4>Networking</h4>
+      <ul>
+        <li><a href="#service"><span class="dot"></span>Service</a></li>
+        <li><a href="#ingress"><span class="dot"></span>Ingress</a></li>
+        <li><a href="#networkpolicy"><span class="dot"></span>Network Policy</a></li>
+        <li><a href="#dns"><span class="dot"></span>DNS &amp; Discovery</a></li>
+      </ul>
+
+      <h4>Config &amp; Storage</h4>
+      <ul>
+        <li><a href="#configmap"><span class="dot"></span>ConfigMap</a></li>
+        <li><a href="#secret"><span class="dot"></span>Secret</a></li>
+        <li><a href="#volume"><span class="dot"></span>Volume</a></li>
+        <li><a href="#pv-pvc"><span class="dot"></span>PV &amp; PVC</a></li>
+        <li><a href="#storageclass"><span class="dot"></span>StorageClass</a></li>
+      </ul>
+
+      <h4>Namespaces &amp; Resources</h4>
+      <ul>
+        <li><a href="#namespace"><span class="dot"></span>Namespace</a></li>
+        <li><a href="#labels-selectors"><span class="dot"></span>Labels &amp; Selectors</a></li>
+        <li><a href="#annotations"><span class="dot"></span>Annotations</a></li>
+        <li><a href="#resourcequota"><span class="dot"></span>Resource Quota</a></li>
+        <li><a href="#limitrange"><span class="dot"></span>Limit Range</a></li>
+      </ul>
+
+      <h4>Scaling</h4>
+      <ul>
+        <li><a href="#hpa"><span class="dot"></span>Horizontal Pod Autoscaler</a></li>
+        <li><a href="#vpa"><span class="dot"></span>Vertical Pod Autoscaler</a></li>
+        <li><a href="#cluster-autoscaler"><span class="dot"></span>Cluster Autoscaler</a></li>
+      </ul>
+
+      <h4>Security</h4>
+      <ul>
+        <li><a href="#rbac"><span class="dot"></span>RBAC</a></li>
+        <li><a href="#serviceaccount"><span class="dot"></span>Service Account</a></li>
+        <li><a href="#securitycontext"><span class="dot"></span>Security Context</a></li>
+      </ul>
+
+      <h4>Ecosystem</h4>
+      <ul>
+        <li><a href="#helm"><span class="dot"></span>Helm</a></li>
+      </ul>
+
+      <h4>Reference</h4>
+      <ul>
+        <li><a href="#kubectl-cheatsheet"><span class="dot"></span>kubectl Cheat Sheet</a></li>
+        <li><a href="#troubleshooting"><span class="dot"></span>Troubleshooting</a></li>
+        <li><a href="#best-practices"><span class="dot"></span>Best Practices</a></li>
+      </ul>
+    </nav>
+  </aside>
+
+  <main>
+    <section class="hero" id="overview">
+      <h1>Kubernetes, explained in plain language</h1>
+      <p>Every concept below has a simple definition first, a real-world analogy to make it stick, and copy-pasteable <code>kubectl</code> commands or YAML examples. Use the search bar above to jump straight to any topic.</p>
+      <div class="hero-tags">
+        <span>🧭 Beginner-friendly</span>
+        <span>📋 Copy-paste commands</span>
+        <span>🧩 Real YAML examples</span>
+      </div>
+    </section>
+
+    <!-- =========================================================
+         WHAT IS KUBERNETES
+    ========================================================== -->
+    <section class="category">
+      <h2>🚀 What is Kubernetes?</h2>
+      <p class="category-intro">Before diving into individual pieces, here's the big picture.</p>
+
+      <div class="concept-card">
+        <div class="concept-header">
+          <h3>Kubernetes (K8s)</h3>
+          <span class="badge core">Core Concept</span>
+        </div>
+        <p class="definition"><strong>Definition:</strong> Kubernetes is an open-source system that automatically deploys, manages, scales, and heals containerized applications across a group of machines (called a cluster). "K8s" is short for Kubernetes — there are 8 letters between the "K" and the "s".</p>
+        <p class="analogy">💡 <strong>Think of it like:</strong> a building manager for an apartment complex (your servers). You tell the manager "I need 3 identical apartments ready for tenants (containers)," and the manager finds space, moves tenants in, replaces one automatically if it burns down, and adds more apartments if demand grows — without you micromanaging every unit.</p>
+        <div class="details">
+          <strong>Why people use it:</strong>
+          <ul>
+            <li><strong>Self-healing</strong> — restarts failed containers, replaces them, kills ones that don't respond to health checks.</li>
+            <li><strong>Scaling</strong> — automatically adds/removes running copies of your app based on demand.</li>
+            <li><strong>Rolling updates</strong> — deploys new versions with zero downtime, and can roll back automatically if something breaks.</li>
+            <li><strong>Portability</strong> — runs the same way on your laptop, on-prem servers, or any cloud (AWS, GCP, Azure).</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="concept-card">
+        <div class="concept-header">
+          <h3>Cluster</h3>
+          <span class="badge core">Core Concept</span>
+        </div>
+        <p class="definition"><strong>Definition:</strong> A cluster is the full set of machines Kubernetes controls: one or more <strong>control plane</strong> machines (the "brain") plus one or more <strong>worker nodes</strong> (the "muscle" that actually runs your applications).</p>
+        <p class="analogy">💡 <strong>Think of it like:</strong> a company. The control plane is head office (planning, decisions), and worker nodes are the factories where the actual product (your app) gets made.</p>
+      </div>
+    </section>
+
+    <!-- =========================================================
+         CONTROL PLANE
+    ========================================================== -->
+    <section class="category" id="architecture-section">
+      <h2>🏛️ Cluster Architecture</h2>
+      <p class="category-intro">Kubernetes splits work between the control plane (decision-making) and nodes (execution).</p>
+
+      <div class="concept-card" id="control-plane">
+        <div class="concept-header">
+          <h3>Control Plane</h3>
+          <span class="badge core">Architecture</span>
+        </div>
+        <p class="definition"><strong>Definition:</strong> The control plane is the set of components that make global decisions about the cluster — scheduling, detecting failures, responding to events — and stores the cluster's entire state.</p>
+        <p class="analogy">💡 <strong>Think of it like:</strong> air traffic control at an airport — it doesn't fly the planes (nodes do), but it decides where every plane goes and reacts when something goes wrong.</p>
+        <div class="details">
+          <strong>Its four main components:</strong>
+          <ul>
+            <li><strong>kube-apiserver</strong> — the front door. Every command (from you, or from other components) goes through this REST API. It's the only component that talks directly to <code>etcd</code>.</li>
+            <li><strong>etcd</strong> — a reliable, distributed key-value store that holds the entire cluster state (what should exist, and what currently does). Think of it as the cluster's "database" or "single source of truth".</li>
+            <li><strong>kube-scheduler</strong> — watches for newly created Pods with no assigned node, and picks the best node for them based on resource needs, constraints, and policies.</li>
+            <li><strong>kube-controller-manager</strong> — runs "controller" loops that continuously watch the cluster and nudge it toward the state you asked for (e.g. the ReplicaSet controller ensures the right number of Pod copies are running).</li>
+          </ul>
+        </div>
+        <div class="code-block">
+          <div class="code-header"><span>Check control plane health</span><button class="copy-btn">Copy</button></div>
+          <pre><code><span class="cmt"># See control plane / node status</span>
+kubectl get componentstatuses
+kubectl get nodes
+kubectl cluster-info</code></pre>
+        </div>
+      </div>
+
+      <div class="concept-card" id="node-components">
+        <div class="concept-header">
+          <h3>Node &amp; Node Components</h3>
+          <span class="badge core">Architecture</span>
+        </div>
+        <p class="definition"><strong>Definition:</strong> A Node is a worker machine (physical or virtual) that actually runs your application containers. Each node runs three key components that let it take orders from the control plane.</p>
+        <p class="analogy">💡 <strong>Think of it like:</strong> a delivery driver. Head office (control plane) tells the driver what to deliver; the driver's own tools (kubelet, kube-proxy, container runtime) do the actual pickup, driving, and drop-off.</p>
+        <div class="details">
+          <ul>
+            <li><strong>kubelet</strong> — an agent on every node that makes sure containers described in a Pod spec are actually running and healthy. It talks to the API server and reports node/pod status back.</li>
+            <li><strong>kube-proxy</strong> — maintains network rules on each node so traffic sent to a Service reaches the right Pod, wherever it's running.</li>
+            <li><strong>Container runtime</strong> — the software that actually runs containers (e.g. <code>containerd</code>, <code>CRI-O</code>). Kubernetes talks to it through the Container Runtime Interface (CRI).</li>
+          </ul>
+        </div>
+        <div class="code-block">
+          <div class="code-header"><span>Inspect nodes</span><button class="copy-btn">Copy</button></div>
+          <pre><code><span class="cmt"># List all nodes with status</span>
+kubectl get nodes -o wide
+
+<span class="cmt"># Detailed info: capacity, conditions, running pods</span>
+kubectl describe node &lt;node-name&gt;
+
+<span class="cmt"># See resource usage per node (needs metrics-server)</span>
+kubectl top nodes</code></pre>
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================================================
+         WORKLOADS
+    ========================================================== -->
+    <section class="category">
+      <h2>📦 Workloads</h2>
+      <p class="category-intro">Workload objects describe what you want to run, and how many copies. Kubernetes keeps making it true.</p>
+
+      <div class="concept-card" id="pod">
+        <div class="concept-header">
+          <h3>Pod</h3>
+          <span class="badge workload">Workload</span>
+        </div>
+        <p class="definition"><strong>Definition:</strong> A Pod is the smallest deployable unit in Kubernetes — a wrapper around one or more containers that always run together, on the same node, sharing the same network address and storage.</p>
+        <p class="analogy">💡 <strong>Think of it like:</strong> a shared apartment. The containers inside are roommates — they share the same address (IP), can talk to each other over "localhost", and move in/out together. You almost never run a container directly in Kubernetes; you always run it inside a Pod.</p>
+        <div class="details">
+          <strong>Key facts:</strong>
+          <ul>
+            <li>Pods are <strong>disposable</strong> — if one dies, Kubernetes doesn't "fix" it, it creates a brand new one with a new IP.</li>
+            <li>You rarely create bare Pods directly — instead you use a Deployment/StatefulSet/Job which creates and manages Pods for you.</li>
+            <li>Most Pods run a single container; multi-container Pods are used for tightly-coupled "sidecar" helpers (e.g. a log shipper next to your app).</li>
+          </ul>
+        </div>
+        <div class="code-block">
+          <div class="code-header"><span>pod.yaml</span><button class="copy-btn">Copy</button></div>
+          <pre><code><span class="cmt"># pod.yaml — a single Pod running nginx</span>
+apiVersion: v1
+kind: Pod
+metadata:
+  name: my-first-pod
+  labels:
+    app: nginx
+spec:
+  containers:
+    - name: nginx
+      image: nginx:1.27
+      ports:
+        - containerPort: 80</code></pre>
+        </div>
+        <div class="code-block">
+          <div class="code-header"><span>Commands</span><button class="copy-btn">Copy</button></div>
+          <pre><code><span class="cmt"># Create the pod from the YAML file</span>
+kubectl apply -f pod.yaml
+
+<span class="cmt"># List pods</span>
+kubectl get pods
+
+<span class="cmt"># See detailed status, events, container state</span>
+kubectl describe pod my-first-pod
+
+<span class="cmt"># View logs</span>
+kubectl logs my-first-pod
+
+<span class="cmt"># Open a shell inside the running container</span>
+kubectl exec -it my-first-pod -- /bin/sh
+
+<span class="cmt"># Delete it</span>
+kubectl delete pod my-first-pod</code></pre>
+        </div>
+      </div>
+
+      <div class="concept-card" id="replicaset">
+        <div class="concept-header">
+          <h3>ReplicaSet</h3>
+          <span class="badge workload">Workload</span>
+        </div>
+        <p class="definition"><strong>Definition:</strong> A ReplicaSet's only job is to make sure a specified number of identical Pod copies ("replicas") are running at all times. If a Pod dies, it creates a replacement; if there are too many, it removes some.</p>
+        <p class="analogy">💡 <strong>Think of it like:</strong> a headcount manager for a restaurant shift. They don't care which specific employee is on the register — they just make sure "3 cashiers" is always true, replacing anyone who calls in sick.</p>
+        <div class="tip">💡 In practice you almost never create a ReplicaSet by hand — you create a <strong>Deployment</strong>, and it creates and manages the ReplicaSet for you.</div>
+        <div class="code-block">
+          <div class="code-header"><span>replicaset.yaml</span><button class="copy-btn">Copy</button></div>
+          <pre><code>apiVersion: apps/v1
+kind: ReplicaSet
+metadata:
+  name: nginx-rs
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: nginx
+  template:
+    metadata:
+      labels:
+        app: nginx
+    spec:
+      containers:
+        - name: nginx
+          image: nginx:1.27</code></pre>
+        </div>
+        <div class="code-block">
+          <div class="code-header"><span>Commands</span><button class="copy-btn">Copy</button></div>
+          <pre><code>kubectl apply -f replicaset.yaml
+kubectl get replicasets
+kubectl scale replicaset nginx-rs --replicas=5</code></pre>
+        </div>
+      </div>
+
+      <div class="concept-card" id="deployment">
+        <div class="concept-header">
+          <h3>Deployment</h3>
+          <span class="badge workload">Workload</span>
+        </div>
+        <p class="definition"><strong>Definition:</strong> A Deployment describes the desired state of your app (which image, how many replicas) and manages ReplicaSets to get there. It adds rolling updates, rollbacks, and pause/resume on top of what a ReplicaSet does. This is the object you'll use most often to run stateless applications.</p>
+        <p class="analogy">💡 <strong>Think of it like:</strong> a renovation project manager. You say "I want the store to look like design v2 instead of v1." The manager updates it room-by-room (rolling update) so the store never fully closes, and can put it back to v1 instantly if v2 looks wrong (rollback).</p>
+        <div class="details">
+          <strong>Deployment → ReplicaSet → Pod</strong> — a Deployment creates a ReplicaSet, which creates Pods. This layering is what enables safe rollouts: each new version gets its own ReplicaSet.
+        </div>
+        <div class="code-block">
+          <div class="code-header"><span>deployment.yaml</span><button class="copy-btn">Copy</button></div>
+          <pre><code>apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: nginx-deployment
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: nginx
+  template:
+    metadata:
+      labels:
+        app: nginx
+    spec:
+      containers:
+        - name: nginx
+          image: nginx:1.27
+          ports:
+            - containerPort: 80
+          resources:
+            requests:
+              cpu: "100m"
+              memory: "128Mi"
+            limits:
+              cpu: "250m"
+              memory: "256Mi"</code></pre>
+        </div>
+        <div class="code-block">
+          <div class="code-header"><span>Commands</span><button class="copy-btn">Copy</button></div>
+          <pre><code><span class="cmt"># Create / update</span>
+kubectl apply -f deployment.yaml
+
+<span class="cmt"># Quick imperative create (no YAML)</span>
+kubectl create deployment nginx --image=nginx:1.27 --replicas=3
+
+<span class="cmt"># Scale</span>
+kubectl scale deployment nginx-deployment --replicas=5
+
+<span class="cmt"># Update the image (triggers a rolling update)</span>
+kubectl set image deployment/nginx-deployment nginx=nginx:1.28
+
+<span class="cmt"># Watch rollout progress</span>
+kubectl rollout status deployment/nginx-deployment
+
+<span class="cmt"># View rollout history</span>
+kubectl rollout history deployment/nginx-deployment
+
+<span class="cmt"># Roll back to the previous version</span>
+kubectl rollout undo deployment/nginx-deployment
+
+<span class="cmt"># Roll back to a specific revision</span>
+kubectl rollout undo deployment/nginx-deployment --to-revision=2</code></pre>
+        </div>
+      </div>
+
+      <div class="concept-card" id="statefulset">
+        <div class="concept-header">
+          <h3>StatefulSet</h3>
+          <span class="badge workload">Workload</span>
+        </div>
+        <p class="definition"><strong>Definition:</strong> Like a Deployment, but for applications that need a <strong>stable identity</strong>: predictable Pod names (<code>app-0</code>, <code>app-1</code>, <code>app-2</code>), stable network hostnames, and their own persistent storage that survives Pod restarts. Used for databases (MySQL, PostgreSQL, Kafka, etc.).</p>
+        <p class="analogy">💡 <strong>Think of it like:</strong> numbered parking spots vs. a first-come-free-for-all lot. A Deployment's Pods are interchangeable (any spot works); a StatefulSet's Pods each have their own permanent, labeled spot (<code>db-0</code> always keeps its own disk and name, even after a restart).</p>
+        <div class="code-block">
+          <div class="code-header"><span>statefulset.yaml</span><button class="copy-btn">Copy</button></div>
+          <pre><code>apiVersion: apps/v1
+kind: StatefulSet
+metadata:
+  name: web
+spec:
+  serviceName: "web"
+  replicas: 3
+  selector:
+    matchLabels:
+      app: web
+  template:
+    metadata:
+      labels:
+        app: web
+    spec:
+      containers:
+        - name: nginx
+          image: nginx:1.27
+          volumeMounts:
+            - name: www
+              mountPath: /usr/share/nginx/html
+  volumeClaimTemplates:
+    - metadata:
+        name: www
+      spec:
+        accessModes: ["ReadWriteOnce"]
+        resources:
+          requests:
+            storage: 1Gi</code></pre>
+        </div>
+        <div class="code-block">
+          <div class="code-header"><span>Commands</span><button class="copy-btn">Copy</button></div>
+          <pre><code>kubectl apply -f statefulset.yaml
+kubectl get statefulsets
+kubectl get pods -l app=web   <span class="cmt"># web-0, web-1, web-2</span></code></pre>
+        </div>
+      </div>
+
+      <div class="concept-card" id="daemonset">
+        <div class="concept-header">
+          <h3>DaemonSet</h3>
+          <span class="badge workload">Workload</span>
+        </div>
+        <p class="definition"><strong>Definition:</strong> Ensures that a copy of a Pod runs on <em>every</em> (or a chosen subset of) node in the cluster. When a new node joins, it automatically gets the Pod; when a node leaves, that Pod is cleaned up.</p>
+        <p class="analogy">💡 <strong>Think of it like:</strong> installing a smoke detector in every room of a building. It's not about "how many copies" — it's "one in every room, no exceptions." Commonly used for log collectors, monitoring agents, and network plugins.</p>
+        <div class="code-block">
+          <div class="code-header"><span>daemonset.yaml</span><button class="copy-btn">Copy</button></div>
+          <pre><code>apiVersion: apps/v1
+kind: DaemonSet
+metadata:
+  name: node-log-agent
+spec:
+  selector:
+    matchLabels:
+      app: log-agent
+  template:
+    metadata:
+      labels:
+        app: log-agent
+    spec:
+      containers:
+        - name: fluentd
+          image: fluent/fluentd:v1.16</code></pre>
+        </div>
+        <div class="code-block">
+          <div class="code-header"><span>Commands</span><button class="copy-btn">Copy</button></div>
+          <pre><code>kubectl apply -f daemonset.yaml
+kubectl get daemonsets -A</code></pre>
+        </div>
+      </div>
+
+      <div class="concept-card" id="job">
+        <div class="concept-header">
+          <h3>Job</h3>
+          <span class="badge workload">Workload</span>
+        </div>
+        <p class="definition"><strong>Definition:</strong> Runs one or more Pods to completion for a task that finishes (unlike a Deployment, which runs forever). Kubernetes retries the Pod if it fails, until it succeeds or hits a retry limit.</p>
+        <p class="analogy">💡 <strong>Think of it like:</strong> hiring a mover for a one-time house move, not a permanent employee. Once the move is done, the job is complete — no need to keep "restarting" it.</p>
+        <div class="code-block">
+          <div class="code-header"><span>job.yaml</span><button class="copy-btn">Copy</button></div>
+          <pre><code>apiVersion: batch/v1
+kind: Job
+metadata:
+  name: data-migration
+spec:
+  backoffLimit: 3
+  template:
+    spec:
+      containers:
+        - name: migrate
+          image: my-migration-tool:1.0
+          command: ["./migrate.sh"]
+      restartPolicy: Never</code></pre>
+        </div>
+        <div class="code-block">
+          <div class="code-header"><span>Commands</span><button class="copy-btn">Copy</button></div>
+          <pre><code>kubectl apply -f job.yaml
+kubectl get jobs
+kubectl logs job/data-migration</code></pre>
+        </div>
+      </div>
+
+      <div class="concept-card" id="cronjob">
+        <div class="concept-header">
+          <h3>CronJob</h3>
+          <span class="badge workload">Workload</span>
+        </div>
+        <p class="definition"><strong>Definition:</strong> A Job that runs on a repeating schedule, using standard cron syntax (e.g. every night at 2 AM).</p>
+        <p class="analogy">💡 <strong>Think of it like:</strong> a recurring calendar reminder that, instead of pinging you, actually runs the task for you — like a nightly database backup.</p>
+        <div class="code-block">
+          <div class="code-header"><span>cronjob.yaml</span><button class="copy-btn">Copy</button></div>
+          <pre><code>apiVersion: batch/v1
+kind: CronJob
+metadata:
+  name: nightly-backup
+spec:
+  schedule: "0 2 * * *"   <span class="cmt"># minute hour day month weekday</span>
+  jobTemplate:
+    spec:
+      template:
+        spec:
+          containers:
+            - name: backup
+              image: my-backup-tool:1.0
+          restartPolicy: OnFailure</code></pre>
+        </div>
+        <div class="code-block">
+          <div class="code-header"><span>Commands</span><button class="copy-btn">Copy</button></div>
+          <pre><code>kubectl apply -f cronjob.yaml
+kubectl get cronjobs
+
+<span class="cmt"># Manually trigger a run right now (for testing)</span>
+kubectl create job manual-run --from=cronjob/nightly-backup</code></pre>
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================================================
+         NETWORKING
+    ========================================================== -->
+    <section class="category">
+      <h2>🌐 Networking &amp; Service Discovery</h2>
+      <p class="category-intro">Pods get new IPs every time they're recreated — networking objects give you stable ways to reach them anyway.</p>
+
+      <div class="concept-card" id="service">
+        <div class="concept-header">
+          <h3>Service</h3>
+          <span class="badge network">Networking</span>
+        </div>
+        <p class="definition"><strong>Definition:</strong> A Service gives a stable, unchanging network address (IP + DNS name) to a group of Pods, and load-balances traffic across whichever of those Pods are currently healthy — even as individual Pods are created and destroyed.</p>
+        <p class="analogy">💡 <strong>Think of it like:</strong> a company's single customer-support phone number. Employees (Pods) come and go, sit at different desks (IPs), but the phone number never changes — calls always get routed to whoever's available.</p>
+        <div class="details">
+          <strong>Service types:</strong>
+          <ul>
+            <li><strong>ClusterIP</strong> (default) — reachable only from inside the cluster. Used for internal service-to-service traffic.</li>
+            <li><strong>NodePort</strong> — opens the same fixed port on every node, exposing the Service externally without a cloud load balancer. Good for testing.</li>
+            <li><strong>LoadBalancer</strong> — asks your cloud provider (AWS/GCP/Azure) to provision a real external load balancer pointing at the Service.</li>
+            <li><strong>ExternalName</strong> — maps the Service to an external DNS name (e.g. a managed database outside the cluster) with no proxying.</li>
+          </ul>
+        </div>
+        <div class="code-block">
+          <div class="code-header"><span>service.yaml</span><button class="copy-btn">Copy</button></div>
+          <pre><code>apiVersion: v1
+kind: Service
+metadata:
+  name: nginx-service
+spec:
+  type: ClusterIP
+  selector:
+    app: nginx        <span class="cmt"># routes to any Pod with this label</span>
+  ports:
+    - port: 80          <span class="cmt"># port the Service exposes</span>
+      targetPort: 80     <span class="cmt"># port the container listens on</span></code></pre>
+        </div>
+        <div class="code-block">
+          <div class="code-header"><span>Commands</span><button class="copy-btn">Copy</button></div>
+          <pre><code>kubectl apply -f service.yaml
+kubectl get services
+kubectl describe service nginx-service
+
+<span class="cmt"># Quick imperative way to expose an existing deployment</span>
+kubectl expose deployment nginx-deployment --port=80 --type=ClusterIP
+
+<span class="cmt"># Forward a local port to a Service for local testing</span>
+kubectl port-forward service/nginx-service 8080:80</code></pre>
+        </div>
+      </div>
+
+      <div class="concept-card" id="ingress">
+        <div class="concept-header">
+          <h3>Ingress</h3>
+          <span class="badge network">Networking</span>
+        </div>
+        <p class="definition"><strong>Definition:</strong> Manages external HTTP/HTTPS access to Services inside the cluster, based on hostnames and URL paths — e.g. routing <code>api.example.com</code> to one Service and <code>example.com/blog</code> to another, using a single external IP. Requires an Ingress Controller (e.g. NGINX, Traefik) running in the cluster to actually work.</p>
+        <p class="analogy">💡 <strong>Think of it like:</strong> a hotel receptionist. One public entrance (IP address), but the receptionist reads your request ("I'm here for Room 204" = a URL path/host) and routes you to the right internal room (Service).</p>
+        <div class="code-block">
+          <div class="code-header"><span>ingress.yaml</span><button class="copy-btn">Copy</button></div>
+          <pre><code>apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: app-ingress
+  annotations:
+    nginx.ingress.kubernetes.io/rewrite-target: /
+spec:
+  rules:
+    - host: myapp.example.com
+      http:
+        paths:
+          - path: /
+            pathType: Prefix
+            backend:
+              service:
+                name: nginx-service
+                port:
+                  number: 80</code></pre>
+        </div>
+        <div class="code-block">
+          <div class="code-header"><span>Commands</span><button class="copy-btn">Copy</button></div>
+          <pre><code>kubectl apply -f ingress.yaml
+kubectl get ingress
+kubectl describe ingress app-ingress</code></pre>
+        </div>
+      </div>
+
+      <div class="concept-card" id="networkpolicy">
+        <div class="concept-header">
+          <h3>Network Policy</h3>
+          <span class="badge security">Networking / Security</span>
+        </div>
+        <p class="definition"><strong>Definition:</strong> A firewall for Pod-to-Pod traffic. By default, all Pods can talk to all other Pods in the cluster; a NetworkPolicy restricts that, allowing only the traffic you explicitly permit.</p>
+        <p class="analogy">💡 <strong>Think of it like:</strong> a office building where, by default, anyone can walk into any room. A NetworkPolicy is a keycard rule: "only people from Accounting can enter the Accounting server room."</p>
+        <div class="code-block">
+          <div class="code-header"><span>networkpolicy.yaml</span><button class="copy-btn">Copy</button></div>
+          <pre><code>apiVersion: networking.k8s.io/v1
+kind: NetworkPolicy
+metadata:
+  name: allow-frontend-to-backend
+spec:
+  podSelector:
+    matchLabels:
+      app: backend
+  policyTypes:
+    - Ingress
+  ingress:
+    - from:
+        - podSelector:
+            matchLabels:
+              app: frontend
+      ports:
+        - protocol: TCP
+          port: 8080</code></pre>
+        </div>
+        <div class="code-block">
+          <div class="code-header"><span>Commands</span><button class="copy-btn">Copy</button></div>
+          <pre><code>kubectl apply -f networkpolicy.yaml
+kubectl get networkpolicies</code></pre>
+        </div>
+      </div>
+
+      <div class="concept-card" id="dns">
+        <div class="concept-header">
+          <h3>DNS &amp; Service Discovery</h3>
+          <span class="badge network">Networking</span>
+        </div>
+        <p class="definition"><strong>Definition:</strong> Kubernetes runs an internal DNS service (CoreDNS) that automatically gives every Service a resolvable name, so Pods can find each other by name instead of hardcoding IPs.</p>
+        <p class="analogy">💡 <strong>Think of it like:</strong> a phone book that updates itself automatically. Instead of memorizing a number that keeps changing, you just look up "backend-service" and always reach the right place.</p>
+        <div class="details">
+          <strong>Standard DNS format:</strong>
+          <code>&lt;service-name&gt;.&lt;namespace&gt;.svc.cluster.local</code>
+          <ul>
+            <li>From the same namespace, you can just use <code>&lt;service-name&gt;</code>.</li>
+            <li>From a different namespace, use <code>&lt;service-name&gt;.&lt;namespace&gt;</code>.</li>
+          </ul>
+        </div>
+        <div class="code-block">
+          <div class="code-header"><span>Commands</span><button class="copy-btn">Copy</button></div>
+          <pre><code><span class="cmt"># From inside any pod, test DNS resolution</span>
+kubectl run -it --rm debug --image=busybox --restart=Never -- \
+  nslookup nginx-service.default.svc.cluster.local</code></pre>
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================================================
+         CONFIG & STORAGE
+    ========================================================== -->
+    <section class="category">
+      <h2>🗄️ Configuration &amp; Storage</h2>
+      <p class="category-intro">Keep configuration, secrets, and data separate from your application images.</p>
+
+      <div class="concept-card" id="configmap">
+        <div class="concept-header">
+          <h3>ConfigMap</h3>
+          <span class="badge storage">Config</span>
+        </div>
+        <p class="definition"><strong>Definition:</strong> Stores non-sensitive configuration data (key-value pairs, config files) outside your container image, so you can change settings without rebuilding the image.</p>
+        <p class="analogy">💡 <strong>Think of it like:</strong> a settings sheet handed to a new employee on their first day, instead of tattooing the rules onto their skin. Change the sheet, not the person.</p>
+        <div class="code-block">
+          <div class="code-header"><span>configmap.yaml</span><button class="copy-btn">Copy</button></div>
+          <pre><code>apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: app-config
+data:
+  APP_MODE: "production"
+  MAX_CONNECTIONS: "100"</code></pre>
+        </div>
+        <div class="code-block">
+          <div class="code-header"><span>Using it in a Pod</span><button class="copy-btn">Copy</button></div>
+          <pre><code>spec:
+  containers:
+    - name: app
+      image: my-app:1.0
+      envFrom:
+        - configMapRef:
+            name: app-config</code></pre>
+        </div>
+        <div class="code-block">
+          <div class="code-header"><span>Commands</span><button class="copy-btn">Copy</button></div>
+          <pre><code>kubectl apply -f configmap.yaml
+kubectl create configmap app-config --from-literal=APP_MODE=production
+kubectl get configmaps
+kubectl describe configmap app-config</code></pre>
+        </div>
+      </div>
+
+      <div class="concept-card" id="secret">
+        <div class="concept-header">
+          <h3>Secret</h3>
+          <span class="badge security">Config / Security</span>
+        </div>
+        <p class="definition"><strong>Definition:</strong> Like a ConfigMap, but for sensitive data — passwords, API keys, TLS certificates. Values are stored Base64-encoded (not encrypted by default — enable encryption-at-rest and RBAC for real protection).</p>
+        <p class="analogy">💡 <strong>Think of it like:</strong> a locked drawer instead of an open desk (ConfigMap) — same idea of "config outside the app," but for things you don't want everyone glancing at.</p>
+        <div class="warn-box">⚠️ Base64 is <strong>encoding, not encryption</strong> — anyone with API access can decode it. Restrict access with RBAC and consider a secrets manager (Vault, Sealed Secrets) for production.</div>
+        <div class="code-block">
+          <div class="code-header"><span>secret.yaml</span><button class="copy-btn">Copy</button></div>
+          <pre><code>apiVersion: v1
+kind: Secret
+metadata:
+  name: db-credentials
+type: Opaque
+stringData:          <span class="cmt"># stringData lets you write plain text; k8s encodes it</span>
+  username: admin
+  password: SuperSecret123</code></pre>
+        </div>
+        <div class="code-block">
+          <div class="code-header"><span>Commands</span><button class="copy-btn">Copy</button></div>
+          <pre><code>kubectl apply -f secret.yaml
+kubectl create secret generic db-credentials \
+  --from-literal=username=admin --from-literal=password=SuperSecret123
+kubectl get secrets
+kubectl get secret db-credentials -o jsonpath='{.data.password}' | base64 -d</code></pre>
+        </div>
+      </div>
+
+      <div class="concept-card" id="volume">
+        <div class="concept-header">
+          <h3>Volume</h3>
+          <span class="badge storage">Storage</span>
+        </div>
+        <p class="definition"><strong>Definition:</strong> A directory of storage attached to a Pod, accessible to its containers. Unlike a container's own filesystem, a Volume's lifetime can outlive individual container restarts within the same Pod (though a basic Volume still dies with the Pod).</p>
+        <p class="analogy">💡 <strong>Think of it like:</strong> a shared USB drive plugged into the apartment (Pod) — if one roommate (container) restarts, the drive and its files are still there.</p>
+        <div class="code-block">
+          <div class="code-header"><span>Example: emptyDir volume</span><button class="copy-btn">Copy</button></div>
+          <pre><code>spec:
+  containers:
+    - name: app
+      image: my-app:1.0
+      volumeMounts:
+        - name: cache-volume
+          mountPath: /cache
+  volumes:
+    - name: cache-volume
+      emptyDir: {}</code></pre>
+        </div>
+      </div>
+
+      <div class="concept-card" id="pv-pvc">
+        <div class="concept-header">
+          <h3>PersistentVolume (PV) &amp; PersistentVolumeClaim (PVC)</h3>
+          <span class="badge storage">Storage</span>
+        </div>
+        <p class="definition"><strong>Definition:</strong> A <strong>PersistentVolume</strong> is a piece of real storage in the cluster (a disk), provisioned by an admin or dynamically. A <strong>PersistentVolumeClaim</strong> is a request by a user/app for storage with certain properties (size, speed) — Kubernetes matches the claim to an available volume.</p>
+        <p class="analogy">💡 <strong>Think of it like:</strong> a self-storage facility. The PV is an actual storage unit that exists; the PVC is your rental request ("I need 50 sq ft, climate controlled"). You don't care which physical unit you get — you just get one that matches your claim.</p>
+        <div class="code-block">
+          <div class="code-header"><span>pvc.yaml</span><button class="copy-btn">Copy</button></div>
+          <pre><code>apiVersion: v1
+kind: PersistentVolumeClaim
+metadata:
+  name: data-pvc
+spec:
+  accessModes:
+    - ReadWriteOnce
+  resources:
+    requests:
+      storage: 5Gi</code></pre>
+        </div>
+        <div class="code-block">
+          <div class="code-header"><span>Using the PVC in a Pod</span><button class="copy-btn">Copy</button></div>
+          <pre><code>spec:
+  containers:
+    - name: app
+      image: postgres:16
+      volumeMounts:
+        - name: data
+          mountPath: /var/lib/postgresql/data
+  volumes:
+    - name: data
+      persistentVolumeClaim:
+        claimName: data-pvc</code></pre>
+        </div>
+        <div class="code-block">
+          <div class="code-header"><span>Commands</span><button class="copy-btn">Copy</button></div>
+          <pre><code>kubectl apply -f pvc.yaml
+kubectl get pv
+kubectl get pvc
+kubectl describe pvc data-pvc</code></pre>
+        </div>
+      </div>
+
+      <div class="concept-card" id="storageclass">
+        <div class="concept-header">
+          <h3>StorageClass</h3>
+          <span class="badge storage">Storage</span>
+        </div>
+        <p class="definition"><strong>Definition:</strong> Defines a "type" of storage (e.g. fast SSD vs. slow HDD, or a specific cloud disk type) and lets PersistentVolumes be created automatically ("dynamic provisioning") on demand, instead of an admin manually pre-creating them.</p>
+        <p class="analogy">💡 <strong>Think of it like:</strong> a menu at a storage-unit rental office listing "Standard," "Climate-Controlled," "Premium" options — pick a class, and a matching unit gets built for you automatically instead of waiting for one to already exist.</p>
+        <div class="code-block">
+          <div class="code-header"><span>storageclass.yaml</span><button class="copy-btn">Copy</button></div>
+          <pre><code>apiVersion: storage.k8s.io/v1
+kind: StorageClass
+metadata:
+  name: fast-ssd
+provisioner: kubernetes.io/aws-ebs
+parameters:
+  type: gp3
+reclaimPolicy: Delete
+volumeBindingMode: WaitForFirstConsumer</code></pre>
+        </div>
+        <div class="code-block">
+          <div class="code-header"><span>Commands</span><button class="copy-btn">Copy</button></div>
+          <pre><code>kubectl apply -f storageclass.yaml
+kubectl get storageclass</code></pre>
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================================================
+         NAMESPACES & RESOURCE MANAGEMENT
+    ========================================================== -->
+    <section class="category">
+      <h2>🏷️ Namespaces &amp; Resource Management</h2>
+      <p class="category-intro">Organize the cluster and keep teams/apps from stepping on each other's resources.</p>
+
+      <div class="concept-card" id="namespace">
+        <div class="concept-header">
+          <h3>Namespace</h3>
+          <span class="badge core">Organization</span>
+        </div>
+        <p class="definition"><strong>Definition:</strong> A way to divide one cluster into multiple virtual clusters — a logical grouping for resources, often used to separate teams, environments (dev/staging/prod), or projects. Object names must be unique within a namespace, not across the whole cluster.</p>
+        <p class="analogy">💡 <strong>Think of it like:</strong> separate floors in the same office building. Floor 1 (dev) and Floor 2 (prod) can both have a desk named "Reception" without conflict — they're isolated by floor.</p>
+        <div class="code-block">
+          <div class="code-header"><span>Commands</span><button class="copy-btn">Copy</button></div>
+          <pre><code>kubectl create namespace staging
+kubectl get namespaces
+
+<span class="cmt"># Run a command against a specific namespace</span>
+kubectl get pods -n staging
+
+<span class="cmt"># Set a default namespace for your current context</span>
+kubectl config set-context --current --namespace=staging</code></pre>
+        </div>
+      </div>
+
+      <div class="concept-card" id="labels-selectors">
+        <div class="concept-header">
+          <h3>Labels &amp; Selectors</h3>
+          <span class="badge core">Organization</span>
+        </div>
+        <p class="definition"><strong>Definition:</strong> Labels are key-value tags attached to objects (e.g. <code>app: nginx</code>, <code>env: prod</code>). Selectors are queries that use those labels to find a group of objects — this is how Services, Deployments, and ReplicaSets know which Pods belong to them.</p>
+        <p class="analogy">💡 <strong>Think of it like:</strong> colored stickers on boxes in a warehouse. A label says "fragile, kitchen" (a tag); a selector is the instruction "grab every box labeled 'kitchen'" — you don't need to know each box's exact location.</p>
+        <div class="code-block">
+          <div class="code-header"><span>Commands</span><button class="copy-btn">Copy</button></div>
+          <pre><code><span class="cmt"># Add a label to an existing pod</span>
+kubectl label pod my-first-pod tier=frontend
+
+<span class="cmt"># Find objects by label</span>
+kubectl get pods -l app=nginx
+kubectl get pods -l 'env in (prod,staging)'
+
+<span class="cmt"># Remove a label</span>
+kubectl label pod my-first-pod tier-</code></pre>
+        </div>
+      </div>
+
+      <div class="concept-card" id="annotations">
+        <div class="concept-header">
+          <h3>Annotations</h3>
+          <span class="badge core">Organization</span>
+        </div>
+        <p class="definition"><strong>Definition:</strong> Like labels, annotations are key-value metadata — but they're for non-identifying information (build version, contact email, tool-specific config) and aren't used for selecting objects.</p>
+        <p class="analogy">💡 <strong>Think of it like:</strong> a sticky note vs. a filing label. The label (filing category) is used to find the folder; the sticky note (annotation) just carries extra context — "reviewed by Priya on 3/1" — that no one searches by.</p>
+        <div class="code-block">
+          <div class="code-header"><span>Commands</span><button class="copy-btn">Copy</button></div>
+          <pre><code>kubectl annotate pod my-first-pod owner=team-payments
+kubectl describe pod my-first-pod | grep Annotations</code></pre>
+        </div>
+      </div>
+
+      <div class="concept-card" id="resourcequota">
+        <div class="concept-header">
+          <h3>ResourceQuota</h3>
+          <span class="badge core">Resource Management</span>
+        </div>
+        <p class="definition"><strong>Definition:</strong> Limits the total amount of compute resources (CPU, memory) or object count (number of Pods, Services) that can be consumed within a single namespace.</p>
+        <p class="analogy">💡 <strong>Think of it like:</strong> a shared office's total electricity budget per floor — no single team can hog so much power that other teams on the same floor get cut off.</p>
+        <div class="code-block">
+          <div class="code-header"><span>resourcequota.yaml</span><button class="copy-btn">Copy</button></div>
+          <pre><code>apiVersion: v1
+kind: ResourceQuota
+metadata:
+  name: team-quota
+  namespace: staging
+spec:
+  hard:
+    requests.cpu: "4"
+    requests.memory: 8Gi
+    limits.cpu: "8"
+    limits.memory: 16Gi
+    pods: "20"</code></pre>
+        </div>
+        <div class="code-block">
+          <div class="code-header"><span>Commands</span><button class="copy-btn">Copy</button></div>
+          <pre><code>kubectl apply -f resourcequota.yaml
+kubectl describe resourcequota team-quota -n staging</code></pre>
+        </div>
+      </div>
+
+      <div class="concept-card" id="limitrange">
+        <div class="concept-header">
+          <h3>LimitRange</h3>
+          <span class="badge core">Resource Management</span>
+        </div>
+        <p class="definition"><strong>Definition:</strong> Sets default, minimum, and maximum CPU/memory requests and limits for individual Pods/containers within a namespace — so nobody accidentally deploys a container with no resource limits, or requests an unreasonable amount.</p>
+        <p class="analogy">💡 <strong>Think of it like:</strong> a "one plate per person" rule at a buffet — a ResourceQuota caps the whole room's food, while a LimitRange caps how much any single plate can hold.</p>
+        <div class="code-block">
+          <div class="code-header"><span>limitrange.yaml</span><button class="copy-btn">Copy</button></div>
+          <pre><code>apiVersion: v1
+kind: LimitRange
+metadata:
+  name: default-limits
+  namespace: staging
+spec:
+  limits:
+    - default:
+        cpu: "500m"
+        memory: 256Mi
+      defaultRequest:
+        cpu: "100m"
+        memory: 128Mi
+      type: Container</code></pre>
+        </div>
+        <div class="code-block">
+          <div class="code-header"><span>Commands</span><button class="copy-btn">Copy</button></div>
+          <pre><code>kubectl apply -f limitrange.yaml
+kubectl describe limitrange default-limits -n staging</code></pre>
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================================================
+         SCALING
+    ========================================================== -->
+    <section class="category">
+      <h2>📈 Scaling &amp; Autoscaling</h2>
+      <p class="category-intro">Let Kubernetes automatically match capacity to demand.</p>
+
+      <div class="concept-card" id="hpa">
+        <div class="concept-header">
+          <h3>Horizontal Pod Autoscaler (HPA)</h3>
+          <span class="badge scaling">Scaling</span>
+        </div>
+        <p class="definition"><strong>Definition:</strong> Automatically increases or decreases the <em>number</em> of Pod replicas in a Deployment/StatefulSet based on observed metrics — typically CPU or memory usage, or a custom metric.</p>
+        <p class="analogy">💡 <strong>Think of it like:</strong> a restaurant manager who calls in extra waitstaff when it gets busy, and sends people home when it's quiet — reacting to demand ("horizontal" = more/fewer workers), not making one waiter work faster.</p>
+        <div class="code-block">
+          <div class="code-header"><span>hpa.yaml</span><button class="copy-btn">Copy</button></div>
+          <pre><code>apiVersion: autoscaling/v2
+kind: HorizontalPodAutoscaler
+metadata:
+  name: nginx-hpa
+spec:
+  scaleTargetRef:
+    apiVersion: apps/v1
+    kind: Deployment
+    name: nginx-deployment
+  minReplicas: 2
+  maxReplicas: 10
+  metrics:
+    - type: Resource
+      resource:
+        name: cpu
+        target:
+          type: Utilization
+          averageUtilization: 70</code></pre>
+        </div>
+        <div class="code-block">
+          <div class="code-header"><span>Commands</span><button class="copy-btn">Copy</button></div>
+          <pre><code>kubectl apply -f hpa.yaml
+
+<span class="cmt"># Quick imperative version</span>
+kubectl autoscale deployment nginx-deployment --cpu-percent=70 --min=2 --max=10
+
+kubectl get hpa
+kubectl describe hpa nginx-hpa</code></pre>
+        </div>
+      </div>
+
+      <div class="concept-card" id="vpa">
+        <div class="concept-header">
+          <h3>Vertical Pod Autoscaler (VPA)</h3>
+          <span class="badge scaling">Scaling</span>
+        </div>
+        <p class="definition"><strong>Definition:</strong> Automatically adjusts the CPU/memory <em>requests and limits</em> of containers based on actual usage over time, instead of the number of replicas. Not installed by default — it's a separate add-on.</p>
+        <p class="analogy">💡 <strong>Think of it like:</strong> giving one waiter a bigger tray as they prove they can handle more ("vertical" = bigger, not more workers) — the opposite adjustment style from HPA.</p>
+        <div class="warn-box">⚠️ Don't run HPA (on CPU/memory) and VPA on the exact same metric for the same workload — they can fight each other.</div>
+        <div class="code-block">
+          <div class="code-header"><span>vpa.yaml</span><button class="copy-btn">Copy</button></div>
+          <pre><code>apiVersion: autoscaling.k8s.io/v1
+kind: VerticalPodAutoscaler
+metadata:
+  name: nginx-vpa
+spec:
+  targetRef:
+    apiVersion: apps/v1
+    kind: Deployment
+    name: nginx-deployment
+  updatePolicy:
+    updateMode: "Auto"</code></pre>
+        </div>
+      </div>
+
+      <div class="concept-card" id="cluster-autoscaler">
+        <div class="concept-header">
+          <h3>Cluster Autoscaler</h3>
+          <span class="badge scaling">Scaling</span>
+        </div>
+        <p class="definition"><strong>Definition:</strong> Automatically adds or removes <em>nodes</em> (whole machines) from the cluster based on whether there are Pods that can't be scheduled due to insufficient resources, or nodes sitting mostly idle.</p>
+        <p class="analogy">💡 <strong>Think of it like:</strong> the restaurant manager renting an extra dining room down the hall when even fully-staffed existing rooms are overflowing — this scales the building itself, not just the staff inside it.</p>
+        <div class="tip">💡 HPA/VPA scale <strong>within</strong> existing nodes. Cluster Autoscaler scales the <strong>nodes themselves</strong> — they work together: HPA adds Pods → those Pods can't fit → Cluster Autoscaler adds a node.</div>
+      </div>
+    </section>
+
+    <!-- =========================================================
+         SECURITY
+    ========================================================== -->
+    <section class="category">
+      <h2>🔐 Security &amp; Access Control</h2>
+      <p class="category-intro">Control who (and what) can do what, inside and outside the cluster.</p>
+
+      <div class="concept-card" id="rbac">
+        <div class="concept-header">
+          <h3>RBAC (Role-Based Access Control)</h3>
+          <span class="badge security">Security</span>
+        </div>
+        <p class="definition"><strong>Definition:</strong> Controls who can perform which actions (get, list, create, delete...) on which resources. A <strong>Role</strong> defines permissions within one namespace; a <strong>ClusterRole</strong> defines permissions cluster-wide. A <strong>RoleBinding</strong>/<strong>ClusterRoleBinding</strong> then grants that role to a user, group, or ServiceAccount.</p>
+        <p class="analogy">💡 <strong>Think of it like:</strong> a hotel keycard system. A Role is "what a keycard can unlock" (e.g. floor 3 only); a RoleBinding is "issuing that specific keycard to this specific guest."</p>
+        <div class="code-block">
+          <div class="code-header"><span>role.yaml — Role + RoleBinding</span><button class="copy-btn">Copy</button></div>
+          <pre><code>apiVersion: rbac.authorization.k8s.io/v1
+kind: Role
+metadata:
+  namespace: staging
+  name: pod-reader
+rules:
+  - apiGroups: [""]
+    resources: ["pods"]
+    verbs: ["get", "list", "watch"]
+---
+apiVersion: rbac.authorization.k8s.io/v1
+kind: RoleBinding
+metadata:
+  name: read-pods
+  namespace: staging
+subjects:
+  - kind: User
+    name: priya@example.com
+    apiGroup: rbac.authorization.k8s.io
+roleRef:
+  kind: Role
+  name: pod-reader
+  apiGroup: rbac.authorization.k8s.io</code></pre>
+        </div>
+        <div class="code-block">
+          <div class="code-header"><span>Commands</span><button class="copy-btn">Copy</button></div>
+          <pre><code>kubectl apply -f role.yaml
+kubectl get roles,rolebindings -n staging
+
+<span class="cmt"># Check if you (or another user) can perform an action</span>
+kubectl auth can-i delete pods -n staging
+kubectl auth can-i delete pods --as=priya@example.com -n staging</code></pre>
+        </div>
+      </div>
+
+      <div class="concept-card" id="serviceaccount">
+        <div class="concept-header">
+          <h3>Service Account</h3>
+          <span class="badge security">Security</span>
+        </div>
+        <p class="definition"><strong>Definition:</strong> An identity for processes running <em>inside</em> Pods (as opposed to a User Account, which is for humans). It lets a Pod authenticate to the Kubernetes API — e.g. a controller Pod that needs to list other Pods.</p>
+        <p class="analogy">💡 <strong>Think of it like:</strong> a staff badge for a robot/vending machine, versus a human employee's ID badge. The "user" here is a piece of software, not a person, but it still needs an identity and permissions.</p>
+        <div class="code-block">
+          <div class="code-header"><span>Commands</span><button class="copy-btn">Copy</button></div>
+          <pre><code>kubectl create serviceaccount app-sa
+kubectl get serviceaccounts</code></pre>
+        </div>
+        <div class="code-block">
+          <div class="code-header"><span>Using it in a Pod</span><button class="copy-btn">Copy</button></div>
+          <pre><code>spec:
+  serviceAccountName: app-sa
+  containers:
+    - name: app
+      image: my-app:1.0</code></pre>
+        </div>
+      </div>
+
+      <div class="concept-card" id="securitycontext">
+        <div class="concept-header">
+          <h3>Security Context</h3>
+          <span class="badge security">Security</span>
+        </div>
+        <p class="definition"><strong>Definition:</strong> Settings on a Pod or container that control privilege and access — e.g. run as a non-root user, make the filesystem read-only, or drop Linux capabilities.</p>
+        <p class="analogy">💡 <strong>Think of it like:</strong> giving a contractor working in your house a "guest" key instead of the master key — they can do their job without the ability to unlock every door in the building.</p>
+        <div class="code-block">
+          <div class="code-header"><span>Example</span><button class="copy-btn">Copy</button></div>
+          <pre><code>spec:
+  securityContext:
+    runAsNonRoot: true
+    runAsUser: 1000
+  containers:
+    - name: app
+      image: my-app:1.0
+      securityContext:
+        allowPrivilegeEscalation: false
+        readOnlyRootFilesystem: true
+        capabilities:
+          drop: ["ALL"]</code></pre>
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================================================
+         ECOSYSTEM
+    ========================================================== -->
+    <section class="category">
+      <h2>🧰 Ecosystem</h2>
+      <p class="category-intro">Popular tools built on top of Kubernetes.</p>
+
+      <div class="concept-card" id="helm">
+        <div class="concept-header">
+          <h3>Helm</h3>
+          <span class="badge tool">Package Manager</span>
+        </div>
+        <p class="definition"><strong>Definition:</strong> The most popular package manager for Kubernetes. A "Chart" bundles a whole application's YAML manifests (Deployments, Services, ConfigMaps...) into one reusable, configurable, versioned package.</p>
+        <p class="analogy">💡 <strong>Think of it like:</strong> <code>apt install</code> or <code>npm install</code>, but for entire applications on Kubernetes — instead of hand-writing 15 YAML files for a database, you run one Helm install command with your custom settings.</p>
+        <div class="code-block">
+          <div class="code-header"><span>Commands</span><button class="copy-btn">Copy</button></div>
+          <pre><code><span class="cmt"># Add a chart repository</span>
+helm repo add bitnami https://charts.bitnami.com/bitnami
+helm repo update
+
+<span class="cmt"># Install a chart as a "release"</span>
+helm install my-db bitnami/postgresql
+
+<span class="cmt"># See what's installed</span>
+helm list
+
+<span class="cmt"># Upgrade a release with new values</span>
+helm upgrade my-db bitnami/postgresql --set auth.password=newpass
+
+<span class="cmt"># Roll back</span>
+helm rollback my-db 1
+
+<span class="cmt"># Uninstall</span>
+helm uninstall my-db</code></pre>
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================================================
+         KUBECTL CHEAT SHEET
+    ========================================================== -->
+    <section class="category no-cards-filter" id="kubectl-cheatsheet">
+      <h2>📋 kubectl Command Reference</h2>
+      <p class="category-intro"><code>kubectl</code> is the command-line tool used to talk to a Kubernetes cluster. General shape: <code>kubectl [command] [type] [name] [flags]</code>.</p>
+
+      <div class="cheat-table-wrap">
+        <table class="cheat">
+          <thead><tr><th>Purpose</th><th>Command</th><th>Notes</th></tr></thead>
+          <tbody>
+            <tr><td>Cluster info</td><td><code>kubectl cluster-info</code></td><td>Shows control plane / DNS endpoints</td></tr>
+            <tr><td>List nodes</td><td><code>kubectl get nodes -o wide</code></td><td>Add <code>-o wide</code> for IPs, OS, etc.</td></tr>
+            <tr><td>List all resources of a type</td><td><code>kubectl get pods</code></td><td>Works for any resource: <code>svc</code>, <code>deploy</code>, <code>ns</code>, ...</td></tr>
+            <tr><td>List across all namespaces</td><td><code>kubectl get pods -A</code></td><td><code>-A</code> = <code>--all-namespaces</code></td></tr>
+            <tr><td>Watch resources live</td><td><code>kubectl get pods -w</code></td><td>Streams updates as they happen</td></tr>
+            <tr><td>Detailed object info + events</td><td><code>kubectl describe pod &lt;name&gt;</code></td><td>Best first step when debugging</td></tr>
+            <tr><td>Create/update from file</td><td><code>kubectl apply -f file.yaml</code></td><td>Declarative — safe to re-run</td></tr>
+            <tr><td>Apply a whole folder</td><td><code>kubectl apply -f ./manifests/</code></td><td>Applies every YAML in the folder</td></tr>
+            <tr><td>Delete from file</td><td><code>kubectl delete -f file.yaml</code></td><td></td></tr>
+            <tr><td>Delete by name</td><td><code>kubectl delete pod &lt;name&gt;</code></td><td></td></tr>
+            <tr><td>View logs</td><td><code>kubectl logs &lt;pod&gt;</code></td><td>Add <code>-f</code> to follow/tail live</td></tr>
+            <tr><td>Logs of a specific container</td><td><code>kubectl logs &lt;pod&gt; -c &lt;container&gt;</code></td><td>Needed for multi-container Pods</td></tr>
+            <tr><td>Previous container's logs</td><td><code>kubectl logs &lt;pod&gt; --previous</code></td><td>Useful after a crash/restart</td></tr>
+            <tr><td>Run a shell inside a container</td><td><code>kubectl exec -it &lt;pod&gt; -- /bin/sh</code></td><td>Use <code>bash</code> if the image has it</td></tr>
+            <tr><td>Copy files to/from a Pod</td><td><code>kubectl cp file.txt &lt;pod&gt;:/tmp/file.txt</code></td><td></td></tr>
+            <tr><td>Forward a local port</td><td><code>kubectl port-forward pod/&lt;name&gt; 8080:80</code></td><td>Great for local debugging</td></tr>
+            <tr><td>Scale a Deployment</td><td><code>kubectl scale deployment &lt;name&gt; --replicas=5</code></td><td></td></tr>
+            <tr><td>Update a container image</td><td><code>kubectl set image deployment/&lt;name&gt; &lt;container&gt;=&lt;image&gt;</code></td><td>Triggers a rolling update</td></tr>
+            <tr><td>Check rollout status</td><td><code>kubectl rollout status deployment/&lt;name&gt;</code></td><td></td></tr>
+            <tr><td>Undo a rollout</td><td><code>kubectl rollout undo deployment/&lt;name&gt;</code></td><td>Rolls back to previous revision</td></tr>
+            <tr><td>Edit a live object</td><td><code>kubectl edit deployment &lt;name&gt;</code></td><td>Opens in your default editor</td></tr>
+            <tr><td>Get YAML of a live object</td><td><code>kubectl get pod &lt;name&gt; -o yaml</code></td><td>Also try <code>-o json</code></td></tr>
+            <tr><td>Resource usage (needs metrics-server)</td><td><code>kubectl top pods</code> / <code>kubectl top nodes</code></td><td></td></tr>
+            <tr><td>View recent cluster events</td><td><code>kubectl get events --sort-by=.lastTimestamp</code></td><td>Great for "what just happened"</td></tr>
+            <tr><td>Switch namespace for current context</td><td><code>kubectl config set-context --current --namespace=&lt;ns&gt;</code></td><td></td></tr>
+            <tr><td>List/switch cluster contexts</td><td><code>kubectl config get-contexts</code> / <code>kubectl config use-context &lt;name&gt;</code></td><td>For managing multiple clusters</td></tr>
+            <tr><td>Dry run (preview only)</td><td><code>kubectl apply -f file.yaml --dry-run=client</code></td><td>Validates without applying</td></tr>
+            <tr><td>Check permissions</td><td><code>kubectl auth can-i delete pods</code></td><td></td></tr>
+            <tr><td>Explain a field</td><td><code>kubectl explain pod.spec.containers</code></td><td>Built-in API field docs</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <!-- =========================================================
+         TROUBLESHOOTING
+    ========================================================== -->
+    <section class="category no-cards-filter" id="troubleshooting">
+      <h2>🛠️ Troubleshooting</h2>
+      <p class="category-intro">A short playbook for "why isn't this working" moments.</p>
+
+      <div class="cheat-table-wrap">
+        <table class="cheat">
+          <thead><tr><th>Symptom</th><th>What to check</th></tr></thead>
+          <tbody>
+            <tr><td>Pod stuck in <code>Pending</code></td><td><code>kubectl describe pod &lt;name&gt;</code> → look for scheduling events. Usually: not enough CPU/memory on any node, or an unsatisfied node selector/affinity/taint.</td></tr>
+            <tr><td>Pod in <code>CrashLoopBackOff</code></td><td><code>kubectl logs &lt;pod&gt; --previous</code> to see why the last attempt died — usually an app error or failed startup/liveness probe.</td></tr>
+            <tr><td>Pod in <code>ImagePullBackOff</code></td><td>Check the image name/tag for typos, verify the registry is reachable, and check <code>imagePullSecrets</code> for private registries.</td></tr>
+            <tr><td>Pod <code>Running</code> but app unreachable</td><td>Check the Service's <code>selector</code> matches the Pod's <code>labels</code>; confirm <code>targetPort</code> matches the container's actual listening port.</td></tr>
+            <tr><td>"0/3 nodes are available" in events</td><td><code>kubectl describe node &lt;name&gt;</code> to see resource pressure, taints, or disk pressure conditions.</td></tr>
+            <tr><td>Service has no endpoints</td><td><code>kubectl get endpoints &lt;service&gt;</code> — empty means no Pods matched the selector or none are Ready yet.</td></tr>
+            <tr><td>Need to see everything happening right now</td><td><code>kubectl get events -A --sort-by=.lastTimestamp</code></td></tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <!-- =========================================================
+         BEST PRACTICES
+    ========================================================== -->
+    <section class="category no-cards-filter" id="best-practices">
+      <h2>✅ Best Practices</h2>
+      <p class="category-intro">Habits that separate a toy cluster from a production-ready one.</p>
+
+      <div class="details">
+        <ul>
+          <li><strong>Always set resource requests and limits</strong> — an app with no limits can starve its neighbors of CPU/memory on the same node.</li>
+          <li><strong>Use liveness &amp; readiness probes</strong> — so Kubernetes knows when to restart a stuck container (liveness) vs. when to stop sending it traffic temporarily (readiness).</li>
+          <li><strong>Never use <code>:latest</code> as an image tag in production</strong> — pin a specific version so rollouts and rollbacks are predictable.</li>
+          <li><strong>Prefer Deployments over bare Pods</strong> — you get self-healing and rolling updates for free.</li>
+          <li><strong>Keep secrets out of images and Git</strong> — use Secrets (or an external secrets manager), never bake credentials into a Dockerfile.</li>
+          <li><strong>Use namespaces to separate environments</strong> — don't run dev and prod workloads mixed in the same namespace.</li>
+          <li><strong>Apply the principle of least privilege with RBAC</strong> — don't grant <code>cluster-admin</code> when a scoped Role would do.</li>
+          <li><strong>Store manifests in version control</strong> — treat YAML like code (GitOps): review, diff, and roll back through Git history.</li>
+          <li><strong>Run <code>kubectl apply --dry-run=client</code> before applying unfamiliar changes</strong> — catch typos before they hit the cluster.</li>
+        </ul>
+      </div>
+    </section>
+
+    <div id="noResults" class="no-results hidden">
+      <p>No concepts match your search. Try a different keyword.</p>
+    </div>
+
+    <footer>
+      Kubernetes Learning Guide — a personal reference for concepts, definitions, and commands.
+    </footer>
+  </main>
+</div>
+
+<button id="backToTop" class="back-to-top" aria-label="Back to top">↑</button>
+
+<script src="js/app.js"></script>
+</body>
+</html>
